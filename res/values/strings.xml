@@ -65,7 +65,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n• No registration of SuperFreezZ as an accessibility service</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-	<string name="intro_always_freeze_title">Freeze Mode: ALWAYS FREEZE</string>
+    <string name="intro_always_freeze_title">Freeze Mode: ALWAYS FREEZE</string>
     <string name="intro_always_freeze_explanation">There are 3 freeze modes. You can choose one for every app. ALWAYS
 		FREEZE will freeze an app in any case.
 	</string>
@@ -143,12 +143,12 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="intro_header_automaticfreezing">automatic freezing</string>
     <string name="sort_by">Sort by</string>
     <string name="not_available">Not available</string>
-	<string name="fdroid_app_not_pending_freeze">F-Droid app</string>
+    <string name="fdroid_app_not_pending_freeze">F-Droid app</string>
     <string name="used_recently_and_frozen">Used recently <![CDATA[&]]> frozen</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: Freeze F-Droid apps</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid apps usually do not run in the background that much.</string>
-	<string name="if_you_like_this_app">If you like this app...</string>
-    <string name="plz_help_translating">...Please help translating it!</string>
-    <string name="plz_donate">...Please donate!</string>
-	<string name="changed_freeze_mode">Changed freeze mode</string>
+    <string name="if_you_like_this_app">If you like this app…</string>
+    <string name="plz_help_translating">…Please help translate it.</string>
+    <string name="plz_donate">…Please be a hero and donate.</string>
+    <string name="changed_freeze_mode">Changed freeze mode</string>
 </resources>

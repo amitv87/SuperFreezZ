@@ -44,13 +44,13 @@
     <string name="intro_always_freeze_title">Modalità: Congela Sempre</string>
     <string name="sort_by">Ordina per</string>
     <string name="pref_title_standard_freeze_mode">Modalità di Congelamento Predefinita</string>
-    <string name="intro_auto_freeze_explanation">\"Congelamento Intelligente\" congela l\'app solo se non viene utilizzata per un certo periodo di tempo (7 giorni per impostazione predefinita)</string>
+    <string name="intro_auto_freeze_explanation">Congela un\'app solo se inutilizzata per un certo periodo di tempo (7 giorni per impostazione predefinita). Inoltre, le applicazioni di F-Droid non saranno congelate.</string>
     <string name="not_available">Non Disponibile</string>
-    <string name="pref_intelligentfreeze_delay">"Modalità Intelligente: Congela App dopo...  (giorni)"</string>
+    <string name="pref_intelligentfreeze_delay">"Intelligente: Congela dopo...  (giorni)"</string>
     <string name="do_never_freeze_this_app">Non congelare mai quest\'app</string>
     <string name="share_exception">Errore imprevisto. Segnala usando…</string>
     <string name="license">Licenza</string>
-    <string name="intro_never_freeze_explanation">\"Non Congelare Mai\" disattiva il congelamento, non congelando mai l\'app.</string>
+    <string name="intro_never_freeze_explanation">Disattiva il congelamento, l\'app non verrà mai congelata.</string>
     <string name="intro_header_modes">modalità</string>
     <string name="msg_search_help">Cerca…</string>
     <string name="undo">Annulla</string>
@@ -85,4 +85,12 @@
     <string name="all_apps">TUTTE LE APP</string>
     <string name="logs_copied">Log copiati negli appunti.</string>
     <string name="freeze_manually_no">Non voglio doverlo fare</string>
+    <string name="fdroid_app_not_pending_freeze">App F-Droid</string>
+    <string name="used_recently_and_frozen">Usata recentemente e congelata</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">Intelligente: Congela App di F-Droid</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">Solitamente le app di F-Droid non vengono eseguite in background così spesso.</string>
+    <string name="if_you_like_this_app">Se ti piace questa app</string>
+    <string name="plz_help_translating">Aiuta a Tradurre</string>
+    <string name="plz_donate">Dona</string>
+    <string name="changed_freeze_mode">Modalità di congelamento modificata</string>
 </resources>

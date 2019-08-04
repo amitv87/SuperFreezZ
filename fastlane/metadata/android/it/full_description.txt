@@ -29,9 +29,6 @@
 <p>Per favore, dimmi cosa farai, così eviteremo di implementare la stessa cosa contemporaneamente :-)</p>
 <h3 id="translate">Traduzione</h3>
 <p>Puoi <a href="https://hosted.weblate.org/engage/superfreezz/">tradurre SuperFreezZ su Weblate</a>.</p>
-<h3 id="donate">Donazioni</h3>
-<p>Attualmente le donazioni in denaro non sono accettate (creare un conto Liberapay è stato uno sforzo eccessivo, quindi per il momento è stato abbandonato).</p>
-<p>Tuttavia, per mostrarmi il tuo sostegno, puoi <a href="https://gitlab.com/SuperFreezZ/SuperFreezZ/issues/18">donare al WWF o alla Christian Blind Mission e postarlo qui</a>.</p>
 <h2 id="credits">Crediti</h2>
 <p>Il codice per mostrare l'elenco delle applicazioni viene da <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
 <p>Robin Naumann ha creato una bella introduzione usando la libreria AppIntro.</p>

@@ -1,6 +1,6 @@
 Show info about donating
-Make the "Freeze" button better visible
-Edit description
+The "Freeze" button is now more visible
+Edited description
 Small tweaks & crash fix
-Improve RAM usage
-Update translations
+Improved RAM usage
+Updated translations
