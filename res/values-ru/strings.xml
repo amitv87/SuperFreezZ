@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="msg_search">Поиск</string>
+    <string name="msg_search_help">Найти…</string>
+    <string name="share_exception">"Неожиданная ошибка.  Отчет об использовании…"</string>
+    <string name="accessibility_service_description">"Включение этого позволит автоматически останавливать приложения.
+\n
+\nПреимущества:
+\n• Нет взаимодействия с пользователем: быстрее.  Не нужно знать, как это сделать.
+\n • Пользователи с ограниченными возможностями могут использовать ярлык «заморозить» (например, с помощью распознавателя речи), автоматически останавливая все приложения.
+\n
+\n
+\nSuperFreezZ использует сервис специальных возможностей, чтобы нажать «Остановить», «OK» и «Назад».  Поиск содержимого окна находит эти кнопки, и необходимо следить за действиями, чтобы знать, когда они появляются.
+\n
+\nSuperFreezZ использует службу доступа для нажатия на Остановить, OK, Назад. Извлечение содержимого окна необходимо для нахождения кнопок и наблюдение за вашими действиями необходимыми, чтобы узнать, когда они появляются.
+\n
+\nСервис Доступа также может использоваться для блокировки экрана после остановки на новых версиях Android."</string>
+    <string name="freeze_shortcut_label">Остановить</string>
+    <string name="NothingToFreeze">Ничего не останавливать</string>
+    <string name="undo">Отменить</string>
+    <string name="icon">Иконка</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Остановите это приложение, если оно не использовалось в течение длительного времени.</string>
+    <string name="always_freeze_this_app">Всегда останавливать это приложение</string>
+    <string name="do_never_freeze_this_app">Не останавливать это приложение</string>
+    <string name="pending_freeze">Ожидающее остановки</string>
+    <string name="frozen">Остановленные</string>
+    <string name="freeze_off">Остановка</string>
+    <string name="used_recently">Недавно используемые</string>
+    <string name="no_apps_pending_freeze">[Нет приложений для остановки]</string>
+    <string name="all_apps">Все приложения</string>
+    <string name="usagestats_access">Доступ к данным об использовании</string>
+    <string name="usatestats_explanation">Доступ к данным об использовании позволяет SuperFreezZ заморозить приложения, только если вы не использовали их в течение некоторого времени (интеллектуальная остановка).</string>
+    <string name="enable">Принять</string>
+    <string name="usagestats_not_enabled">Вы не предоставили доступ к использованию.</string>
+    <string name="automate_the_freezing_of_apps">Автоматизировать остановку приложений\?</string>
+    <string name="accessibility_arguments_yes">Для:
+\n • Простоты использования
+\n • Остановки множества приложений</string>
+</resources>
