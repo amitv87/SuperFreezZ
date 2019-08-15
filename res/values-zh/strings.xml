@@ -103,4 +103,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     </string-array>
     <string name="problems">问题</string>
     <string name="intro_header_welcome">欢迎到来</string>
+    <string name="source_code">原始码</string>
+    <string name="license">许可证</string>
+    <string name="if_you_like_this_app">如果您喜欢这个应用……</string>
 </resources>
