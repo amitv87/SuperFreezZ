@@ -11,7 +11,7 @@
     <string name="NothingToFreeze">Ingenting å fryse</string>
     <string name="usagestats_access">Tilgang til bruksstatistikk</string>
     <string name="used_recently">Brukt nylig</string>
-    <string name="Press_forcestop_ok_back">Frys et program ved å trykke \\\"TVING STOPP\\\", \\\"OK\\\", og så \\\"Tilbake\\\".</string>
+    <string name="Press_forcestop_ok_back">Frys et program ved å trykke \"TVING STOPP\", \"OK\", og så \"Tilbake\".</string>
     <string name="accessibility_arguments_no">Å trykke \\\"TVING STOPP\\\", \\\"OK\\\" og \\\"Tilbake\\\" fryser et program manuelt.
 \nFor:
 \n• Trege enheter
@@ -43,8 +43,8 @@
     <string name="intro_auto_freeze_title">Frysemodus: INTELLIGENT</string>
     <string name="intro_always_freeze_title">Frysemodus: ALLTID FRYS</string>
     <string name="pref_title_standard_freeze_mode">Forvalgt frysemodus</string>
-    <string name="intro_auto_freeze_explanation">INTELLIGENT FRYSING vil fryse et program kun når det ikke har blitt brukt på en god stund (7 dager som forvalg)</string>
-    <string name="pref_intelligentfreeze_delay">Frysemodus INTELLIGENT: Programmer fryses etter… (i dager)</string>
+    <string name="intro_auto_freeze_explanation">INTELLIGENT FRYSING vil fryse et program kun når det ikke har blitt brukt på en god stund (7 dager som forvalg). Programmer fra F-Droid vil ikke bli fryst.</string>
+    <string name="pref_intelligentfreeze_delay">INTELLIGENT: Frys etter… (dager)</string>
     <string name="do_never_freeze_this_app">Aldri frys dette programmet</string>
     <string name="share_exception">Uventet feil. Innrapporter ved bruk av…</string>
     <string name="license">Lisens</string>
@@ -89,4 +89,8 @@
     <string name="used_recently_and_frozen">Nylig brukt og fryst</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: Frys F-Droid-programmer</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid-programmer kjører vanligvis ikke så ofte i bakgrunnen.</string>
+    <string name="if_you_like_this_app">Hvis du liker dette programmet…</string>
+    <string name="plz_help_translating">…Hjelp til å oversette det.</string>
+    <string name="plz_donate">…Vær en helt og doner.</string>
+    <string name="changed_freeze_mode">Endret frysningsmodus</string>
 </resources>
