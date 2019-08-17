@@ -22,16 +22,16 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="msg_search">Search</string>
     <string name="msg_search_help">Search…</string>
     <string name="share_exception">Unexpected error. Report using…</string>
-    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps.
-\n
-\nAdvantages:
-\n• No user interaction: Faster. No need to know how to do it.
-\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically.
-\n
-\nSuperFreezZ uses the accessibility service to tap on \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear.
-\n
-\nSuperFreezZ just uses the accessibility service to tap on "Force Stop", "OK", "Back". "Retrieve window content" is necessary to find these buttons and "Observe your actions" is needed to know when they appear.
-\n
+    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps. 
+\n 
+\nAdvantages: 
+\n• No user interaction: Faster. No need to know how to do it. 
+\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically. 
+\n 
+\nSuperFreezZ uses the accessibility service to tap on \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear. 
+\n 
+\nSuperFreezZ just uses the accessibility service to tap on \"FORCE STOP\", \"OK\" and \"Back\". Retrieve window content is necessary to find these buttons and observe your actions is needed to know when they appear. 
+\n 
 \nThe accessibility service can also be used to lock the screen after freezing on newer Android versions.</string>
     <string name="freeze_shortcut_label">Freeze</string>
     <string name="NothingToFreeze">Nothing to freeze</string>
@@ -58,10 +58,10 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="accessibility_arguments_yes">For:
 \n• Ease of use
 \n• Freezing a lot of apps</string>
-    <string name="accessibility_arguments_no">You will have to press \"FORCE STOP\", \"OK\" and Back manually to freeze an app.
+    <string name="accessibility_arguments_no">You will have to press \"FORCE STOP\", \"OK\" and \"Back\" manually to freeze an app. 
 \nFor:
-\n• Slow devices
-\n• Security concerns
+\n• Slow devices 
+\n• Security concerns 
 \n• No registration of SuperFreezZ as an accessibility service</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
