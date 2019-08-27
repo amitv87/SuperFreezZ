@@ -1,2 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="usatestats_explanation">استعمال کے شماریات کی رسائی سپر فریزز (SuperFreezZ) کو ایپس کو اس وقت منجمد کرنے کی صلاحیت دیتی ہے جب وہ کچھ عرصہ سے استعمال نہ ہویاں ہوں (دانشمندانہ انجماد).</string>
+    <string name="usagestats_not_enabled">آپ نے استعمال تک رسائی فراہم نہیں کی۔</string>
+    <string name="pref_header_about_summary">"فائدہ مند ذرائع،  ایپ کے استعمال کا ریکارڈ بھیجیں"</string>
+    <string name="if_you_like_this_app">اگر آپ اس ایپ کو پسند کرتے ہیں…</string>
+    <string name="freeze_shortcut_label">منجمد کریں</string>
+    <string name="pref_summary_appslist_show_special">دی لاؤنچر (The Launcher)، سپر فریزز بذاتِ خود اور ترتیباتی ایپس(System Apps) بنیادی طور پر چھپا دیے گئے ہیں۔</string>
+    <string name="accessibility_arguments_yes">برائے:
+\n• استعمال میں آسانی
+\n•کافی سارے ایپس کے انجماد کے لیے</string>
+    <string name="NothingToFreeze">منجمد کرنے کے لیے کچھ بھی نہیں</string>
+    <string name="usagestats_access">استعمال کے شماریات کی رسائی</string>
+    <string name="used_recently">حال ہی میں استعمال ہوا</string>
+    <string name="Press_forcestop_ok_back">\"زبردستی روکیں\"، \"ٹھیک ہے\" اور \"واپس جائیں\" کو دبا کر ایپ کو منجمد کریں۔</string>
+    <string name="used_recently_and_frozen">حال ہی میں استعمال اور منجمد ہوا</string>
+    <string name="accessibility_arguments_no">آپ کو کسی ایپ کو منجمد کرنے کے لیے \"زبردستی روکیں \"، \"ٹھیک ہے\" اور \"واپس جائیں\" کو خود دبانا پٹے گا۔
+\nبرائے:
+\n•سست رفتار موبائل
+\n•حفاظتی اغراض
+\n•سپر فریزز (SuperFreezZ) کی استعمال تک رسائی کی خدمت فراہم نہ کرنا</string>
+    <string name="pref_header_freezing">ایپس کو منجمد کیا جا رہا ہے</string>
+    <string name="view_intro_again">دوبارہ شناسائی حاصل کریں</string>
+    <string name="automate_the_freezing_of_apps">ایپ کے انجماد کو خودکار کیا جائے؟</string>
+    <string name="credits_and_licenses">کاوشات اور ثالثوں کی اسناد</string>
+    <string name="freeze_off">منجمد کیا جانا بند ہے</string>
+    <string name="no_apps_pending_freeze">[کوئی ایپ بھی منجمد کیے جانے کے لیے منتظر نہیں]</string>
+    <string name="no">نہیں</string>
+    <string name="info">معلومات</string>
+    <string name="icon">نشانی</string>
+    <string name="appslist_show_special">مخصوص ایپس کو فہرست میں دکھایا جائے</string>
+    <string name="freeze_manually">دستی طور پر انجماد</string>
+    <string name="pref_header_appslist_summary">چند مخصوص ایپ دکھائے جائیں، معیاری طرظِ انجماد</string>
+    <string name="freeze_apps_now">ایپس کو ابھی منجمد کریں</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">ایف-ڈرائیڈ ایپس (F-Droid Apps) عمومی طور پر پسِ پردہ اتنا زیادہ نہیں چلتے۔</string>
+    <string name="intro_header_welcome">خوش آمدید</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">اس ایپ کو منجمد کریں اگر یہ کافی لمبے عرصے سے استعمال نہیں ہوا۔</string>
+    <string name="intro_always_freeze_explanation">منجمد کرنے کے تین اسلوب ہیں۔ آپ ہر ایپ کے لیے ایک اختیار کر سکتے ہیں۔ \"ہمیشہ منجمد\" ایپ کو ہر حالت میں منجمد کر دے گا۔</string>
+    <string name="frozen">منجمد</string>
+    <string name="freeze_on_screen_off_title">جب سکرین بند ہو تب منجمد کریں</string>
+    <string name="problems">مسائل</string>
+    <string name="yes">ہاں</string>
+    <string name="source_code">ایپ کا ماخذی کوڈ</string>
+    <string name="pending_freeze">منجمد کیے جانے کے لیے منتظر</string>
+    <string name="send_logs">استعمال کا ریکارڈ بھیجیں</string>
+    <string name="fdroid_app_not_pending_freeze">ایف-ڈرائیڈ ایپ (F-Droid App)</string>
+    <string name="changed_freeze_mode">طرظِ انجماد بدل دیا گیا</string>
+    <string name="intro_auto_freeze_title">طرظِ انجماد: دانشمندانہ</string>
+    <string name="intro_always_freeze_title">طرظِ انجماد: ہمیشہ منجمد</string>
+    <string name="sort_by">ترتیب دیں، بزریعہ</string>
+    <string name="pref_title_standard_freeze_mode">معیاری اسلوبِ انجماد</string>
+    <string name="intro_auto_freeze_explanation">\"دانشمندانہ انجماد\" ایپ کو صرف اُس وقت منجمد کرے گا جب وہ کچھ عرصہ سے استعمال میں نہ ہو(7 دن، بنیادی طور پر). اس کے ساتھ ہی F-Droid سے لیے گئے ایپس منجمد نہیں کیے جائیں گے۔</string>
+    <string name="not_available">موجود نہیں</string>
+    <string name="pref_intelligentfreeze_delay">دانشمندانہ: منجمد کیا جائے…(دنوں کے بعد)</string>
+    <string name="do_never_freeze_this_app">اس ایپ کو کبھی منجمد نہ کیا جائے</string>
+    <string name="share_exception">غیر متوقع مسئلہ۔ اطلاع دیں بذریعہ…</string>
+    <string name="license">سند</string>
+    <string name="intro_never_freeze_explanation">\"کبھی منجمد نہیں\" انجماد کو روک دے گا اور ایپ منجمد نہیں ہو گا۔</string>
+    <string name="intro_header_modes">اسلوب</string>
+    <string name="msg_search_help">تلاش…</string>
+    <string name="undo">عمل کو کالعدم کریں</string>
+    <string name="report">مسئلہ کا اندراج کروائیں یا کوئی مشورہ دیں…</string>
+    <string name="create_freeze_shortcut">منجمد کرنے کی نشانی بنائی جائے</string>
+    <string name="plz_donate">…براہ مہربانی ایک بہادر اور سورما بنیں اور چندہ دیں۔</string>
+    <string name="intro_never_freeze_title">طرظِ انجماد: کبھی منجمد نہیں</string>
+    <string name="links">دیگر ذرائع</string>
+    <string name="pref_ringtone_silent">خاموش</string>
+    <string name="title_activity_settings">ترتیبات</string>
+    <string name="accessibility_service_description">اس کو چالو کرنے سے آپ ایپ کو خودکار طریقہ سے منجمد کر پائیں گے۔
+\n
+\nفوائد:
+\nاستعمال کنندہ سے لاتعامل: تیز رفتار۔ اس عمل کو کرنے کے علم کی کوئی ضرورت نہیں۔
+\nمعذور افراد کے لیے انجمادیہ نشانی (مثلاً تقریر شناسی) ، جس سے تمام ایپ خودکار طریقہ سے منجمد ہو جائیں۔
+\n
+\nسپر فریزز (SuperFreezZ) رسائی کی قابلیت صرف \"زبردستی روکیں\"، \"ٹھیک ہے\" اور \"واپس جائیں\" پر تھپتھپائی کے لیے استعمال کرتا ہے۔ چارخانے کا مواد حاصل کرنا بٹنوں کے مقام اور آپ کی حرکات کو دیکھنا ان بٹنوں کے ظہور کو جاننے کے لیے ضروری ہے۔
+\n
+\nرسائی کی قابلیت نئے موبائلوں میں منجمد کرنے کے بعد سکرین کو تالا لگانے کے لیے بھی استعمال کی جا سکتی ہے۔</string>
+    <string name="enable">مجاز کریں</string>
+    <string name="intro_header_automaticfreezing">خودکار انجماد</string>
+    <string name="pref_header_freezing_summary">تخصیص کریں کہ کیسے اور کون سے ایپ منجمد کیےجائیں</string>
+    <string name="sort">ترتیب دیں</string>
+    <string name="settings">ترتیبات</string>
+    <string name="freeze_on_screen_off_sum">آپ کو\"پاور بٹن فوراً مقفل کر دیتا ہے\" کو ترتیبات میں بند کرنا ہو گا</string>
+    <string name="sf_crashed">سپر فریزز منہدم ہو گیا۔ مہربانی فرما کر ایک ریپورٹ ارسال فرمائیں، اگر آپ نے پہلے ہی سے نہیں بھیج دی۔</string>
+    <string name="always_freeze_this_app">اس ایپ کو ہمیشہ منجمد کیا جائے</string>
+    <string name="pref_header_about">ایپ کے بارے میں</string>
+    <string name="pref_header_appslist">ایپ کی فہرست</string>
+    <string name="already_frozen">پہلے ہی سے منجمد</string>
+    <string name="msg_search">تلاش</string>
+    <string name="share_logs">استعمال کا ریکارڈ بھیجیں، بذریعہ…</string>
+    <string name="all_apps">تمام ایپ</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">دانشمندانہ: ایف-ڈرائیڈ ایپس (F-Droid Apps) کو منجمد کریں</string>
+    <string name="logs_copied">استعمال کا ریکارڈ عارضی تختہ پر نقل کر دیا گیا ہے۔</string>
+    <string name="freeze_manually_no">میں یہ نہیں چاہتا کہ مجھے یہ سب خود کرنا پڑے</string>
+    <string name="plz_help_translating">…اس کا ترجمہ کرنے میں مدد کریں۔</string>
+</resources>
