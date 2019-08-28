@@ -1,0 +1,6 @@
+Visning av donasjonsinfo
+"Frys"-knapp nå mer synlig
+Redigert beskrivelse
+Små forbedringer og kræsjfiks
+Forbedret minnebruk
+Oppdaterte oversettelser
