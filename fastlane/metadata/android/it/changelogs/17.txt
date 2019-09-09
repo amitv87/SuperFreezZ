@@ -1,0 +1,3 @@
+Mostra di nuovo le snackbar (perse in una versione precedente)
+Aggiornate Traduzioni
+Correzione di crash e bug

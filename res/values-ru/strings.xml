@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_search">Поиск</string>
+    <string name="msg_search_help">Найти…</string>
+    <string name="share_exception">"Неожиданная ошибка.  Отчет об использовании…"</string>
+    <string name="accessibility_service_description">"Включение этого позволит автоматически останавливать приложения.
+\n
+\nПреимущества:
+\n• Нет взаимодействия с пользователем: быстрее.  Не нужно знать, как это сделать.
+\n • Пользователи с ограниченными возможностями могут использовать ярлык «заморозить» (например, с помощью распознавателя речи), автоматически останавливая все приложения.
+\n
+\n
+\nSuperFreezZ использует сервис специальных возможностей, чтобы нажать «Остановить», «OK» и «Назад».  Поиск содержимого окна находит эти кнопки, и необходимо следить за действиями, чтобы знать, когда они появляются.
+\n
+\nSuperFreezZ использует службу доступа для нажатия на Остановить, OK, Назад. Извлечение содержимого окна необходимо для нахождения кнопок и наблюдение за вашими действиями необходимыми, чтобы узнать, когда они появляются.
+\n
+\nСервис Доступа также может использоваться для блокировки экрана после остановки на новых версиях Android."</string>
+    <string name="freeze_shortcut_label">Остановить</string>
+    <string name="NothingToFreeze">Ничего не останавливать</string>
+    <string name="undo">Отменить</string>
+    <string name="icon">Иконка</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Остановите это приложение, если оно не использовалось в течение длительного времени.</string>
+    <string name="always_freeze_this_app">Всегда останавливать это приложение</string>
+    <string name="do_never_freeze_this_app">Не останавливать это приложение</string>
+    <string name="pending_freeze">Ожидающее остановки</string>
+    <string name="frozen">Остановленные</string>
+    <string name="freeze_off">Остановка</string>
+    <string name="used_recently">Недавно используемые</string>
+    <string name="no_apps_pending_freeze">[Нет приложений для остановки]</string>
+    <string name="all_apps">Все приложения</string>
+    <string name="usagestats_access">Доступ к данным об использовании</string>
+    <string name="usatestats_explanation">Доступ к данным об использовании позволяет SuperFreezZ заморозить приложения, только если вы не использовали их в течение некоторого времени (интеллектуальная остановка).</string>
+    <string name="enable">Принять</string>
+    <string name="usagestats_not_enabled">Вы не предоставили доступ к использованию.</string>
+    <string name="automate_the_freezing_of_apps">Автоматизировать остановку приложений\?</string>
+    <string name="accessibility_arguments_yes">Для:
+\n • Простоты использования
+\n • Остановки множества приложений</string>
+    <string name="accessibility_arguments_no">Вам придется нажать «Остановить», «OK» и «Назад» вручную, чтобы остановить приложение.
+\n Для:
+\n • Медленных устройств
+\n • Проблем с безопасностью
+\n • Нет регистрации SuperFreezZ в службе доступа к данным</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="intro_always_freeze_title">Режим заморозки: ВСЕГДА ЗАМОРАЖИВАТЬ</string>
+    <string name="intro_always_freeze_explanation">"Есть 3 режима заморозки.  Вы можете выбрать один для каждого приложения.  ВСЕГДА ЗАМОРАЖИВАТЬ будет остановленно приложение в любом случае."</string>
+    <string name="intro_never_freeze_title">Режим заморозки: НИКОГДА НЕ ЗАМОРАЖИВАТЬ</string>
+    <string name="intro_never_freeze_explanation">НИКОГДА НЕ ЗАМОРАЖИВАТЬ - отключить блокировку и никогда не замораживать приложение.</string>
+    <string name="intro_auto_freeze_title">Режим заморозки: ИНТЕЛЛЕКТУАЛЬНЫЙ</string>
+    <string name="intro_auto_freeze_explanation">"ИНТЕЛЛЕКТУАЛЬНОЕ ЗАМОРАЖИВАНИЕ заблокирует приложение, только если оно не использовалось в течение некоторого времени (по умолчанию 7 дней).  Кроме того, приложения от F-Droid не будут заморожены."</string>
+    <string name="freeze_manually">Заморозить вручную</string>
+    <string name="Press_forcestop_ok_back">Замораживайте приложение, нажав «Остановить», «OK», а затем «Назад».</string>
+    <string name="freeze_manually_no">Я не хочу этого делать</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="pref_header_appslist">Список приложений</string>
+    <string name="pref_title_standard_freeze_mode">Стандартный режим остановки</string>
+    <string name="pref_header_about">О нас</string>
+    <string name="pref_header_freezing">Остонавливаемые приложения</string>
+    <string name="pref_ringtone_silent">Тихо</string>
+    <string name="appslist_show_special">Показать специальные приложения в списке</string>
+    <string name="pref_intelligentfreeze_delay">Интеллектуальное: замораживание после... (дни)</string>
+    <string name="pref_summary_appslist_show_special">По умолчанию Launcher, SuperFreezz и системные приложения скрыты.</string>
+    <string name="create_freeze_shortcut">Создать ярлык замораживания</string>
+    <string name="settings">Настройки</string>
+    <string name="sort">Сортировать</string>
+    <string name="pref_header_freezing_summary">Настроить, как и какие приложения будут остановлены</string>
+    <string name="pref_header_about_summary">Полезные ссылки, отправка логов</string>
+    <string name="pref_header_appslist_summary">Показать специальные приложения, стандартный режим замораживания</string>
+    <string name="freeze_apps_now">Остановить приложения сейчас</string>
+    <string name="freeze_on_screen_off_title">Останавливать когда экран выключен</string>
+    <string name="freeze_on_screen_off_sum">Вам нужно будет отключить «Мгновенную блокировку по кнопке питания» в настройках устройства</string>
+    <string name="problems">Проблемы</string>
+    <string name="links">Ссылки</string>
+    <string name="info">Информация</string>
+    <string name="view_intro_again">Посмотреть вступление снова</string>
+    <string name="logs_copied">Логи скопированы в буфер обмена.</string>
+    <string name="share_logs">Поделиться логами использования…</string>
+    <string name="sf_crashed">"SuperFreezZ неожиданно закрылся.  Пожалуйста, отправьте отчет, если Вы этого еще не сделали."</string>
+    <string name="report">Сообщить о проблеме, предложить функцию, …</string>
+    <string name="send_logs">Отправить логи</string>
+    <string name="source_code">Исходный код</string>
+    <string name="license">Лицензия</string>
+    <string name="credits_and_licenses">Спасибо и сторонние лицензии</string>
+    <string name="already_frozen">Уже остановлены</string>
+    <string name="intro_header_welcome">Добро пожаловать в</string>
+    <string name="intro_header_modes">режимы</string>
+    <string name="intro_header_automaticfreezing">автоматическая остановка</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="not_available">Недоступено</string>
+    <string name="fdroid_app_not_pending_freeze">Приложение F-Droid</string>
+    <string name="used_recently_and_frozen">Недавно используемые и остановленные</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">ИНТЕЛЛЕКТУАЛЬНО: остановить приложения из F-Droid</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">Приложения из F-Droid обычно не запускаются в фоновом режиме.</string>
+    <string name="if_you_like_this_app">Если вам нравится это приложение…</string>
+    <string name="plz_help_translating">...Пожалуйста, помогите перевести его.</string>
+    <string name="plz_donate">...Пожалуйста, будьте героем и пожертвуйте.</string>
+    <string name="changed_freeze_mode">Изменение режима остановки</string>
+</resources>
