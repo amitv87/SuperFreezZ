@@ -1,0 +1,7 @@
+Lots of new translations
+Small fixes
+Fix #52 View intro again in settings closes at first page turn
+Make screen dim work with automatic brightness
+Rework the freezing control. I hope to fix some issues that way but I might have introduced new ones. Also, if it could not freeze one app, it will resume with the next one and not try again.
+Improve crash messages
+Fix #48 (better Freeze state sort order), show short Last time used hint
