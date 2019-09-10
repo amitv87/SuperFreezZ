@@ -93,4 +93,6 @@
     <string name="plz_help_translating">…Hjelp til å oversette det.</string>
     <string name="plz_donate">…Vær en helt og doner.</string>
     <string name="changed_freeze_mode">Endret frysningsmodus</string>
+    <string name="sort_last_time_used_explanation">Minst nylig brukte programmer først</string>
+    <string name="other_apps">Andre programmer</string>
 </resources>
