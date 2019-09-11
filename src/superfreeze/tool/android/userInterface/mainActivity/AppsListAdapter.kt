@@ -87,7 +87,7 @@ class AppsListAdapter internal constructor(
 	internal var list = emptyList<AbstractListItem>()
 
 
-	internal val packageManager: PackageManager = mainActivity.packageManager
+	internal val packageManager: PackageManager = mainActivity.applicationContext.packageManager
 
 	internal val cacheAppName = ConcurrentHashMap<String, String>()
 	internal val cacheAppIcon = ConcurrentHashMap<String, Drawable>()

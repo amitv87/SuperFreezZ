@@ -54,7 +54,7 @@ internal fun getApplications(context: Context): List<PackageInfo> {
 	val preferences = getPrefs(context)
 	val shownSpecialApps = preferences.getStringSet("appslist_show_special", setOf())
 		?: setOf()
-	val packageManager = context.packageManager
+	val packageManager = context.applicationContext.packageManager
 
 	val intent = Intent("android.intent.action.MAIN")
 	intent.addCategory("android.intent.category.HOME")
