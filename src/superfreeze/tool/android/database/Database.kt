@@ -86,6 +86,13 @@ internal fun getPrefs(context: Context): SharedPreferences {
 	return PreferenceManager.getDefaultSharedPreferences(context)
 }
 
+internal val Context.prefFreezeOnScreenOff
+	get() = getPrefs(this).getBoolean("freeze_on_screen_off", false)
+
+internal var Context.cumulatedAppsPendingFreeze
+	get() = getMainPreferences(this).getInt("cumulatedAppsPendingFreeze", 0)
+	set(v) = getMainPreferences(this).edit().putInt("cumulatedAppsPendingFreeze", v).apply()
+
 internal var Context.prefListSortMode
 	get() = getMainPreferences(this).getInt("ListSortMode", 0)
 	set(v) = getMainPreferences(this).edit().putInt("ListSortMode", v).apply()
