@@ -24,6 +24,8 @@ import android.content.Intent
 import android.net.Uri
 import android.util.Log
 import android.widget.Toast
+import superfreeze.tool.android.backend.NotifyToFreezeJob
+import superfreeze.tool.android.database.prefFreezeOnScreenOff
 
 const val TAG = "SF-MyApplication"
 
@@ -79,6 +81,10 @@ class MyApplication : Application() {
 
 			startActivity(chooser)
 			System.exit(10)
+		}
+
+		if (!prefFreezeOnScreenOff) {
+			NotifyToFreezeJob.startJob(this)
 		}
 
 		/*

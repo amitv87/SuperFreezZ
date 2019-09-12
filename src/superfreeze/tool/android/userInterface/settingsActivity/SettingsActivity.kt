@@ -40,6 +40,7 @@ import android.widget.Toast
 import superfreeze.tool.android.BuildConfig
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
+import superfreeze.tool.android.backend.NotifyToFreezeJob
 import superfreeze.tool.android.backend.usageStatsPermissionGranted
 import superfreeze.tool.android.userInterface.intro.INTRO_SHOW_ACCESSIBILITY_SERVICE_CHOOSER
 import superfreeze.tool.android.userInterface.intro.IntroActivity
@@ -206,6 +207,10 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 							.setCancelable(false)
 							.show()
 					}
+
+					if (newValue == false)
+						NotifyToFreezeJob.startJob(context)
+
 					true
 				}
 			}

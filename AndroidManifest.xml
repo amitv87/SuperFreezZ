@@ -98,7 +98,9 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 				android:name="android.accessibilityservice"
 				android:resource="@xml/accessibility_service"/>
 		</service>
-		<service android:name=".backend.NotifyToFreezeJob" />
+		<service android:name=".backend.NotifyToFreezeJob"
+			android:permission="android.permission.BIND_JOB_SERVICE"
+			android:exported="false"/>
 
 
 		<activity
