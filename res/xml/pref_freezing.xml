@@ -19,6 +19,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+	<PreferenceCategory android:title="@string/freezing">
 	<!-- A 'parent' preference, which enables/disables child preferences (below)
          when checked/unchecked. -->
 	<SwitchPreference
@@ -31,8 +32,29 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 		android:title="@string/freeze_on_screen_off_title"
 		android:summary="@string/freeze_on_screen_off_sum"
 		android:defaultValue="false"
-		android:dependency="use_accessibility_service"/>
+		android:dependency="use_accessibility_service"
+		android:disableDependentsState="true"/>
 
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/notifications">
+		<SwitchPreference
+			android:key="notify_to_freeze"
+			android:title="@string/notify_to_freeze"
+			android:defaultValue="true"
+			android:dependency="freeze_on_screen_off"/>
+
+		<EditTextPreference
+			android:key="notify_to_freeze_frequency"
+			android:title="@string/notification_frequency"
+			android:summary="@string/notification_frequency_summary"
+			android:defaultValue="15"
+			android:dependency="notify_to_freeze"
+			android:inputType="number"/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/auto_freeze">
 	<SwitchPreference
 		android:key="use_usagestats"
 		android:title="@string/usagestats_access"
@@ -53,5 +75,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 		android:defaultValue="false"
 		android:dependency="use_usagestats"/>
 
-
+	</PreferenceCategory>
 </PreferenceScreen>

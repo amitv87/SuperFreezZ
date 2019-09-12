@@ -153,4 +153,12 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="plz_help_translating">…Please help translating it.</string>
     <string name="plz_donate">…Please be a hero and donate.</string>
     <string name="changed_freeze_mode">Changed freeze mode</string>
+	<string name="freezing">Freezing</string>
+    <string name="notifications">Notifications</string>
+    <string name="auto_freeze">Freeze mode INTELLIGENT</string>
+    <string name="notify_to_freeze">Notify to freeze</string>
+    <string name="notification_frequency">Notification frequency</string>
+    <string name="notification_frequency_summary">Lower value means more frequent notifications. Example: 15 means "when 3 apps are pending freeze for 5 days", 3 * 5 = 15</string>
+    <string name="freeze_action">Freeze</string>
+    <string name="x_apps_are_pending_freeze">apps are pending freeze</string>
 </resources>

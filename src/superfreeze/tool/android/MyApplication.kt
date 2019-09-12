@@ -24,8 +24,6 @@ import android.content.Intent
 import android.net.Uri
 import android.util.Log
 import android.widget.Toast
-import superfreeze.tool.android.backend.NotifyToFreezeJob
-import superfreeze.tool.android.database.prefFreezeOnScreenOff
 
 const val TAG = "SF-MyApplication"
 
@@ -83,9 +81,6 @@ class MyApplication : Application() {
 			System.exit(10)
 		}
 
-		if (!prefFreezeOnScreenOff) {
-			NotifyToFreezeJob.startJob(this)
-		}
 
 		/*
 		//Set the thread policy so that a lot of bad things happen when the app hangs a little too long.

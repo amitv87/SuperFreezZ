@@ -31,6 +31,7 @@ import android.app.job.JobInfo
 import android.app.job.JobParameters
 import android.app.job.JobScheduler
 import android.app.job.JobService
+import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
@@ -39,11 +40,10 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import superfreeze.tool.android.R
-import superfreeze.tool.android.database.cumulatedAppsPendingFreeze
-import superfreeze.tool.android.database.prefFreezeOnScreenOff
+import superfreeze.tool.android.database.*
 import superfreeze.tool.android.userInterface.FreezeShortcutActivity
 import superfreeze.tool.android.userInterface.mainActivity.MainActivity
+
 
 const val jobID = 23 // Just some random number, do not change it!
 const val channelID = "23"
@@ -52,7 +52,7 @@ const val notificationID = 23
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 class NotifyToFreezeJob : JobService() {
 	override fun onStartJob(params: JobParameters?): Boolean {
-		if (prefFreezeOnScreenOff) {
+		if (prefFreezeOnScreenOff || !prefNotifyToFreeze) {
 			(getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).cancel(jobID)
 			return false
 		}
@@ -60,8 +60,11 @@ class NotifyToFreezeJob : JobService() {
 		cumulatedAppsPendingFreeze += pendingFreeze
 		Log.i(TAG, "$pendingFreeze apps pending freeze, cumulated is $cumulatedAppsPendingFreeze")
 
-		if (cumulatedAppsPendingFreeze > 10 && pendingFreeze > 0) {
+		if (cumulatedAppsPendingFreeze > prefNotifyToFreezeFrequency && pendingFreeze > 0) {
+
 			showNotification(this, pendingFreeze)
+			cumulatedAppsPendingFreeze = 0
+
 		}
 		return false
 	}
@@ -73,16 +76,22 @@ class NotifyToFreezeJob : JobService() {
 	companion object {
 		@JvmStatic
 
-		fun startJob(context: Context) {
-			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+		fun startJobIfNecessary(context: Context) {
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP
+				&& !context.prefFreezeOnScreenOff
+				&& context.prefNotifyToFreeze
+			) {
 
 				Log.i(TAG, "Starting job")
-				val jobService = ComponentName(context.packageName, NotifyToFreezeJob::class.java.name)
+				val jobService =
+					ComponentName(context.packageName, NotifyToFreezeJob::class.java.name)
 				val jobInfo = JobInfo.Builder(jobID, jobService)
 					.setPeriodic(1000 * 5) // 10 hours TODO
 					.setPersisted(true)
 					.build()
-				(context.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(jobInfo)
+				(context.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(
+					jobInfo
+				)
 
 			}
 		}
@@ -114,24 +123,39 @@ private fun showNotification(context: Context, pendingFreeze: Int) {
 	val freezePendingIntent: PendingIntent =
 		PendingIntent.getActivity(context, 0, freezeIntent, 0)
 
-	val configureIntent = freezeIntent //TODO
-	val configurePendingIntent: PendingIntent =
-		PendingIntent.getActivity(context, 0, configureIntent, 0)
-
 	val builder = NotificationCompat.Builder(context, channelID)
-		.setSmallIcon(R.drawable.ic_lightning_bolt_white)
-		.setContentTitle("SuperFreezZ")
-		.setContentText("$pendingFreeze apps are pending freeze")
+		.setSmallIcon(superfreeze.tool.android.R.drawable.ic_lightning_bolt_white)
+		.setContentTitle(context.getString(superfreeze.tool.android.R.string.app_name))
+		.setContentText(pendingFreeze.toString() + context.getString(superfreeze.tool.android.R.string.x_apps_are_pending_freeze))
 		.setContentIntent(pendingMainIntent)
 		.setPriority(NotificationCompat.PRIORITY_LOW)
 		.setAutoCancel(true)
-		.addAction(R.drawable.ic_freeze, "Freeze", freezePendingIntent)
 		.addAction(
-			R.drawable.ic_settings_applications_black_24dp,
-			"Configure",
-			configurePendingIntent
+			superfreeze.tool.android.R.drawable.ic_freeze,
+			context.getString(superfreeze.tool.android.R.string.freeze_action),
+			freezePendingIntent
 		)
+
+	if (neverCalled("shown_notification", context))
+		builder.setDeleteIntent(
+			PendingIntent.getBroadcast(
+				context,
+				0,
+				Intent(context, NotificationCancelledBroadcastReceiver::class.java).apply {
+					action = "notification_cancelled"
+				},
+				PendingIntent.FLAG_CANCEL_CURRENT
+			)
+		)
+
 	NotificationManagerCompat.from(context).notify(notificationID, builder.build())
+}
+
+class NotificationCancelledBroadcastReceiver : BroadcastReceiver() {
+	override fun onReceive(context: Context, intent: Intent) {
+		if (intent.action == "notification_cancelled")
+			context.prefNotifyToFreeze = false
+	}
 }
 
 private const val TAG = "SF-NotifyToFreeze"

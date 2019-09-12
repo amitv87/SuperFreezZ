@@ -23,7 +23,6 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 
 package superfreeze.tool.android.database
 
-import android.app.Activity
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
@@ -62,8 +61,8 @@ internal fun setFreezeMode(context: Context, packageName: String, freezeMode: Fr
 	}
 }
 
-internal fun neverCalled(id: String, activity: Activity): Boolean {
-	val sharedPreferences = activity.getSharedPreferences(id, Context.MODE_PRIVATE)
+internal fun neverCalled(id: String, context: Context): Boolean {
+	val sharedPreferences = context.getSharedPreferences(id, Context.MODE_PRIVATE)
 	val first = sharedPreferences.getBoolean(id, true)
 	if (first) {
 		with(sharedPreferences.edit()) {
@@ -85,6 +84,13 @@ private fun getMainPreferences(context: Context): SharedPreferences {
 internal fun getPrefs(context: Context): SharedPreferences {
 	return PreferenceManager.getDefaultSharedPreferences(context)
 }
+
+internal var Context.prefNotifyToFreeze
+	get() = getPrefs(this).getBoolean("notify_to_freeze", true)
+	set(v) = getPrefs(this).edit().putBoolean("notify_to_freeze", v).apply()
+
+internal val Context.prefNotifyToFreezeFrequency
+	get() = getPrefs(this).getInt("notify_to_freeze_frequency", 15)
 
 internal val Context.prefFreezeOnScreenOff
 	get() = getPrefs(this).getBoolean("freeze_on_screen_off", false)

@@ -209,10 +209,16 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 					}
 
 					if (newValue == false)
-						NotifyToFreezeJob.startJob(context)
+						NotifyToFreezeJob.startJobIfNecessary(context)
 
 					true
 				}
+			}
+
+			findPreference("notify_to_freeze").setOnPreferenceChangeListener { _, newValue ->
+				if (newValue == true)
+					NotifyToFreezeJob.startJobIfNecessary(activity)
+				true
 			}
 		}
 

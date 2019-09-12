@@ -25,20 +25,6 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 	android:versionCode="19"
 	android:versionName="0.8.1">
 
-	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-	<uses-permission android:name="android.permission.WAKE_LOCK" />
-
-	<uses-permission android:name="android.permission.WRITE_SETTINGS"
-		tools:ignore="ProtectedPermissions" />
-
-	<uses-permission
-		android:name="android.permission.PACKAGE_USAGE_STATS"
-		tools:ignore="ProtectedPermissions"/>
-
-	<uses-permission
-		android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
-
 	<application
 		android:name=".MyApplication"
 		android:allowBackup="true"
@@ -52,68 +38,88 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 			android:launchMode="singleTask"
 			android:theme="@style/AppTheme.NoActionBar">
 			<intent-filter>
-				<action android:name="android.intent.action.MAIN"/>
+				<action android:name="android.intent.action.MAIN" />
 
-				<category android:name="android.intent.category.LAUNCHER"/>
+				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 			<intent-filter>
-				<action android:name="android.intent.action.SEARCH"/>
+				<action android:name="android.intent.action.SEARCH" />
 			</intent-filter>
 
 			<meta-data
 				android:name="android.app.default_searchable"
-				android:value=".MainActivity"/>
+				android:value=".MainActivity" />
 			<meta-data
 				android:name="android.app.searchable"
-				android:resource="@xml/searchable"/>
+				android:resource="@xml/searchable" />
 			<meta-data
 				android:name="android.app.shortcuts"
-				android:resource="@xml/shortcuts"/>
+				android:resource="@xml/shortcuts" />
 		</activity>
 		<activity
 			android:name=".userInterface.FreezeShortcutActivity"
 			android:keepScreenOn="true"
 			android:theme="@style/Theme.Invisible">
 			<intent-filter>
-				<action android:name="android.intent.action.CREATE_SHORTCUT"/>
+				<action android:name="android.intent.action.CREATE_SHORTCUT" />
 
-				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 			<intent-filter>
-				<action android:name="superfreeze.tool.android.FREEZE"/>
+				<action android:name="superfreeze.tool.android.FREEZE" />
 			</intent-filter>
 		</activity>
 		<activity
 			android:name=".userInterface.intro.IntroActivity"
-			android:label="Intro activity"/>
-
-		<service
-			android:name=".backend.FreezerService"
-			android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
-			<intent-filter>
-				<action android:name="android.accessibilityservice.AccessibilityService"/>
-			</intent-filter>
-
-			<meta-data
-				android:name="android.accessibilityservice"
-				android:resource="@xml/accessibility_service"/>
-		</service>
-		<service android:name=".backend.NotifyToFreezeJob"
-			android:permission="android.permission.BIND_JOB_SERVICE"
-			android:exported="false"/>
-
+			android:label="Intro activity" />
 
 		<activity
 			android:name=".userInterface.settingsActivity.SettingsActivity"
 			android:label="@string/title_activity_settings"
 			android:parentActivityName=".userInterface.mainActivity.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+			</intent-filter>
 			<meta-data
 				android:name="android.support.PARENT_ACTIVITY"
-				android:value="superfreeze.tool.android.userInterface.mainActivity.MainActivity"/>
-			<intent-filter>
-				<action android:name="android.intent.action.APPLICATION_PREFERENCES"/>
-			</intent-filter>
+				android:value="superfreeze.tool.android.userInterface.mainActivity.MainActivity" />
 		</activity>
+		<receiver android:name=".backend.NotificationCancelledBroadcastReceiver">
+			<intent-filter>
+				<action android:name="notification_cancelled" />
+			</intent-filter>
+		</receiver>
+
+
+		<service
+			android:name=".backend.FreezerService"
+			android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+			<intent-filter>
+				<action android:name="android.accessibilityservice.AccessibilityService" />
+			</intent-filter>
+
+			<meta-data
+				android:name="android.accessibilityservice"
+				android:resource="@xml/accessibility_service" />
+		</service>
+		<service
+			android:name=".backend.NotifyToFreezeJob"
+			android:exported="false"
+			android:permission="android.permission.BIND_JOB_SERVICE" />
 	</application>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+	<uses-permission
+		android:name="android.permission.WRITE_SETTINGS"
+		tools:ignore="ProtectedPermissions" />
+
+	<uses-permission
+		android:name="android.permission.PACKAGE_USAGE_STATS"
+		tools:ignore="ProtectedPermissions" />
+
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 
 </manifest>
