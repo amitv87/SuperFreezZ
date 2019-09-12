@@ -98,6 +98,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 				android:resource="@xml/accessibility_service"/>
 		</service>
 
+
 		<activity
 			android:name=".userInterface.settingsActivity.SettingsActivity"
 			android:label="@string/title_activity_settings"
