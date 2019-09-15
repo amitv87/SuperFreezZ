@@ -43,6 +43,7 @@ SOFTWARE.
 	<style name="myClickable">
 		<!--<item name="android:foreground">?android:selectableItemBackground</item>-->
 		<item name="android:foreground">?attr/selectableItemBackground</item>
+		<item name="android:focusable">true</item>
 	</style>
 
 	<!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
