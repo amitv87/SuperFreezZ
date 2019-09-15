@@ -152,6 +152,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			// updated to reflect the new value, per the Android Design
 			// guidelines.
 			bindPreferenceSummaryToValue(findPreference("standard_freeze_mode"))
+			bindPreferenceSummaryToValue(findPreference("standard_freeze_mode_system"))
 		}
 	}
 
