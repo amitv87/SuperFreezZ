@@ -47,6 +47,7 @@ import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.getAllAggregatedUsageStats
 import superfreeze.tool.android.backend.getRecentAggregatedUsageStats
 import superfreeze.tool.android.backend.getSortByFreezeStateComparator
+import superfreeze.tool.android.backend.isSystemApp
 import superfreeze.tool.android.userInterface.toast
 import java.util.*
 import java.util.concurrent.ConcurrentHashMap
@@ -215,6 +216,17 @@ class AppsListAdapter internal constructor(
 			)
 			newOriginalList.addAll(appsList.filter { !it.isPendingFreeze() })
 
+		} else if (sortModeIndex == 3) { // 3 means sort by user/system
+			newOriginalList.add(
+				ListItemSectionHeader(mainActivity.getString(R.string.user_apps))
+			)
+			newOriginalList.addAll(appsList.filter { !isSystemApp(it.applicationInfo) })
+
+			newOriginalList.add(
+				ListItemSectionHeader(mainActivity.getString(R.string.system_apps))
+			)
+			newOriginalList.addAll(appsList.filter { isSystemApp(it.applicationInfo) })
+
 		} else {
 			newOriginalList.add(
 				ListItemSectionHeader(mainActivity.getString(R.string.all_apps))
@@ -287,7 +299,12 @@ class AppsListAdapter internal constructor(
 			}
 		}
 
-		else -> throw IllegalArgumentException("sort dialog index should have been a number from 0-2")
+		// 3: Sort by user/system app install type
+		3-> compareBy {
+			isSystemApp(it.applicationInfo)
+		}
+
+		else -> throw IllegalArgumentException("sort dialog index should have been a number from 0-3")
 	}
 }
 

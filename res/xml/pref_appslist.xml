@@ -35,4 +35,13 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 		android:negativeButtonText="@null"
 		android:positiveButtonText="@null"/>
 
+    <ListPreference
+        android:key="standard_freeze_mode_system"
+        android:title="@string/pref_title_standard_freeze_mode_system"
+        android:defaultValue="1"
+        android:entries="@array/standard_freeze_mode_titles"
+        android:entryValues="@array/standard_freeze_mode_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"/>
+
 </PreferenceScreen>

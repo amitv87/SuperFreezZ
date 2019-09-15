@@ -33,11 +33,15 @@ import superfreeze.tool.android.expectNonNull
 val values = FreezeMode.values()
 private const val TAG = "SF-DatabaseBackend"
 
-internal fun getFreezeMode(context: Context, packageName: String): FreezeMode {
+internal fun getFreezeMode(context: Context, packageName: String, isSystemApp: Boolean): FreezeMode {
 
 	val sharedPreferences = getFreezeModesPreferences(context)
+	var standardFreezeModeSettingName = "standard_freeze_mode";
+	if (isSystemApp) {
+		standardFreezeModeSettingName = "standard_freeze_mode_system"
+	}
 	val standardFreezeMode = getPrefs(context)
-			.getString("standard_freeze_mode", FreezeMode.WHEN_INACTIVE.ordinal.toString())
+			.getString(standardFreezeModeSettingName, FreezeMode.WHEN_INACTIVE.ordinal.toString())
 			?.toIntOrNull()
 			.expectNonNull(TAG)
 			?: FreezeMode.WHEN_INACTIVE.ordinal

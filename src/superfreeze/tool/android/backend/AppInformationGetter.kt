@@ -70,7 +70,7 @@ internal fun getApplications(context: Context): List<PackageInfo> {
 	fun isToBeShown(info: PackageInfo): Boolean {
 		if (!showLauncher && info.packageName == launcherApplication) return false
 		if (!showSuperFreezZ && info.packageName == BuildConfig.APPLICATION_ID) return false
-		if (!showSystem && info.applicationInfo.flags.isFlagSet(ApplicationInfo.FLAG_SYSTEM)) return false
+		if (!showSystem && isSystemApp(info.applicationInfo)) return false
 		return true
 	}
 
@@ -121,13 +121,17 @@ internal fun isRunning(applicationInfo: ApplicationInfo): Boolean {
 	return !applicationInfo.flags.isFlagSet(ApplicationInfo.FLAG_STOPPED)
 }
 
+internal fun isSystemApp(applicationInfo: ApplicationInfo): Boolean {
+	return applicationInfo.flags.isFlagSet(ApplicationInfo.FLAG_SYSTEM)
+}
+
 
 internal fun isPendingFreeze(
 	packageInfo: PackageInfo,
 	usageStats: UsageStats?,
 	context: Context
 ) = isPendingFreeze(
-	getFreezeMode(context, packageInfo.packageName),
+	getFreezeMode(context, packageInfo.packageName, isSystemApp(packageInfo.applicationInfo)),
 	packageInfo.applicationInfo,
 	usageStats,
 	context
