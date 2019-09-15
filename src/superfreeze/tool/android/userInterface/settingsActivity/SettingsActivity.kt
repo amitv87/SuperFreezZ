@@ -124,7 +124,6 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 	}
 
 
-
 	open class MyPreferenceFragment : PreferenceFragment() {
 		final override fun onOptionsItemSelected(item: MenuItem): Boolean {
 			val id = item.itemId
@@ -167,10 +166,15 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 
 			bindPreferenceSummaryToValue(findPreference("autofreeze_delay"))
 
-			useAccessibilityServicePreference = findPreference("use_accessibility_service") as SwitchPreference
+			useAccessibilityServicePreference =
+				findPreference("use_accessibility_service") as SwitchPreference
 			useAccessibilityServicePreference.setOnPreferenceClickListener {
 				if (FreezerService.isEnabled) {
-					Toast.makeText(activity, "Please disable accessibility service for SuperFreezZ", Toast.LENGTH_LONG).show()
+					Toast.makeText(
+						activity,
+						"Please disable accessibility service for SuperFreezZ",
+						Toast.LENGTH_LONG
+					).show()
 					val intent = Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)
 					startActivity(intent)
 				} else {
@@ -199,7 +203,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 						AlertDialog.Builder(context, R.style.myAlertDialog)
 							.setTitle("Modify settings")
 							.setMessage("SuperFreezZ needs to modify the settings in order to turn off the screen after freezing.")
-							.setPositiveButton("Ok") {_, _ ->
+							.setPositiveButton("Ok") { _, _ ->
 								val intent = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS)
 								intent.data = Uri.parse("package:${BuildConfig.APPLICATION_ID}")
 								startActivity(intent)
@@ -229,6 +233,8 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			super.onCreate(savedInstanceState)
 			addPreferencesFromResource(R.xml.pref_about)
 			setHasOptionsMenu(true)
+			activity.title =
+				getString(R.string.app_name) + " " + getString(R.string.version_abbrev) + BuildConfig.VERSION_NAME
 
 			findPreference("send_logs").setOnPreferenceClickListener {
 				//Share info about the exception so that it can be viewed or sent to someone else
@@ -239,8 +245,13 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 				startActivity(Intent.createChooser(sharingIntent, getString(R.string.share_logs)))
 				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 					// Copy to clipboard:
-					Toast.makeText(context ?: activity, getString(R.string.logs_copied), Toast.LENGTH_LONG).show()
-					val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager?
+					Toast.makeText(
+						context ?: activity,
+						getString(R.string.logs_copied),
+						Toast.LENGTH_LONG
+					).show()
+					val clipboard =
+						context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager?
 					val clip = ClipData.newPlainText("logs", logs)
 					clipboard?.primaryClip = clip
 				}
@@ -257,9 +268,10 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			return try {
 				val process = Runtime.getRuntime().exec("logcat -d")
 				val bufferedReader = BufferedReader(
-						InputStreamReader(process.inputStream))
+					InputStreamReader(process.inputStream)
+				)
 
-				bufferedReader.use { it.readText() }
+				"Version " + BuildConfig.VERSION_NAME + bufferedReader.use { it.readText() }
 
 			} catch (e: IOException) {
 				Log.e(TAG, "Could not get logs (???)")
@@ -269,59 +281,59 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 	}
 
 
-
 	companion object {
 
 		/**
 		 * A preference value change listener that updates the preference's summary
 		 * to reflect its new value.
 		 */
-		private val sBindPreferenceSummaryToValueListener = Preference.OnPreferenceChangeListener { preference, value ->
-			val stringValue = value.toString()
+		private val sBindPreferenceSummaryToValueListener =
+			Preference.OnPreferenceChangeListener { preference, value ->
+				val stringValue = value.toString()
 
-			if (preference is ListPreference) {
-				// For list preferences, look up the correct display value in
-				// the preference's 'entries' list.
-				val index = preference.findIndexOfValue(stringValue)
+				if (preference is ListPreference) {
+					// For list preferences, look up the correct display value in
+					// the preference's 'entries' list.
+					val index = preference.findIndexOfValue(stringValue)
 
-				// Set the summary to reflect the new value.
-				preference.setSummary(
-					if (index >= 0)
-						preference.entries[index]
-					else
-						null
-				)
-
-			} else if (preference is RingtonePreference) {
-				// For ringtone preferences, look up the correct display value
-				// using RingtoneManager.
-				if (TextUtils.isEmpty(stringValue)) {
-					// Empty values correspond to 'silent' (no ringtone).
-					preference.setSummary(R.string.pref_ringtone_silent)
-
-				} else {
-					val ringtone = RingtoneManager.getRingtone(
-						preference.getContext(), Uri.parse(stringValue)
+					// Set the summary to reflect the new value.
+					preference.setSummary(
+						if (index >= 0)
+							preference.entries[index]
+						else
+							null
 					)
 
-					if (ringtone == null) {
-						// Clear the summary if there was a lookup error.
-						preference.setSummary(null)
-					} else {
-						// Set the summary to reflect the new ringtone display
-						// name.
-						val name = ringtone.getTitle(preference.getContext())
-						preference.setSummary(name)
-					}
-				}
+				} else if (preference is RingtonePreference) {
+					// For ringtone preferences, look up the correct display value
+					// using RingtoneManager.
+					if (TextUtils.isEmpty(stringValue)) {
+						// Empty values correspond to 'silent' (no ringtone).
+						preference.setSummary(R.string.pref_ringtone_silent)
 
-			} else {
-				// For all other preferences, set the summary to the value's
-				// simple string representation.
-				preference.summary = stringValue
+					} else {
+						val ringtone = RingtoneManager.getRingtone(
+							preference.getContext(), Uri.parse(stringValue)
+						)
+
+						if (ringtone == null) {
+							// Clear the summary if there was a lookup error.
+							preference.setSummary(null)
+						} else {
+							// Set the summary to reflect the new ringtone display
+							// name.
+							val name = ringtone.getTitle(preference.getContext())
+							preference.setSummary(name)
+						}
+					}
+
+				} else {
+					// For all other preferences, set the summary to the value's
+					// simple string representation.
+					preference.summary = stringValue
+				}
+				true
 			}
-			true
-		}
 
 		/**
 		 * Helper method to determine if the device has an extra-large screen. For

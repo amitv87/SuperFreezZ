@@ -157,4 +157,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="plz_help_translating">…Please help translating it.</string>
     <string name="plz_donate">…Please be a hero and donate.</string>
     <string name="changed_freeze_mode">Changed freeze mode</string>
+	<string name="version_abbrev">v</string>
 </resources>
