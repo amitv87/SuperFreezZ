@@ -70,6 +70,7 @@ class FreezeShortcutActivity : Activity() {
 		Log.i(TAG, "Destroying")
 		onFreezeFinishedListener?.invoke()
 		onFreezeFinishedListener = null
+		FreezerService.doOnAppCouldNotBeFrozen = null
 		activity = null
 		isWorking = false
 		FreezerService.finishedFreezing()
