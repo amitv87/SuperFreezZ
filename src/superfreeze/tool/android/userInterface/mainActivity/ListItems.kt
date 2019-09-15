@@ -34,6 +34,7 @@ import superfreeze.tool.android.allIndexesOf
 import superfreeze.tool.android.backend.FreezerService
 
 import superfreeze.tool.android.backend.isRunning
+import superfreeze.tool.android.backend.isSystemApp
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.getFreezeMode
 import superfreeze.tool.android.database.setFreezeMode
@@ -121,7 +122,8 @@ class ListItemApp(override val packageName: String,
 	var freezeMode: FreezeMode
 		get() = getFreezeMode(
 			appsListAdapter.mainActivity,
-			packageName
+			packageName,
+			isSystemApp(applicationInfo)
 		)
 		set(value) = setFreezeMode(
 			appsListAdapter.mainActivity,

@@ -92,7 +92,8 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
         <item>SuperFreezZ</item>
         <item>Systemapps</item>
     </string-array>
-    <string name="pref_title_standard_freeze_mode">Standard freeze mode</string>
+    <string name="pref_title_standard_freeze_mode">Standard freeze mode (user apps)</string>
+    <string name="pref_title_standard_freeze_mode_system">Standard freeze mode (system apps)</string>
     <string-array name="standard_freeze_mode_titles">
         <item>Always freeze</item>
         <item>Never freeze</item>
@@ -137,6 +138,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
         <item>Name</item>
         <item>Freeze state</item>
         <item>Last time used</item>
+        <item>User/system</item>
     </string-array>
     <string name="intro_header_welcome">welcome to</string>
     <string name="intro_header_modes">modes</string>
@@ -149,6 +151,8 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid apps usually do not run in the background that much.</string>
 	<string name="sort_last_time_used_explanation">Least recently used apps first</string>
     <string name="other_apps">Other apps</string>
+    <string name="system_apps">System apps</string>
+    <string name="user_apps">User apps</string>
     <string name="if_you_like_this_app">If you like this app…</string>
     <string name="plz_help_translating">…Please help translating it.</string>
     <string name="plz_donate">…Please be a hero and donate.</string>
