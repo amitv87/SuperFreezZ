@@ -24,6 +24,7 @@ package superfreeze.tool.android.userInterface.mainActivity
  * This file contains the view holders for AppsListAdapter.
  */
 
+import android.app.AlertDialog
 import android.content.Context
 import android.graphics.Color
 import android.os.Build
@@ -37,6 +38,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import superfreeze.tool.android.R
+import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.getPendingFreezeExplanation
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.usageStatsAvailable
@@ -48,9 +50,9 @@ abstract class AbstractViewHolder(v: View) : RecyclerView.ViewHolder(v) {
 }
 
 
-
-class ViewHolderApp(v: View, private val context: Context,
-                             private val appsListAdapter: AppsListAdapter
+class ViewHolderApp(
+	v: View, private val context: Context,
+	private val appsListAdapter: AppsListAdapter
 ) : AbstractViewHolder(v) {
 
 	private val imgIcon: ImageView = v.findViewById(R.id.imgIcon)
@@ -69,7 +71,18 @@ class ViewHolderApp(v: View, private val context: Context,
 	init {
 		v.setOnClickListener {
 			// what is done when a list item (that is, an app) is clicked.
-			listItem.freeze(context)
+			if (listItem.freezeMode == FreezeMode.NEVER && FreezerService.isEnabled) {
+				AlertDialog.Builder(context)
+					.setTitle(listItem.text)
+					.setMessage(R.string.freeze_question)
+					.setPositiveButton(android.R.string.ok) { _, _ ->
+						listItem.freeze(context)
+					}
+					.setNeutralButton(android.R.string.cancel) { _, _ -> }
+					.show()
+			} else {
+				listItem.freeze(context)
+			}
 		}
 
 		if (!usageStatsAvailable) {
@@ -106,7 +119,7 @@ class ViewHolderApp(v: View, private val context: Context,
 	private fun setButtonColours(freezeMode: FreezeMode) {
 		modeSymbols.forEach { (mode, view) ->
 			if (mode == freezeMode)
-				// Show the symbol with the "current" mode in color:
+			// Show the symbol with the "current" mode in color:
 				view.colorFilter = null
 			else {
 				view.colorFilter = appsListAdapter.colorFilterGrey
@@ -167,7 +180,6 @@ class ViewHolderApp(v: View, private val context: Context,
 		}
 	}
 }
-
 
 
 internal class ViewHolderSectionHeader(v: View) : AbstractViewHolder(v) {
