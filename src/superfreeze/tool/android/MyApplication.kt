@@ -24,6 +24,8 @@ import android.content.Intent
 import android.net.Uri
 import android.util.Log
 import android.widget.Toast
+import superfreeze.tool.android.userInterface.mainActivity.MainActivity
+import kotlin.system.exitProcess
 
 const val TAG = "SF-MyApplication"
 
@@ -41,6 +43,13 @@ class MyApplication : Application() {
 		// Setup handler for uncaught exceptions.
 		Thread.setDefaultUncaughtExceptionHandler { _, e ->
 			e.printStackTrace()
+
+			if (e is java.lang.IndexOutOfBoundsException && e.message?.contains("Inconsistency detected.") != false) {
+				startActivity(Intent(this, MainActivity::class.java).apply {
+					addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+				})
+				exitProcess(0)
+			} // Simply restart
 
 			//Share info about the exception so that it can be viewed or sent to someone else
 
@@ -78,7 +87,7 @@ class MyApplication : Application() {
 			chooser.addFlags(Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
 
 			startActivity(chooser)
-			System.exit(10)
+			exitProcess(10)
 		}
 
 		/*
