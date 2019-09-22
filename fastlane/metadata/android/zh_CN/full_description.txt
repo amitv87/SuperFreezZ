@@ -1,0 +1,51 @@
+一个让彻底冻结任何App所有后台活动变得可能的安卓应用(尚在Beta阶段)
+
+Greenify同样可以做到这一点，但它不是开源的
+
+欢迎任何Contribution
+
+SuperFreezZ并非另一个许诺每月删除10GB数据或让您设备的运行速度提高两倍的任务管理器 这是不可能的
+
+值得被冻结的app包括：
+ 不受信任的应用 (您不想让它们在后台运行)
+ 很少使用的app
+ 恼人的应用
+
+
+冻结日常使用的app会让手机的电量消耗得略快一些 当您下次使用它们时，这些app启动时间也会稍长一些
+
+SuperFreezZ将深度冻结您的app, 解冻它们要花几秒钟时间
+
+Greenify有相同缺陷，除了其作者没有警告用户外
+
+
+功能
+
+ 可选择在缺少辅助服务的情况下工作，尽管这样做将减慢设备运行
+ 可以只冻结一周内未使用的app (可配置具体应用)
+ 选择一个白名单(默认冻结全部app)或一个黑名单(默认不冻结任何app)
+ 可在屏幕熄灭时冻结app
+ 可选择冻结系统app乃至SuperFreezZ自身
+ 完全的开源和自由软件
+
+
+Credits
+
+显示app列表的代码来自ApkExtractor
+
+Robin Naumann做了一个很好的介绍 介绍是用AppIntro library制作的
+
+主打的图片背景来自这里：https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, 文本是用https://www.norio.be/android-feature-graphic-generator/添加的
+
+
+
+问答
+
+休眠和冻结区别在哪？
+根本没区别 Greenify里的休眠和SuperFreezZ本质上是一回事
+
+正确的拼写不该是SuperFreeze吗
+我知道
+
+你有卖掉应用的打算吗？
+没有
