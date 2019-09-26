@@ -59,8 +59,10 @@ import kotlin.collections.ArrayList
  */
 class AppsListAdapter internal constructor(
 	internal val mainActivity: MainActivity,
-	internal var sortModeIndex: Int
+	internal var sortModeIndex: Int,
+	var sortDirectionIsAscending: Boolean
 ) : RecyclerView.Adapter<AbstractViewHolder>() {
+
 
 	internal val colorFilterGrey = PorterDuffColorFilter(
 		ContextCompat.getColor(mainActivity, R.color.button_greyed_out),
@@ -95,7 +97,7 @@ class AppsListAdapter internal constructor(
 
 	var searchPattern: String = ""
 		set(value) {
-			field = value.toLowerCase()
+			field = value.toLowerCase(Locale.ROOT)
 			refreshList()
 			notifyDataSetChanged()
 		}
@@ -253,7 +255,7 @@ class AppsListAdapter internal constructor(
 								.asSequence()
 								.filter { it.isMatchingSearchPattern() }
 								.partition {
-									it.text.toLowerCase().startsWith(searchPattern)
+									it.text.toLowerCase(Locale.ROOT).startsWith(searchPattern)
 								}
 					importantApps + otherApps
 
@@ -272,39 +274,42 @@ class AppsListAdapter internal constructor(
 		}
 	}
 
-	private fun listComparator(index: Int): Comparator<ListItemApp> = when (index) {
+	private fun listComparator(index: Int): Comparator<ListItemApp> {
+		val result = when (index) {
 
-		// 0: Sort by name
-		0 -> compareBy {
-			it.text
-		}
+			// 0: Sort by name
+			0 -> compareBy {
+				it.text
+			}
 
-		// 1: Sort by freeze state
-		1 -> getSortByFreezeStateComparator(usageStatsMap, mainActivity)
+			// 1: Sort by freeze state
+			1 -> getSortByFreezeStateComparator(usageStatsMap, mainActivity)
 
-		// 2: Sort by last time used
-		2 -> {
-			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-				mainActivity.toast(
-					"Last time used is not available for your Android version",
-					Toast.LENGTH_LONG
-				)
-				compareBy { it.text }
-			} else {
-				mainActivity.toast(mainActivity.getString(R.string.sort_last_time_used_explanation), Toast.LENGTH_LONG)
-				val allUsageStats = getAllAggregatedUsageStats(mainActivity)
-				compareBy {
-					allUsageStats?.get(it.packageName)?.lastTimeUsed ?: 0L
+			// 2: Sort by last time used
+			2 -> {
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+					mainActivity.toast(
+						"Last time used is not available for your Android version",
+						Toast.LENGTH_LONG
+					)
+					compareBy { it.text }
+				} else {
+					val allUsageStats = getAllAggregatedUsageStats(mainActivity)
+					compareBy {
+						allUsageStats?.get(it.packageName)?.lastTimeUsed ?: 0L
+					}
 				}
 			}
+
+			// 3: Sort by user/system app install type
+			3-> compareBy {
+				isSystemApp(it.applicationInfo)
+			}
+
+			else -> throw IllegalArgumentException("sort dialog index should have been a number from 0-3, was $index")
 		}
 
-		// 3: Sort by user/system app install type
-		3-> compareBy {
-			isSystemApp(it.applicationInfo)
-		}
-
-		else -> throw IllegalArgumentException("sort dialog index should have been a number from 0-3")
+		return if (sortDirectionIsAscending == true) result else Collections.reverseOrder(result)
 	}
 }
 

@@ -44,8 +44,9 @@ import superfreeze.tool.android.userInterface.mainActivity.MainActivity
 internal fun requestUsageStatsPermission(context: MainActivity, doAfterwards: () -> Unit) {
 
 	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP
-			&& !usageStatsPermissionGranted(context)
-			&& neverCalled("requestUsageStatsPermission", context)) {
+		&& !usageStatsPermissionGranted(context)
+		&& neverCalled("requestUsageStatsPermission", context)
+	) {
 
 		// Actually we want the dialog to be only shown in onResume, not in onCreate as the app intro is supposed to be shown before this dialog:
 		MainActivity.doOnResume {
@@ -58,7 +59,10 @@ internal fun requestUsageStatsPermission(context: MainActivity, doAfterwards: ()
 					MainActivity.doOnResume {
 
 						if (!usageStatsPermissionGranted(this)) {
-							toast(this.getString(R.string.usagestats_not_enabled), Toast.LENGTH_SHORT)
+							toast(
+								this.getString(R.string.usagestats_not_enabled),
+								Toast.LENGTH_SHORT
+							)
 						}
 						doAfterwards()
 
@@ -106,37 +110,51 @@ internal fun showAccessibilityDialog(context: Context) {
 
 
 // Must be called ONLY from MainActivity as it uses MainActivity.onResume()!!
-internal fun showSortChooserDialog(context: Context, current: Int, onChosen: (which: Int) -> Unit) {
-	lateinit var dialog: AlertDialog
-	dialog = AlertDialog.Builder(context)
-			.setTitle(context.getString(R.string.sort_by))
-			.setSingleChoiceItems(R.array.sortmodes, current) { _, which ->
-				dialog.dismiss()
-				
-				// 2 means "Last time used" and requires usagestats access
-				if (which == 2 && !usageStatsAvailable) {
-					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-						showUsageStatsSettings(context)
-						MainActivity.doOnResume {
-							if (usageStatsPermissionGranted(context)) {
-								onChosen(which)
-								Handler().post { recreate() }
-								// Recreate because the list items need shall show the "Intelligent freeze"
-								// button now (they have to change). The easiest possibility to refresh them
-								// is to recreate the whole activity.
-							}
-							false
-						}
-					} else {
-						Toast.makeText(context, context.getString(R.string.not_available), Toast.LENGTH_SHORT).show()
+internal fun showSortChooserDialog(context: Context, current: Int, onChosen: (which: Int, sortDirection: Boolean) -> Unit) {
+	fun onClickButton(sortDirection: Boolean, which: Int) {
+
+		// 2 means "Last time used" and requires usagestats access
+		if (which == 2 && !usageStatsAvailable) {
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+				showUsageStatsSettings(context)
+				MainActivity.doOnResume {
+					if (usageStatsPermissionGranted(context)) {
+						onChosen(which, sortDirection)
+						Handler().post { recreate() }
+						// Recreate because the list items need shall show the "Intelligent freeze"
+						// button now (they have to change). The easiest possibility to refresh them
+						// is to recreate the whole activity.
 					}
-
-
-				} else {
-					onChosen(which)
+					false
 				}
+			} else {
+				Toast.makeText(
+					context,
+					context.getString(R.string.not_available),
+					Toast.LENGTH_SHORT
+				).show()
 			}
-			.show()
+
+
+		} else {
+			onChosen(which, sortDirection)
+		}
+	}
+
+	var pos = current
+
+	AlertDialog.Builder(context)
+		.setTitle(context.getString(R.string.sort_by))
+		.setSingleChoiceItems(R.array.sortmodes, current) { _, which ->
+			pos = which
+		}
+		.setNegativeButton(context.getString(R.string.descending)) { _, which ->
+			onClickButton(false, pos)
+		}
+		.setPositiveButton(context.getString(R.string.ascending)) { _, which ->
+			onClickButton(true, pos)
+		}
+		.show()
 }
 
 internal fun Context.toast(s: String, duration: Int) {

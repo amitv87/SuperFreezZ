@@ -50,6 +50,7 @@ import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.getApplications
 import superfreeze.tool.android.database.neverCalled
 import superfreeze.tool.android.database.prefIntroAlreadyShown
+import superfreeze.tool.android.database.prefListSortDirectionIsAscending
 import superfreeze.tool.android.database.prefListSortMode
 import superfreeze.tool.android.userInterface.FreezeShortcutActivity
 import superfreeze.tool.android.userInterface.intro.IntroActivity
@@ -71,6 +72,7 @@ class MainActivity : AppCompatActivity() {
 
 		// Accessing prefListSortMode sometimes took a lot of time -> I am doing it asynchronously
 		val listSortMode by AsyncDelegated { prefListSortMode }
+		val listSortDirection by AsyncDelegated { prefListSortDirectionIsAscending }
 		val applications by AsyncDelegated { getApplications(applicationContext) }
 
 		setContentView(R.layout.activity_main)
@@ -78,7 +80,7 @@ class MainActivity : AppCompatActivity() {
 		val listView = list
 
 		listView.layoutManager = LinearLayoutManager(this)
-		appsListAdapter = AppsListAdapter(this, listSortMode)
+		appsListAdapter = AppsListAdapter(this, listSortMode, listSortDirection)
 		listView.adapter = appsListAdapter
 
 		progressBar = progress
@@ -205,10 +207,11 @@ class MainActivity : AppCompatActivity() {
 			}
 
 			R.id.action_sort -> {
-				showSortChooserDialog(this, prefListSortMode) { index ->
+				showSortChooserDialog(this, prefListSortMode) { index, sortDirection ->
 					prefListSortMode = index
 
 					appsListAdapter.sortModeIndex = index
+					appsListAdapter.sortDirectionIsAscending = sortDirection
 
 					appsListAdapter.sortList()
 					appsListAdapter.refresh()

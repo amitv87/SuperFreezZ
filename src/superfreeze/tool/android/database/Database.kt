@@ -94,6 +94,11 @@ internal var Context.prefListSortMode
 	get() = getMainPreferences(this).getInt("ListSortMode", 0)
 	set(v) = getMainPreferences(this).edit().putInt("ListSortMode", v).apply()
 
+internal var Context.prefListSortDirectionIsAscending
+	get() = getMainPreferences(this).getBoolean("ListSortDirection", true)
+	set(v) = getMainPreferences(this).edit().putBoolean("ListSortDirection", v).apply()
+// true means ascending, false descending
+
 internal var Context.prefIntroAlreadyShown
 	get() = getMainPreferences(this).getBoolean("FirstLaunch", true)
 	set(v) = getMainPreferences(this).edit().putBoolean("FirstLaunch", v).apply()
