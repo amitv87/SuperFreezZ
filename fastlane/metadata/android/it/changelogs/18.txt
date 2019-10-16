@@ -1,0 +1,7 @@
+Nuove traduzioni
+Piccole correzioni
+Fix #52 "Guarda Introduzione" nelle impostazioni si chiude dopo la prima pagina
+"Make screen dim" funziona con la luminosità automatica
+Risolti alcuni problemi del controllo di congelamento, ma potrebbero esserne stati introdotti di nuovi. Se il congelamento fallisce, non verranno effettuati altri tentativi e la applicazione successiva verrà congelata.
+Messaggi di crash migliorati
+Fix #48 (ordine stato di congelamento), mostra suggerimento "Ultimo Utilizzo"

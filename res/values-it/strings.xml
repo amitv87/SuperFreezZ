@@ -12,10 +12,10 @@
     <string name="usagestats_access">Accesso UsageStats</string>
     <string name="used_recently">Usata di Recente</string>
     <string name="Press_forcestop_ok_back">Congela un\'app premendo \"Termina\", \"OK\" e poi \"Indietro\".</string>
-    <string name="accessibility_arguments_no">Dovrai premere manualmente \"Termina\", \"OK\" e \"Indietro\" per congelare un\'app.
+    <string name="accessibility_arguments_no">Dovrai premere manualmente \"Termina\", \"OK\" e \"Indietro\" per congelare un\'app. 
 \nper:
-\n• Dispositivi lenti
-\n• Chi è interessato alla sicurezza
+\n• Dispositivi lenti 
+\n• Chi è interessato alla sicurezza 
 \n• Non dover registrare SuperFreezZ come servizio di accessibilità</string>
     <string name="pref_header_freezing">Congelamento Applicazioni</string>
     <string name="view_intro_again">Guarda Introduzione</string>
@@ -43,7 +43,7 @@
     <string name="intro_auto_freeze_title">Modalità: Congelamento Intelligente</string>
     <string name="intro_always_freeze_title">Modalità: Congela Sempre</string>
     <string name="sort_by">Ordina per</string>
-    <string name="pref_title_standard_freeze_mode">Modalità di Congelamento Predefinita</string>
+    <string name="pref_title_standard_freeze_mode">Modalità di Congelamento Predefinita (app utente)</string>
     <string name="intro_auto_freeze_explanation">Congela un\'app solo se inutilizzata per un certo periodo di tempo (7 giorni per impostazione predefinita). Inoltre, le applicazioni di F-Droid non saranno congelate.</string>
     <string name="not_available">Non Disponibile</string>
     <string name="pref_intelligentfreeze_delay">"Intelligente: Congela dopo...  (giorni)"</string>
@@ -93,4 +93,12 @@
     <string name="plz_help_translating">Aiuta a Tradurre</string>
     <string name="plz_donate">Dona</string>
     <string name="changed_freeze_mode">Modalità di congelamento modificata</string>
+    <string name="other_apps">Altre App</string>
+    <string name="pref_title_standard_freeze_mode_system">Modalità di Congelamento Predefinita (app sistema)</string>
+    <string name="system_apps">App di Sistema</string>
+    <string name="user_apps">App Utente</string>
+    <string name="version_abbrev">v</string>
+    <string name="freeze_question">Congelare questa app\?</string>
+    <string name="descending">Discendente</string>
+    <string name="ascending">Ascendente</string>
 </resources>

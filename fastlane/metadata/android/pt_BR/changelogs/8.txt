@@ -1,0 +1,3 @@
+O congelamento na tela desligada agora pode ser basicamente usado (experimental) quando ativado nas configurações. Relate erros usando o rastreador de problemas.
+Dicas de ferramentas
+Licenciamento

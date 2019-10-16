@@ -1,0 +1,6 @@
+Traduções actualizadas
+Descrição editada
+Pequenas correcções e melhorias
+Sem congelamento "inteligente" de aplicações provenientes do F-Droid por defeito, pois estas normalmente não são excessivamente executadas em segundo plano
+É possível fazer scroll na última página de introdução
+Abortar o congelamento quando o botão de alimentação é pressionado

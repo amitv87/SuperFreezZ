@@ -1,0 +1,8 @@
+Correção de bug: Faça o SF funcionar com versões mais antigas do Android
+Congelamento manual: diga ao usuário para pressionar "Forçar parada", "OK" e "Voltar", corrigir # 14
+Adicionar capturas de tela
+Traduções
+Não congele automaticamente o SuperFreezZ
+Apenas considere um aplicativo como 'usado' se for usado pelo menos 2s
+Determinação de reparo se um aplicativo foi "usado recentemente"
+Não exiba o botão AutoFreeze / Freeze-in-inative - (eu realmente devo decidir por UM nome btw) quando a permiss

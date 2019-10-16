@@ -48,7 +48,7 @@
     <string name="intro_auto_freeze_title">طرظِ انجماد: دانشمندانہ</string>
     <string name="intro_always_freeze_title">طرظِ انجماد: ہمیشہ منجمد</string>
     <string name="sort_by">ترتیب دیں، بزریعہ</string>
-    <string name="pref_title_standard_freeze_mode">معیاری اسلوبِ انجماد</string>
+    <string name="pref_title_standard_freeze_mode">معیاری اسلوبِ انجماد(استعمال کنندہ کے ایپس)</string>
     <string name="intro_auto_freeze_explanation">\"دانشمندانہ انجماد\" ایپ کو صرف اُس وقت منجمد کرے گا جب وہ کچھ عرصہ سے استعمال میں نہ ہو(7 دن، بنیادی طور پر). اس کے ساتھ ہی F-Droid سے لیے گئے ایپس منجمد نہیں کیے جائیں گے۔</string>
     <string name="not_available">موجود نہیں</string>
     <string name="pref_intelligentfreeze_delay">دانشمندانہ: منجمد کیا جائے…(دنوں کے بعد)</string>
@@ -92,5 +92,13 @@
     <string name="pref_intelligentfreeze_freeze_fdroid">دانشمندانہ: ایف-ڈرائیڈ ایپس (F-Droid Apps) کو منجمد کریں</string>
     <string name="logs_copied">استعمال کا ریکارڈ عارضی تختہ پر نقل کر دیا گیا ہے۔</string>
     <string name="freeze_manually_no">میں یہ نہیں چاہتا کہ مجھے یہ سب خود کرنا پڑے</string>
-    <string name="plz_help_translating">…اس کا ترجمہ کرنے میں مدد کریں۔</string>
+    <string name="plz_help_translating">…براہ مہربانی اس کا ترجمہ کرنے میں مدد کریں۔</string>
+    <string name="other_apps">دیگر ایپس</string>
+    <string name="pref_title_standard_freeze_mode_system">معیاری اسلوبِ انجماد (ترتیباتی ایپس)</string>
+    <string name="system_apps">ترتیباتی ایپس</string>
+    <string name="user_apps">استعمال کنندہ کے ایپس</string>
+    <string name="version_abbrev">و</string>
+    <string name="freeze_question">اس ایپ کو منجمد کیا جائے؟</string>
+    <string name="descending">ترتیبِ نزولی</string>
+    <string name="ascending">ترتیبِ سعودی</string>
 </resources>

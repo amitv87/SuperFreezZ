@@ -1,0 +1,7 @@
+Mange nye oversettelser
+Små fikser
+Fiks #52 "Vis intro igjen" i innstillinger lukkes når første side blas om
+"Gjør skjerm mørkere" fungerer med automatisk lysstyrke
+Fjernet frysningskontroll for å fikse feil, men det kan ha introdusert nye. Hvus nedfrysing av ett program mislykkes, vil neste bli forsøkt fryst, og ingen nye forsøk gjort.
+Forbedrede kræsjmeldinger
+Fiks #48 (bedre sorteringsrekkefølge for frysningstilstand), vis kort "Sist gang brukt"-hint

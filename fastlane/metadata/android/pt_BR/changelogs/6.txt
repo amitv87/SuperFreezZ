@@ -1,0 +1,6 @@
+Configurações adicionadas
+Adicionado gesto de atualização de furto
+Adicionado barra de ferramentas Classificar
+Bugs corrigidos
+Caixa de diálogo RequestUsageStatsPermission mostrada uma vez, a decisão pode ser alterada nas configurações
+Condição de corrida fixa

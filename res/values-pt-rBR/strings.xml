@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usatestats_explanation">Acessar estatísticas de uso torna possível para SuperFreezZ congelar aplicativos somente se você não usá-los por algum tempo (CONGELAMENTO INTELIGENTE).</string>
+    <string name="ascending">Crescente</string>
+    <string name="usagestats_not_enabled">Você não concedeu acesso às estatísticas de uso.</string>
+    <string name="pref_header_about_summary">Links úteis, enviar logs</string>
+    <string name="if_you_like_this_app">Se você gosta deste app…</string>
+    <string name="freeze_shortcut_label">Congelar</string>
+    <string name="pref_summary_appslist_show_special">O launcher, SuperFreezZ e aplicativos do sistema estão ocultos por padrão.</string>
+    <string name="accessibility_arguments_yes">Para: 
+\n• Facilidade de uso 
+\n• Congelar um monte de aplicativos</string>
+    <string name="NothingToFreeze">Nada para congelar</string>
+    <string name="usagestats_access">Acessar estatísticas de uso</string>
+    <string name="used_recently">Usado recentemente</string>
+    <string name="Press_forcestop_ok_back">Congele um aplicativo pressionando \"FORÇAR PARADA \", \"OK\" e \"VOLTAR\".</string>
+    <string name="used_recently_and_frozen">Usado recentemente e congelado</string>
+    <string name="accessibility_arguments_no">Você terá que pressionar \"FORÇAR PARADA\", \"OK\" e \"VOLTAR\" manualmente para congelar um aplicativo. 
+\nPara: 
+\n• Dispositivos lentos 
+\n• Preocupações de segurança 
+\n• Nenhum registro de SuperFreezZ como um serviço de acessibilidade</string>
+    <string name="pref_header_freezing">Congelando aplicativos</string>
+    <string name="view_intro_again">Ver Intro novamente</string>
+    <string name="automate_the_freezing_of_apps">Automatizar o congelamento de aplicativos\?</string>
+    <string name="credits_and_licenses">Créditos e licenças de terceiros</string>
+    <string name="user_apps">Aplicativos de usuário</string>
+    <string name="descending">Descendente</string>
+    <string name="freeze_off">O congelamento deste aplicativo é interrompido (nunca será congelado)
+\nCongelamento desligado</string>
+    <string name="no_apps_pending_freeze">[SEM CONGELAMENTO DE APLICATIVOS PENDENTES]</string>
+    <string name="no">Não</string>
+    <string name="info">Informação</string>
+    <string name="freeze_question">Congelar este aplicativo\?</string>
+    <string name="icon">Ícone</string>
+    <string name="appslist_show_special">Mostrar aplicações especiais na lista</string>
+    <string name="freeze_manually">Congelar manualmente</string>
+    <string name="pref_header_appslist_summary">Mostrar aplicações especiais, modo de congelamento padrão</string>
+    <string name="freeze_apps_now">Congelar aplicativos agora</string>
+    <string name="version_abbrev">v</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">Os aplicativos F-Droid geralmente não são executados tanto em segundo plano.</string>
+    <string name="intro_header_welcome">Bem-vindo ao</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">"Congelar este aplicativo se ele não  estiver sido usado por um longo tempo."</string>
+    <string name="intro_always_freeze_explanation">Existem 3 modos de congelamento. Você pode escolher um para cada aplicativo. SEMPRE CONGELAR, congelará um aplicativo em qualquer caso.</string>
+    <string name="frozen">Congelado</string>
+    <string name="freeze_on_screen_off_title">Congelar quando a tela desliga</string>
+    <string name="problems">Problemas</string>
+    <string name="yes">Sim</string>
+    <string name="source_code">Código fonte</string>
+    <string name="pending_freeze">Congelamento pendente</string>
+    <string name="send_logs">Enviar logs</string>
+    <string name="fdroid_app_not_pending_freeze">Um aplicativo que foi instalado a partir do F-Droid
+\nF-Droid app</string>
+    <string name="changed_freeze_mode">Modo de congelamento alterado</string>
+    <string name="intro_auto_freeze_title">Modo de congelamento: Inteligente</string>
+    <string name="intro_always_freeze_title">Modo de congelamento: SEMPRE CONGELAR</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="pref_title_standard_freeze_mode">Modo de congelamento padrão (aplicativos do usuário)</string>
+    <string name="intro_auto_freeze_explanation">CONGELAMENTO INTELIGENTE, congelará um aplicativo somente se ele não tiver sido usado por algum tempo (7 dias por padrão). Além disso, os aplicativos do F-Droid não serão congelados.</string>
+    <string name="not_available">Não disponível</string>
+    <string name="pref_intelligentfreeze_delay">INTELIGENTE: Congelar depois... (dias)</string>
+    <string name="do_never_freeze_this_app">Nunca congelar este aplicativo</string>
+    <string name="share_exception">Erro inesperado. Relatório Usando…</string>
+    <string name="license">Licença</string>
+    <string name="intro_never_freeze_explanation">"NUNCA CONGELAR  vai-desligar o congelamento e nunca congelará um aplicativo."</string>
+    <string name="intro_header_modes">Modos</string>
+    <string name="msg_search_help">Buscando…</string>
+    <string name="undo">Desfazer</string>
+    <string name="system_apps">Aplicativos do sistema</string>
+    <string name="report">Relatar um problema, propor um recurso,…</string>
+    <string name="create_freeze_shortcut">Criar atalho congelar</string>
+    <string name="plz_donate">… Por favor, seja um herói e faça uma doação.</string>
+    <string name="intro_never_freeze_title">"Modo de congelamento:  NUNCA CONGELAR"</string>
+    <string name="other_apps">Outros aplicativos</string>
+    <string name="links">Links</string>
+    <string name="pref_ringtone_silent">Silencioso</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="accessibility_service_description">"Ativar isso permite congelar aplicativos automaticamente. 
+\n
+\nVantagens: 
+\n• Nenhuma interação do usuário: mais rápido. Não há necessidade de saber como fazê-lo. 
+\n• Usuários desabilitados podem usar o atalho de congelamento (por meio do reconhecimento de fala, por exemplo), congelando todos os aplicativos automaticamente.  
+\n
+\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORCE PARADA\", \"OK\" e \"Voltar\". A recuperação do conteúdo da janela localiza esses botões, e a observação de ações é necessária para saber quando elas aparecem.  
+\n
+\nSuperFreezZ apenas usa o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\" e \"Back\". Recuperar o conteúdo da janela é necessário para encontrar esses botões e observar suas ações é necessário saber quando eles aparecem.  
+\n
+\nO serviço de acessibilidade também pode ser usado para bloquear a tela após o congelamento em versões mais recentes do Android."</string>
+    <string name="enable">Permitir</string>
+    <string name="intro_header_automaticfreezing">congelamento automático</string>
+    <string name="pref_header_freezing_summary">Personalize como e quais aplicativos são congelados</string>
+    <string name="sort">Tipo</string>
+    <string name="settings">Configurações</string>
+    <string name="freeze_on_screen_off_sum">Você vai precisar desativar o \' botão de energia bloqueia instantaneamente \' nas configurações do dispositivo</string>
+    <string name="sf_crashed">SuperFreezZ crashed. Por favor, envie um relatório, se você ainda não o fez.</string>
+    <string name="always_freeze_this_app">Sempre congelar este aplicativo</string>
+    <string name="pref_header_about">Sobre</string>
+    <string name="pref_header_appslist">Lista de aplicativos</string>
+    <string name="already_frozen">Já congelados</string>
+    <string name="msg_search">Busca</string>
+    <string name="share_logs">Compartilhe logs usando…</string>
+    <string name="pref_title_standard_freeze_mode_system">Modo de congelamento padrão (aplicativos do sistema)</string>
+    <string name="all_apps">TODAS AS APLICAÇÕES</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">INTELIGENTE: Congelar aplicativos F-Droid</string>
+    <string name="logs_copied">Logs copiados para a área de transferência.</string>
+    <string name="freeze_manually_no">Eu não quero ter que fazer isso</string>
+    <string name="plz_help_translating">… Por favor, ajude a traduzi-lo.</string>
+</resources>

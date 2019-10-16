@@ -1,4 +1,9 @@
 <p>Androidprogram (beta), som gjør det mulig å fryse alle bakgrunnsaktiviteter tilhørende ethvert program fullstendig.</p>
+<ul>
+<li>Ta tilbake kontrollen over hva som kjører på telefonen din</li>
+<li>Forbedre batteribrukstid og reduser mobildatabruk ved å fryse sjeldent brukte programmer</li>
+<li>Spesielt nyttig hvis du er på reise, der du trenger kun noen programmer, men forlenget batteribrukstid</li>
+</ul>
 <p>Greenify kan også gjøre dette, men det er ikke fri programvare.</p>
 <p>SuperFreezZ er ikke enda en oppgavebehandler som lover å slette 10 GB data per måned, samtidig som den gjør enheten din dobbelt så rask. Det er umulig.</p>
 <p>Isteden er SuperFreezZ ærlig om dets ulemper: Frysing av daglig brukte programmer tapper batteriet litt raskere. Det vil også ta lengre tid å starte når du ønsker å bruke dem neste gang: SuperFreezZ vil superfryse programmene dine, det tar omentrent 1-3 sekunder å tine dem. Greenify har samme ulemper, rent bortsett fra at utvikleren bak Greenify ikke advarer deg om det. Så, ikke ta i for hardt, og SuperFreezZ vil være kjempenyttig for deg.</p>
@@ -23,12 +28,7 @@
 <p>Hvis du vil hjelpe til i utviklingen, ta en titt på feilrapportene, eller tenk over noe som kan forbedret, og åpne en feilrapport for det.</p>
 <p>Fortell meg hva du har tenkt til å jobbe med, slik at vi unngår å gjøre det samme to ganger :-)</p>
 <h3 id="translate">Oversett</h3>
-<p>Du kan <a href="https://hosted.weblate.org/engage/superfreezz/">oversette SuperFreezZ på Vertstjent Weblate</a>. Nåværende framdrift:</p>
-<p><a href="https://hosted.weblate.org/engage/superfreezz/?utm_source=widget"><img src="https://hosted.weblate.org/widgets/superfreezz/-/multi-auto.svg" alt="Oversettelsesstatus" /></a></p>
-<p>Du kan alltids legge til andre språk.</p>
-<h3 id="donate">Doner</h3>
-<p>Pengedonasjoner tas ikke imot akkurat nå (det var for mye jobb å sette opp en Liberapay-konto, så det har blitt lagt på is foreløpig).</p>
-<p>For å vise støtte kan du <a href="https://gitlab.com/SuperFreezZ/SuperFreezZ/issues/18">donere til WWF eller den kristne blindemisjonen og skrive om det her</a>.</p>
+<p>Du kan <a href="https://hosted.weblate.org/engage/superfreezz/">oversette SuperFreezZ på Vertstjent Weblate</a>.
 <h2 id="credits">Bidragsytere</h2>
 <p>Koden for visning av programlisten er fra <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
 <p>Robin Naumann laget en fin intro. Den ble laget ved bruk av AppIntro-biblioteket.</p>

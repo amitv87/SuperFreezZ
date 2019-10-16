@@ -1,0 +1,4 @@
+Depois que o serviço de acessibilidade foi ativado, espere que ele permaneça ativado e pergunte ao usuário de outra forma. 
+
+CORREÇÃO Após exibir uma caixa de diálogo antes de performFreeze (), o aplicativo não foi congelado corretamente
+Estilo do código

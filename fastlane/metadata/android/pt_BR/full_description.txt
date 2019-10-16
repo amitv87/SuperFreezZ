@@ -1,0 +1,40 @@
+<p>Aplicação Android (beta) que torna possível congelar por completo a actividade em segundo plano de qualquer aplicação.</p>
+<ul>
+<li>Reavém controlo sobre o que é executado no teu telefone</li>
+<li>Melhora a duração da bateria e reduz o uso dde dados congelando aplicações raramente usadas</li>
+<li>Particularmente útil se estiver em viagem, necessitando apenas de algumas aplicações mas de uma longa duração da bateria</li>
+</ul>
+<p>Greenify também pode fazer isto, mas não possui Código Aberto.</p>
+<p>SuperFreezZ não é mais outro gestor de tarefas prometendo reduzir 10 GB de dados por mês ou tornar o teu dispositivo 2x mais rápido. Isso é impossível.</p>
+<p>Ao invés, SuperFreezZ é honesto quanto às suas desvantagens: Congelar aplicações usadas diariamente até gasta mais depressa a bateria. Além disso, essas aplicações levarão mais tempo a arrancar quando as usares da próxima vez: SuperFreezZ irá super-congelar as tuas aplicações, demoram 1-3 segundos a descongelar. Greenify tem as mesmas desvantagens, excepto que o autor do Greenify não te avisa acerca disso. Então: Só não exageres, e SuperFreezZ ser-te-á super-útil.</p>
+<p>Exemplos de aplicações que merecem ser congeladas:</p>
+<ul>
+<li>Aplicações que não são de confiança (que não queres que corram em segundo plano)</li>
+<li>Aplicações que raramente usas</li>
+<li>Aplicações irritantes</li>
+</ul>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<ul>
+<li>Funciona, opcionalmente, sem permissões de acessibilidade, uma vez que isso torna o dispositivo mais lento</li>
+<li>Congela apenas aplicações não usadas por uma semana (configurável)</li>
+<li>Escolhe uma lista branca (congelar tudo por defeito) ou uma lista negra (não congelar nada por defeito)</li>
+<li>Congela aplicações quando o écrã se apaga</li>
+<li>Opções para congelar aplicações do sistema e até o próprio SuperFrezZ</li>
+<li>Software 100% livre e de código aberto</li>
+</ul>
+<h2 id="contributing-to-superfreezz">Contribuir para o SuperFreezZ</h2>
+<h3 id="desenvolvimento">Desenvolvimento</h3>
+<p>Se tiveres um problema, questão ou uma ideia, abre uma questão!</p>
+<p>Se quiseres ajudar com o desenvolvimento, dar uma olhada às questões, ou te lembrares de algo que poderia ser melhorado, abre uma questão para tratar disso.</p>
+<p>Por favor diz-me o que vais fazer, para evitar implementar a mesma coisa duas vezes :-)</p>
+<h3 id="traduzir">Traduzir</h3>
+<p>You can <a href="https://hosted.weblate.org/engage/superfreezz/">translate SuperFreezZ on Weblate</a>.</p>
+<h2 id="créditos">Créditos</h2>
+<p>O código para mostrar a lista de aplicações vem de <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
+<p>Robin Naumann fez uma bela introdução intro. A introdução foi criada usando a library AppIntro.</p>
+<p>A funcionalidade do fundo gráfico é daqui: https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, the text was added with https://www.norio.be/android-feature-graphic-generator/.</p>
+<h2 id="qa">P/R</h2>
+<p>P/R:</p>
+<p>P: Qual a diferença entre hibernar e congelar? R: Nenhuma. Se hibernares uma aplicação com o Greenify até é mostrada como congelada no SuperFreezZ e o inverso também é verdadeiro.</p>
+<p>P: Mas a ortografia correcta é “SuperFreeze”! R: Eu sei.</p>
+<p>P: Tens alguma intenção de vender congeladores? R: Não.</p>

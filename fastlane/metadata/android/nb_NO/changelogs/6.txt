@@ -1,6 +1,6 @@
-Innstillinger
-Sveip for å gjenoppfriske
-Sorteringsverktøyslinje
-Feilfisker
-Vis requestUsageStatsPermission én gang, brukeren kan endre beslutning i innstillingene
+Nye innstillinger
+Ny sveip for å gjenoppfriske
+Ny sorteringsverktøyslinje
+Nye feilfikser
+Vis requestUsageStatsPermission én gang, beslutningen kan endres i innstillingene
 "Race condition" fikset

@@ -1,0 +1,6 @@
+Mostrar informações sobre doações
+O botão "Congelar" agora é mais visível
+Descrição editada
+Pequenos ajustes & correção de crash
+Melhora no uso de RAM
+Traduções atualizadas

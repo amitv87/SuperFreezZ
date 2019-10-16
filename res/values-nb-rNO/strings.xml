@@ -42,7 +42,7 @@
     <string name="send_logs">Send logger</string>
     <string name="intro_auto_freeze_title">Frysemodus: INTELLIGENT</string>
     <string name="intro_always_freeze_title">Frysemodus: ALLTID FRYS</string>
-    <string name="pref_title_standard_freeze_mode">Forvalgt frysemodus</string>
+    <string name="pref_title_standard_freeze_mode">Forvalgt frysemodus (brukerprogrammer)</string>
     <string name="intro_auto_freeze_explanation">INTELLIGENT FRYSING vil fryse et program kun når det ikke har blitt brukt på en god stund (7 dager som forvalg). Programmer fra F-Droid vil ikke bli fryst.</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT: Frys etter… (dager)</string>
     <string name="do_never_freeze_this_app">Aldri frys dette programmet</string>
@@ -93,6 +93,12 @@
     <string name="plz_help_translating">…Hjelp til å oversette det.</string>
     <string name="plz_donate">…Vær en helt og doner.</string>
     <string name="changed_freeze_mode">Endret frysningsmodus</string>
-    <string name="sort_last_time_used_explanation">Minst nylig brukte programmer først</string>
     <string name="other_apps">Andre programmer</string>
+    <string name="pref_title_standard_freeze_mode_system">Forvalgt frysemodus (systemprogrammer)</string>
+    <string name="system_apps">Systemprogrammer</string>
+    <string name="user_apps">Brukerprogrammer</string>
+    <string name="version_abbrev">v</string>
+    <string name="freeze_question">Frys dette programmet\?</string>
+    <string name="descending">Synkende</string>
+    <string name="ascending">Stigende</string>
 </resources>
