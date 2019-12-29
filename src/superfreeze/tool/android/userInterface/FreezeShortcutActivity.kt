@@ -58,6 +58,7 @@ class FreezeShortcutActivity : Activity() {
 			setResult(RESULT_OK, createShortcutResultIntent(this))
 			finish()
 		} else {
+			FreezerService.stopAnyCurrentFreezing() // Might be that there still was a previous (failed) freeze process, in this case stop it
 			Log.i(TAG, "Performing Freeze.")
 			isWorking = true
 			FreezerService.doOnAppCouldNotBeFrozen = ::onAppCouldNotBeFrozen
@@ -118,7 +119,7 @@ class FreezeShortcutActivity : Activity() {
 			return
 		}
 
-		// Now we can do the actual freezing work:
+		// The actual freezing work will be done in onResume(). Here we just create this iterator.
 		appsToBeFrozenIter = appsPendingFreeze.listIterator()
 	}
 
@@ -133,7 +134,7 @@ class FreezeShortcutActivity : Activity() {
 	override fun onResume() {
 		super.onResume()
 
-		// REenter means NOT on the first launch
+		// Reenter means NOT on the first launch
 		if (!isBeingNewlyCreated) {
 			onReenterActivityListener?.invoke()
 			onReenterActivityListener = null

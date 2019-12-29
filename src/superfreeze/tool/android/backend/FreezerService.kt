@@ -157,6 +157,8 @@ class FreezerService : AccessibilityService() {
 		nextAction = NextAction.DO_NOTHING
 
 		performGlobalAction(GLOBAL_ACTION_BACK)
+
+		Log.i(TAG, "We arrived at pressBackButton(), this means that one app was successfully frozen.")
 	}
 
 	/**
@@ -270,7 +272,7 @@ class FreezerService : AccessibilityService() {
 		 */
 		fun stopAnyCurrentFreezing() {
 			if (nextAction != NextAction.DO_NOTHING)
-				Log.i(TAG, "Stopping current freeze process (stopAnyCurrentFreezing())")
+				Log.i(TAG, "Stopping current freeze process (stopAnyCurrentFreezing()), nextAction was $nextAction")
 			nextAction = NextAction.DO_NOTHING
 			timeoutHandler.removeCallbacksAndMessages(null)
 		}
