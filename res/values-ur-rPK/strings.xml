@@ -99,6 +99,6 @@
     <string name="user_apps">استعمال کنندہ کے ایپس</string>
     <string name="version_abbrev">و</string>
     <string name="freeze_question">اس ایپ کو منجمد کیا جائے؟</string>
-    <string name="descending">ترتیبِ نزولی</string>
-    <string name="ascending">ترتیبِ سعودی</string>
+    <string name="descending">ترتیبِ نزولی▼</string>
+    <string name="ascending">ترتیبِ سعودی ▲</string>
 </resources>

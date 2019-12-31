@@ -21,17 +21,17 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="msg_search">搜索</string>
     <string name="msg_search_help">搜索…</string>
     <string name="share_exception">意料之外的错误 报告使用…</string>
-    <string name="accessibility_service_description">启用此选项让您自动冻结app
-\n
-\n优势：
-\n•无用户交互：更快。无需知道如何操作
-\n•残障用户可用冻结快捷方式(例如，借助语音识别)，自动冻结所有app
-\n
-\nSuperFreezZ使用辅助服务来点按强制停止，确定和返回。获取窗口内容来发现这些按钮，需要观察操作来知道它们何时出现
-\n
-\nSuperFreezZ仅使用辅助服务来点按强制停止，确定和返回。app需要获取窗口内容来发现这些按钮，为了知道它们何时出现，需要观察您的动作
-\n
-\n在较新的安卓系统版本上，辅助服务也可用于在冻结操作后锁定屏幕</string>
+    <string name="accessibility_service_description">启用此选项让您自动冻结app 
+\n 
+\n优势： 
+\n•无用户交互：更快。无需知道如何操作 
+\n•残障人士可用冻结快捷方式(例如，借助语音识别)，自动冻结所有app.
+\n 
+\nSuperFreezZ使用辅助服务来点按强制停止，确定和返回。获取窗口内容来发现这些按钮，需要观察操作来知道它们何时出现.
+\n 
+\nSuperFreezZ仅使用辅助服务来点按强制停止，确定和返回。应用需要获取窗口内容来发现这些按钮，为了知道它们何时出现，需要观察您的动作.
+\n 
+\n在较新的安卓系统版本上，辅助服务也可用于在冻结操作后锁定屏幕.</string>
     <string name="freeze_shortcut_label">冻结</string>
     <string name="NothingToFreeze">没有可冻结的APP</string>
     <string name="undo">撤销操作</string>
@@ -136,4 +136,6 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="user_apps">用户app</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">冻结该app\?</string>
+    <string name="descending">降序</string>
+    <string name="ascending">升序</string>
 </resources>

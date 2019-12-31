@@ -1,0 +1,9 @@
+Aggiunti gruppi per app utente/sistema, aggiunto comportamento standard per app di sistema. Grazie Darkimmortal!
+Corretto congelamento automatico su Android 10. Grazie ancora, Darkimmortal!
+Corretto #67 Ordine ascendente/discendente
+Ignora dumb java.lang.IndexOutOfBoundsException
+Corretto #61 tocco su "non congelare" deve chiedere
+Corretto #63 info versione in "impostazioni > informazioni"
+Corretto #62 tocco su app deve congelare solo l'app
+Supporto base a Fire TV/tastiera
+Aggiornate traduzioni

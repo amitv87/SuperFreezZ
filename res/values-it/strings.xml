@@ -86,11 +86,11 @@
     <string name="logs_copied">Log copiati negli appunti.</string>
     <string name="freeze_manually_no">Non voglio doverlo fare</string>
     <string name="fdroid_app_not_pending_freeze">App F-Droid</string>
-    <string name="used_recently_and_frozen">Usata recentemente e congelata</string>
+    <string name="used_recently_and_frozen">Usata di recente e congelata</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">Intelligente: Congela App di F-Droid</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Solitamente le app di F-Droid non vengono eseguite in background così spesso.</string>
     <string name="if_you_like_this_app">Se ti piace questa app</string>
-    <string name="plz_help_translating">Aiuta a Tradurre</string>
+    <string name="plz_help_translating">Aiuta a Tradurre.</string>
     <string name="plz_donate">Dona</string>
     <string name="changed_freeze_mode">Modalità di congelamento modificata</string>
     <string name="other_apps">Altre App</string>
@@ -99,6 +99,6 @@
     <string name="user_apps">App Utente</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Congelare questa app\?</string>
-    <string name="descending">Discendente</string>
-    <string name="ascending">Ascendente</string>
+    <string name="descending">Discendente ▼</string>
+    <string name="ascending">Ascendente ▲</string>
 </resources>
