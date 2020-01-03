@@ -73,6 +73,7 @@ private val screenReceiver by lazy {
 				Log.i(TAG, "Screen off.")
 				resetScreenIfNecessary(context)
 
+				// If the power button is pressed during freezing, freezing should be aborted:
 				if (FreezeShortcutActivity.isWorking) {
 					FreezeShortcutActivity.activity?.finish()
 					FreezerService.stopAnyCurrentFreezing()
