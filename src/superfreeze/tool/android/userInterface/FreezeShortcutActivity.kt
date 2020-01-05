@@ -208,7 +208,7 @@ class FreezeShortcutActivity : Activity() {
 			val shortcutIntent =
 				Intent(context.applicationContext, FreezeShortcutActivity::class.java)
 			shortcutIntent.addFlags(
-				Intent.FLAG_ACTIVITY_CLEAR_TOP or
+				Intent.FLAG_ACTIVITY_CLEAR_TASK or
 						Intent.FLAG_ACTIVITY_NEW_TASK or
 						Intent.FLAG_ACTIVITY_NO_ANIMATION
 			)
@@ -260,14 +260,8 @@ class FreezeShortcutActivity : Activity() {
 		 * Called after one app could not be frozen
 		 */
 		private fun onAppCouldNotBeFrozen(context: Context) {
-			Log.w(TAG, "AppCouldNotBeFrozen, bringing FreezeShortcutActivity back to front")
-			val i = Intent(context.applicationContext, FreezeShortcutActivity::class.java)
-			i.addFlags(
-				Intent.FLAG_ACTIVITY_CLEAR_TOP or
-						Intent.FLAG_ACTIVITY_NEW_TASK or
-						Intent.FLAG_ACTIVITY_NO_ANIMATION
-			)
-			context.startActivity(i)
+			Log.w(TAG, "AppCouldNotBeFrozen, restarting FreezeShortcutActivity")
+			context.startActivity(createShortcutIntent(context))
 		}
 	}
 }
