@@ -160,4 +160,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="freeze_question">Freeze this app?</string>
     <string name="descending">Descending</string>
     <string name="ascending">Ascending</string>
+	<string name="power_button_hint">Hint: Press the Power button to abort the freeze process</string>
 </resources>

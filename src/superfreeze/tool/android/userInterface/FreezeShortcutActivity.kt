@@ -63,6 +63,7 @@ class FreezeShortcutActivity : Activity() {
 			Log.i(TAG, "Performing Freeze.")
 			isWorking = true
 			FreezerService.doOnAppCouldNotBeFrozen = ::onAppCouldNotBeFrozen
+			toast(getString(R.string.power_button_hint), Toast.LENGTH_LONG)
 			performFreeze()
 		}
 	}
