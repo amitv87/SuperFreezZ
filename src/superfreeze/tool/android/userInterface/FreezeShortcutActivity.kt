@@ -47,6 +47,7 @@ class FreezeShortcutActivity : Activity() {
 
 	private var isBeingNewlyCreated: Boolean = true
 	private var appsToBeFrozenIter: ListIterator<String>? = null
+	var isWorking = false
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -69,12 +70,19 @@ class FreezeShortcutActivity : Activity() {
 	override fun onDestroy() {
 		super.onDestroy()
 		Log.i(TAG, "Destroying")
-		onFreezeFinishedListener?.invoke()
-		onFreezeFinishedListener = null
-		FreezerService.doOnAppCouldNotBeFrozen = null
-		activity = null
+
+		// If activity != this, another instance of FreezeShortcutActivity might already have been started
+		// and we must not clean the "static" things up here!
+		if (activity == this) {
+			activity = null
+			onFreezeFinishedListener?.invoke(this)
+			onFreezeFinishedListener = null
+			FreezerService.doOnAppCouldNotBeFrozen = null
+			FreezerService.finishedFreezing()
+		} else {
+			Log.i(TAG, "...but not cleaning up because activity != this")
+		}
 		isWorking = false
-		FreezerService.finishedFreezing()
 	}
 
 
@@ -197,7 +205,8 @@ class FreezeShortcutActivity : Activity() {
 		}
 
 		private fun createShortcutIntent(context: Context): Intent {
-			val shortcutIntent = Intent(context.applicationContext, FreezeShortcutActivity::class.java)
+			val shortcutIntent =
+				Intent(context.applicationContext, FreezeShortcutActivity::class.java)
 			shortcutIntent.addFlags(
 				Intent.FLAG_ACTIVITY_CLEAR_TOP or
 						Intent.FLAG_ACTIVITY_NEW_TASK or
@@ -245,9 +254,7 @@ class FreezeShortcutActivity : Activity() {
 		var activity: FreezeShortcutActivity? = null
 			private set
 
-		var isWorking = false
-
-		var onFreezeFinishedListener: (() -> Unit)? = null
+		var onFreezeFinishedListener: (Context.() -> Unit)? = null
 
 		/**
 		 * Called after one app could not be frozen
@@ -255,7 +262,11 @@ class FreezeShortcutActivity : Activity() {
 		private fun onAppCouldNotBeFrozen(context: Context) {
 			Log.w(TAG, "AppCouldNotBeFrozen, bringing FreezeShortcutActivity back to front")
 			val i = Intent(context.applicationContext, FreezeShortcutActivity::class.java)
-			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+			i.addFlags(
+				Intent.FLAG_ACTIVITY_CLEAR_TOP or
+						Intent.FLAG_ACTIVITY_NEW_TASK or
+						Intent.FLAG_ACTIVITY_NO_ANIMATION
+			)
 			context.startActivity(i)
 		}
 	}
