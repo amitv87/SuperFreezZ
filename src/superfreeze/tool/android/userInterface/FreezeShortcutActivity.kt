@@ -69,18 +69,18 @@ class FreezeShortcutActivity : Activity() {
 
 	override fun onDestroy() {
 		super.onDestroy()
-		Log.i(TAG, "Destroying")
 
 		// If activity != this, another instance of FreezeShortcutActivity might already have been started
 		// and we must not clean the "static" things up here!
 		if (activity == this) {
+			Log.i(TAG, "Destroying, cleaning up")
 			activity = null
 			onFreezeFinishedListener?.invoke(this)
 			onFreezeFinishedListener = null
 			FreezerService.doOnAppCouldNotBeFrozen = null
 			FreezerService.finishedFreezing()
 		} else {
-			Log.i(TAG, "...but not cleaning up because activity != this")
+			Log.i(TAG, "Destroying, but not cleaning up because activity != this")
 		}
 		isWorking = false
 	}
