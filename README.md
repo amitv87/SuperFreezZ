@@ -60,6 +60,8 @@ You can always add other lanuages.
 
 Developing SuperFreezZ is and was a lot of effort, which I did in my free time. Please donate to show me your support and to boost development.
 
+Also, I will upload it to the Play Store when I earned €25 through donations (because uploading to the Play Store costs that much)
+
 [<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">](https://liberapay.com/Hocuri/)
 
 Credits
