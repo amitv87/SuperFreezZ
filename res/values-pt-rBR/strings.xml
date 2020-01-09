@@ -25,7 +25,7 @@
     <string name="automate_the_freezing_of_apps">Automatizar o congelamento de aplicativos\?</string>
     <string name="credits_and_licenses">Créditos e licenças de terceiros</string>
     <string name="user_apps">Aplicativos de usuário</string>
-    <string name="descending">Descendente</string>
+    <string name="descending">Decrescente</string>
     <string name="freeze_off">O congelamento deste aplicativo é interrompido (nunca será congelado)
 \nCongelamento desligado</string>
     <string name="no_apps_pending_freeze">[SEM CONGELAMENTO DE APLICATIVOS PENDENTES]</string>
@@ -81,9 +81,9 @@
 \n• Nenhuma interação do usuário: mais rápido. Não há necessidade de saber como fazê-lo. 
 \n• Usuários desabilitados podem usar o atalho de congelamento (por meio do reconhecimento de fala, por exemplo), congelando todos os aplicativos automaticamente.  
 \n
-\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORCE PARADA\", \"OK\" e \"Voltar\". A recuperação do conteúdo da janela localiza esses botões, e a observação de ações é necessária para saber quando elas aparecem.  
+\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA\", \"OK\" e \"Voltar\". A recuperação do conteúdo da janela localiza esses botões, e a observação de ações é necessária para saber quando elas aparecem.  
 \n
-\nSuperFreezZ apenas usa o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\" e \"Back\". Recuperar o conteúdo da janela é necessário para encontrar esses botões e observar suas ações é necessário saber quando eles aparecem.  
+\nSuperFreezZ apenas usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA \", \"OK\" e \"Voltar \". Recuperar o conteúdo da janela é necessário para encontrar esses botões e observar suas ações é necessário saber quando eles aparecem.  
 \n
 \nO serviço de acessibilidade também pode ser usado para bloquear a tela após o congelamento em versões mais recentes do Android."</string>
     <string name="enable">Permitir</string>

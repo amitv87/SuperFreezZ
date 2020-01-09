@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_search">Zoeken</string>
+    <string name="msg_search_help">Zoeken…</string>
+    <string name="share_exception">Onverwachte fout. Meld deze met…</string>
+    <string name="accessibility_service_description">Schakel dit in om apps automatisch te bevriezen.
+\n
+\nVoordelen:
+\n• Snel, geen handelingen benodigd, geen kennis vereist.
+\n• Mensen met een beperking kunnen de app bedienen via spraakherkenning.
+\n
+\nSuperFreezZ gebruikt de toegankelijkheidsdienst om \'GEFORCEERD AFSLUITEN\', \'OKÉ\' en de terugknop aan te roepen. De vensterinhoud werkt met deze knoppen en observeert acties om te weten wanneer ze nodig zijn.
+\n
+\nSuperFreezZ gebruikt de toegankelijkheidsdienst om \'GEFORCEERD AFSLUITEN\', \'OKÉ\' en de terugknop aan te roepen. De vensterinhoud werkt met deze knoppen en observeert acties om te weten wanneer ze nodig zijn.
+\n
+\nDe toegankelijkheidsdienst kan tevens worden gebruikt om het scherm te vergrendelen na het bevriezen.</string>
+    <string name="freeze_shortcut_label">Bevriezen</string>
+    <string name="NothingToFreeze">Er valt niks te bevriezen</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="icon">Pictogram</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Bevries deze app als hij al een tijdje niet gebruikt is.</string>
+    <string name="always_freeze_this_app">App altijd bevriezen</string>
+    <string name="do_never_freeze_this_app">App nooit bevriezen</string>
+    <string name="pending_freeze">Nog te bevriezen</string>
+    <string name="frozen">Bevroren</string>
+    <string name="freeze_off">Bevriezen uitgeschakeld</string>
+    <string name="used_recently">Onlangs gebruikt</string>
+    <string name="no_apps_pending_freeze">[GEEN TE BEVRIEZEN APPS]</string>
+    <string name="all_apps">ALLE APPS</string>
+    <string name="usagestats_access">Gebruiksstatieken</string>
+    <string name="usatestats_explanation">Gebruiksstatistieken maken het mogelijk voor SuperFreezZ om apps te bevriezen als je ze al even niet hebt gebruikt (\'INTELLIGENT BEVRIEZEN\').</string>
+    <string name="enable">Inschakelen</string>
+    <string name="usagestats_not_enabled">Je hebt de machtiging niet afgegeven.</string>
+    <string name="automate_the_freezing_of_apps">Wil je apps automatisch bevriezen\?</string>
+    <string name="accessibility_arguments_yes">Voor:
+\n• Gebruiksgemak
+\n• Het bevriezen van apps</string>
+    <string name="accessibility_arguments_no">Bevries een app door te drukken op \'GEFORCEERD AFSLUITEN\', \'OKÉ\' en de terugknop.
+\nVoor:
+\n• Langzame apparaten
+\n• Beveiligingsdoeleinden
+\n• Het niet hoeven te registreren van de app als toegankelijkheidsdienst</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="intro_always_freeze_title">Bevriezingsmodus: ALTIJD BEVRIEZEN</string>
+    <string name="intro_always_freeze_explanation">Er zijn 3 modi - je kunt per app aangeven welke je wilt gebruiken. \'ALTIJD BEVRIEZEN\' bevriest een app onder alle omstandigheden.</string>
+    <string name="intro_never_freeze_title">Bevriezingsmodus: NOOIT BEVRIEZEN</string>
+    <string name="intro_never_freeze_explanation">\'NOOIT BEVRIEZEN\' zorgt ervoor dat een app nooit bevroren wordt.</string>
+    <string name="intro_auto_freeze_title">Bevriezingsmodus: INTELLIGENT</string>
+    <string name="intro_auto_freeze_explanation">\'INTELLIGENT BEVRIEZEN\' zorgt ervoor dat een app alleen bevroren wordt als deze enige tijd niet gebruikt is (standaard: 7 dagen). Apps uit F-Droid worden niet bevroren.</string>
+    <string name="freeze_manually">Handmatig bevriezen</string>
+    <string name="Press_forcestop_ok_back">Bevries een app door te drukken op \'GEFORCEERD AFSLUITEN\', \'OKÉ\' en de terugknop.</string>
+    <string name="freeze_manually_no">Ik wil dit niet</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="pref_header_appslist">Lijst met apps</string>
+    <string name="pref_title_standard_freeze_mode">Standaard bevriesmodus (gebruikersapps)</string>
+    <string name="pref_title_standard_freeze_mode_system">Standaard bevriesmodus (systeemapps)</string>
+    <string name="pref_header_about">Over</string>
+    <string name="pref_header_freezing">Apps bevriezen</string>
+    <string name="pref_ringtone_silent">Stil</string>
+    <string name="appslist_show_special">Speciale apps tonen op de lijst</string>
+    <string name="pref_intelligentfreeze_delay">INTELLIGENT: bevriezen na ... (dagen)</string>
+    <string name="pref_summary_appslist_show_special">Het startscherm, SuperFreezZ zelf en systeemapps zijn standaard verborgen.</string>
+    <string name="create_freeze_shortcut">Bevriessnelkoppeling maken</string>
+    <string name="settings">Instellingen</string>
+    <string name="sort">Sorteren</string>
+    <string name="pref_header_freezing_summary">Geef aan hoe en welke apps moeten worden bevroren</string>
+    <string name="pref_header_about_summary">Handige links, logbestanden versturen</string>
+    <string name="pref_header_appslist_summary">Toon speciale apps - standaard bevriesmodus</string>
+    <string name="freeze_apps_now">Apps nu bevriezen</string>
+    <string name="freeze_on_screen_off_title">Bevriezen als het scherm wordt uitgeschakeld</string>
+    <string name="freeze_on_screen_off_sum">Schakel \'Aan-/Uitknop vergrendelt direct\' uit in de apparaatinstellingen</string>
+    <string name="problems">Problemen</string>
+    <string name="links">Links</string>
+    <string name="info">Informatie</string>
+    <string name="view_intro_again">Introductie bekijken</string>
+    <string name="logs_copied">Logbestanden zijn gekopieerd naar het klembord.</string>
+    <string name="share_logs">Logbestanden delen middels…</string>
+    <string name="sf_crashed">SuperFreezZ is gecrasht. Meld het probleem (als je dat nog niet hebt gedaan).</string>
+    <string name="report">Meld een probleem, draag een idee aan, …</string>
+    <string name="send_logs">Logbestanden versturen</string>
+    <string name="source_code">Broncode</string>
+    <string name="license">Licentie</string>
+    <string name="credits_and_licenses">Dankwoord en externe licenties</string>
+    <string name="already_frozen">Reeds bevroren</string>
+    <string name="intro_header_welcome">welkom bij</string>
+    <string name="intro_header_modes">modi</string>
+    <string name="intro_header_automaticfreezing">automatisch bevriezen</string>
+    <string name="sort_by">Sorteren op</string>
+    <string name="not_available">Niet beschikbaar</string>
+    <string name="fdroid_app_not_pending_freeze">F-Droid-app</string>
+    <string name="used_recently_and_frozen">Onlangs gebruikt en bevroren</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: F-Droid-apps bevriezen</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid-apps draaien meestal niet op de achtergrond.</string>
+    <string name="other_apps">Overige apps</string>
+    <string name="system_apps">Systeemapps</string>
+    <string name="user_apps">Gebruikersapps</string>
+    <string name="if_you_like_this_app">Als deze app bevalt…</string>
+    <string name="plz_help_translating">...help dan met het vertalen ervan.</string>
+    <string name="plz_donate">...wees dan een held en doneer.</string>
+    <string name="changed_freeze_mode">Bevriesmodus gewijzigd</string>
+    <string name="version_abbrev">v</string>
+    <string name="freeze_question">Wil je deze app bevriezen\?</string>
+    <string name="descending">Aflopend</string>
+    <string name="ascending">Oplopend</string>
+</resources>

@@ -1,3 +1,3 @@
-Vis bunnfeltsoppdateringer igjen (de sluttet å virke i tidligere versjon)
+Bunnfeltsoppdateringer vist igjen (sluttet å virke i en tidligere versjon)
 Oppdaterte oversettelser
 Mange kræsj- og feilrettinger

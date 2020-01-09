@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_search">Szukaj</string>
+    <string name="msg_search_help">Szukaj…</string>
+    <string name="share_exception">Niespodziewany błąd. Zgłoś za pomocą…</string>
+    <string name="accessibility_service_description">Włączenie tej funkcji pozwala automatycznie zamrozić aplikacje.
+\n 
+\nZalety:
+\n- Brak interakcji z użytkownikiem: Szybciej. Nie musisz wiedzieć, jak to zrobić.
+\n- Użytkownicy niepełnosprawni mogą korzystać ze skrótu do zamrażania (np. poprzez rozpoznawanie mowy), automatycznie zamrażając wszystkie aplikacje.
+\n 
+\nSuperFreezZ korzysta z usługi dostępności, aby dotknąć opcji \"FORCE STOP\", \"OK\" i \"Back\". Odzyskiwanie zawartości okna znajduje te przyciski, a obserwacja działań jest konieczna, aby wiedzieć, kiedy się pojawią.
+\n 
+\nSuperFreezZ po prostu korzysta z usługi dostępności, aby dotknąć opcji \"FORCE STOP\", \"OK\" i \"Back\". Odzyskiwanie zawartości okna jest konieczne, aby znaleźć te przyciski i obserwować swoje działania, aby wiedzieć, kiedy się pojawią.
+\n 
+\nUsługa dostępności może być również wykorzystywana do blokowania ekranu po zamrożeniu na nowszych wersjach Androida.</string>
+    <string name="freeze_shortcut_label">Zamróź</string>
+    <string name="NothingToFreeze">Nie ma co zamrażać</string>
+    <string name="undo">Cofnij</string>
+    <string name="icon">Ikona</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Zamróź tę aplikację, jeśli nie była używana przez dłuższy czas.</string>
+    <string name="always_freeze_this_app">Zawsze zamrażaj tę aplikację</string>
+    <string name="do_never_freeze_this_app">Nigdy nie zamrażaj tej aplikacji</string>
+    <string name="pending_freeze">Oczekuje na zamrożenie</string>
+    <string name="frozen">Zamrożona</string>
+    <string name="freeze_off">Zamrażanie wyłączone</string>
+    <string name="used_recently">Ostatnio używane</string>
+    <string name="no_apps_pending_freeze">[BRAK APLIKACJI OCZEKUJĄCYCH NA ZAMROŻENIE]</string>
+    <string name="all_apps">WSZYSTKIE APLIKACJE</string>
+    <string name="usagestats_access">Dostęp do UsageStats</string>
+    <string name="usatestats_explanation">UsageStats umożliwia SuperFreezZ zamrażanie aplikacji tylko wtedy, gdy nie korzystałeś z nich przez jakiś czas (INTELIGENT FREEZE).</string>
+    <string name="enable">Włącz</string>
+    <string name="usagestats_not_enabled">Nie przyznałeś dostępu do UsageStats.</string>
+    <string name="automate_the_freezing_of_apps">Zautomatyzować zamrażanie aplikacji\?</string>
+    <string name="accessibility_arguments_yes">Aby:
+\n- Ułatwić użytkowanie
+\n- Zamrażać wiele aplikacji na raz</string>
+    <string name="accessibility_arguments_no">Będziesz musiał nacisnąć \"FORCE STOP\", \"OK\" i \"Back\" ręcznie, aby zamrozić aplikację.
+\nZe względu na:
+\n- Mało wydajne urządzenie
+\n- Kwestie bezpieczeństwa
+\n- Brak rejestracji SuperFreezZ jako usługi dostępności.</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="intro_always_freeze_title">Tryb zamrażania: ZAWSZE ZAMRAŻAJ</string>
+    <string name="intro_always_freeze_explanation">Istnieją 3 tryby zamrażania. Możesz wybrać jeden dla każdej aplikacji. ZAWSZE ZAMRAŻAJ zamrozi aplikację w każdym przypadku.</string>
+    <string name="intro_never_freeze_title">Tryb zamrażania: NIGDY NIE ZAMRAŻAJ</string>
+    <string name="intro_never_freeze_explanation">NIGDY NIE ZAMRAŻAJ - wyłącza zamrażanie i nigdy nie zamraża aplikacji.</string>
+    <string name="intro_auto_freeze_title">Tryb zamrażania: INTELIGENTNY</string>
+    <string name="intro_auto_freeze_explanation">INTELIGENTNE ZAMRAŻANIE zamrozi aplikację tylko wtedy, gdy nie była używana przez jakiś czas (domyślnie 7 dni). Również aplikacje z F-Droid nie będą zamrażane.</string>
+    <string name="freeze_manually">Ręczne zamrażanie</string>
+</resources>

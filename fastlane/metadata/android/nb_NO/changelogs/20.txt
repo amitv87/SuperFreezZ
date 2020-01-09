@@ -1,0 +1,9 @@
+Lagt til gruppe etter bruker/systemprogram tillagt oppsettbart forvalgt fryseoppførsel for systemprogrammer. Takk, Darkimmortal!
+Fikset autofrysing på Android 10. Takk igjen, Darkimmortal!
+Fiks #67 Stigende/synkende sortering
+Ignorer dum java.lang.IndexOutOfBoundsException
+Fiks #61 å trykke på "aldri frys"-elementer utløser spørring
+Fiks #63 versjonsinfo i "Innstillinger → Om"
+Fiks #62 Trykking på ett program fryser ett program
+Grunnleggende Fire TV/tastatur-støtte
+Oppdaterte oversettelser

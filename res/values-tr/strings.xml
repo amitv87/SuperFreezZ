@@ -18,16 +18,15 @@
     <string name="usatestats_explanation">Kullanım istatistikleri erişimi, SuperFreezZ\'in yalnızca bir süre kullanmadığınız uygulamaları dondurmasını mümkün kılar (akıllı dondurma).</string>
     <string name="enable">Etkin</string>
     <string name="usagestats_not_enabled">Kullanım istatistiklerine erişim izni vermedin.</string>
-    <string name="automate_the_freezing_of_apps">Uygulamaların dondurulmasını otomatikleştirmek mi\?</string>
-    <string name="accessibility_arguments_yes">Için: 
-\n• Kullanım kolaylığı 
-\n• Birçok uygulamanın dondurulması</string>
+    <string name="automate_the_freezing_of_apps">Uygulamaların dondurulmasını otomatikleştir</string>
+    <string name="accessibility_arguments_yes">• Kullanım kolaylığı 
+\n• Birçok uygulamanın dondurulması için</string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="intro_always_freeze_title">Dondurma modu: DAİMA DONDURMA</string>
     <string name="intro_always_freeze_explanation">3 donma modu vardır. Her uygulama için bir tane seçebilirsiniz. HER HALÜKARDA BIR uygulamayı DONDURACAKTIR.</string>
     <string name="intro_never_freeze_title">Dondurma modu: ASLA DONDURMA</string>
-    <string name="intro_never_freeze_explanation">ASLA DONDURMAYACAK - dondurmayı kapatır ve bir uygulamayı asla dondurmaz.</string>
+    <string name="intro_never_freeze_explanation">ASLA DONDURMA - dondurmayı kapatır ve bir uygulamayı asla dondurmaz.</string>
     <string name="intro_auto_freeze_title">Dondurma modu: AKILLI</string>
     <string name="intro_auto_freeze_explanation">AKILLI FREEZE bir uygulamayı yalnızca bir süredir kullanılmamışsa dondurur (varsayılan olarak 7 gün). Ayrıca, F-Droid uygulamaları dondurulmuş olmayacaktır.</string>
     <string name="freeze_manually">El ile dondur</string>
@@ -35,13 +34,13 @@
     <string name="freeze_manually_no">Bunu yapmak zorunda olmak istemiyorum</string>
     <string name="title_activity_settings">Ayarlar</string>
     <string name="pref_header_appslist">Uygulamalar listesi</string>
-    <string name="pref_title_standard_freeze_mode">Standart dondurma modu</string>
+    <string name="pref_title_standard_freeze_mode">Standart dondurma modu (kullanıcı uygulamaları)</string>
     <string name="pref_header_about">Hakkında</string>
     <string name="pref_header_freezing">Uygulamaları dondurma</string>
     <string name="pref_ringtone_silent">Sessiz</string>
     <string name="appslist_show_special">Listedeki özel uygulamaları göster</string>
-    <string name="pref_intelligentfreeze_delay">AKILLI: Sonra dondurun ... (gün)</string>
-    <string name="pref_summary_appslist_show_special">Başlatıcı, SuperFreezZ kendisi ve sistem uygulamaları varsayılan olarak gizlidir.</string>
+    <string name="pref_intelligentfreeze_delay">AKILLI: ... (gün) Sonra durdurun</string>
+    <string name="pref_summary_appslist_show_special">Başlatıcı, SuperFreezZ ve sistem uygulamaları varsayılan olarak gizlidir.</string>
     <string name="create_freeze_shortcut">Dondurma kısayolu oluştur</string>
     <string name="settings">Ayarlar</string>
     <string name="sort">Sıralama</string>
@@ -55,9 +54,9 @@
     <string name="info">Bilgi</string>
     <string name="view_intro_again">Girişi yeniden görüntüle</string>
     <string name="logs_copied">Günlükler panoya kopyalandı.</string>
-    <string name="share_logs">Kullanarak günlükleri paylaş…</string>
+    <string name="share_logs">Kullanarak günlükleri paylaş</string>
     <string name="sf_crashed">SuperFreezZ çöktü. Henüz yapmadıysanız, lütfen bir rapor gönderin.</string>
-    <string name="report">Bir sorunu bildirin, bir özellik önerin, …</string>
+    <string name="report">Bir sorunu bildirin, bir özellik önerin…</string>
     <string name="send_logs">Günlükleri gönder</string>
     <string name="source_code">Kaynak kodu</string>
     <string name="license">Lisans</string>
@@ -65,14 +64,23 @@
     <string name="already_frozen">Zaten dondurulmuş</string>
     <string name="intro_header_welcome">hoş geldiniz</string>
     <string name="intro_header_automaticfreezing">otomatik dondurma</string>
-    <string name="sort_by">Göre Sırala</string>
+    <string name="sort_by">Sırala</string>
     <string name="not_available">Mevcut değil</string>
     <string name="fdroid_app_not_pending_freeze">F-Droid uygulaması</string>
-    <string name="used_recently_and_frozen">Son zamanlarda kullanılan ve dondurulmuş</string>
+    <string name="used_recently_and_frozen">Son zamanlarda kullanıldı &amp; dondurulmuş</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">AKILLI: F-Droid uygulamalarını dondurun</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid uygulamaları genellikle arka planda çok fazla çalışmaz.</string>
     <string name="if_you_like_this_app">Bu uygulamayı beğendiysen…</string>
-    <string name="plz_help_translating">...lütfen çevirmeye yardım edin.</string>
-    <string name="plz_donate">...Lütfen kahraman ol ve bağış yap.</string>
-    <string name="changed_freeze_mode">Değişen donma modu</string>
+    <string name="plz_help_translating">Lütfen çevirmeye yardım edin...</string>
+    <string name="plz_donate">Lütfen kahraman ol ve bağış yap...</string>
+    <string name="changed_freeze_mode">Dondurma modu değişti</string>
+    <string name="no_apps_pending_freeze">[DONDURULMAYI BEKLEYEN UYGULAMA YOK]</string>
+    <string name="pref_header_appslist_summary">Özel uygulamaları göster, standart dondurma modu</string>
+    <string name="intro_header_modes">modlar</string>
+    <string name="other_apps">Diğer uygulamalar</string>
+    <string name="pref_title_standard_freeze_mode_system">Standart dondurma modu (sistem uygulamaları)</string>
+    <string name="system_apps">Sistem uygulamaları</string>
+    <string name="user_apps">Kullanıcı uygulamaları</string>
+    <string name="descending">Azalan</string>
+    <string name="ascending">Artan</string>
 </resources>

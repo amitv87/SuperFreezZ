@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_exception">ಅನಿರೀಕ್ಷಿತ ದೋಷ. ವರದಿ ಮಾಡಿ…</string>
+    <string name="accessibility_service_description">ಇದನ್ನು ಆನ್ ಮಾಡುವುದರಿಂದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫ್ರೀಜ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.
+\n 
+\nಪ್ರಯೋಜನಗಳು:
+\nUser ಬಳಕೆದಾರರ ಸಂವಹನವಿಲ್ಲ: ವೇಗ. ಅದನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ನೀವು ತಿಳಿಯಬೇಕಾಗಿಲ್ಲ, ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫ್ರೀಜ್ ಮಾಡುತ್ತದೆ.
+\n• ಅಂಗವಿಕಲ ಬಳಕೆದಾರರು ಫ್ರೀಜ್ ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ಬಳಸಬಹುದು (ಉದಾಹರಣೆಗೆ ಭಾಷಣ ಗುರುತಿಸುವಿಕೆಯ ಮೂಲಕ), ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫ್ರೀಜ್ ಮಾಡಬಹುದು.
+\n 
+\nSuperFreezZ \"ಫೋರ್ಸ್ ಸ್ಟಾಪ್\", \"ಸರಿ\" ಮತ್ತು \"ಬ್ಯಾಕ್\" ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಲು ಪ್ರವೇಶಿಸುವಿಕೆ(accessebility) ಸೇವೆಯನ್ನು ಬಳಸುತ್ತದೆ. ವಿಂಡೋ ವಿಷಯದ ಮರುಪಡೆಯುವಿಕೆ ಈ ಗುಂಡಿಗಳನ್ನು(buttons) ಕಂಡುಕೊಳ್ಳುತ್ತದೆ, ಮತ್ತು ಅವು ಕಾಣಿಸಿಕೊಂಡಾಗ ತಿಳಿಯಲು ಕ್ರಿಯೆಗಳ ಅವಲೋಕನ ಅಗತ್ಯವಿದೆ.
+\n 
+\nSuperFreezZ \"ಫೋರ್ಸ್ ಸ್ಟಾಪ್\", \"ಸರಿ\" ಮತ್ತು \"ಬ್ಯಾಕ್\" ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಲು ಪ್ರವೇಶಿಸುವಿಕೆ(accessebility) ಸೇವೆಯನ್ನು ಬಳಸುತ್ತದೆ. ಈ ಗುಂಡಿಗಳನ್ನು(buttons) ಕಂಡುಹಿಡಿಯಲು ವಿಂಡೋ ವಿಷಯವನ್ನು ಹಿಂಪಡೆಯುವುದು ಅವಶ್ಯಕ ಮತ್ತು ಅವು ಕಾಣಿಸಿಕೊಂಡಾಗ ನಿಮ್ಮ ಕ್ರಿಯೆಗಳು ವೀಕ್ಷಿಸಿ ಅಗತ್ಯ.
+\n 
+\nಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಆವೃತ್ತಿಗಳಲ್ಲಿ freez ನಂತರ ಪರದೆಯನ್ನು ಲಾಕ್ ಮಾಡಲು ಪ್ರವೇಶಿಸುವಿಕೆ(accessebility) ಸೇವೆಯನ್ನು ಸಹ ಬಳಸಬಹುದು.</string>
+    <string name="freeze_shortcut_label">ಫ್ರೀಜ್ ಮಾಡಿ</string>
+    <string name="NothingToFreeze">ಫ್ರೀಜ್ ಮಾಡಲು ಏನೂ ಇಲ್ಲ</string>
+    <string name="undo">ರದ್ದುಗೊಳಿಸು</string>
+    <string name="icon">ಲಾಂಛನ</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಹೆಚ್ಚು ಸಮಯದವರೆಗೆ ಬಳಸದಿದ್ದರೆ, ಅದನ್ನು ಫ್ರೀಜ್ ಮಾಡಿ.</string>
+    <string name="always_freeze_this_app">ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಖಚಿತವಾಗಿ ಫ್ರೀಜ್ ಮಾಡಿ</string>
+    <string name="do_never_freeze_this_app">ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಎಂದಿಗೂ ಫ್ರೀಜ್ ಮಾಡಬೇಡಿ</string>
+    <string name="pending_freeze">ಫ್ರೀಜ್ ಮಾಡಲು ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="frozen">ಈಗಾಗಲೇ ಫ್ರೀಜ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="freeze_off">ಫ್ರೀಜ್ ಆಫ್</string>
+    <string name="used_recently">ಇತ್ತೀಚೆಗೆ ಬಳಸಲಾಗಿದೆ</string>
+    <string name="no_apps_pending_freeze">[ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಬಾಕಿ ಉಳಿದಿಲ್ಲ]</string>
+    <string name="all_apps">ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್ಗಳು</string>
+    <string name="usagestats_access">ಯೂಸ್‌ಸ್ಟಾಟ್‌ಗೆ accesಮಾಡಲು</string>
+    <string name="usatestats_explanation">ಯೂಸ್‌ಸ್ಟ್ಯಾಟ್‌ಗಳ ಪ್ರವೇಶವು ಸೂಪರ್‌ಫ್ರೀಜ್‌ಜೆಡ್‌ಗೆ ನೀವು ಸ್ವಲ್ಪ ಸಮಯದವರೆಗೆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಬಳಸದಿದ್ದಲ್ಲಿ ಮಾತ್ರ ಅವುಗಳನ್ನು ಫ್ರೀಜ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಸುತ್ತದೆ (INTELLIGENT FREEZE).</string>
+</resources>
