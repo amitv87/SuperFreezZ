@@ -101,4 +101,5 @@
     <string name="freeze_question">Congelare questa app\?</string>
     <string name="descending">Discendente ▼</string>
     <string name="ascending">Ascendente ▲</string>
+    <string name="power_button_hint">Suggerimento: Premere il Pulsante di Accensione per interrompere il processo di congelamento</string>
 </resources>

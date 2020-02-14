@@ -1,0 +1,7 @@
+Grupo adicionado por aplicativos do usuário / sistema, comportamento de congelamento padrão configurável adicionado para aplicativos do sistema. Obrigado, Darkimmortal!
+Corrigido congelamento automático no Android 10. Obrigado novamente, Darkimmortal!
+Fixed # 67 Classificar em ordem crescente / decrescente
+Ignorar dumb java.lang.IndexOutOfBoundsException
+Corrigido o toque # 61 em itens "nunca congelar" deve solicitar
+Corrigida a informação da versão # 63 em "configurações> sobre"
+Corrigido o err

@@ -101,6 +101,7 @@
     <string name="changed_freeze_mode">Bevriesmodus gewijzigd</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Wil je deze app bevriezen\?</string>
-    <string name="descending">Aflopend</string>
-    <string name="ascending">Oplopend</string>
+    <string name="descending">Aflopend ▼</string>
+    <string name="ascending">Oplopend ▲</string>
+    <string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
 </resources>
