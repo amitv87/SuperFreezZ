@@ -167,10 +167,9 @@ internal fun getPendingFreezeInfo(
 
 	return when (freezeMode) {
 
-		FreezeMode.ALWAYS ->
-			if (isRunning) R.string.pending_freeze else R.string.frozen
+		FreezeMode.ALWAYS -> if (isRunning) R.string.pending_freeze else R.string.frozen
 
-		FreezeMode.NEVER -> R.string.freeze_off
+		FreezeMode.NEVER -> if (isRunning) R.string.freeze_off else R.string.frozen
 
 		FreezeMode.WHEN_INACTIVE -> {
 
