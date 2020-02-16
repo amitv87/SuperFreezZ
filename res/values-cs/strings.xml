@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_search">Hledat</string>
+    <string name="msg_search_help">Hledat…</string>
+    <string name="share_exception">Nenadálá chyba. Nahlásit pomocí…</string>
+    <string name="accessibility_service_description">Zapnutím se nechají applikace automaticky zamrazit.
+\n
+\nVýhody:
+\n• Žádná interakce uživatele: Rychlejší. Není třeba vědět, jak to udělat.
+\n• Handikapovaní uživatelé mohou použít zamrazovací zkratku (například skrze rozpoznání řeči), applikace tak zamrazí automaticky.
+\n
+\nSuperFreezZ používá jen službu usnadnění za účelem \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a \"Zpět\". Přečtení obsahu okna je nutné pro nalezení těchto tlačítek a sledování Vašich akcí je zapotřebí k zjištění jejich pozice.
+\n
+\nSlužbu usnadnění lze také použít k zamknutí obrazovky po zamrazení v novějších verzích Androidu.</string>
+    <string name="freeze_shortcut_label">Zamrazit</string>
+    <string name="NothingToFreeze">Není co zamrazit</string>
+    <string name="undo">Předchozí</string>
+    <string name="icon">Ikona</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Zamrazit tuto aplikaci, nebyla-li déle v chodu.</string>
+    <string name="always_freeze_this_app">Tuto aplikaci vždy zamrazit</string>
+    <string name="do_never_freeze_this_app">Tuto aplikaci nikdy nezamrazit</string>
+    <string name="pending_freeze">Zamrazení se chystá</string>
+    <string name="frozen">Zamrazeno</string>
+    <string name="freeze_off">Zamrazení vypnuto</string>
+    <string name="used_recently">Nedávno v chodu</string>
+    <string name="no_apps_pending_freeze">[ŽÁDNÁ APPLIKACE NEOČEKÁVÁ ZAMRAZENÍ ]</string>
+    <string name="all_apps">VŠECHNY APLIKACE</string>
+    <string name="usagestats_access">Přístup k údajům o užívání</string>
+    <string name="usatestats_explanation">Přístup k údajům o užívání umožňuje SuperFreezZ zamrazit aplikace jen tehdy, pokud nebyly nějakou dobu v chodu (CHYTRÉ ZAMRAZENÍ).</string>
+    <string name="enable">Zapnout</string>
+    <string name="usagestats_not_enabled">Nedopřáli jste přístup k údajům o užívání.</string>
+    <string name="automate_the_freezing_of_apps">Automatizovat zamrazení aplikací\?</string>
+    <string name="accessibility_arguments_yes">Kdy:
+\n•Snadné používání
+\n•Zamrazení mnoha aplikací</string>
+    <string name="accessibility_arguments_no">Pro zamrazení aplikace budete muset ťuknout na \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a \"Zpět\" manuálně.
+\nKdy:
+\n•Pomalá zařízení 
+\n•Obavy z bezpečí 
+\n•Není-li SuperFreezZ registrována jako služba usnadnění</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="intro_always_freeze_title">Režim zamrazení: VŽDY ZAMRAZIT</string>
+    <string name="intro_always_freeze_explanation">Zamrazovací režimy jsou tři. Můžete zvolit jeden pro každou aplikaci. VŽDY ZAMRAZIT zamrazí aplikaci v každém případě.</string>
+    <string name="intro_never_freeze_title">Režim zamrazení: NIKDY NEZAMRAZIT</string>
+    <string name="intro_never_freeze_explanation">NIKDY NEZAMRAZIT vypne zamrazení a nikdy aplikaci nezamrazí.</string>
+    <string name="intro_auto_freeze_title">Režim zamrazení: CHYTRÝ</string>
+    <string name="intro_auto_freeze_explanation">CHYTRÉ ZAMRAZENÍ zamrazí aplikaci jen tehdy, nebyla-li v chodu nějakou dobu (výchozí 7 dnů). Aplikace z F-Droidu nebudou zamrazeny.</string>
+    <string name="freeze_manually">Zamrazit manuálně</string>
+    <string name="Press_forcestop_ok_back">Zamrazit aplikaci ťuknutím na \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a pak \"Zpět\".</string>
+    <string name="freeze_manually_no">Já tohle vůbec nechci dělat</string>
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="pref_header_appslist">Seznam aplikací</string>
+    <string name="pref_title_standard_freeze_mode">Výchozí režim zamrazení (uživatelské aplikace)</string>
+    <string name="pref_title_standard_freeze_mode_system">Výchozí režim zamrazení (systémové aplikace)</string>
+    <string name="pref_header_about">O aplikaci</string>
+    <string name="pref_header_freezing">Zamrazování aplikací</string>
+    <string name="pref_ringtone_silent">Tichý</string>
+    <string name="appslist_show_special">Zobrazit v seznamu speciální aplikace</string>
+    <string name="pref_intelligentfreeze_delay">CHYTRÝ: Zamrazit po... (dnech)</string>
+    <string name="pref_summary_appslist_show_special">Správce plochy, SuperFreezZ a systémové aplikace jsou ve výchozím stavu skryty.</string>
+    <string name="create_freeze_shortcut">Založit zkratku Zamrazit</string>
+    <string name="settings">Nastavení</string>
+    <string name="sort">Třídit</string>
+    <string name="pref_header_freezing_summary">Upravit, jak a které aplikace jsou zamrazeny</string>
+    <string name="pref_header_about_summary">Užitečné odkazy, zaslat události</string>
+    <string name="pref_header_appslist_summary">Zobrazit speciální aplikace, výchozí režim zamrazení</string>
+    <string name="freeze_apps_now">Zamrazit aplikace nyní</string>
+    <string name="freeze_on_screen_off_title">Zamrazit, vypne-li se obrazovka</string>
+    <string name="freeze_on_screen_off_sum">Budete muset vypnout volbu \'Tlačítko zapnout/vypnout hned uzamkne\' v nastavení zařízení</string>
+    <string name="problems">Potíže</string>
+    <string name="links">Odkazy</string>
+    <string name="info">Info</string>
+    <string name="view_intro_again">Přehrát znovu úvod</string>
+    <string name="logs_copied">Události zkopírovány do schránky.</string>
+    <string name="share_logs">Sdílet události pomocí…</string>
+    <string name="sf_crashed">SuperFreezZ spadla. Prosím, zašlete hlášení, pokud jste tak již neučinili.</string>
+    <string name="report">Nahlásit problém, navrhnout funkci, …</string>
+    <string name="send_logs">Zaslat události</string>
+    <string name="source_code">Zdrojový kód</string>
+    <string name="license">Licence</string>
+    <string name="credits_and_licenses">Uznání a licence třetích stran</string>
+    <string name="already_frozen">Již zamrazeno</string>
+    <string name="intro_header_welcome">vítejte v</string>
+    <string name="intro_header_modes">režimy</string>
+    <string name="intro_header_automaticfreezing">automatické zamrazení</string>
+    <string name="sort_by">Třídit podle</string>
+    <string name="not_available">Nedostupné</string>
+    <string name="fdroid_app_not_pending_freeze">F-Droid aplikace</string>
+    <string name="used_recently_and_frozen">Nedávno v chodu &amp; zamrazeno</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">CHYTRÝ: Zamrazit F-Droid aplikace</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid aplikace obvykle nejsou moc v chodu na pozadí.</string>
+    <string name="other_apps">Další aplikace</string>
+    <string name="system_apps">Systémové aplikace</string>
+    <string name="user_apps">Uživatelské aplikace</string>
+    <string name="if_you_like_this_app">Pokud se Vám tato aplikace líbí…</string>
+    <string name="plz_help_translating">...Prosím, pomozte s překladem.</string>
+    <string name="plz_donate">...Prosím, staňte se hrdin(k)ou a darujte.</string>
+    <string name="changed_freeze_mode">Zamrazovací režim změněn</string>
+    <string name="version_abbrev">v</string>
+    <string name="freeze_question">Zamrazit tuto aplikaci\?</string>
+    <string name="power_button_hint">Tip: Stiskněte tlačítko zapnout/vypnout pro zrušení zamrazení</string>
+    <string name="descending">Sestupně ▼</string>
+    <string name="ascending">Vzestupně ▲</string>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c4ff86b3472823bc3e311203e37246704b55687
+</resources>

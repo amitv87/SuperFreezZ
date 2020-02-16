@@ -101,4 +101,5 @@
     <string name="freeze_question">اس ایپ کو منجمد کیا جائے؟</string>
     <string name="descending">ترتیبِ نزولی▼</string>
     <string name="ascending">ترتیبِ سعودی ▲</string>
+    <string name="power_button_hint">اشارہ: منجمد کرنے کے عمل کو روکنے کے لیے پاور بٹن کو دبائیں</string>
 </resources>

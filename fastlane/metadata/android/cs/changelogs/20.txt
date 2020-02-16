@@ -1,0 +1,7 @@
+Doplněno seskupení podle uživatelských/systémových aplikací, doplněno nastavitelné výchozí zamrazovací chování systémových aplikací. Díky, Darkimmortal!
+Opravena automatické zamrazování v Androidu 10. Znovu díky, Darkimmortal!
+Oprava #67 Třídit sestupně/vzestupně
+Ignoruj hloupé ava.lang.IndexOutOfBoundsException
+Oprava #61 ťuknutí na položky "nikdy nezamrazit" by mělo ukázat dotaz
+Oprava  #63 info o verzi v "nastavení > o aplikaci"
+Oprava chyby #62 ťuknutí na aplikaci má zamrazit tu aplikaci

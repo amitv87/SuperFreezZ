@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="usatestats_explanation">Acessar estatísticas de uso torna possível para SuperFreezZ congelar aplicativos somente se você não usá-los por algum tempo (CONGELAMENTO INTELIGENTE).</string>
-    <string name="ascending">Crescente</string>
+    <string name="ascending">Crescente ▲</string>
     <string name="usagestats_not_enabled">Você não concedeu acesso às estatísticas de uso.</string>
     <string name="pref_header_about_summary">Links úteis, enviar logs</string>
     <string name="if_you_like_this_app">Se você gosta deste app…</string>
@@ -25,7 +25,7 @@
     <string name="automate_the_freezing_of_apps">Automatizar o congelamento de aplicativos\?</string>
     <string name="credits_and_licenses">Créditos e licenças de terceiros</string>
     <string name="user_apps">Aplicativos de usuário</string>
-    <string name="descending">Decrescente</string>
+    <string name="descending">Decrescente ▼</string>
     <string name="freeze_off">O congelamento deste aplicativo é interrompido (nunca será congelado)
 \nCongelamento desligado</string>
     <string name="no_apps_pending_freeze">[SEM CONGELAMENTO DE APLICATIVOS PENDENTES]</string>
@@ -105,4 +105,5 @@
     <string name="logs_copied">Logs copiados para a área de transferência.</string>
     <string name="freeze_manually_no">Eu não quero ter que fazer isso</string>
     <string name="plz_help_translating">… Por favor, ajude a traduzi-lo.</string>
+    <string name="power_button_hint">Dica: pressione o botão de energia para cancelar o processo de congelamento</string>
 </resources>

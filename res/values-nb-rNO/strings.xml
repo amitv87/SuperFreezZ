@@ -101,4 +101,5 @@
     <string name="freeze_question">Frys dette programmet\?</string>
     <string name="descending">Synkende</string>
     <string name="ascending">Stigende</string>
+    <string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
 </resources>
