@@ -36,4 +36,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 	<color name="never_freeeze">#008015</color>
 	<color name="inactive_freeeze">#4fc3f7</color>
 	<color name="ic_shortcut_background">#2640D1</color>
+	<color name="warning">#FFFF9800</color>
 </resources>

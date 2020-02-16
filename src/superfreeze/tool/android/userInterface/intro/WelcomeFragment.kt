@@ -33,7 +33,7 @@ import superfreeze.tool.android.R
 /**
  * Fragment for the "Welcome to SuperFreezZ" intro page
  */
-class IntroFragment : Fragment(), ISlidePolicy {
+class WelcomeFragment : Fragment(), ISlidePolicy {
 
 
     override fun isPolicyRespected(): Boolean {
@@ -48,7 +48,7 @@ class IntroFragment : Fragment(), ISlidePolicy {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_intro, container, false)
+        return inflater.inflate(R.layout.fragment_welcome, container, false)
     }
 
 

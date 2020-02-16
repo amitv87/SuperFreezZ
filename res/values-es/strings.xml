@@ -81,6 +81,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
         <item>Nombre</item>
         <item>Estado de congelación</item>
         <item> Última vez usado</item>
+        <item>User/system</item>
     </string-array>
     <string name="msg_search">Buscar</string>
     <string name="msg_search_help">Buscar…</string>

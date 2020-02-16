@@ -23,9 +23,13 @@ package superfreeze.tool.android.userInterface.intro
 
 import android.os.Bundle
 import android.util.Log
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.github.paolorotolo.appintro.AppIntro
+import com.github.paolorotolo.appintro.AppIntroFragment
+import com.github.paolorotolo.appintro.model.SliderPagerBuilder
 import superfreeze.tool.android.BuildConfig
+import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.database.prefIntroAlreadyShown
 
@@ -47,7 +51,27 @@ class IntroActivity : AppIntro() {
 
 		} else {
 
-			addSlide(IntroFragment())
+			addSlide(WelcomeFragment())
+			addSlide(
+				AppIntroFragment.newInstance(
+					SliderPagerBuilder()
+						.title(getString(R.string.warning))
+						.description(getString(R.string.warning_long_1))
+						.imageDrawable(R.drawable.ic_warning)
+						.bgColor(ContextCompat.getColor(this, R.color.warning))
+						.build()
+				)
+			)
+			addSlide(
+				AppIntroFragment.newInstance(
+					SliderPagerBuilder()
+						.title(getString(R.string.info))
+						.description(getString(R.string.warning_long_2))
+						.imageDrawable(R.drawable.ic_warning)
+						.bgColor(ContextCompat.getColor(this, R.color.warning))
+						.build()
+				)
+			)
 			addSlide(IntroModesFragment())
 			addSlide(AccessibilityServiceChooserFragment())
 		}
@@ -99,3 +123,4 @@ private const val TAG = "SF-IntroActivity"
 
 const val INTRO_SHOW_ACCESSIBILITY_SERVICE_CHOOSER =
 	BuildConfig.APPLICATION_ID + "SHOW_ACCESSIBILITY_SERVICE_CHOOSER"
+

@@ -115,8 +115,10 @@
         <item>Name</item>
         <item>Einfriermodus</item>
         <item>Letzte Benutzung</item>
+        <item>Nutzer/System</item>
     </string-array>
     <string name="intro_header_welcome">willkommen bei</string>
     <string name="intro_header_modes">Modi</string>
     <string name="intro_header_automaticfreezing">automatisches Einfrieren</string>
+    <string name="warning_long_1">Apps oft einzufrieren, führt wahrscheinlich zu HÖHEREM Stromverbrauch, weil das \"Auftauen\" Strom verbraucht.\n\nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und \"battery savers\" (nur dass diese dich nicht davor warnen).</string>
 </resources>

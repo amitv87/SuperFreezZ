@@ -129,6 +129,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
         <item>الإسم</item>
         <item>حالة التجميد</item>
         <item>آخر مرة استخدم</item>
+        <item>User/system</item>
     </string-array>
     <string name="intro_header_welcome">مرحبا بك إلى</string>
     <string name="intro_header_modes">الأوضاع</string>

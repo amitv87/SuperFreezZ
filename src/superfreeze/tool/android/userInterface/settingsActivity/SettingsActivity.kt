@@ -198,19 +198,31 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 				findPreference("freeze_on_screen_off").setOnPreferenceChangeListener { _, newValue ->
-					if (newValue == true && !Settings.System.canWrite(context)) {
-
+					if (newValue == true)
 						AlertDialog.Builder(context, R.style.myAlertDialog)
-							.setTitle("Modify settings")
-							.setMessage("SuperFreezZ needs to modify the settings in order to turn off the screen after freezing.")
-							.setPositiveButton("Ok") { _, _ ->
-								val intent = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS)
-								intent.data = Uri.parse("package:${BuildConfig.APPLICATION_ID}")
-								startActivity(intent)
-							}
+							.setTitle(R.string.warning)
+							.setMessage(getString(R.string.warning_long_1) + "\n\n" + getString(R.string.warning_long_2))
 							.setCancelable(false)
+							.setPositiveButton(android.R.string.ok) { _, _ ->
+
+								if (!Settings.System.canWrite(context)) {
+									AlertDialog.Builder(context, R.style.myAlertDialog)
+										.setTitle("Modify settings")
+										.setMessage("SuperFreezZ needs to modify the settings in order to turn off the screen after freezing.")
+										.setCancelable(false)
+										.setPositiveButton("Ok") { _, _ ->
+											val intent =
+												Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS)
+											intent.data =
+												Uri.parse("package:${BuildConfig.APPLICATION_ID}")
+											startActivity(intent)
+										}
+										.show()
+								}
+
+							}
 							.show()
-					}
+
 					true
 				}
 			}
@@ -228,7 +240,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 	}
 
 	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	class AboutPreferenceFragment : MyPreferenceFragment() {
+	class AboutPreferenceFragment : SettingsActivity.MyPreferenceFragment() {
 		override fun onCreate(savedInstanceState: Bundle?) {
 			super.onCreate(savedInstanceState)
 			addPreferencesFromResource(R.xml.pref_about)

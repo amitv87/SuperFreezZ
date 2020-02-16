@@ -116,6 +116,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
         <item>名称</item>
         <item>冻结状态</item>
         <item>上次使用时间</item>
+        <item>User/system</item>
     </string-array>
     <string name="intro_header_welcome">欢迎</string>
     <string name="intro_header_modes">模式</string>
