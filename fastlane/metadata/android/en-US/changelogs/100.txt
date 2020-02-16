@@ -1,0 +1,3 @@
+Add warning about using SF too much
+New translaions
+Minor fixes and improvements
