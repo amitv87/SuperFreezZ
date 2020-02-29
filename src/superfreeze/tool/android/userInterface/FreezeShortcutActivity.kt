@@ -89,8 +89,8 @@ class FreezeShortcutActivity : Activity() {
 
 	private fun performFreeze() {
 
-		if (isRootAvailable()) {
-			freezeAppsUsingRoot(getAppsPendingFreeze(this), this)
+		if (isRootAvailable) {
+			freezeAppsUsingRoot(getAppsPendingFreeze(this))
 			finish()
 			return
 		}
@@ -217,8 +217,8 @@ class FreezeShortcutActivity : Activity() {
 		}
 
 		fun freezeAppsPendingFreeze(context: Context) {
-			if (isRootAvailable())
-				freezeAppsUsingRoot(getAppsPendingFreeze(context), context)
+			if (isRootAvailable)
+				freezeAppsUsingRoot(getAppsPendingFreeze(context))
 			else
 				context.startActivity(createShortcutIntent(context))
 		}
@@ -229,8 +229,8 @@ class FreezeShortcutActivity : Activity() {
 		 */
 		@Contract(pure = true)
 		fun freezeApp(packageName: String, context: Context) {
-			if (isRootAvailable()) {
-				freezeAppsUsingRoot(listOf(packageName), context)
+			if (isRootAvailable) {
+				freezeAppsUsingRoot(listOf(packageName))
 				return
 			}
 

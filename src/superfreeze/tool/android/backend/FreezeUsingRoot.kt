@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019 Hocuri
+ * Copyright (c) 2019,2020 Hocuri
  *
  * This file is part of SuperFreezZ.
  *
@@ -20,15 +20,38 @@
 
 package superfreeze.tool.android.backend
 
-import android.content.Context
-
-fun isRootAvailable(): Boolean {
-	return false // TODO
+// Try using root when called the first time, then cache the result
+val isRootAvailable by lazy {
+	try {
+		execAsRoot(null)
+		true
+	} catch (e: java.lang.Exception) {
+		false
+	}
 }
 
+@Throws(java.lang.Exception::class)
 fun freezeAppsUsingRoot(
-	packages: List<String>,
-	context: Context
+	packages: List<String>
 ) {
-	TODO()
+	for (p in packages) {
+		execAsRoot("am force-stop $p")
+	}
 }
+
+private fun execAsRoot(command: String?) {
+	var p: Process? = null
+	try {
+		p = Runtime.getRuntime().exec("su")
+		if (command != null) {
+			p!!.outputStream.write((command + "\n").toByteArray())
+		}
+		p!!.outputStream.write("exit\n".toByteArray())
+		p.outputStream.flush()
+		p.outputStream.close()
+	} finally {
+		p?.destroy()
+	}
+}
+
+private const val TAG = "SF-FreezeUsingRoot"
