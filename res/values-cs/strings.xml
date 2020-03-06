@@ -103,4 +103,13 @@
     <string name="descending">Sestupně ▼</string>
     <string name="ascending">Vzestupně ▲</string>
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c4ff86b3472823bc3e311203e37246704b55687
+<string name="warning">Varování</string>
+    <string name="warning_long_1">Časté zastavení/zamrznutí aplikací pravděpodobně vyčerpá baterii RYCHLEJI, protože \"odmrznutí\" sprotřebuje energii.
+\n
+\nJe to problém i s jinými podobnými aplikacemi např. Greenify a \"šetřiči baterie\" (kromě toho, že Vás před tím nevarují).</string>
+    <string name="warning_long_2">Příklady aplikací zasluhující zamrznutí:
+\n
+\n• Nedůvěryhodné aplikace (které nechcete nechat v chodu na pozadí)
+\n• Aplikace zřídka používané
+\n• Otravné aplikace</string>
 </resources>

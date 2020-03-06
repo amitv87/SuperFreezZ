@@ -137,6 +137,16 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="user_apps">用户app</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">冻结该app\?</string>
-    <string name="descending">降序</string>
-    <string name="ascending">升序</string>
+    <string name="descending">降序▼</string>
+    <string name="ascending">升序▲</string>
+    <string name="power_button_hint">提示：按电源按钮可中止冻结过程</string>
+    <string name="warning">警告</string>
+    <string name="warning_long_1">经常停止/冻结应用程序可能会更快耗尽电池电量，因为“解冻”消耗电量
+\n
+\n这个问题同样存在于其他类似应用程序（例如Greenify和“省电工具”）（但他们不会警告你这个问题）.</string>
+    <string name="warning_long_2">值得被冻结的应用示例：
+\n
+\n•不受信任的应用程序（您不想在后台运行）
+\n•您很少使用的应用
+\n•烦人的应用</string>
 </resources>

@@ -18,4 +18,15 @@
     <string name="all_apps">모든 앱</string>
     <string name="enable">활성화</string>
     <string name="automate_the_freezing_of_apps">자동으로 앱을 얼릴까요\?</string>
+    <string name="accessibility_service_description">이 기능을 설정하면 앱을 자동으로 중지할 수 있습니다. 
+\n 
+\n장점은 다음과 같습니다. 
+\n• 사용자 상호 작용이 없습니다. 빠른 어떻게 하는지 알 필요 없어요. 
+\n• 비활성화된 사용자는 정지 바로 가기(예: 음성 인식을 통해)를 사용하여 모든 앱을 자동으로 정지시킬 수 있습니다. 
+\n 
+\nSuperFreezz는 내게 필요한 옵션 서비스를 사용하여 \"FORCE STOP\", \"OK\" 및 \"Back\"을 누릅니다. 창 내용을 검색하면 이러한 버튼이 발견되므로 작업이 표시되는 시기를 알 수 있도록 관찰해야 합니다. 
+\n 
+\nSuperFreezz는 내게 필요한 옵션 서비스를 사용하여 \"FORCE STOP\", \"OK\" 및 \"Back\"을 누릅니다. 이러한 단추를 찾고 작업이 표시되는 시기를 확인하려면 창 내용을 검색해야 합니다. 
+\n 
+\n접근성 서비스는 새로운 Android 버전에서 정지한 후 화면을 잠그는 데도 사용할 수 있습니다.</string>
 </resources>

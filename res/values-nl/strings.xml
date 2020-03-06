@@ -104,4 +104,13 @@
     <string name="descending">Aflopend ▼</string>
     <string name="ascending">Oplopend ▲</string>
     <string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
+    <string name="warning">Waarschuwing</string>
+    <string name="warning_long_1">Het stoppen/bevriezen van apps kan leiden tot een HOGER accuverbruik, omdat het \'ontdooien\' van apps energie kost.
+\n
+\nDitzelfde probleem doet zich voor bij vergelijkbare apps, zoals bijv. Greenify, alleen waarschuwen zij je niet.</string>
+    <string name="warning_long_2">Voorbeelden van apps die bevroren mogen worden:
+\n
+\n • Apps die je niet vertrouwt
+\n • Apps die je bijna nooit gebruikt
+\n • Vervelende apps</string>
 </resources>
