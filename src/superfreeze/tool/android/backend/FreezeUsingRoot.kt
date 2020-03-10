@@ -20,38 +20,42 @@
 
 package superfreeze.tool.android.backend
 
+import android.content.Context
+import android.os.Build
+import eu.chainfire.libsuperuser.Shell
+
+
 // Try using root when called the first time, then cache the result
 val isRootAvailable by lazy {
 	try {
-		execAsRoot(null)
-		true
-	} catch (e: java.lang.Exception) {
+		Shell.SU.available()
+	} catch (e: Shell.ShellDiedException) {
 		false
 	}
 }
 
 @Throws(java.lang.Exception::class)
-fun freezeAppsUsingRoot(
-	packages: List<String>
-) {
-	for (p in packages) {
-		execAsRoot("am force-stop $p")
+fun freezeAppsUsingRoot(b: Boolean, ctx: Context,
+		packages: List<String>) {
+	try {
+		val shell = Shell.Pool.SU.get();
+		if (Build.VERSION.SDK_INT >= 23) shell.run("dumpsys battery unplug")
+		packages.forEach {
+			if (Build.VERSION.SDK_INT >= 23) {
+				shell.run("am set-inactive $it true")
+			}
+			if (it.equals(ctx.packageName)) {
+				if (Build.VERSION.SDK_INT >= 23) shell.run("dumpsys deviceidle force-idle")
+				if (b) shell.run("input keyevent 26")
+			}
+			shell.run("am kill $it")
+			shell.run("am force-stop $it")
+		}
+		if (Build.VERSION.SDK_INT >= 23) shell.run("dumpsys deviceidle force-idle")
+		if (b) shell.run("input keyevent 26")
+	} catch (e: Shell.ShellDiedException) {
 	}
 }
 
-private fun execAsRoot(command: String?) {
-	var p: Process? = null
-	try {
-		p = Runtime.getRuntime().exec("su")
-		if (command != null) {
-			p!!.outputStream.write((command + "\n").toByteArray())
-		}
-		p!!.outputStream.write("exit\n".toByteArray())
-		p.outputStream.flush()
-		p.outputStream.close()
-	} finally {
-		p?.destroy()
-	}
-}
 
 private const val TAG = "SF-FreezeUsingRoot"

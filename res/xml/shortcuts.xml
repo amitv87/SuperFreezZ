@@ -28,4 +28,16 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 			android:targetPackage="superfreeze.tool.android"
 			android:targetClass="superfreeze.tool.android.userInterface.FreezeShortcutActivity" />
 	</shortcut>
+	<shortcut
+		android:shortcutId="FreezeShortcutOff"
+		android:enabled="true"
+		android:icon="@drawable/ic_freeze"
+		android:shortcutShortLabel="@string/freeze_shortcut_label0ff">
+		<intent
+			android:action="android.intent.action.MAIN"
+			android:targetPackage="superfreeze.tool.android"
+			android:targetClass="superfreeze.tool.android.userInterface.FreezeShortcutActivity" >
+			<extra android:name="extraID" android:value="screen0ff" />
+		</intent>
+	</shortcut>
 </shortcuts>

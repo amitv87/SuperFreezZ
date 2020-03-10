@@ -34,6 +34,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n 
 \nThe accessibility service can also be used to lock the screen after freezing on newer Android versions.</string>
     <string name="freeze_shortcut_label">Freeze</string>
+    <string name="freeze_shortcut_label0ff">screen0ff</string>
     <string name="NothingToFreeze">Nothing to freeze</string>
     <string name="undo">Undo</string>
     <string name="icon">Icon</string>

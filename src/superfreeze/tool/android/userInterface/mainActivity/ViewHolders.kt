@@ -25,6 +25,7 @@ package superfreeze.tool.android.userInterface.mainActivity
  */
 
 import android.app.AlertDialog
+import android.app.usage.UsageStatsManager
 import android.content.Context
 import android.graphics.Color
 import android.os.Build
@@ -77,11 +78,23 @@ class ViewHolderApp(
 					.setMessage(R.string.freeze_question)
 					.setPositiveButton(android.R.string.ok) { _, _ ->
 						listItem.freeze(context)
+						if (Build.VERSION.SDK_INT >= 23) {
+							val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
+							if (usm.isAppInactive(listItem.packageName)){
+								itemView.setBackgroundColor(Color.LTGRAY)
+							} else itemView.setBackgroundColor(Color.WHITE)
+						}
 					}
 					.setNeutralButton(android.R.string.cancel) { _, _ -> }
 					.show()
 			} else {
 				listItem.freeze(context)
+				if (Build.VERSION.SDK_INT >= 23) {
+					val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
+					if (usm.isAppInactive(listItem.packageName)){
+						itemView.setBackgroundColor(Color.LTGRAY)
+					} else itemView.setBackgroundColor(Color.WHITE)
+				}
 			}
 		}
 
@@ -166,6 +179,12 @@ class ViewHolderApp(
 	internal fun refresh() {
 		// Refresh name:
 		setName(listItem.text, appsListAdapter.searchPattern)
+		if (Build.VERSION.SDK_INT >= 23) {
+			val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
+			if (usm.isAppInactive(listItem.packageName)){
+				itemView.setBackgroundColor(Color.LTGRAY)
+			} else itemView.setBackgroundColor(Color.WHITE)
+		}
 
 		// Refresh freeze mode:
 		setButtonColours(listItem.freezeMode)
