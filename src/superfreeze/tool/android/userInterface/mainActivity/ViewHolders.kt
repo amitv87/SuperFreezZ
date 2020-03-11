@@ -71,6 +71,7 @@ class ViewHolderApp(
 	init {
 		v.setOnClickListener {
 			// what is done when a list item (that is, an app) is clicked.
+			// If the freeze mode is set to NEVER and the freezer (=accessibility) service is enabled, then ask if the user really wants to freeze the app
 			if (listItem.freezeMode == FreezeMode.NEVER && FreezerService.isEnabled) {
 				AlertDialog.Builder(context)
 					.setTitle(listItem.text)
@@ -80,7 +81,7 @@ class ViewHolderApp(
 					}
 					.setNeutralButton(android.R.string.cancel) { _, _ -> }
 					.show()
-			} else {
+			} else { // If the freezer service is not enabled, the user will still have the chance to change their mind because when freezing the app manually.
 				listItem.freeze(context)
 			}
 		}

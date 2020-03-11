@@ -309,7 +309,7 @@ class AppsListAdapter internal constructor(
 			else -> throw IllegalArgumentException("sort dialog index should have been a number from 0-3, was $index")
 		}
 
-		return if (sortDirectionIsAscending == true) result else Collections.reverseOrder(result)
+		return if (sortDirectionIsAscending) result else Collections.reverseOrder(result)
 	}
 }
 
