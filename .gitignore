@@ -4,6 +4,6 @@
 .DS_Store
 /build
 *.iml
-release
+/release
 *.alloc
 *.hprof
