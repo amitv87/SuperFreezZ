@@ -279,7 +279,7 @@ class AppsListAdapter internal constructor(
 
 			// 0: Sort by name
 			0 -> compareBy {
-				it.text
+				it.text.toLowerCase(Locale.getDefault())
 			}
 
 			// 1: Sort by freeze state
