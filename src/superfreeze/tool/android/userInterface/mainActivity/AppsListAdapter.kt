@@ -95,7 +95,7 @@ class AppsListAdapter internal constructor(
 
 	var searchPattern: String = ""
 		set(value) {
-			field = value.toLowerCase()
+			field = value.toLowerCase(Locale.ROOT)
 			refreshList()
 			notifyDataSetChanged()
 		}
@@ -210,28 +210,32 @@ class AppsListAdapter internal constructor(
 		}
 
 
-		if (sortModeIndex == 1) {// 1 means sort by freeze state, see gitlab.com/SuperFreezZ/SuperFreezZ/issues/48
-			newOriginalList.add(
-				ListItemSectionHeader(mainActivity.getString(R.string.other_apps))
-			)
-			newOriginalList.addAll(appsList.filter { !it.isPendingFreeze() })
+		when (sortModeIndex) {
+			1 -> {// 1 means sort by freeze state, see gitlab.com/SuperFreezZ/SuperFreezZ/issues/48
+				newOriginalList.add(
+					ListItemSectionHeader(mainActivity.getString(R.string.other_apps))
+				)
+				newOriginalList.addAll(appsList.filter { !it.isPendingFreeze() })
 
-		} else if (sortModeIndex == 3) { // 3 means sort by user/system
-			newOriginalList.add(
-				ListItemSectionHeader(mainActivity.getString(R.string.user_apps))
-			)
-			newOriginalList.addAll(appsList.filter { !isSystemApp(it.applicationInfo) })
+			}
+			3 -> { // 3 means sort by user/system
+				newOriginalList.add(
+					ListItemSectionHeader(mainActivity.getString(R.string.user_apps))
+				)
+				newOriginalList.addAll(appsList.filter { !isSystemApp(it.applicationInfo) })
 
-			newOriginalList.add(
-				ListItemSectionHeader(mainActivity.getString(R.string.system_apps))
-			)
-			newOriginalList.addAll(appsList.filter { isSystemApp(it.applicationInfo) })
+				newOriginalList.add(
+					ListItemSectionHeader(mainActivity.getString(R.string.system_apps))
+				)
+				newOriginalList.addAll(appsList.filter { isSystemApp(it.applicationInfo) })
 
-		} else {
-			newOriginalList.add(
-				ListItemSectionHeader(mainActivity.getString(R.string.all_apps))
-			)
-			newOriginalList.addAll(appsList)
+			}
+			else -> {
+				newOriginalList.add(
+					ListItemSectionHeader(mainActivity.getString(R.string.all_apps))
+				)
+				newOriginalList.addAll(appsList)
+			}
 		}
 
 		mainActivity.runOnUiThread {
@@ -253,7 +257,7 @@ class AppsListAdapter internal constructor(
 						.asSequence()
 						.filter { it.isMatchingSearchPattern() }
 						.partition {
-							it.text.toLowerCase().startsWith(searchPattern)
+							it.text.toLowerCase(Locale.ROOT).startsWith(searchPattern)
 						}
 				importantApps + otherApps
 

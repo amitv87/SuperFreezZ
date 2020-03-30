@@ -125,7 +125,7 @@ private val screenReceiver by lazy {
 				putInt(context.contentResolver, SCREEN_BRIGHTNESS, 0)
 
 				originalBrightnessMode = getInt(context.contentResolver, SCREEN_BRIGHTNESS_MODE, SCREEN_BRIGHTNESS_MODE_AUTOMATIC)
-				putInt(context.contentResolver, SCREEN_BRIGHTNESS_MODE, SCREEN_BRIGHTNESS_MODE_MANUAL);
+				putInt(context.contentResolver, SCREEN_BRIGHTNESS_MODE, SCREEN_BRIGHTNESS_MODE_MANUAL)
 			} catch (e: SecurityException) {
 				Log.w(TAG, "Could not change screen brightness")
 			}

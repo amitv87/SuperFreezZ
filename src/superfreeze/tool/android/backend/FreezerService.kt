@@ -252,7 +252,7 @@ class FreezerService : AccessibilityService() {
 		}
 
 		fun isBusy() = (nextAction != NextAction.DO_NOTHING)
-		
+
 		private fun notifyThereIsStillMovement(context: Context) {
 			timeoutHandler.removeCallbacksAndMessages(null)
 

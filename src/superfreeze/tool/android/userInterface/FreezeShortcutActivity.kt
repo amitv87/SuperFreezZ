@@ -179,6 +179,7 @@ class FreezeShortcutActivity : Activity() {
 		 * Returns an intent containing information for a launcher how to create a shortcut.
 		 * See e.g https://developer.android.com/reference/android/content/pm/ShortcutManager.html#createShortcutResultIntent(android.content.pm.ShortcutInfo)
 		 */
+		@Suppress("DEPRECATION")
 		fun createShortcutResultIntent(activity: Activity): Intent {
 			/*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 				// There is a nice new api for shortcuts from Android O on, which we use here:
