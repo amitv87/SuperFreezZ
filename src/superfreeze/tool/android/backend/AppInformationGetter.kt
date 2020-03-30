@@ -196,20 +196,20 @@ fun getSortByFreezeStateComparator(
 	return compareBy {
 		when (it.freezeMode) {
 
-			FreezeMode.ALWAYS -> 1
+			FreezeMode.ALWAYS -> 7
 
 			FreezeMode.WHEN_INACTIVE -> when (getPendingFreezeInfo(
 				it.freezeMode, it.applicationInfo, usageStatsMap?.get(it.packageName), context
 			)) {
-				R.string.frozen -> 2
-				R.string.used_recently_and_frozen -> 3
+				R.string.frozen -> 6
+				R.string.used_recently_and_frozen -> 5
 				R.string.used_recently -> 4
-				R.string.fdroid_app_not_pending_freeze -> 5
-				R.string.pending_freeze -> 7
+				R.string.fdroid_app_not_pending_freeze -> 3
+				R.string.pending_freeze -> 2
 				else -> throw IllegalStateException()
 			}
 
-			FreezeMode.NEVER -> 8
+			FreezeMode.NEVER -> 1
 		}
 	}
 }
