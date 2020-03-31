@@ -220,7 +220,7 @@ class MainActivity : AppCompatActivity() {
 		}
 	}
 
-	override fun onConfigurationChanged(newConfig: Configuration?) {
+	override fun onConfigurationChanged(newConfig: Configuration) {
 		super.onConfigurationChanged(newConfig)
 
 		//This is necessary so that the list items change their look when the screen is rotated:

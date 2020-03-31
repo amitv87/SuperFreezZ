@@ -80,14 +80,28 @@ SOFTWARE.
 					android:textColor="@color/text_color_primary"
 					android:singleLine="true" />
 
-				<TextView
-					android:id="@+id/txtExplanation"
+				<LinearLayout
 					android:layout_width="match_parent"
-					android:layout_height="wrap_content"
-					android:gravity="left|top"
-					android:textAppearance="?android:attr/textAppearanceSmall"
-					android:textSize="12sp" />
-
+					android:layout_height="wrap_content">
+					<TextView
+						android:id="@+id/txtExplanation"
+						android:maxLines="1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="start"
+						android:layout_gravity="start"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/txtNowInactive"
+						android:maxLines="1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="end"
+						android:layout_gravity="end"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:textSize="12sp" />
+				</LinearLayout>
 			</LinearLayout>
 
 			<include layout="@layout/freeze_mode_buttons" />

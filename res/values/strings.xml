@@ -34,6 +34,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n 
 \nThe accessibility service can also be used to lock the screen after freezing on newer Android versions.</string>
     <string name="freeze_shortcut_label">Freeze</string>
+    <string name="freeze_shortcut_label_screen_off">Screen off</string>
     <string name="NothingToFreeze">Nothing to freeze</string>
     <string name="undo">Undo</string>
     <string name="icon">Icon</string>
@@ -169,4 +170,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n • Untrusted apps (that you do not want to run in the background)
 \n • Apps you rarely use
 \n • Annoying apps</string>
+	<string name="currently_inactive_in_brackets">(now inactive)</string>
 </resources>
