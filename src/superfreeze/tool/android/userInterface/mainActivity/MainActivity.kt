@@ -33,7 +33,6 @@ import android.content.ComponentCallbacks2
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
-import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.view.Menu
@@ -104,24 +103,17 @@ class MainActivity : AppCompatActivity() {
 			neverCalled("DonationsNowPossible", this) // TODO delete line
 			return
 			// TODO delete from here on:
-		} else {
-			if (Math.random() < 0.05 && neverCalled("DonationsNowPossible", this)) {
-				AlertDialog.Builder(this, R.style.myAlertDialog)
-					.setTitle("Donating")
-					.setMessage("""It is now possible support the development of SuperFreezZ by donating. If you like SuperFreezZ, I would be very grateful to find a supporter in you!""")
-					.setPositiveButton("No") { _, _->}
-					.setNegativeButton("Donate") {_, _->
-						startActivity(
-							Intent(
-								Intent.ACTION_VIEW,
-								Uri.parse("https://liberapay.com/Hocuri/donate")
-							)
-						)
-					}
-					.show()
-			}
-			// TODO delete up to here
 		}
+
+		if (neverCalled("RootSupport", this)) {
+			AlertDialog.Builder(this, R.style.myAlertDialog)
+				.setTitle("EXPERIMENTAL root support")
+				.setMessage("""I added root support. If you would like to try it, USE IT AT YOUR OWN RISK! It is still experimental. I'd be happy about feedback.""")
+				.setPositiveButton("Ok") { _, _ -> }
+				.show()
+		}
+		// TODO delete up to here
+
 
 		//Execute all tasks and retain only those that returned true.
 		toBeDoneOnResume.retainAll { it() }
@@ -182,7 +174,7 @@ class MainActivity : AppCompatActivity() {
 	}
 
 	override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-		return when(item?.itemId) {
+		return when (item?.itemId) {
 
 			R.id.action_create_shortcut -> {
 				//Adding shortcut for FreezeShortcutActivity:
@@ -225,7 +217,8 @@ class MainActivity : AppCompatActivity() {
 
 		//This is necessary so that the list items change their look when the screen is rotated:
 		val listView = list
-		val position = (listView.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
+		val position =
+			(listView.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
 		listView.adapter = null
 		listView.layoutManager = null
 		listView.recycledViewPool.clear()
@@ -241,7 +234,8 @@ class MainActivity : AppCompatActivity() {
 		when (level) {
 			ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN -> appsListAdapter.trimMemory()
 
-			ComponentCallbacks2.TRIM_MEMORY_RUNNING_MODERATE -> { }
+			ComponentCallbacks2.TRIM_MEMORY_RUNNING_MODERATE -> {
+			}
 
 			ComponentCallbacks2.TRIM_MEMORY_RUNNING_LOW,
 			ComponentCallbacks2.TRIM_MEMORY_RUNNING_CRITICAL,
@@ -252,7 +246,8 @@ class MainActivity : AppCompatActivity() {
 				appsListAdapter.trimMemory()
 			}
 
-			else -> { }
+			else -> {
+			}
 		}
 	}
 
