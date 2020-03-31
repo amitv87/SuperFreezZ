@@ -160,15 +160,15 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="changed_freeze_mode">Changed freeze mode</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Freeze this app?</string>
-	<string name="power_button_hint">Hint: Press the Power button to abort the freeze process</string>
+    <string name="power_button_hint">Hint: Press the Power button to abort the freeze process</string>
     <string name="descending">Descending ▼</string>
     <string name="ascending">Ascending ▲</string>
     <string name="warning">Warning</string>
     <string name="warning_long_1">Stopping/freezing apps frequently will probably drain your battery FASTER, because the \"un-freezing\" consumes power.\n\nThis is also a problem with other similar apps such as Greenify and \"battery savers\" (except that they don\'t warn you about this).</string>
-    <string name="warning_long_2">Examples for apps that deserve to be frozen:
-\n
-\n • Untrusted apps (that you do not want to run in the background)
-\n • Apps you rarely use
+    <string name="warning_long_2">Examples of apps that deserve to be frozen: 
+\n 
+\n • Untrusted apps (that you do not want to run in the background) 
+\n • Apps you rarely use 
 \n • Annoying apps</string>
 	<string name="currently_inactive_in_brackets">(now inactive)</string>
 </resources>

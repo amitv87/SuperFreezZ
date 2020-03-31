@@ -113,4 +113,5 @@
 \n • Apps die je niet vertrouwt
 \n • Apps die je bijna nooit gebruikt
 \n • Vervelende apps</string>
+    <string name="sort_last_time_used_explanation">Recentst gebruikte apps eerst</string>
 </resources>

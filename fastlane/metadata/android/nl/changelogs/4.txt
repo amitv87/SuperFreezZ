@@ -1,0 +1,2 @@
+Trying to make freezing more stable again. Removed unused doOnFinished() from FreezerService.
+Regression-fix: Timeout not used when freezerservice is not running

@@ -1,0 +1,9 @@
+Mogelijkheid toegevoegd om te groeperen op gebruiker- en systeemapps, evenals instelbaar standaard bevriesgedrag omtrent systeemapps. Met dank aan Darkimmortal!
+Automatisch bevriezen werkt wederom op Android 10. Nogmaals dank aan Darkimmortal!
+Issue #67 opgelost
+Nutteloze java.lang.IndexOutOfBoundsException's worden genegeerd
+Issue #61 opgelost
+Issue #63 opgelost
+Issue #62 opgelost
+Basisondersteuning voor Fire TV en dito toetsenbord
+Vertalingen bijgewerkt

@@ -1,0 +1,3 @@
+Snackbars shown again (got lost in an earlier version)
+Updated translations
+Lots of crash- and bugfixes

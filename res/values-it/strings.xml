@@ -102,4 +102,14 @@
     <string name="descending">Discendente ▼</string>
     <string name="ascending">Ascendente ▲</string>
     <string name="power_button_hint">Suggerimento: Premere il Pulsante di Accensione per interrompere il processo di congelamento</string>
+    <string name="warning">Attenzione</string>
+    <string name="warning_long_1">Fermare/congelare app di frequente probabilmente consumerà la batteria DI PIÙ, perchè lo \"scongelamento\" richiede energia.
+\n
+\nIl problema esiste anche per le altre app simili come Greenify e i \"risparmiatori di batteria\" (solo che non ti avvisano).</string>
+    <string name="warning_long_2">Esempi di app che meritano di essere congelate: 
+\n 
+\n • App non fidate (se vuoi che non funzionino in secondo piano) 
+\n • App che usi raramente 
+\n • App fastidiose</string>
+    <string name="sort_last_time_used_explanation">Prima le app usate meno recentemente</string>
 </resources>

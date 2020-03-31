@@ -89,4 +89,14 @@
 \n• Güvenlik endişeleri
 \n• SuperFreezZ\'in erişilebilirlik hizmeti olarak kaydedilmemesi</string>
     <string name="power_button_hint">İpucu: Dondurma işlemini iptal etmek için güç tuşuna basın</string>
+    <string name="freeze_question">Bu uygulama dondurulsun mu\?</string>
+    <string name="warning">Uyarı</string>
+    <string name="warning_long_1">Uygulamaları durdurmak/dondurmak çoğunlukla pilinizi HIZLI tüketir, çünkü dondurmayı çözmek güç tüketir.
+\n
+\nBu, Greenify ve \"pil tasarrufu uygulamaları\" gibi diğer benzer uygulamalarda da bir sorundur (bununla ilgili sizi uyarmamaları dışında).</string>
+    <string name="warning_long_2">Dondurulmayı hak eden uygulamalara örnekler: 
+\n 
+\n• Güvenilmeyen uygulamalar (arka planda çalıştırmak istemediğiniz) 
+\n • Nadiren kullandığınız uygulamalar 
+\n • Rahatsız edici uygulamalar</string>
 </resources>

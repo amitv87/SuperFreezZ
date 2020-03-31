@@ -1,0 +1,40 @@
+<p>Een Android-app (bèta) die het mogelijk maakt alle achtergrondactiviteiten van apps te bevriezen.</p>
+<ul>
+<li>Krijg je telefoon weer onder controle</li>
+<li>Verbeter de accuduur en verminder het gebruik van mobiele data door minder vaak gebruikte apps te bevriezen</li>
+<li>Deze app is vooral handig als je onderweg bent en slechts enkele apps nodig hebt, maar wel wilt dat je accu niet snel leeg is</li>
+</ul>
+<p>De app 'Greenify' doet hetzelfde, maar is niet opensource.</p>
+<p>SuperFreezZ is niet de zoveelste taakbeheerder die belooft maandelijks 10 GB mobiele data te besparen of je apparaat twee keer zo snel te maken, want dat is onmogelijk.</p>
+<p>SuperFreezZ is eerlijk over de voor- en nadelen die de app biedt. Het bevriezen van apps die je dagelijks gebruikt zorgt er waarschijnlijk voor dat je accu iets sneller leeg is. Daarnaast starten deze trager op als je ze de volgende keer aantikt. SuperFreezZ bevriest je apps, en het duurt 1-3 seconden om ze te 'ontdooien'. Greenify heeft dezelfde nadelen, maar de maker stelt je daar niet van op de hoogte. Zolang je dus niet overdrijft, is SuperFreezZ ontzettend handig.</p>
+<p>Voorbeelden van apps die je zeker wilt bevriezen:</p>
+<ul>
+<li>Niet-vertrouwde apps (die je niet op de achtergrond wilt draaien)</li>
+<li>Apps die je niet vaak gebruikt</li>
+<li>Irritante apps</li>
+</ul>
+<h2 id="features">Kenmerken</h2>
+<ul>
+<li>Werkt, indien gewenst, zonder toegankelijkheidsdienst die je apparaat alleen maar zou vertragen</li>
+<li>Kan apps bevriezen die een week niet zijn gebruikt (dit kan uitgebreid worden ingesteld)</li>
+<li>Beschikt over een witte lijst (standaard alles bevriezen) en een zwarte lijst (standaard niks bevriezen)</li>
+<li>Kan apps bevriezen zodra het scherm wordt uitgeschakeld</li>
+<li>Bevat de mogelijkheid om systeemapps te bevriezen, en zelfs SuperFreezZ zelf</li>
+<li>Volledig opensource en vrije software</li>
+</ul>
+<h2 id="contributing-to-superfreezz">Bijdragen</h2>
+<h3 id="development">Ontwikkeling</h3>
+<p>Loop je tegen een probleem aan, of heb je een vraag of idee? Open dan een 'issue'!</p>
+<p>Wil je helpen de app te verbeteren? Kijk dan naar de lijst met 'issues', of bedenk zelf iets en open een 'issue'.</p>
+<p>Vertel me wat je gaat doen zodat we niet tegelijkertijd hetzelfde idee uitwerken :-)</p>
+<h3 id="translate">Vertalen</h3>
+<p>Je kunt <a href="https://hosted.weblate.org/engage/superfreezz/">SuperFreezZ vertalen op Weblate</a>.</p>
+<h2 id="credits">Met dank aan</h2>
+<p>De code omtrent het tonen van de lijst met apps is afkomstig van <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
+<p>Robin Naumann heeft de introductie geschreven met behulp van de AppIntro-bibliotheek.</p>
+<p>De grafische achtergrond is deze: https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/ - de tekst is toegevoegd met behulp van https://www.norio.be/android-feature-graphic-generator/.</p>
+<h2 id="qa">Q/A</h2>
+<p>Veelgestelde vragen:</p>
+<p>V: Wat is het verschil tussen slaapstand en bevriezen? A: Niks. Sterker nog: als je een app in de slaapstand zet met Greenify, dan toont SuperFreezZ zelfs dat deze bevroren is (werkt ook andersom).</p>
+<p>V: Hoort de naam vanuit taalkundig oogpunt niet 'SuperFreeze' te zijn? A: Eigenlijk wel.</p>
+<p>V: Ben je van plan gebruikersgegevens te verkopen? A: Nee.</p>
