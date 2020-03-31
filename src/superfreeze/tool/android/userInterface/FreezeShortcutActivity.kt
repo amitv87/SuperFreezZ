@@ -48,12 +48,15 @@ class FreezeShortcutActivity : Activity() {
 	private var isBeingNewlyCreated: Boolean = true
 	private var appsToBeFrozenIter: ListIterator<String>? = null
 	var isWorking = false
+	var screenOff = false
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 
 		activity = this
 		isBeingNewlyCreated = true
+
+		screenOff =  (intent.getStringExtra("extraID") == "dyn_screenOff")
 
 		if (Intent.ACTION_CREATE_SHORTCUT == intent.action) {
 			setResult(RESULT_OK, createShortcutResultIntent(this))
@@ -89,8 +92,8 @@ class FreezeShortcutActivity : Activity() {
 
 	private fun performFreeze() {
 
-		if (isRootAvailable()) {
-			freezeAppsUsingRoot(getAppsPendingFreeze(this), this)
+		if (isRootAvailable) {
+			freezeAppsUsingRoot(getAppsPendingFreeze(this), this, screenOff)
 			finish()
 			return
 		}
@@ -218,7 +221,7 @@ class FreezeShortcutActivity : Activity() {
 		}
 
 		fun freezeAppsPendingFreeze(context: Context) {
-			if (isRootAvailable())
+			if (isRootAvailable)
 				freezeAppsUsingRoot(getAppsPendingFreeze(context), context)
 			else
 				context.startActivity(createShortcutIntent(context))
@@ -230,7 +233,7 @@ class FreezeShortcutActivity : Activity() {
 		 */
 		@Contract(pure = true)
 		fun freezeApp(packageName: String, context: Context) {
-			if (isRootAvailable()) {
+			if (isRootAvailable) {
 				freezeAppsUsingRoot(listOf(packageName), context)
 				return
 			}

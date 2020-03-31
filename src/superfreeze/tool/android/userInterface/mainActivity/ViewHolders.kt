@@ -25,9 +25,13 @@ package superfreeze.tool.android.userInterface.mainActivity
  */
 
 import android.app.AlertDialog
+import android.app.usage.UsageStatsManager
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import android.os.Build
+import android.provider.Settings
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
@@ -40,6 +44,7 @@ import kotlinx.coroutines.launch
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.getPendingFreezeExplanation
+import superfreeze.tool.android.backend.isRunning
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.usageStatsAvailable
 
@@ -59,6 +64,7 @@ class ViewHolderApp(
 
 	private val txtAppName: TextView = v.findViewById(R.id.txtAppName)
 	private val txtExplanation: TextView = v.findViewById(R.id.txtExplanation)
+	private val txtNowInactive: TextView = v.findViewById(R.id.txtNowInactive)
 
 	private val modeSymbols: Map<FreezeMode, ImageView> = mapOf(
 		FreezeMode.ALWAYS to v.findViewById(R.id.imageAlwaysFreeze),
@@ -69,6 +75,15 @@ class ViewHolderApp(
 	private lateinit var listItem: ListItemApp
 
 	init {
+
+		v.setOnLongClickListener {
+			val infoIntent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+			infoIntent.addCategory(Intent.CATEGORY_DEFAULT)
+			infoIntent.data = Uri.parse("package:${listItem.packageName}")
+			context.startActivity(infoIntent)
+			true
+		}
+
 		v.setOnClickListener {
 			// what is done when a list item (that is, an app) is clicked.
 			// If the freeze mode is set to NEVER and the freezer (=accessibility) service is enabled, then ask if the user really wants to freeze the app
@@ -177,6 +192,13 @@ class ViewHolderApp(
 		if (appsListAdapter.cacheAppIcon[listItem.packageName] == null) {
 			GlobalScope.launch {
 				listItem.loadNameAndIcon(this@ViewHolderApp)
+			}
+		}
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && isRunning(listItem.applicationInfo)) {
+			val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
+			if (usm.isAppInactive(listItem.packageName)) {
+				txtNowInactive.text = " " + context.getString(R.string.currently_inactive_in_brackets)
 			}
 		}
 	}
