@@ -66,7 +66,6 @@ class FreezeShortcutActivity : Activity() {
 			Log.i(TAG, "Performing Freeze.")
 			isWorking = true
 			FreezerService.doOnAppCouldNotBeFrozen = ::onAppCouldNotBeFrozen
-			toast(getString(R.string.power_button_hint), Toast.LENGTH_LONG)
 			performFreeze()
 		}
 	}
@@ -126,9 +125,13 @@ class FreezeShortcutActivity : Activity() {
 
 		val appsPendingFreeze = getAppsPendingFreeze(applicationContext)
 		if (appsPendingFreeze.isEmpty()) {
-			Toast.makeText(this, getString(R.string.NothingToFreeze), Toast.LENGTH_SHORT).show()
+			toast(getString(R.string.NothingToFreeze), Toast.LENGTH_SHORT)
 			finish()
 			return
+		}
+
+		if (FreezerService.isEnabled) {
+			toast(getString(R.string.power_button_hint), Toast.LENGTH_LONG)
 		}
 
 		// The actual freezing work will be done in onResume(). Here we just create this iterator.
