@@ -1,0 +1,6 @@
+Aggiunto supporto SPERIMENTALE a root
+Traduzioni aggiornate
+
+Reverse freeze state sort order, vedi #83
+Annullato "Fix #67 Sort ascending/descending"; fix #83
+Corrette scorciatoie per versioni di debug
