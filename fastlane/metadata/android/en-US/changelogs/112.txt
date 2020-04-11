@@ -1,0 +1,2 @@
+Fix shortcuts, thanks Dmitriy!
+(Hopefully) Fix crash when freezing with root
