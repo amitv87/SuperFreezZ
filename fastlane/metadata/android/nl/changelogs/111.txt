@@ -1,0 +1,6 @@
+-EXPERIMENTELE rootondersteuning toegevoegd
+-Vertalingen bijgewerkt
+
+-Probleem #83 opgelost
+-Probleem #67 teruggedraaid om #83 op te lossen
+-Snelkoppelingen werken nu in foutopsporingsversies

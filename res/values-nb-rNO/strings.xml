@@ -103,4 +103,6 @@
     <string name="ascending">Stigende</string>
     <string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
     <string name="warning">Advarsel</string>
+    <string name="freeze_shortcut_label_screen_off">Skjerm av</string>
+    <string name="currently_inactive_in_brackets">(nå inaktiv)</string>
 </resources>

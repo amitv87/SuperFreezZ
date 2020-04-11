@@ -149,4 +149,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n•不受信任的应用程序（您不想在后台运行）
 \n•您很少使用的应用
 \n•烦人的应用</string>
+    <string name="currently_inactive_in_brackets">(当前不活跃）</string>
+    <string name="sort_last_time_used_explanation">最近用过的app列表</string>
+    <string name="freeze_shortcut_label_screen_off">熄灭屏幕</string>
 </resources>

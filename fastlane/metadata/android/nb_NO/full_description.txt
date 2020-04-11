@@ -28,7 +28,7 @@
 <p>Hvis du vil hjelpe til i utviklingen, ta en titt på feilrapportene, eller tenk over noe som kan forbedret, og åpne en feilrapport for det.</p>
 <p>Fortell meg hva du har tenkt til å jobbe med, slik at vi unngår å gjøre det samme to ganger :-)</p>
 <h3 id="translate">Oversett</h3>
-<p>Du kan <a href="https://hosted.weblate.org/engage/superfreezz/">oversette SuperFreezZ på Vertstjent Weblate</a>.
+<p>Du kan <a href="https://hosted.weblate.org/engage/superfreezz/">oversette SuperFreezZ på Vertstjent Weblate</a>.</p>
 <h2 id="credits">Bidragsytere</h2>
 <p>Koden for visning av programlisten er fra <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
 <p>Robin Naumann laget en fin intro. Den ble laget ved bruk av AppIntro-biblioteket.</p>

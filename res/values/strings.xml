@@ -22,16 +22,16 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="msg_search">Search</string>
     <string name="msg_search_help">Search…</string>
     <string name="share_exception">Unexpected error. Report using…</string>
-    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps. 
-\n 
-\nAdvantages: 
-\n• No user interaction: Faster. No need to know how to do it. 
-\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically. 
-\n 
-\nSuperFreezZ uses the accessibility service to tap on \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear. 
-\n 
-\nSuperFreezZ just uses the accessibility service to tap on \"FORCE STOP\", \"OK\" and \"Back\". Retrieve window content is necessary to find these buttons and observe your actions is needed to know when they appear. 
-\n 
+    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps.
+\n
+\nAdvantages:
+\n• No user interaction: Faster. No need to know how to do it.
+\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically.
+\n
+\nSuperFreezZ uses the accessibility service to tap on \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear.
+\n
+\nSuperFreezZ just uses the accessibility service to tap on \"FORCE STOP\", \"OK\" and \"Back\". Retrieve window content is necessary to find these buttons and observe your actions is needed to know when they appear.
+\n
 \nThe accessibility service can also be used to lock the screen after freezing on newer Android versions.</string>
     <string name="freeze_shortcut_label">Freeze</string>
     <string name="freeze_shortcut_label_screen_off">Screen off</string>
@@ -150,7 +150,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="used_recently_and_frozen">Used recently <![CDATA[&]]> frozen</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: Freeze F-Droid apps</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid apps usually do not run in the background that much.</string>
-	<string name="sort_last_time_used_explanation">Least recently used apps first</string>
+    <string name="sort_last_time_used_explanation">Least recently used apps first</string>
     <string name="other_apps">Other apps</string>
     <string name="system_apps">System apps</string>
     <string name="user_apps">User apps</string>
@@ -170,5 +170,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n • Untrusted apps (that you do not want to run in the background) 
 \n • Apps you rarely use 
 \n • Annoying apps</string>
-	<string name="currently_inactive_in_brackets">(now inactive)</string>
+    <string name="currently_inactive_in_brackets">(now inactive)</string>
 </resources>

@@ -75,17 +75,23 @@
     <string name="links">Links</string>
     <string name="pref_ringtone_silent">Silencioso</string>
     <string name="title_activity_settings">Configurações</string>
-    <string name="accessibility_service_description">"Ativar isso permite congelar aplicativos automaticamente. 
+    <string name="accessibility_service_description">Ativar isso permite congelar aplicativos automaticamente. 
 \n
+\n 
 \nVantagens: 
+\n
 \n• Nenhuma interação do usuário: mais rápido. Não há necessidade de saber como fazê-lo. 
-\n• Usuários desabilitados podem usar o atalho de congelamento (por meio do reconhecimento de fala, por exemplo), congelando todos os aplicativos automaticamente.  
 \n
-\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA\", \"OK\" e \"Voltar\". A recuperação do conteúdo da janela localiza esses botões, e a observação de ações é necessária para saber quando elas aparecem.  
+\n• Usuários desabilitados podem usar o atalho de congelamento (por meio do reconhecimento de fala, por exemplo), congelando todos os aplicativos automaticamente. 
 \n
-\nSuperFreezZ apenas usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA \", \"OK\" e \"Voltar \". Recuperar o conteúdo da janela é necessário para encontrar esses botões e observar suas ações é necessário saber quando eles aparecem.  
+\n 
+\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA\", \"OK\" e \"Voltar\". A recuperação do conteúdo da janela localiza esses botões, e a observação de ações é necessária para saber quando elas aparecem. 
 \n
-\nO serviço de acessibilidade também pode ser usado para bloquear a tela após o congelamento em versões mais recentes do Android."</string>
+\n 
+\nSuperFreezZ apenas usa o serviço de acessibilidade para tocar em \"FORÇAR PARADA \", \"OK\" e \"Voltar \". Recuperar o conteúdo da janela é necessário para encontrar esses botões e observar suas ações é necessário saber quando eles aparecem. 
+\n
+\n 
+\nO serviço de acessibilidade também pode ser usado para bloquear a tela após o congelamento em versões mais recentes do Android.</string>
     <string name="enable">Permitir</string>
     <string name="intro_header_automaticfreezing">congelamento automático</string>
     <string name="pref_header_freezing_summary">Personalize como e quais aplicativos são congelados</string>
