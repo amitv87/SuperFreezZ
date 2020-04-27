@@ -71,15 +71,17 @@
     <string name="links">Ligações</string>
     <string name="pref_ringtone_silent">Silencioso</string>
     <string name="title_activity_settings">Definições</string>
-    <string name="accessibility_service_description">Activar isto permite congelar aplicações automaticamente. 
+    <string name="accessibility_service_description">Ligar isto permita-lhe congelar aplicações automaticamente.
 \n 
-\nVantagens: 
-\n• Sem interação do utilizador: Rapidez. Sem curva de aprendizagem. 
-\n• Utilizadores com dificuldades podem usar o atalho Congelar (via reconhecimento de voz, por exemplo), congelando automaticamente todas as aplicações definidas. 
+\nVantagens:
+\n- Sem interação do utilizador: mais rápido. Não há necessidade de saber como fazê-lo.
+\n- Utilizadores deficientes podem usar o atalho de congelamento (via reconhecimento de voz, por exemplo), congelando todos os apps automaticamente.
 \n 
-\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\", e \"Back\". A recuperação do conteúdo da janela encontra estes botões, e a escuta das acções é necessária para saber quando elas aparecem. 
+\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\", e \"Back\". A recuperação do conteúdo da janela encontra estes botões e é necessário observar as ações, para saber quando elas aparecem.
 \n 
-\nO serviço de acessibilidade também pode ser utilizado para bloquear o ecrã depois de congelar as aplicações, em versões mais recentes do Android.</string>
+\nSuperFreezZ só utiliza o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\" e \"Back\". Para encontrar estes botões, é necessário recuperar o conteúdo da janela e observar as suas ações, para saber quando elas aparecem.
+\n 
+\nO serviço de acessibilidade também pode ser usado para bloquear o ecrã após o congelamento nas versões mais recentes do Android.</string>
     <string name="enable">Habilitar</string>
     <string name="intro_header_automaticfreezing">congelamento automático</string>
     <string name="pref_header_freezing_summary">Personalizar como e quais aplicações serão congeladas</string>
@@ -99,6 +101,19 @@
     <string name="logs_copied">Registos copiados para a área de transferência.</string>
     <string name="freeze_manually_no">Não quero ter de fazer isto</string>
     <string name="plz_help_translating">…Por favor ajude a traduzi-la.</string>
-    <string name="descending">Ordem descendente</string>
-    <string name="ascending">Ordem ascendente</string>
+    <string name="descending">Descendente ▼</string>
+    <string name="ascending">Ascendente ▲</string>
+    <string name="currently_inactive_in_brackets">(agora inativo)</string>
+    <string name="warning_long_2">Exemplos de apps que merecem ser congeladas:
+\n 
+\n - Apps não confiáveis (que não queira executar em segundo plano)
+\n - Apps que você raramente usa
+\n - Apps incómodas</string>
+    <string name="warning_long_1">Parar/congelar apps frequentemente irá provavelmente drenar a sua bateria mais rapidamente, porque o \"descongelamento\" consome energia.
+\n
+\nIsto também é um problema com outras aplicações semelhantes, tais como Greenify e \"economizadores de bateria\" (exceto que eles não o avisam).</string>
+    <string name="warning">Aviso</string>
+    <string name="power_button_hint">Dica: pressione o botão Ligar para cancelar o processo de congelamento</string>
+    <string name="sort_last_time_used_explanation">Apps menos utilizados primeiro</string>
+    <string name="freeze_shortcut_label_screen_off">Ecrã desligado</string>
 </resources>

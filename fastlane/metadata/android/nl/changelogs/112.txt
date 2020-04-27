@@ -1,0 +1,2 @@
+Snelkoppelingen gerepareerd, met dank aan Dmitriy!
+Crash tijdens bevriezen met root opgelost (hopelijk)

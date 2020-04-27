@@ -1,0 +1,2 @@
+试图再次使冻结更稳定。从FreezerService中删除了未使用的doOnFinished（）。
+回归修复：freezerservice未运行时不使用超时

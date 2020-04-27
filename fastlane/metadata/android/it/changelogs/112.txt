@@ -1,0 +1,2 @@
+Fix scorciatoie, grazie Dmitriy!
+(Speriamo) Fix crash congelando con root

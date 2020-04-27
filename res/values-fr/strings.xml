@@ -5,13 +5,13 @@
     <string name="share_exception">"Erreur inattendue.  Signaler en utilisant…"</string>
     <string name="accessibility_service_description">Activer cette option vous permet de geler automatiquement les applications. 
 \n 
-\nAvantages: 
-\n• Aucune interaction de l\'utilisateur: plus rapide. Pas besoin de savoir comment le faire. 
+\nAvantages : 
+\n• Aucune interaction de l\'utilisateur : plus rapide. Pas besoin de savoir comment le faire. 
 \n• Les utilisateurs à mobilité réduite peuvent utiliser le raccourci gel (par exemple, via la reconnaissance vocale) pour geler automatiquement toutes les applications. 
 \n 
-\nSuperFreezZ utilise le service d\'accessibilité pour sélectionner \"FORCE STOP\", \"OK\" et \"Back\". Récupérer le contenu de la fenêtre est nécessaire pour trouver ces bouton, et l\'observation des actions est nécessaire pour savoir quand elles apparaissent. 
+\nSuperFreezZ utilise le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces bouton, et l\'observation des actions est nécessaire pour savoir quand elles apparaissent.
 \n 
-\nSuperFreezZ utilise simplement le service d\'accessibilité pour sélectionner \"FORCE STOP\", \"OK\" et \"Back\". Récupérer le contenu de la fenêtre est nécessaire pour trouver ces boutons et observer que vos actions sont nécessaires pour savoir quand elles apparaissent. 
+\nSuperFreezZ utilise simplement le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces boutons et observer que vos actions sont nécessaires pour savoir quand elles apparaissent. 
 \n 
 \nLe service d\'accessibilité peut également être utilisé pour verrouiller l\'écran après avoir bloqué les nouvelles versions d\'Android.</string>
     <string name="freeze_shortcut_label">Geler</string>
@@ -25,19 +25,19 @@
     <string name="frozen">Gelé</string>
     <string name="freeze_off">Gel désactivé</string>
     <string name="used_recently">Utilisée récemment</string>
-    <string name="no_apps_pending_freeze">[AUCUNE APPKICATION EN COURS DE GEL]</string>
-    <string name="all_apps">TOUTES LES APPLICATIONS</string>
+    <string name="no_apps_pending_freeze">[AUCUNE APPLICATION EN COURS DE GEL]</string>
+    <string name="all_apps">TOUTES LES APPLIS</string>
     <string name="usagestats_access">Accès aux Statistiques d\'utilisation</string>
     <string name="usatestats_explanation">L\'accès aux statistiques d\'utilisation permet à SuperFreezZ de geler uniquement les applications que vous n\'avez pas utilisé. Depuis quelque temps [GEL INTELLIGENT].</string>
-    <string name="enable">Activé</string>
+    <string name="enable">Activer</string>
     <string name="usagestats_not_enabled">Vous n\'avez pas autorisé l\'accès aux statistiques d\'utilisation.</string>
     <string name="automate_the_freezing_of_apps">Automatiser le gel des applications \?</string>
     <string name="accessibility_arguments_yes">Pour :
 \n• faciliter l\'utilisation 
 \n• geler de nombreuses applications</string>
-    <string name="accessibility_arguments_no">Vous devrez appuyer sur \"FORCER L\'ARRÊT\", \"OK\" et \"RETOUR\" manuellement pour geler une application.
-\nPour :
-\n• les appareils lents
+    <string name="accessibility_arguments_no">Vous devrez appuyer sur « FORCER L\'ARRÊT », « OK » et « RETOUR » manuellement pour geler une application. 
+\nPour : 
+\n• les appareils lents 
 \n• des problèmes de sécurité 
 \n• une absence d\'enregistrement de SuperFreezZ dans les services d\'accessibilité</string>
     <string name="yes">Oui</string>
@@ -45,19 +45,19 @@
     <string name="intro_always_freeze_title">Mode gel : TOUJOURS GELER</string>
     <string name="intro_always_freeze_explanation">Il existe 3 modes de gel. Vous pouvez en choisir un pour chaque application. TOUJOURS GELER gèlera une application dans tous les cas.</string>
     <string name="intro_never_freeze_title">Mode de gel : NE JAMAIS GELER</string>
-    <string name="intro_never_freeze_explanation">NE JAMAIS GELER arrête le gel et ne gelera jamais une application.</string>
+    <string name="intro_never_freeze_explanation">NE JAMAIS GELER arrête le gel et ne gèlera jamais une application.</string>
     <string name="intro_auto_freeze_title">Mode gel : INTELLIGENT</string>
     <string name="intro_auto_freeze_explanation">GEL INTELLIGENT ne gèlera une application que si elle n\'a pas été utilisée pendant un certain temps (7 jours par défaut). Les applications de F-Droid ne seront pas gelées.</string>
     <string name="freeze_manually">Geler manuellement</string>
-    <string name="Press_forcestop_ok_back">Geler une application en appuyant sur \"FORCE STOP\", \"OK\", puis sur \"Retour\".</string>
-    <string name="freeze_manually_no">Je ne veux pas faire ça</string>
+    <string name="Press_forcestop_ok_back">Geler une application en appuyant sur « FORCER L\'ARRÊT », « OK », puis sur « Retour ».</string>
+    <string name="freeze_manually_no">Je ne veux pas devoir faire ça</string>
     <string name="title_activity_settings">Paramètres</string>
     <string name="pref_header_appslist">Liste des applications</string>
     <string name="pref_title_standard_freeze_mode">Mode Geler standard (applications utilisateur)</string>
     <string name="pref_header_about">À propos</string>
     <string name="pref_header_freezing">Applications gelées</string>
     <string name="pref_ringtone_silent">Silencieux</string>
-    <string name="appslist_show_special">Affichage de la liste des applications spécial</string>
+    <string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT : Geler après… (jours)</string>
     <string name="pref_summary_appslist_show_special">Le Launcher, SuperFreezZ et les applications système sont masqués par défaut.</string>
     <string name="create_freeze_shortcut">Créer un raccourci vers Geler</string>
@@ -65,20 +65,20 @@
     <string name="sort">Trier</string>
     <string name="pref_header_freezing_summary">Personnaliser comment et quelles applications sont gelées</string>
     <string name="pref_header_about_summary">Liens utiles, envoi de logs</string>
-    <string name="pref_header_appslist_summary">Affichage des applications spéciales, mode gel standard</string>
+    <string name="pref_header_appslist_summary">Afficher les applis spéciales, mode gel standard</string>
     <string name="freeze_apps_now">Geler les applications maintenant</string>
     <string name="freeze_on_screen_off_title">Geler quand l\'écran est éteint</string>
     <string name="freeze_on_screen_off_sum">Vous devrez désactiver \'verrouiller avec touche marche\' dans les paramètres de l\'appareil</string>
     <string name="problems">Problèmes</string>
     <string name="links">Liens</string>
     <string name="info">Informations</string>
-    <string name="view_intro_again">Revoir l\'introduction</string>
-    <string name="logs_copied">Copier logs dans le presse-papier.</string>
-    <string name="share_logs">Partage logs…</string>
-    <string name="sf_crashed">SuperFreezZ s\'est bloqué. envoyer un rapport s\'il vous plaît, si vous ne l\'avez pas déjà fait.</string>
+    <string name="view_intro_again">Revoir la présentation</string>
+    <string name="logs_copied">Journaux copiés dans le presse-papier.</string>
+    <string name="share_logs">Partager les journaux avec…</string>
+    <string name="sf_crashed">SuperFreezZ a planté. Si ce n\'est déjà fait, veuillez SVP envoyer un rapport de bogue.</string>
     <string name="report">Signaler un problème, proposer une fonctionnalité,…</string>
-    <string name="send_logs">Envoyer logs</string>
-    <string name="source_code">Code Source</string>
+    <string name="send_logs">Envoyer les journaux</string>
+    <string name="source_code">Code source</string>
     <string name="license">Licence</string>
     <string name="credits_and_licenses">Crédits et licences tierces</string>
     <string name="already_frozen">Déjà gelé</string>
@@ -87,20 +87,33 @@
     <string name="intro_header_automaticfreezing">Geler automatiquement</string>
     <string name="sort_by">Trier par</string>
     <string name="not_available">Non disponible</string>
-    <string name="fdroid_app_not_pending_freeze">F-Droid application</string>
+    <string name="fdroid_app_not_pending_freeze">Application F-Droid</string>
     <string name="used_recently_and_frozen">Utilisé récemment &amp; gelé</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT : Freeze F-Droid application</string>
-    <string name="pref_intelligentfreeze_freeze_fdroid_sum">L\'applications F-Droid ne fonctionnent généralement pas en arrière-plan.</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">Habituellement, les applis F-Droid ne fonctionnent pas beaucoup en arrière-plan.</string>
     <string name="if_you_like_this_app">Si vous aimez cette application…</string>
     <string name="plz_help_translating">… S\'il vous plaît aider à le traduire.</string>
-    <string name="plz_donate">… S\'il vous plaît soyez un héros et faites un don.</string>
-    <string name="changed_freeze_mode">Changer de mode Freeze</string>
+    <string name="plz_donate">… SVP, devenez un héros en faisant un don.</string>
+    <string name="changed_freeze_mode">Changer de mode Gel</string>
     <string name="other_apps">Autres applications</string>
     <string name="pref_title_standard_freeze_mode_system">Mode Geler standard (applications système)</string>
     <string name="system_apps">Applications système</string>
     <string name="user_apps">applications utilisateur</string>
-    <string name="version_abbrev">V</string>
+    <string name="version_abbrev">v</string>
     <string name="freeze_question">Geler cette application \?</string>
-    <string name="descending">Descendant</string>
-    <string name="ascending">Ascendant</string>
+    <string name="descending">Descendant ▼</string>
+    <string name="ascending">Ascendant ▲</string>
+    <string name="currently_inactive_in_brackets">(actuellement inactif)</string>
+    <string name="warning_long_2">Exemples d\'applis qui méritent d\'être gelées : 
+\n 
+\n • les applis auxquelles vous ne faites pas confiance (que vous ne voulez pas utiliser en arrière-plan) ; 
+\n • les applis que vous utilisez rarement ; 
+\n • les applis qui vous embêtent.</string>
+    <string name="warning_long_1">Arrêter/geler des applis fréquemment déchargera votre batterie PLUS VITE, parce que le « dégel » consomme de l\'énergie.
+\n
+\nCeci est aussi un problème avec d\'autres applis similaires comme Greenify et les « économiseurs de batterie » (sauf qu\'ils ne vous avertissent pas).</string>
+    <string name="warning">Avertissement</string>
+    <string name="power_button_hint">Astuce : appuyer sur le bouton d\'alimentation pour annuler le processus de gel</string>
+    <string name="sort_last_time_used_explanation">D\'abord les applis les moins utilisés récemment</string>
+    <string name="freeze_shortcut_label_screen_off">Écran éteint</string>
 </resources>
