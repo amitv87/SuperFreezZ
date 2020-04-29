@@ -1,9 +1,6 @@
 SuperFreezZ
 ===========
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70">](https://f-droid.org/packages/superfreeze.tool.android/) 
-
-
 Android app (beta) making it possible to entirely freeze all background activities of any app.
 
  * Get back control over what runs on your phone
@@ -11,6 +8,11 @@ Android app (beta) making it possible to entirely freeze all background activiti
  * Especially useful while you are on a tour, where you need only some apps but a long battery life
 
 Greenify can also do this, but it is not Open Source.
+
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70">](https://f-droid.org/packages/superfreeze.tool.android/) 
+
+How to install:
+![Installation video](https://gitlab.com/SuperFreezZ/SuperFreezZ/uploads/f5b475ef170d7917c96f5932b26f5184/How_to_install.mp4)
 
 SuperFreezZ is not yet another task manager promising to delete 10 GB of data per month or making your device 2x as fast. This is impossible.
 
