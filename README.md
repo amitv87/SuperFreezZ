@@ -78,23 +78,16 @@ The feature graphic background is from here: https://pixabay.com/photos/thunder-
 Copying
 -------
 
+SuperFreezZ is licensed under GPLv3-or-later, see the project files and the LICENSE file for details.
+
+Note that there are some files distributed under the MIT license because they were partly copied from ApkExtractor:
 ```
-Copyright (c) 2015 axxapy
-Copyright (c) 2018, 2019 Hocuri
-Copyright (c) 2019 Robin Naumann
-
-SuperFreezZ is free software: You can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-SuperFreezZ is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with SuperFreezZ. If not, see <https://www.gnu.org/licenses/>.
+src/superfreeze/tool/android/userInterface/mainActivity/AppsListAdapter.kt
+src/superfreeze/tool/android/userInterface/mainActivity/MainActivity.kt
+res/values/styles.xml
+res/menu/main.xml
+res/layout/list_item.xml
+res/layout/activity_main.xml
 ```
 
 Q/A
