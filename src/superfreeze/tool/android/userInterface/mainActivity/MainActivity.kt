@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
 
 		setSupportActionBar(toolbar)
 
-		findViewById<SwipeRefreshLayout>(R.id.swiperefresh).setOnRefreshListener {
+		swiperefresh.setOnRefreshListener {
 			recreate()
 		}
 	}
@@ -100,11 +100,10 @@ class MainActivity : AppCompatActivity() {
 		// Show the app intro at the first launch:
 		if (prefIntroAlreadyShown) {
 			startActivity(Intent(this, IntroActivity::class.java))
-			neverCalled("DonationsNowPossible", this) // TODO delete line
 			return
-			// TODO delete from here on:
 		}
 
+		// TODO delete from here on:
 		if (neverCalled("RootSupport", this)) {
 			AlertDialog.Builder(this, R.style.myAlertDialog)
 				.setTitle("EXPERIMENTAL root support")
@@ -123,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
 	override fun onPause() {
 		super.onPause()
-		appsListAdapter.deleteAppInfos() // The ApplicationInfos might be obsolete when we return anyway
+		appsListAdapter.deleteAppInfos() // The ApplicationInfos might be outdated when we return
 	}
 
 	override fun onStop() {

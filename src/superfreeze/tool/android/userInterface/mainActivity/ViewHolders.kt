@@ -44,6 +44,7 @@ import kotlinx.coroutines.launch
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.getPendingFreezeExplanation
+import superfreeze.tool.android.backend.isRootAvailable
 import superfreeze.tool.android.backend.isRunning
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.usageStatsAvailable
@@ -98,6 +99,13 @@ class ViewHolderApp(
 					.show()
 			} else { // If the freezer service is not enabled, the user will still have the chance to change their mind because when freezing the app manually.
 				listItem.freeze(context)
+			}
+			if (isRootAvailable) {
+				refresh()
+				// This screen does not have to be left to freeze.
+				// Usually the apps list is refreshed when onResume() is called, but this will not
+				// happen because the MainActivity does not even have to be left.
+				// So, refresh() here.
 			}
 		}
 

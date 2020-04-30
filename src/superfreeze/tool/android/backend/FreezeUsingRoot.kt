@@ -29,6 +29,8 @@ import android.util.Log
 import eu.chainfire.libsuperuser.Shell
 import superfreeze.tool.android.R
 import superfreeze.tool.android.userInterface.FreezeShortcutActivity
+import superfreeze.tool.android.userInterface.mainActivity.AppsListAdapter
+import superfreeze.tool.android.userInterface.mainActivity.MainActivity
 import java.lang.Exception
 
 // Try using root when called the first time, then cache the result
@@ -45,7 +47,6 @@ fun freezeAppsUsingRoot(
 	packages: List<String>, context: Context,
 	putScreenOffAfterFreezing: Boolean = false
 ) {
-
 	if (Build.VERSION.SDK_INT >= 25) {
 		val shortcutManager = context.getSystemService<ShortcutManager>(ShortcutManager::class.java)
 		val shortcut: ShortcutInfo
