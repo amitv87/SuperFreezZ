@@ -48,7 +48,7 @@ class FreezeShortcutActivity : Activity() {
 	private var isBeingNewlyCreated: Boolean = true
 	private var appsToBeFrozenIter: ListIterator<String>? = null
 	var isWorking = false
-	var screenOff = false
+	private var screenOff = false
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -78,8 +78,6 @@ class FreezeShortcutActivity : Activity() {
 		if (activity == this) {
 			Log.i(TAG, "Destroying, cleaning up")
 			activity = null
-			onFreezeFinishedListener?.invoke(this)
-			onFreezeFinishedListener = null
 			FreezerService.doOnAppCouldNotBeFrozen = null
 			FreezerService.finishedFreezing()
 		} else {
@@ -94,32 +92,6 @@ class FreezeShortcutActivity : Activity() {
 		if (isRootAvailable) {
 			freezeAppsUsingRoot(getAppsPendingFreeze(this), this, screenOff)
 			finish()
-			return
-		}
-
-		// Sometimes the accessibility service is disabled for some reason.
-		// In this case, tell the user to re-enable it:
-		if (!FreezerService.isEnabled && prefUseAccessibilityService) {
-			promptForAccessibility()
-			return
-		}
-
-		if (!FreezerService.isEnabled && neverCalled(
-				"dialog-how-to-freeze-without-accessibility-service",
-				this
-			)
-		) {
-			AlertDialog.Builder(this, R.style.myAlertDialog)
-				.setTitle(R.string.freeze_manually)
-				.setMessage(R.string.Press_forcestop_ok_back)
-				.setCancelable(false)
-				.setPositiveButton(android.R.string.ok) { _, _ ->
-					performFreeze()
-				}
-				.setNegativeButton(R.string.freeze_manually_no) { _, _ ->
-					promptForAccessibility()
-				}
-				.show()
 			return
 		}
 
@@ -138,33 +110,60 @@ class FreezeShortcutActivity : Activity() {
 		appsToBeFrozenIter = appsPendingFreeze.listIterator()
 	}
 
-	private fun promptForAccessibility() {
-		showAccessibilityDialog(this)
-		onReenterActivityListener = {
-			prefUseAccessibilityService = FreezerService.isEnabled
-			performFreeze()
-		}
-	}
-
 	override fun onResume() {
 		super.onResume()
 
-		// Reenter means NOT on the first launch
-		if (!isBeingNewlyCreated) {
-			onReenterActivityListener?.invoke()
-			onReenterActivityListener = null
+		Companion.onResume(this)
+
+		doNextFreezingStep()
+	}
+
+	private fun doNextFreezingStep() {
+		// Sometimes the accessibility service is disabled for some reason.
+		// In this case, tell the user to re-enable it:
+		if (!FreezerService.isEnabled && prefUseAccessibilityService) {
+			promptForAccessibility()
+			return
 		}
-		isBeingNewlyCreated = false
+
+		if (!FreezerService.isEnabled && neverCalled(
+				"dialog-how-to-freeze-without-accessibility-service",
+				this
+			)
+		) {
+			AlertDialog.Builder(this, R.style.myAlertDialog)
+				.setTitle(R.string.freeze_manually)
+				.setMessage(R.string.Press_forcestop_ok_back)
+				.setCancelable(false)
+				.setPositiveButton(android.R.string.ok) { _, _ ->
+					doNextFreezingStep()
+				}
+				.setNegativeButton(R.string.freeze_manually_no) { _, _ ->
+					prefUseAccessibilityService = true // apparently the user wants to use the accessibility service
+					recreate()
+				}
+				.show()
+			return
+		}
 
 		if (appsToBeFrozenIter != null) {
-
 			if (appsToBeFrozenIter!!.hasNext()) {
 				freezeApp(appsToBeFrozenIter!!.next(), this)
 			} else {
+				onFreezeFinishedListener?.invoke(this)
+				onFreezeFinishedListener = null
 				finish()
 				Log.i(TAG, "Finished freezing")
 			}
+		}
+	}
 
+	private fun promptForAccessibility() {
+		showAccessibilityDialog(this, Companion) {
+			// The accessibility service is now in exactly the state where the user wants it to be.
+			// So, set prefUseAccessibilityService to whether the freezer (=accessibility) service is currently enabled.
+			prefUseAccessibilityService = FreezerService.isEnabled
+			recreate()
 		}
 	}
 
@@ -177,9 +176,7 @@ class FreezeShortcutActivity : Activity() {
 		// Greetings to anyone reviewing this code!
 	}
 
-	private var onReenterActivityListener: (() -> Unit)? = null
-
-	companion object {
+	companion object Companion : MyActivityCompanion() {
 
 		/**
 		 * Returns an intent containing information for a launcher how to create a shortcut.

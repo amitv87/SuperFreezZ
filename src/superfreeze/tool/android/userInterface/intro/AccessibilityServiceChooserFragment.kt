@@ -31,6 +31,7 @@ import androidx.fragment.app.Fragment
 import com.github.paolorotolo.appintro.ISlidePolicy
 import superfreeze.tool.android.R
 import superfreeze.tool.android.expectNonNull
+import superfreeze.tool.android.userInterface.MyActivityCompanion
 import superfreeze.tool.android.userInterface.showAccessibilityDialog
 
 
@@ -56,7 +57,6 @@ class AccessibilityServiceChooserFragment : Fragment(), ISlidePolicy {
 
         return layout
     }
-
 
     private fun done() {
         (this.activity as? IntroActivity)

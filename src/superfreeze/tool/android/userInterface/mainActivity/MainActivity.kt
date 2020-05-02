@@ -26,7 +26,6 @@ SOFTWARE.
 package superfreeze.tool.android.userInterface.mainActivity
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.app.AlertDialog
 import android.app.SearchManager
 import android.content.ComponentCallbacks2
@@ -42,7 +41,6 @@ import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import kotlinx.android.synthetic.main.activity_main.*
 import superfreeze.tool.android.AsyncDelegated
 import superfreeze.tool.android.R
@@ -51,6 +49,7 @@ import superfreeze.tool.android.database.neverCalled
 import superfreeze.tool.android.database.prefIntroAlreadyShown
 import superfreeze.tool.android.database.prefListSortMode
 import superfreeze.tool.android.userInterface.FreezeShortcutActivity
+import superfreeze.tool.android.userInterface.MyActivityCompanion
 import superfreeze.tool.android.userInterface.intro.IntroActivity
 import superfreeze.tool.android.userInterface.requestUsageStatsPermission
 import superfreeze.tool.android.userInterface.settingsActivity.SettingsActivity
@@ -83,8 +82,12 @@ class MainActivity : AppCompatActivity() {
 		progressBar = progress
 		progressBar.visibility = View.VISIBLE
 
-		requestUsageStatsPermission(this) {
-			appsListAdapter.setAndLoadItems(applications)
+		// We want the dialog to be only shown in onResume, not in onCreate as the app intro is supposed to be shown before this dialog:
+		doOnResume {
+			requestUsageStatsPermission(Companion, this) {
+				appsListAdapter.setAndLoadItems(applications)
+			}
+			false // do not execute again
 		}
 
 		setSupportActionBar(toolbar)
@@ -113,10 +116,9 @@ class MainActivity : AppCompatActivity() {
 		}
 		// TODO delete up to here
 
+		Companion.onResume(this)
 
-		//Execute all tasks and retain only those that returned true.
-		toBeDoneOnResume.retainAll { it() }
-
+		// Refresh the apps list because it could have changed in the meantime (or Companion.onResume())
 		appsListAdapter.refresh()
 	}
 
@@ -196,7 +198,7 @@ class MainActivity : AppCompatActivity() {
 			}
 
 			R.id.action_sort -> {
-				showSortChooserDialog(this, prefListSortMode) { index ->
+				showSortChooserDialog(Companion, this, prefListSortMode) { index ->
 					prefListSortMode = index
 
 					appsListAdapter.sortModeIndex = index
@@ -250,18 +252,8 @@ class MainActivity : AppCompatActivity() {
 		}
 	}
 
-	companion object {
-		private val toBeDoneOnResume: MutableList<Activity.() -> Boolean> = mutableListOf()
-		/**
-		 * Execute this task on resume.
-		 * @param task If it returns true, then it will be executed again at the next onResume.
-		 */
-		internal fun doOnResume(task: Activity.() -> Boolean) {
-			toBeDoneOnResume.add(task)
-		}
-
-	}
+	companion object Companion : MyActivityCompanion()
 
 }
 
-private const val TAG = "SF-MainActivity"
+//private const val TAG = "SF-MainActivity"

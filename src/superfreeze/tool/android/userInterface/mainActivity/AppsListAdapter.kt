@@ -83,7 +83,7 @@ class AppsListAdapter internal constructor(
 	private var originalList = emptyList<AbstractListItem>()
 
 	/**
-	 * This list contains the items as shown to the user, including section headers. While the user is searching, this is a clone of originalList.
+	 * This list contains the items as shown to the user, including section headers. While the user is not searching, this is a clone of originalList.
 	 */
 	internal var list = emptyList<AbstractListItem>()
 

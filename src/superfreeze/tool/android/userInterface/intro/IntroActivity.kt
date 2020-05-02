@@ -32,6 +32,7 @@ import superfreeze.tool.android.BuildConfig
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.database.prefIntroAlreadyShown
+import superfreeze.tool.android.userInterface.MyActivityCompanion
 
 /**
  * Shows the intro slides on the very first startup
