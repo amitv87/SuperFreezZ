@@ -36,7 +36,7 @@ private const val TAG = "SF-DatabaseBackend"
 internal fun getFreezeMode(context: Context, packageName: String, isSystemApp: Boolean): FreezeMode {
 
 	val sharedPreferences = getFreezeModesPreferences(context)
-	var standardFreezeModeSettingName = "standard_freeze_mode";
+	var standardFreezeModeSettingName = "standard_freeze_mode"
 	if (isSystemApp) {
 		standardFreezeModeSettingName = "standard_freeze_mode_system"
 	}
@@ -89,6 +89,10 @@ private fun getMainPreferences(context: Context): SharedPreferences {
 internal fun getPrefs(context: Context): SharedPreferences {
 	return PreferenceManager.getDefaultSharedPreferences(context)
 }
+
+internal var Context.prefShowExplainingDialog
+		get() = getMainPreferences(this).getBoolean("dialog-how-to-freeze-without-accessibility-service", true)
+		set(v) = getMainPreferences(this).edit().putBoolean("dialog-how-to-freeze-without-accessibility-service", v).apply()
 
 internal var Context.prefListSortMode
 	get() = getMainPreferences(this).getInt("ListSortMode", 0)

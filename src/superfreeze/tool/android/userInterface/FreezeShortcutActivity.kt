@@ -34,8 +34,8 @@ import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.freezeAppsUsingRoot
 import superfreeze.tool.android.backend.getAppsPendingFreeze
 import superfreeze.tool.android.backend.isRootAvailable
-import superfreeze.tool.android.database.neverCalled
 import superfreeze.tool.android.database.prefUseAccessibilityService
+import superfreeze.tool.android.database.prefShowExplainingDialog
 
 /**
  * This activity
@@ -119,31 +119,31 @@ class FreezeShortcutActivity : Activity() {
 	}
 
 	private fun doNextFreezingStep() {
-		// Sometimes the accessibility service is disabled for some reason.
-		// In this case, tell the user to re-enable it:
-		if (!FreezerService.isEnabled && prefUseAccessibilityService) {
-			promptForAccessibility()
-			return
-		}
+		if (!FreezerService.isEnabled) {
+			// Sometimes the accessibility service is disabled for some reason.
+			// In this case, tell the user to re-enable it:
+			if (prefUseAccessibilityService) {
+				promptForAccessibility()
+				return
+			}
 
-		if (!FreezerService.isEnabled && neverCalled(
-				"dialog-how-to-freeze-without-accessibility-service",
-				this
-			)
-		) {
-			AlertDialog.Builder(this, R.style.myAlertDialog)
-				.setTitle(R.string.freeze_manually)
-				.setMessage(R.string.Press_forcestop_ok_back)
-				.setCancelable(false)
-				.setPositiveButton(android.R.string.ok) { _, _ ->
-					doNextFreezingStep()
-				}
-				.setNegativeButton(R.string.freeze_manually_no) { _, _ ->
-					prefUseAccessibilityService = true // apparently the user wants to use the accessibility service
-					recreate()
-				}
-				.show()
-			return
+			if (prefShowExplainingDialog) {
+				AlertDialog.Builder(this, R.style.myAlertDialog)
+					.setTitle(R.string.freeze_manually)
+					.setMessage(R.string.Press_forcestop_ok_back)
+					.setCancelable(false)
+					.setPositiveButton(android.R.string.ok) { _, _ ->
+						prefShowExplainingDialog = false
+						doNextFreezingStep()
+					}
+					.setNegativeButton(R.string.freeze_manually_no) { _, _ ->
+						prefUseAccessibilityService =
+							true // apparently the user wants to use the accessibility service
+						recreate()
+					}
+					.show()
+				return
+			}
 		}
 
 		if (appsToBeFrozenIter != null) {
