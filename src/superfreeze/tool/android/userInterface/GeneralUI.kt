@@ -32,7 +32,6 @@ import android.provider.Settings
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
-import androidx.core.app.ActivityCompat.recreate
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.usageStatsPermissionGranted
 import superfreeze.tool.android.database.neverCalled

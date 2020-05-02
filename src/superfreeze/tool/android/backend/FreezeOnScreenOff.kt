@@ -44,6 +44,7 @@ import kotlin.math.min
  * (performGlobalAction(GLOBAL_ACTION_LOCK_SCREEN)). This is needed to lock the screen
  * after freezing the apps.
  */
+@Suppress("FunctionName")
 internal fun freezeOnScreenOff_init(
 	context: Context,
 	screenLockerFunction: () -> Unit
@@ -110,6 +111,7 @@ private val screenReceiver by lazy {
 			Log.i(TAG, "turning screen on for freeze...")
 
 			val pm = context.getSystemService(Context.POWER_SERVICE) as PowerManager?
+			@Suppress("DEPRECATION")
 			val wl = pm?.newWakeLock(
 				PowerManager.FULL_WAKE_LOCK
 						or PowerManager.ACQUIRE_CAUSES_WAKEUP, "keepawake_until_frozen:"
@@ -117,6 +119,7 @@ private val screenReceiver by lazy {
 			wl?.acquire(3 * 60 * 1000L /*3 minutes*/) ?: Log.w(TAG, "wl was null")
 
 			val km = context.getSystemService(KEYGUARD_SERVICE) as KeyguardManager?
+			@Suppress("DEPRECATION")
 			val kl = km!!.newKeyguardLock("SuperFreezZ")
 			kl.disableKeyguard()
 
@@ -137,7 +140,7 @@ private val screenReceiver by lazy {
 
 		private fun turnScreenOffAfterFreeze(
 			wl: PowerManager.WakeLock?,
-			kl: KeyguardManager.KeyguardLock,
+			@Suppress("DEPRECATION") kl: KeyguardManager.KeyguardLock,
 			context: Context
 		) {
 			Log.i(TAG, "turning screen off after freeze...")
