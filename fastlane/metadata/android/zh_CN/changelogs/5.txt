@@ -1,0 +1,3 @@
+使“强制停止”按钮的查找更加稳定，解决＃20？
+试图再次使冻结更稳定。从FreezerService中删除了未使用的doOnFinished（）。
+回归修复：freezerservice未运行时请勿使用超时

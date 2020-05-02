@@ -60,15 +60,15 @@
     <string name="links">Collegamenti</string>
     <string name="pref_ringtone_silent">Silenzioso</string>
     <string name="title_activity_settings">Impostazioni</string>
-    <string name="accessibility_service_description">"Attivando questa opzione è possibile congelare automaticamente le applicazioni. 
-\n  
+    <string name="accessibility_service_description">Attivando questa opzione è possibile congelare automaticamente le applicazioni. 
+\n 
 \nVantaggi: 
 \n• Nessuna interazione con l\'utente. Veloce, senza bisogno di sapere come si fa. 
 \n• Utenti con disabilità possono utilizzare le scorciatoie (es. riconoscimento vocale), bloccando automaticamente tutte le applicazioni. 
-\n  
+\n 
 \nSuperFreezZ utilizza il servizio di accessibilità per premere i pulsanti \"Termina\", \"OK\" e \"Indietro\". Il recupero del contenuto della finestra trova questi pulsanti, l\'osservazione delle azioni è necessaria per sapere quando appaiono. 
-\n  
-\nIl servizio di accessibilità può essere usato anche per bloccare lo schermo dopo il congelamento, nelle versioni di Android più recenti."</string>
+\n 
+\nIl servizio di accessibilità può essere usato anche per bloccare lo schermo dopo il congelamento, nelle versioni di Android più recenti.</string>
     <string name="enable">Attiva</string>
     <string name="intro_header_automaticfreezing">congelamento automatico</string>
     <string name="pref_header_freezing_summary">Personalizza come e quali app congelare</string>
@@ -91,7 +91,7 @@
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Solitamente le app di F-Droid non vengono eseguite in background così spesso.</string>
     <string name="if_you_like_this_app">Se ti piace questa app</string>
     <string name="plz_help_translating">Aiuta a Tradurre.</string>
-    <string name="plz_donate">Dona</string>
+    <string name="plz_donate">… Per favore, sii un eroe e dona.</string>
     <string name="changed_freeze_mode">Modalità di congelamento modificata</string>
     <string name="other_apps">Altre App</string>
     <string name="pref_title_standard_freeze_mode_system">Modalità di Congelamento Predefinita (app sistema)</string>
@@ -113,5 +113,5 @@
 \n • App fastidiose</string>
     <string name="sort_last_time_used_explanation">Prima le app usate meno recentemente</string>
     <string name="currently_inactive_in_brackets">(ora inattivo)</string>
-    <string name="freeze_shortcut_label_screen_off">Schermo spento</string>
+    <string name="freeze_shortcut_label_screen_off">Schermo off</string>
 </resources>

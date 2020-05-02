@@ -1,0 +1,6 @@
+Adicionar suporte de root EXPERIMENTAL
+Atualizar traduções
+
+Inverter a ordem de classificação do estado de congelamento, ver #83
+Reverter "Fix #67 Sortir ascendente/descendente"; fix #83
+Corrigir atalhos para as versões de depuração

@@ -21,8 +21,15 @@
     <string name="msg_search">Suche</string>
     <string name="msg_search_help">Suchen…</string>
     <string name="share_exception">Unerwarteter Fehler. Bericht über..…</string>
-    <string name="accessibility_service_description">"Die Bedienungshilfe ermöglicht es SuperFreezZ, das Einfrieren zu automatisieren.\n\nDies hat die folgenden Vorteile:\n - Der Benutzer muss es nicht selbst machen: Es ist deutlich schneller und der Benutzer muss sich nicht darum kümmern, wie das geht.\n - Benutzer mit Einschränkungen müssen nur den \"Einfrieren\"-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können sie alle Apps automatisch einfrieren. \n\nSuperFreezZ benutzt die Bedienungshilfe nur, um \"Beenden erzwingen\", \"OK\" und \"Zurück\" zu drücken. \"Fensterinhalte abrufen\" ist nötig, um diese zu finden und \"Ihre Aktionen beobachten\" ist nötig, um mitzubekommen, wann diese erscheinen.
-\n\nAußerdem kann SuperFreezZ die Bedienungshilfe benutzen, um auf neueren Android-Versionen den Bildschirm nach dem Einfrieren zu sperren, falls Sie das wollen."</string>
+    <string name="accessibility_service_description">Die Bedienungshilfe ermöglicht es SuperFreezZ, das Einfrieren zu automatisieren.
+\n
+\nDies hat die folgenden Vorteile:
+\n - Der Benutzer muss es nicht selbst machen: Es ist deutlich schneller und der Benutzer muss sich nicht darum kümmern, wie das geht.
+\n - Benutzer mit Einschränkungen müssen nur den \"Einfrieren\"-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können sie alle Apps automatisch einfrieren. 
+\n
+\nSuperFreezZ benutzt die Bedienungshilfe nur, um „Beenden erzwingen“, „OK“ und „Zurück“ zu drücken. „Fensterinhalte abrufen“ ist nötig, um diese zu finden und „Ihre Aktionen beobachten“ ist nötig, um mitzubekommen, wann diese erscheinen. 
+\n
+\nAußerdem kann SuperFreezZ die Bedienungshilfe benutzen, um auf neueren Android-Versionen den Bildschirm nach dem Einfrieren zu sperren, falls Sie das wollen.</string>
     <string name="freeze_shortcut_label">Einfrieren</string>
     <string name="NothingToFreeze">Nichts einzufrieren</string>
     <string name="undo">Rückgängig</string>
@@ -31,7 +38,7 @@
 		benutzt wurde.
 	"</string>
     <string name="always_freeze_this_app">Diese App immer einfrieren</string>
-    <string name="do_never_freeze_this_app">Diese App nicht einfrieren</string>
+    <string name="do_never_freeze_this_app">Diese App nie einfrieren</string>
     <string name="pending_freeze">Einfrieren ausstehend</string>
     <string name="frozen">Eingefroren</string>
     <string name="freeze_off">Einfrieren aus</string>
@@ -39,15 +46,18 @@
     <string name="no_apps_pending_freeze">[KEINE APPS MIT EINFRIEREN AUSSTEHEND]</string>
     <string name="all_apps">ALLE APPS</string>
     <string name="usagestats_access">Zugriff auf Nutzungsdaten</string>
-    <string name="usatestats_explanation">"Der Zugriff auf Nutzungsdaten ermöglicht es SuperFreezZ, nur die Apps einzufrieren, die Sie länger nicht benutzt haben (Einfriermodus INTELLIGENT).
-	"</string>
+    <string name="usatestats_explanation">Der Zugriff auf Nutzungsdaten ermöglicht es SuperFreezZ, nur die Anwendungen einzufrieren, die Sie länger nicht benutzt haben (Intelligenter Einfrier-Modus).
+\n\t</string>
     <string name="enable">Einschalten</string>
     <string name="usagestats_not_enabled">Sie haben keinen Zugriff auf die Nutzungsdaten gewährt.</string>
     <string name="automate_the_freezing_of_apps">Apps einfrieren automatisieren?</string>
     <string name="accessibility_arguments_yes">"Für Benutzer die: \n\u2022 es so einfach wie möglich haben wollen \n\u2022 viele Apps einfrieren wollen
 	"</string>
-    <string name="accessibility_arguments_no">"Sie müssen manuell \"BEENDEN ERZWINGEN\", \"OK\" und Zurück drücken, um eine App einzufrieren.\nFür Benutzer die: \n\u2022 ein langsames Gerät haben \n\u2022 denen Sicherheit sehr wichtig ist \n\u2022 SuperFreezZ nicht als Bedienungshilfe einrichten wollen
-	"</string>
+    <string name="accessibility_arguments_no">Sie müssen manuell „Beenden erzwingen“, „OK“ und „Zurück“ drücken, um eine App einzufrieren. 
+\nFür Benutzer die: 
+\n• ein langsames Gerät haben 
+\n• sicherheitsbedenken haben 
+\n• SuperFreezZ nicht als Bedienungshilfe einrichten wollen</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="intro_always_freeze_title">Einfriermodus: IMMER EINFRIEREN</string>
@@ -59,13 +69,11 @@
 		ein.
 	"</string>
     <string name="intro_auto_freeze_title">Einfriermodus: INTELLIGENT</string>
-    <string name="intro_auto_freeze_explanation">"INTELLIGENT friert eine App nur dann ein, wenn sie länger nicht benutzt
-		wurde (standardmäßig 7 Tage)
-	"</string>
+    <string name="intro_auto_freeze_explanation">INTELLIGENT friert eine App nur dann ein, wenn sie länger nicht benutzt wurde (standardmäßig 7 Tage).
+\nF-Droid apps werden nicht eingefroren.
+\n\t</string>
     <string name="freeze_manually">Manuelles Einfrieren</string>
-    <string name="Press_forcestop_ok_back">"Um eine App einzufrieren, drücken Sie \"BEENDEN ERZWINGEN\", dann \"OK\",
-		dann Zurück
-	"</string>
+    <string name="Press_forcestop_ok_back">Um eine App einzufrieren, drücken Sie „BEENDEN ERZWINGEN“, dann „OK“ und dann „Zurück“.</string>
     <string name="freeze_manually_no">Ich möchte das nicht machen müssen</string>
     <string name="title_activity_settings">Einstellungen</string>
     <!-- Strings related to Settings -->
@@ -75,7 +83,7 @@
         <item>SuperFreezZ selbst</item>
         <item>Systemapps (Android wird diese schnell wieder \"auftauen\")</item>
     </string-array>
-    <string name="pref_title_standard_freeze_mode">Standard-Einfriermodus</string>
+    <string name="pref_title_standard_freeze_mode">Standard-Einfriermodus (Benutzer-Apps)</string>
     <string-array name="standard_freeze_mode_titles">
         <item>Immer einfrieren</item>
         <item>Nie einfrieren</item>
@@ -87,7 +95,7 @@
     <string name="pref_header_freezing">Apps einfrieren</string>
     <string name="pref_ringtone_silent">Still</string>
     <string name="appslist_show_special">Zusätzliche Apps in der Liste anzeigen</string>
-    <string name="pref_intelligentfreeze_delay">Einfriermodus INTELLIGENT: Apps werden eingefroren nach… (in Tagen)</string>
+    <string name="pref_intelligentfreeze_delay">INTELLIGENT: Einfrieren nach… (in Tagen)</string>
     <string name="pref_summary_appslist_show_special">Die Start-App, SuperFreezZ selbst und Systemapps werden standardmäßig versteckt.</string>
     <string name="create_freeze_shortcut">Einfrier-Schnellzugriff erstellen</string>
     <string name="settings">Einstellungen</string>
@@ -97,12 +105,12 @@
     <string name="pref_header_appslist_summary">Zusätzliche Apps anzeigen, Standard-Einfriermodus</string>
     <string name="freeze_apps_now">Apps jetzt einfrieren</string>
     <string name="freeze_on_screen_off_title">Einfrieren, wenn der Bildschirm ausgeht</string>
-    <string name="freeze_on_screen_off_sum">Sie müssen \"Ein-/Austaste sperrt sofort\" in den Geräteeinstellungen ausschalten</string>
+    <string name="freeze_on_screen_off_sum">Sie müssen „Ein-/Austaste sperrt sofort“ in den Geräteeinstellungen ausschalten</string>
     <string name="problems">Probleme</string>
     <string name="links">Links</string>
     <string name="info">Info</string>
     <string name="view_intro_again">Einführung erneut anzeigen</string>
-    <string name="logs_copied">Logs wurden in die Zwischenablage kopiert.</string>
+    <string name="logs_copied">Log-Daten wurden in die Zwischenablage kopiert.</string>
     <string name="share_logs">Logs teilen über…</string>
     <string name="sf_crashed">SuperFreezZ ist abgestürzt. Bitte senden Sie einen Bericht, falls Sie es nicht bereits getan haben.</string>
     <string name="report">Ein Problem melden, ein Feature vorschlagen, …</string>
@@ -120,6 +128,34 @@
     <string name="intro_header_welcome">willkommen bei</string>
     <string name="intro_header_modes">Modi</string>
     <string name="intro_header_automaticfreezing">automatisches Einfrieren</string>
-    <string name="warning_long_1">Apps oft einzufrieren, führt wahrscheinlich zu HÖHEREM Stromverbrauch, weil das \"Auftauen\" Strom verbraucht.\n\nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und \"battery savers\" (nur dass diese dich nicht davor warnen).</string>
+    <string name="warning_long_1">Apps oft einzufrieren, führt wahrscheinlich zu HÖHEREM Stromverbrauch, weil das „Auftauen“ Strom verbraucht.
+\n
+\nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und die „Batteriesparer“ (nur dass diese dich nicht davor warnen).</string>
     <string name="currently_inactive_in_brackets">(gerade inaktiv)</string>
+    <string name="freeze_shortcut_label_screen_off">Bildschirm aus</string>
+    <string name="warning_long_2">"Beispiele für Apps, die eingefroren werden sollten:
+\n 
+\n  • Nicht vertrauenswürdige Apps
+\n  • Apps, die Sie selten verwenden
+\n  • Ärgerliche Apps"</string>
+    <string name="ascending">Aufsteigend ▲</string>
+    <string name="descending">Absteigend ▼</string>
+    <string name="power_button_hint">Tipp: Drücken Sie die Power-Taste, um den Einfriervorgang abzubrechen</string>
+    <string name="plz_help_translating">…Bitte helfen Sie, sie zu übersetzen.</string>
+    <string name="if_you_like_this_app">Wenn Sie diese App mögen…</string>
+    <string name="user_apps">Benutzer-Apps</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid-Apps laufen normalerweise nicht so oft im Hintergrund.</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: F-Droid apps einfrieren</string>
+    <string name="used_recently_and_frozen">Kürzlich benutzt &amp; eingefroren</string>
+    <string name="not_available">Nicht verfügbar</string>
+    <string name="sort_by">Sortieren nach</string>
+    <string name="pref_title_standard_freeze_mode_system">Standard-Einfriermodus (Systemapps)</string>
+    <string name="freeze_question"/>
+    <string name="other_apps">Andere Apps</string>
+    <string name="sort_last_time_used_explanation">Am längsten nicht benutzte Apps werden zuerst angezeigt.</string>
+    <string name="system_apps">System-Apps</string>
+    <string name="fdroid_app_not_pending_freeze">F-Droid App</string>
+    <string name="version_abbrev">v</string>
+    <string name="plz_donate">…Bitte seien Sie ein Held und spenden Sie.</string>
+    <string name="changed_freeze_mode">Einfrier-modus geändert</string>
 </resources>

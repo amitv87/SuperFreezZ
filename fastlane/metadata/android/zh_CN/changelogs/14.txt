@@ -1,0 +1,10 @@
+警告：我做了很多重构，所以可能会有问题！如果SuperFreezZ对您来说非常重要，请等待版本0.5。
+
+请在https://gitlab.com/SuperFreezZ/SuperFreezZ/issues中报告任何问题
+
+更新的翻译
+性能提升
+崩溃修复：启动时：android.view.WindowManager $ BadTokenException
+冻结后未显示MainActivity
+错误修正：有时屏幕暂停后，屏幕超时会持续15秒：修复＃32
+小改进

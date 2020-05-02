@@ -1,0 +1,6 @@
+Experimenteller root support hinzugefügt
+Übersetzung verbessert
+
+Einfrierstatus Liste ist nun umkehrbar, siehe #83
+Revert "Fix #67 Sort ascending/descending"; fix #83
+Fix shortcuts for debug versions
