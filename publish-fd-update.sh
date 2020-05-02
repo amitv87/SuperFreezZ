@@ -39,7 +39,7 @@ git add fastlane/metadata/android/en-US/changelogs/
 
 
 echo "Getting the list of apps on F-Droid"
-rm index-v1.jar index-v1.json
+rm index-v1.jar index-v1.json || true
 wget https://f-droid.org/repo/index-v1.jar
 unzip index-v1.jar -x "M*"
 python3 <<EOF >src/superfreeze/tool/android/database/FDroidPackages.kt
