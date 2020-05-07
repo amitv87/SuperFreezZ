@@ -80,7 +80,7 @@ Copying
 
 SuperFreezZ is licensed under GPLv3-or-later, see the project files and the LICENSE file for details.
 
-Note that there are some files distributed under the MIT license because they were partly copied from ApkExtractor:
+Note that there are some files distributed under the MIT license because they were partly copied from ApkExtractor, which is ok because MIT is compatible to GPL:
 ```
 src/superfreeze/tool/android/userInterface/mainActivity/AppsListAdapter.kt
 src/superfreeze/tool/android/userInterface/mainActivity/MainActivity.kt
