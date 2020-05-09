@@ -47,7 +47,7 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 
-
+const val MAX_LOG_LENGTH = 100000
 private const val TAG = "SF-SettingsActivity"
 
 /**
@@ -252,6 +252,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 				//Share info about the exception so that it can be viewed or sent to someone else
 				val sharingIntent = Intent(Intent.ACTION_SEND)
 				sharingIntent.type = "text/plain"
+				sharingIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf("superfreezz-automated@gmx.de"))
 				val logs = getLogs()
 				sharingIntent.putExtra(Intent.EXTRA_TEXT, logs)
 				startActivity(Intent.createChooser(sharingIntent, getString(R.string.share_logs)))
@@ -277,7 +278,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 		}
 
 		private fun getLogs(): String {
-			return try {
+			val logs = try {
 				val process = Runtime.getRuntime().exec("logcat -d")
 				val bufferedReader = BufferedReader(
 					InputStreamReader(process.inputStream)
@@ -289,6 +290,11 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 				Log.e(TAG, "Could not get logs (???)")
 				""
 			}
+
+			return if (logs.length > MAX_LOG_LENGTH) { // An intent must not contain more than 1MB
+				"Truncated\n" + logs.substring(logs.length - MAX_LOG_LENGTH, logs.length - 1)
+			} else logs
+
 		}
 	}
 
