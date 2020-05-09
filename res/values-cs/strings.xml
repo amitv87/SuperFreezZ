@@ -108,11 +108,16 @@
 \n
 \nJe to problém i s jinými podobnými aplikacemi např. Greenify a \"šetřiči baterie\" (kromě toho, že Vás před tím nevarují).</string>
     <string name="warning_long_2">Příklady aplikací zasluhující zamrznutí:
-\n
-\n• Nedůvěryhodné aplikace (které nechcete nechat v chodu na pozadí)
-\n• Aplikace zřídka používané
+\n 
+\n• Nedůvěryhodné aplikace (které nechcete nechat v chodu na pozadí) 
+\n• Aplikace zřídka používané 
 \n• Otravné aplikace</string>
     <string name="currently_inactive_in_brackets">(nyní neaktivní)</string>
     <string name="sort_last_time_used_explanation">Nejméně použité applikace první</string>
     <string name="freeze_shortcut_label_screen_off">Vypnout obrazovku</string>
+    <string name="accessibility_service">Služby usnadnění přístupu</string>
+    <string name="select_enable_toast">Prosím, vyberte SuperFreezZ, a pak povolte přístup</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ potřebuje služby usnadnění přístupu k automatizaci zamrznutí.
+\n
+\nProsím, vyberte SuperFreezZ, a pak povolte přístup.</string>
 </resources>

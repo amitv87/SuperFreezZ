@@ -1,0 +1,2 @@
+atalhos corrigidos, obrigado Dmitriy!
+(Esperançosamente) Corrigido a falha ao congelar com root

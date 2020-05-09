@@ -1,0 +1,3 @@
+Aggiunto pulsante "Annulla" alla finestra "Attiva servizio di accessibilità"
+stile del codice, fix #87 "App list doesn't refresh when you tap on an app to stop it with root"
+Aggiornate traduzioni

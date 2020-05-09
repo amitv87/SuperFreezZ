@@ -108,10 +108,15 @@
 \nIl problema esiste anche per le altre app simili come Greenify e i \"risparmiatori di batteria\" (solo che non ti avvisano).</string>
     <string name="warning_long_2">Esempi di app che meritano di essere congelate: 
 \n 
-\n • App non fidate (se vuoi che non funzionino in secondo piano) 
+\n • App non fidate (che vuoi che non funzionino in secondo piano) 
 \n • App che usi raramente 
 \n • App fastidiose</string>
     <string name="sort_last_time_used_explanation">Prima le app usate meno recentemente</string>
     <string name="currently_inactive_in_brackets">(ora inattivo)</string>
     <string name="freeze_shortcut_label_screen_off">Schermo off</string>
+    <string name="accessibility_service">Servizio di accessibilità</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ richiede il servizio di accessibilità per poter automatizzare il congelamento.
+\n
+\nSeleziona SuperFreezZ, poi abilita l\'accesso.</string>
+    <string name="select_enable_toast">Seleziona SuperFreezZ, poi abilita l\'accesso</string>
 </resources>

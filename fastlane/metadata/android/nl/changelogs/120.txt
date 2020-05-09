@@ -1,0 +1,3 @@
+Add "Cancel" button to "Enable accessibility service" dialog
+code style, fix #87 "App list doesn't refresh when you tap on an app to stop it with root"
+Update translations
