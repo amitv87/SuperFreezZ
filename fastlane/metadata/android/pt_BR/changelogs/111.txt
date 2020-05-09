@@ -1,0 +1,6 @@
+Adicionar suporte ao root EXPERIMENTAL
+Atualizar traduções
+
+Ordem de classificação do estado de congelamento reverso, ver #83
+Revertido "Fix #67 Ordenar ascendente/descendente"; falha #83
+Corrigido atalhos para versões de depuração

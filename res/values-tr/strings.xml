@@ -99,4 +99,25 @@
 \n• Güvenilmeyen uygulamalar (arka planda çalıştırmak istemediğiniz) 
 \n • Nadiren kullandığınız uygulamalar 
 \n • Rahatsız edici uygulamalar</string>
+    <string name="sort_last_time_used_explanation">Önce en son kullanılan uygulamalar</string>
+    <string name="accessibility_service">Erişebilirlik Hizmeti</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ, dondurmayı otomatikleştirmek için erişilebilirlik hizmetine ihtiyaç duyar.
+\n
+\nLütfen SuperFreezZ\'i seçin, ardından erişimi etkinleştirin.</string>
+    <string name="select_enable_toast"></string>
+    <string name="accessibility_service_description">Bunu açmak, uygulamaları otomatik olarak dondurmanıza olanak tanır.
+\n
+\nAvantajları:
+\n
+\n• Kullanıcı etkileşimi yok: Daha hızlı. Bunu nasıl yapacağınızı bilmenize gerek yok.
+\n• Devre dışı bırakılan kullanıcılar tüm uygulamaları otomatik olarak dondurmak için dondurma kısayolunu kullanabilir (örneğin konuşma tanıma yoluyla).
+\n 
+\n
+\nSuperFreezZ, \"DURDURMAYA ZORLA\", \"Tamam\" ve \"Geri\" ye dokunmak için erişilebilirlik hizmetini kullanır. Pencere içeriğinin alınması bu düğmeleri bulur ve ne zaman ortaya çıktıklarını bilmek için eylemlerin gözlemlenmesi gerekir.
+\n 
+\n
+\nSuperFreezZ sadece \"DURDURMAYA ZORLA\", \"TAMAM\" ve \"Geri\" ye dokunmak için erişilebilirlik servisini kullanır. Bu düğmeleri bulmak için pencere içeriğini alın ve ne zaman ortaya çıktıklarını bilmek için eylemlerinizi gözlemlemek gerekir.
+\n 
+\nErişilebilirlik hizmeti, daha yeni Android sürümlerinde dondurulduktan sonra ekranı kilitlemek için de kullanılabilir.
+\n</string>
 </resources>

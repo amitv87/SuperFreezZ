@@ -108,12 +108,17 @@
     <string name="warning_long_1">Het stoppen/bevriezen van apps kan leiden tot een HOGER accuverbruik, omdat het \'ontdooien\' van apps energie kost.
 \n
 \nDitzelfde probleem doet zich voor bij vergelijkbare apps, zoals bijv. Greenify, alleen waarschuwen zij je niet.</string>
-    <string name="warning_long_2">Voorbeelden van apps die bevroren mogen worden:
-\n
-\n • Apps die je niet vertrouwt
-\n • Apps die je bijna nooit gebruikt
+    <string name="warning_long_2">Voorbeelden van apps die bevroren mogen worden: 
+\n 
+\n • Apps die je niet vertrouwt (en dus niet op de achtergrond mogen draaien)
+\n • Apps die je bijna nooit gebruikt 
 \n • Vervelende apps</string>
     <string name="sort_last_time_used_explanation">Recentst gebruikte apps eerst</string>
     <string name="currently_inactive_in_brackets">(inactief)</string>
     <string name="freeze_shortcut_label_screen_off">Scherm uit</string>
+    <string name="accessibility_service">Toegankelijkheidsdienst</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ moet de toegankelijkheidsdienst benutten om het bevriezen te automatiseren.
+\n
+\nSelecteer SuperFreezZ en verleen toegang.</string>
+    <string name="select_enable_toast">Selecteer SuperFreezZ en verleen toegang</string>
 </resources>
