@@ -34,10 +34,12 @@ import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import android.os.Handler
+import android.text.util.Linkify
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ProgressBar
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -54,6 +56,7 @@ import superfreeze.tool.android.userInterface.intro.IntroActivity
 import superfreeze.tool.android.userInterface.requestUsageStatsPermission
 import superfreeze.tool.android.userInterface.settingsActivity.SettingsActivity
 import superfreeze.tool.android.userInterface.showSortChooserDialog
+
 
 
 /**
@@ -107,12 +110,22 @@ class MainActivity : AppCompatActivity() {
 		}
 
 		// TODO delete from here on:
-		if (neverCalled("RootSupport", this)) {
-			AlertDialog.Builder(this, R.style.myAlertDialog)
-				.setTitle("EXPERIMENTAL root support")
-				.setMessage("""I added root support. If you would like to try it, USE IT AT YOUR OWN RISK! It is still experimental. I'd be happy about feedback.""")
+		if (neverCalled("website", this)) {
+			val a = AlertDialog.Builder(this, R.style.myAlertDialog)
+				.setTitle("New website")
+				.setMessage("""SuperFreezZ now has a website. Check it out: https://superfreezz.gitlab.io/.""")
 				.setPositiveButton("Ok") { _, _ -> }
-				.show()
+				.create()
+			a.show()
+			try {
+				Linkify.addLinks(
+					a.findViewById(android.R.id.message) as TextView,
+					Linkify.WEB_URLS or Linkify.EMAIL_ADDRESSES
+				)
+			} catch (e: NullPointerException) {
+				e.printStackTrace()
+			}
+
 		}
 		// TODO delete up to here
 
