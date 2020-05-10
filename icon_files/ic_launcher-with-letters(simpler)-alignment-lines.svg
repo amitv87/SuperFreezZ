@@ -93,5 +93,30 @@
          id="path4347"
          inkscape:connector-curvature="0" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -37.142883,946.64793 769.10713,140.39791"
+       id="path828"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -37.142883,140.39791 769.10713,946.64793"
+       id="path830"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -37.142883,543.52292 H 365.98213 l 403.12501,0"
+       id="path832"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 365.98213,946.64793 V 543.52292 l 0,-403.12501"
+       id="path834"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:38.53125095;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.51592356;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -37.14282,543.52292 h 403.125 403.12496"
+       id="path832-2"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
