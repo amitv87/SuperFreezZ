@@ -28,6 +28,7 @@ import android.app.AlertDialog
 import android.app.usage.UsageStatsManager
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.Color
 import android.net.Uri
 import android.os.Build
@@ -38,6 +39,7 @@ import android.text.style.ForegroundColorSpan
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -47,6 +49,7 @@ import superfreeze.tool.android.backend.getPendingFreezeExplanation
 import superfreeze.tool.android.backend.isRootAvailable
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.usageStatsAvailable
+import superfreeze.tool.android.isDarkTheme
 import java.util.*
 
 
@@ -76,7 +79,6 @@ class ViewHolderApp(
 	private lateinit var listItem: ListItemApp
 
 	init {
-
 		v.setOnLongClickListener {
 			val infoIntent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
 			infoIntent.addCategory(Intent.CATEGORY_DEFAULT)
@@ -144,7 +146,11 @@ class ViewHolderApp(
 		modeSymbols.forEach { (mode, view) ->
 			if (mode == freezeMode) {
 				// Show the symbol with the "current" mode in color:
-				view.colorFilter = null
+				view.colorFilter = if (isDarkTheme(appsListAdapter.mainActivity)) {
+					appsListAdapter.colorFilters[mode] // In dark theme, the colors are different
+				} else {
+					null
+				}
 			} else {
 				view.colorFilter = appsListAdapter.colorFilterGrey
 			}

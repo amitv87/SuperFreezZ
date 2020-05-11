@@ -23,10 +23,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<!-- Base application theme. -->
-	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+	<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
 		<!-- Customize your theme here. -->
 		<item name="colorPrimary">@color/colorPrimary</item>
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -67,6 +67,6 @@ SOFTWARE.
 		<item name="android:windowBackground">@color/transparent</item>
 	</style>
 
-	<style name="myAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+	<style name="myAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
 	</style>
 </resources>

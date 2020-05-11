@@ -20,6 +20,8 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 
 package superfreeze.tool.android
 
+import android.app.Activity
+import android.content.res.Configuration
 import android.util.Log
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
@@ -121,4 +123,9 @@ fun <E> MutableCollection<E>.cloneAndRetainAll(predicate: (E) -> Boolean) {
 	this.clear()
 	cloned.retainAll(predicate)
 	this.addAll(cloned)
+}
+
+fun isDarkTheme(activity: Activity): Boolean {
+	return activity.resources.configuration.uiMode and
+			Configuration.UI_MODE_NIGHT_MASK == Configuration.UI_MODE_NIGHT_YES
 }

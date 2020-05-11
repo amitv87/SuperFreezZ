@@ -48,6 +48,7 @@ import superfreeze.tool.android.backend.getAllAggregatedUsageStats
 import superfreeze.tool.android.backend.getRecentAggregatedUsageStats
 import superfreeze.tool.android.backend.getSortByFreezeStateComparator
 import superfreeze.tool.android.backend.isSystemApp
+import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.userInterface.toast
 import java.util.*
 import java.util.concurrent.ConcurrentHashMap
@@ -62,10 +63,21 @@ class AppsListAdapter internal constructor(
 	internal var sortModeIndex: Int
 ) : RecyclerView.Adapter<AbstractViewHolder>() {
 
-	internal val colorFilterGrey = PorterDuffColorFilter(
-		ContextCompat.getColor(mainActivity, R.color.button_greyed_out),
-		PorterDuff.Mode.SRC_ATOP
-	)
+	val colorFilterGrey = colorFilter(R.color.button_greyed_out)
+	val colorFilters by lazy {
+		mapOf(
+			FreezeMode.ALWAYS to colorFilter(R.color.always_freeeze),
+			FreezeMode.NEVER to colorFilter(R.color.never_freeeze),
+			FreezeMode.WHEN_INACTIVE to colorFilter(R.color.inactive_freeeze)
+		)
+	}
+
+	private fun colorFilter(color: Int): PorterDuffColorFilter {
+		return PorterDuffColorFilter(
+			ContextCompat.getColor(mainActivity, color),
+			PorterDuff.Mode.SRC_ATOP
+		)
+	}
 
 	internal val usageStatsMap: Map<String, UsageStats>? by AsyncDelegated {
 		getRecentAggregatedUsageStats(mainActivity)
