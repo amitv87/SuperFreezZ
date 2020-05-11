@@ -170,7 +170,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n• Untrusted apps (that you do not want to have running in the background)
 \n• Apps you rarely use
 \n• Annoying apps</string>
-    <string name="currently_inactive_in_brackets">(now inactive)</string>
+    <string name="currently_inactive_in_brackets">(inactive)</string>
     <string name="select_enable_toast">Please select SuperFreezZ, then enable access</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ needs the accessibility service in order to automate freezing.\n\nPlease select SuperFreezZ, then enable access.</string>
     <string name="accessibility_service">Accessibility Service</string>
