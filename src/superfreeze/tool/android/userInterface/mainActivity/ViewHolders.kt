@@ -110,7 +110,7 @@ class ViewHolderApp(
 		}
 
 		if (!usageStatsAvailable) {
-			modeSymbols[FreezeMode.WHEN_INACTIVE]!!.visibility =
+			modeSymbols.getValue(FreezeMode.WHEN_INACTIVE).visibility =
 				View.GONE
 			// Hide as without usagestats we can not know whether an app is 'inactive'
 		}
@@ -128,13 +128,13 @@ class ViewHolderApp(
 		}
 
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-			modeSymbols[FreezeMode.ALWAYS]!!.tooltipText = context.getString(
+			modeSymbols.getValue(FreezeMode.ALWAYS).tooltipText = context.getString(
 				R.string.always_freeze_this_app
 			)
-			modeSymbols[FreezeMode.WHEN_INACTIVE]!!.tooltipText = context.getString(
+			modeSymbols.getValue(FreezeMode.WHEN_INACTIVE).tooltipText = context.getString(
 				R.string.freeze_this_app_if_it_has_not_been_used_for_a_longer_time
 			)
-			modeSymbols[FreezeMode.NEVER]!!.tooltipText = context.getString(
+			modeSymbols.getValue(FreezeMode.NEVER).tooltipText = context.getString(
 				R.string.do_never_freeze_this_app
 			)
 		}
@@ -142,10 +142,10 @@ class ViewHolderApp(
 
 	private fun setButtonColours(freezeMode: FreezeMode) {
 		modeSymbols.forEach { (mode, view) ->
-			if (mode == freezeMode)
-			// Show the symbol with the "current" mode in color:
+			if (mode == freezeMode) {
+				// Show the symbol with the "current" mode in color:
 				view.colorFilter = null
-			else {
+			} else {
 				view.colorFilter = appsListAdapter.colorFilterGrey
 			}
 		}
@@ -205,8 +205,10 @@ class ViewHolderApp(
 
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 			val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
-			if (usm.isAppInactive(listItem.packageName)) {
-				txtNowInactive.text = " " + context.getString(R.string.currently_inactive_in_brackets)
+			txtNowInactive.text = if (usm.isAppInactive(listItem.packageName)) {
+				" " + context.getString(R.string.currently_inactive_in_brackets)
+			} else {
+				""
 			}
 		}
 	}

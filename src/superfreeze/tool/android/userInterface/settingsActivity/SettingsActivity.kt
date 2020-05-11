@@ -266,7 +266,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 					val clipboard =
 						context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager?
 					val clip = ClipData.newPlainText("logs", logs)
-					clipboard?.primaryClip = clip
+					clipboard?.setPrimaryClip(clip)
 				}
 				true
 			}

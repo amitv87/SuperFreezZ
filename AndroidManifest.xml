@@ -103,7 +103,8 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 		<activity
 			android:name=".userInterface.settingsActivity.SettingsActivity"
 			android:label="@string/title_activity_settings"
-			android:parentActivityName=".userInterface.mainActivity.MainActivity">
+			android:parentActivityName=".userInterface.mainActivity.MainActivity"
+			tools:ignore="UnusedAttribute">
 			<meta-data
 				android:name="android.support.PARENT_ACTIVITY"
 				android:value="superfreeze.tool.android.userInterface.mainActivity.MainActivity"/>
