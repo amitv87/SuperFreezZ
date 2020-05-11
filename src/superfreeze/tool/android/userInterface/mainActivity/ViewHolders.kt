@@ -45,9 +45,9 @@ import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.getPendingFreezeExplanation
 import superfreeze.tool.android.backend.isRootAvailable
-import superfreeze.tool.android.backend.isRunning
 import superfreeze.tool.android.database.FreezeMode
 import superfreeze.tool.android.database.usageStatsAvailable
+import java.util.*
 
 
 abstract class AbstractViewHolder(v: View) : RecyclerView.ViewHolder(v) {
@@ -101,11 +101,11 @@ class ViewHolderApp(
 				listItem.freeze(context)
 			}
 			if (isRootAvailable) {
-				refresh()
+				appsListAdapter.refresh()
 				// This screen does not have to be left to freeze.
 				// Usually the apps list is refreshed when onResume() is called, but this will not
 				// happen because the MainActivity does not even have to be left.
-				// So, refresh() here.
+				// So, refresh() here to clean PENDING_FREEZE and change description if necessary
 			}
 		}
 
@@ -165,7 +165,7 @@ class ViewHolderApp(
 
 		if (highlight == null || highlight.isEmpty()) return // nothing to highlight
 
-		val valueLower = name.toLowerCase()
+		val valueLower = name.toLowerCase(Locale.ROOT)
 		var offset = 0
 		var index = valueLower.indexOf(highlight, offset)
 		while (index >= 0 && offset < valueLower.length) {
@@ -203,7 +203,7 @@ class ViewHolderApp(
 			}
 		}
 
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && isRunning(listItem.applicationInfo)) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 			val usm = context.getSystemService(Context.USAGE_STATS_SERVICE) as UsageStatsManager
 			if (usm.isAppInactive(listItem.packageName)) {
 				txtNowInactive.text = " " + context.getString(R.string.currently_inactive_in_brackets)
@@ -217,7 +217,7 @@ internal class ViewHolderSectionHeader(v: View) : AbstractViewHolder(v) {
 	private val textView = v.findViewById<TextView>(R.id.textView)
 
 	override fun bindTo(item: AbstractListItem) {
-		setName(item.text.toUpperCase(), "")
+		setName(item.text.toUpperCase(Locale.ROOT), "")
 	}
 
 	override fun setName(name: String, highlight: String?) {
