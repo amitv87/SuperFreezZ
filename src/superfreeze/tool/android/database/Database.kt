@@ -106,6 +106,10 @@ internal var Context.prefUseAccessibilityService
 	get() = getMainPreferences(this).getBoolean("use_accessibility_service", false)
 	set(v) = getMainPreferences(this).edit().putBoolean("use_accessibility_service", v).apply()
 
+internal var Context.prefShowFreezeWarning
+	get() = getMainPreferences(this).getBoolean("prefShowFreezeWarning", true)
+	set(v) = getMainPreferences(this).edit().putBoolean("prefShowFreezeWarning", v).apply()
+
 internal var usageStatsAvailable: Boolean = false
 
 /**

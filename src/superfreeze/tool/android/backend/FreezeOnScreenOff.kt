@@ -23,6 +23,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 
 package superfreeze.tool.android.backend
 
+import android.app.AlertDialog
 import android.app.KeyguardManager
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -30,12 +31,15 @@ import android.content.Context.KEYGUARD_SERVICE
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.PowerManager
+import android.provider.Settings
 import android.provider.Settings.System.*
 import android.util.Log
+import superfreeze.tool.android.R
 import superfreeze.tool.android.database.getPrefs
 import superfreeze.tool.android.database.prefUseAccessibilityService
 import superfreeze.tool.android.userInterface.FreezeShortcutActivity
 import kotlin.math.min
+
 
 /**
  * Registers a BroadcastReceiver for freezing apps "on screen off".

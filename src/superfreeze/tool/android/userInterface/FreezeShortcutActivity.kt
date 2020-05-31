@@ -20,11 +20,13 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 package superfreeze.tool.android.userInterface
 
 import android.app.Activity
+import android.app.KeyguardManager
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -34,8 +36,10 @@ import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.freezeAppsUsingRoot
 import superfreeze.tool.android.backend.getAppsPendingFreeze
 import superfreeze.tool.android.backend.isRootAvailable
+import superfreeze.tool.android.database.getPrefs
 import superfreeze.tool.android.database.prefUseAccessibilityService
 import superfreeze.tool.android.database.prefShowExplainingDialog
+import superfreeze.tool.android.database.prefShowFreezeWarning
 
 /**
  * This activity
@@ -56,13 +60,23 @@ class FreezeShortcutActivity : Activity() {
 		activity = this
 		isBeingNewlyCreated = true
 
-		screenOff =  (intent.getStringExtra("extraID") == "dyn_screenOff")
+		screenOff = (intent.getStringExtra("extraID") == "dyn_screenOff")
 
 		if (Intent.ACTION_CREATE_SHORTCUT == intent.action) {
 			setResult(RESULT_OK, createShortcutResultIntent(this))
 			finish()
 		} else {
 			FreezerService.stopAnyCurrentFreezing() // Might be that there still was a previous (failed) freeze process, in this case stop it
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN &&
+				(getSystemService(Context.KEYGUARD_SERVICE) as KeyguardManager).isKeyguardLocked &&
+				getPrefs(this).getBoolean("freeze_on_screen_off", false)
+			) {
+				onFreezeFinishedListener?.invoke(this)
+				onFreezeFinishedListener = null
+				freezeOnScreenOffFailedDialog()
+				Log.e(TAG, "Screen not unlocked.")
+				return
+			}
 			Log.i(TAG, "Performing Freeze.")
 			isWorking = true
 			FreezerService.doOnAppCouldNotBeFrozen = ::onAppCouldNotBeFrozen
@@ -86,7 +100,6 @@ class FreezeShortcutActivity : Activity() {
 		isWorking = false
 	}
 
-
 	private fun performFreeze() {
 
 		if (isRootAvailable) {
@@ -109,6 +122,7 @@ class FreezeShortcutActivity : Activity() {
 		// The actual freezing work will be done in onResume(). Here we just create this iterator.
 		appsToBeFrozenIter = appsPendingFreeze.listIterator()
 	}
+
 
 	override fun onResume() {
 		super.onResume()
@@ -174,6 +188,31 @@ class FreezeShortcutActivity : Activity() {
 		// guaranteed to be random.
 
 		// Greetings to anyone reviewing this code!
+	}
+
+	private fun freezeOnScreenOffFailedDialog() {
+		AlertDialog.Builder(this, R.style.myAlertDialog)
+			.setTitle("'Freeze when the screen turns off' failed")
+			.setMessage("You have to disable 'Power button instantly locks' in the system settings for this to work.")
+			.setPositiveButton("Settings") { _, _ ->
+				startActivity(Intent(Settings.ACTION_SECURITY_SETTINGS).apply {
+					addFlags(
+						Intent.FLAG_ACTIVITY_NEW_TASK
+					)
+				})
+				finish()
+			}
+			.setNegativeButton("Do not use 'Freeze when the screen turns off'") { _, _ ->
+				prefShowFreezeWarning = false
+				getPrefs(this).edit().putBoolean("freeze_on_screen_off", false).apply()
+				finish()
+			}
+			.setNeutralButton(android.R.string.cancel) { _, _ ->
+				finish()
+			}
+			.setIcon(R.mipmap.ic_launcher)
+			.setCancelable(false)
+			.show()
 	}
 
 	companion object Companion : MyActivityCompanion() {
