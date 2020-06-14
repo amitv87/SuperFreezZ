@@ -51,8 +51,9 @@
     <string name="enable">Einschalten</string>
     <string name="usagestats_not_enabled">Sie haben keinen Zugriff auf die Nutzungsdaten gewährt.</string>
     <string name="automate_the_freezing_of_apps">Apps einfrieren automatisieren?</string>
-    <string name="accessibility_arguments_yes">"Für Benutzer die: \n\u2022 es so einfach wie möglich haben wollen \n\u2022 viele Apps einfrieren wollen
-	"</string>
+    <string name="accessibility_arguments_yes">Für Benutzer die: 
+\n• es so einfach wie möglich haben wollen 
+\n• viele Apps einfrieren wollen</string>
     <string name="accessibility_arguments_no">Sie müssen manuell „Beenden erzwingen“, „OK“ und „Zurück“ drücken, um eine App einzufrieren. 
 \nFür Benutzer die: 
 \n• ein langsames Gerät haben 
@@ -131,13 +132,13 @@
     <string name="warning_long_1">Apps oft einzufrieren, führt wahrscheinlich zu HÖHEREM Stromverbrauch, weil das „Auftauen“ Strom verbraucht.
 \n
 \nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und die „Batteriesparer“ (nur dass diese dich nicht davor warnen).</string>
-    <string name="currently_inactive_in_brackets">(gerade inaktiv)</string>
+    <string name="currently_inactive_in_brackets">(inaktiv)</string>
     <string name="freeze_shortcut_label_screen_off">Bildschirm aus</string>
-    <string name="warning_long_2">"Beispiele für Apps, die eingefroren werden sollten:
-\n 
-\n  • Nicht vertrauenswürdige Apps
-\n  • Apps, die Sie selten verwenden
-\n  • Ärgerliche Apps"</string>
+    <string name="warning_long_2">Beispiele für Apps, die eingefroren werden sollten:
+\n
+\n• Nicht vertrauenswürdige Apps (die nicht im Hintergrund laufen sollen)
+\n• Apps, die Sie selten verwenden
+\n• Nervende Apps</string>
     <string name="ascending">Aufsteigend ▲</string>
     <string name="descending">Absteigend ▼</string>
     <string name="power_button_hint">Tipp: Drücken Sie die Power-Taste, um den Einfriervorgang abzubrechen</string>
@@ -150,7 +151,7 @@
     <string name="not_available">Nicht verfügbar</string>
     <string name="sort_by">Sortieren nach</string>
     <string name="pref_title_standard_freeze_mode_system">Standard-Einfriermodus (Systemapps)</string>
-    <string name="freeze_question"/>
+    <string name="freeze_question">Diese App einfrieren\?</string>
     <string name="other_apps">Andere Apps</string>
     <string name="sort_last_time_used_explanation">Am längsten nicht benutzte Apps werden zuerst angezeigt.</string>
     <string name="system_apps">System-Apps</string>
@@ -158,4 +159,10 @@
     <string name="version_abbrev">v</string>
     <string name="plz_donate">…Bitte seien Sie ein Held und spenden Sie.</string>
     <string name="changed_freeze_mode">Einfrier-modus geändert</string>
+    <string name="accessibility_service">Bedienungshilfe</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ benötigt die Bedienungshilfe, um das Einfrieren zu automatisieren.
+\n
+\nBitte SuperFreezZ auswählen, dann Zugriff gewähren.</string>
+    <string name="warning">Warnung</string>
+    <string name="select_enable_toast">Bitte SuperFreezZ auswählen, dann Zugriff gewähren</string>
 </resources>

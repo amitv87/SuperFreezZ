@@ -1,12 +1,12 @@
-<p>Aplicação Android (beta) que torna possível congelar por completo a actividade em segundo plano de qualquer aplicação.</p>
+<p>App Android (beta) que torna possível congelar completamente a atividade em segundo plano de qualquer app.</p>
 <ul>
-<li>Reavém controlo sobre o que é executado no teu telefone</li>
-<li>Melhora a duração da bateria e reduz o uso dde dados congelando aplicações raramente usadas</li>
-<li>Particularmente útil se estiver em viagem, necessitando apenas de algumas aplicações mas de uma longa duração da bateria</li>
+<li>Recupere o controle sobre o que é executado no seu telefone</li>
+<li>Melhora a duração da bateria e reduz o uso de dados congelando apps raramente usados</li>
+<li>Particularmente útil se estiver em viagem, necessitando apenas de alguns apps mas de uma longa duração da bateria</li>
 </ul>
-<p>Greenify também pode fazer isto, mas não possui Código Aberto.</p>
+<p>Greenify também pode fazer isto, mas não possui código aberto.</p>
 <p>SuperFreezZ não é mais outro gestor de tarefas prometendo reduzir 10 GB de dados por mês ou tornar o teu dispositivo 2x mais rápido. Isso é impossível.</p>
-<p>Ao invés, SuperFreezZ é honesto quanto às suas desvantagens: Congelar aplicações usadas diariamente até gasta mais depressa a bateria. Além disso, essas aplicações levarão mais tempo a arrancar quando as usares da próxima vez: SuperFreezZ irá super-congelar as tuas aplicações, demoram 1-3 segundos a descongelar. Greenify tem as mesmas desvantagens, excepto que o autor do Greenify não te avisa acerca disso. Então: Só não exageres, e SuperFreezZ ser-te-á super-útil.</p>
+<p>Ao invés, SuperFreezZ é honesto quanto às suas desvantagens: Congelar apps usados diariamente até gasta a bateria mais depressa. Além disso, esses apps levarão mais tempo a iniciar quando os usar da próxima vez: SuperFreezZ super-congelará seus apps, demoram 1-3 segundos a descongelar. Greenify tem as mesmas desvantagens, exceto que o autor do Greenify não avisa sobre isso. Então: Só não exagere, e SuperFreezZ será super-útil.</p>
 <p>Exemplos de aplicações que merecem ser congeladas:</p>
 <ul>
 <li>Aplicações que não são de confiança (que não queres que corram em segundo plano)</li>

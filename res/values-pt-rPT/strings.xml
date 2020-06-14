@@ -105,10 +105,10 @@
     <string name="ascending">Ascendente ▲</string>
     <string name="currently_inactive_in_brackets">(agora inativo)</string>
     <string name="warning_long_2">Exemplos de apps que merecem ser congeladas:
-\n 
-\n - Apps não confiáveis (que não queira executar em segundo plano)
-\n - Apps que você raramente usa
-\n - Apps incómodas</string>
+\n
+\n• Apps não confiáveis (que não queira executar em segundo plano)
+\n• Apps que você raramente usa
+\n• Apps incómodas</string>
     <string name="warning_long_1">Parar/congelar apps frequentemente irá provavelmente drenar a sua bateria mais rapidamente, porque o \"descongelamento\" consome energia.
 \n
 \nIsto também é um problema com outras aplicações semelhantes, tais como Greenify e \"economizadores de bateria\" (exceto que eles não o avisam).</string>

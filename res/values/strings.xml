@@ -22,16 +22,14 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="msg_search">Search</string>
     <string name="msg_search_help">Search…</string>
     <string name="share_exception">Unexpected error. Report using…</string>
-    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps.
-\n
-\nAdvantages:
-\n• No user interaction: Faster. No need to know how to do it.
-\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically.
-\n
-\nSuperFreezZ uses the accessibility service to tap on \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear.
-\n
-\nSuperFreezZ just uses the accessibility service to tap on \"FORCE STOP\", \"OK\" and \"Back\". Retrieve window content is necessary to find these buttons and observe your actions is needed to know when they appear.
-\n
+    <string name="accessibility_service_description">Turning this on lets you automatically freeze apps. 
+\n 
+\nAdvantages: 
+\n• No user interaction: Faster. No need to know how to do it. 
+\n• Disabled users can use the freeze shortcut (via speech recognition, for example), freezing all apps automatically. 
+\n 
+\nSuperFreezZ uses the accessibility service when tapping \"FORCE STOP\", \"OK\", and \"Back\". Retrieval of window content finds these buttons, and observation of actions is needed to know when they appear. 
+\n 
 \nThe accessibility service can also be used to lock the screen after freezing on newer Android versions.</string>
     <string name="freeze_shortcut_label">Freeze</string>
     <string name="freeze_shortcut_label_screen_off">Screen off</string>

@@ -14,11 +14,11 @@
 \nSuperFreezZ utilise simplement le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces boutons et observer que vos actions sont nécessaires pour savoir quand elles apparaissent. 
 \n 
 \nLe service d\'accessibilité peut également être utilisé pour verrouiller l\'écran après avoir bloqué les nouvelles versions d\'Android.</string>
-    <string name="freeze_shortcut_label">Geler</string>
+    <string name="freeze_shortcut_label">Gel rapide</string>
     <string name="NothingToFreeze">Rien à geler</string>
     <string name="undo">Annuler</string>
     <string name="icon">Icône</string>
-    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Gele cette application si elle n\'a pas été utilisée depuis très longtemps.</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Gèle cette application si elle n\'a pas été utilisée depuis très longtemps.</string>
     <string name="always_freeze_this_app">Toujours geler cette application</string>
     <string name="do_never_freeze_this_app">Ne jamais geler cette application</string>
     <string name="pending_freeze">Gel en cours</string>
@@ -60,7 +60,7 @@
     <string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT : Geler après… (jours)</string>
     <string name="pref_summary_appslist_show_special">Le Launcher, SuperFreezZ et les applications système sont masqués par défaut.</string>
-    <string name="create_freeze_shortcut">Créer un raccourci vers Geler</string>
+    <string name="create_freeze_shortcut">Créer un raccourci Gel rapide</string>
     <string name="settings">Paramètres</string>
     <string name="sort">Trier</string>
     <string name="pref_header_freezing_summary">Personnaliser comment et quelles applications sont gelées</string>
@@ -103,12 +103,12 @@
     <string name="freeze_question">Geler cette application \?</string>
     <string name="descending">Descendant ▼</string>
     <string name="ascending">Ascendant ▲</string>
-    <string name="currently_inactive_in_brackets">(actuellement inactif)</string>
-    <string name="warning_long_2">Exemples d\'applis qui méritent d\'être gelées : 
-\n 
-\n • les applis auxquelles vous ne faites pas confiance (que vous ne voulez pas utiliser en arrière-plan) ; 
-\n • les applis que vous utilisez rarement ; 
-\n • les applis qui vous embêtent.</string>
+    <string name="currently_inactive_in_brackets">(inactif)</string>
+    <string name="warning_long_2">Exemples d\'applis qui méritent d\'être gelées :
+\n
+\n• les applis auxquelles vous ne faites pas confiance (que vous ne voulez pas utiliser en arrière-plan) ; 
+\n• les applis que vous utilisez rarement ;
+\n• les applis qui vous embêtent.</string>
     <string name="warning_long_1">Arrêter/geler des applis fréquemment déchargera votre batterie PLUS VITE, parce que le « dégel » consomme de l\'énergie.
 \n
 \nCeci est aussi un problème avec d\'autres applis similaires comme Greenify et les « économiseurs de batterie » (sauf qu\'ils ne vous avertissent pas).</string>
@@ -116,4 +116,8 @@
     <string name="power_button_hint">Astuce : appuyer sur le bouton d\'alimentation pour annuler le processus de gel</string>
     <string name="sort_last_time_used_explanation">D\'abord les applis les moins utilisés récemment</string>
     <string name="freeze_shortcut_label_screen_off">Écran éteint</string>
+    <string name="select_enable_toast">Veuillez sélectionner SuperFreezZ, puis activez l\'accès</string>
+    <string name="accessibility_service">Service d\'accessibilité</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ a besoin du service d\'accessibilité afin d\'automatiser le gel d\'applications.
+\nVeuillez sélectionner SuperFreezZ, puis activer l\'accès.</string>
 </resources>

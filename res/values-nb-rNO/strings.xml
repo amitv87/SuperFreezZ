@@ -105,11 +105,11 @@
     <string name="warning">Advarsel</string>
     <string name="freeze_shortcut_label_screen_off">Skjerm av</string>
     <string name="currently_inactive_in_brackets">(nå inaktiv)</string>
-    <string name="warning_long_2">"Eksempler på programmer som fortjener å bli fryst:
+    <string name="warning_long_2">Eksempler på programmer som fortjener å bli fryst:
 \n
 \n• Ubetrodde programmer (som du ikke ønsker å ha kjørende i bakgrunnen)
 \n• Programmer du sjeldent bruker
-\n•  Irriterende programmer"</string>
+\n• Irriterende programmer</string>
     <string name="warning_long_1">Stopping/frysing av programmer vil ofte antagelig tømme batteriet ditt RASKERE, fordi \"oppfrysing\" bruker batteri.
 \n
 \nDette er også et problem med lignende programmer som Greenify og \"batterisparere\", (bortsett fra at de ikke advarer om dette).</string>

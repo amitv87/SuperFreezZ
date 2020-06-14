@@ -1,0 +1,40 @@
+<p>Herhangi bir uygulamanın tüm arka plan etkinliklerini tamamen dondurmayı mümkün kılan Android uygulaması (beta).</p>
+<ul>
+<li>Telefonunuzda nelerin çalıştığını tekrar denetiminiz altına alın</li>
+<li>Nadiren kullanılan uygulamaları dondurarak pil ömrünü artırın ve mobil veri kullanımını azaltın</li>
+<li>Özellikle sadece bazı uygulamalara ve uzun bir pil ömrüne ihtiyacınız olan bir gezide olduğunuzda kullanışlıdır</li>
+</ul>
+<p>Greenify da bunu yapabilir, ancak Açık Kaynaklı değildir.</p>
+<p>SuperFreezZ, ayda 10 GB veri silmeyi veya cihazınızı 2 kat daha hızlı hale getirmeyi vaat eden başka bir görev yöneticisi değildir. Bu imkansız.</p>
+<p>Bunun yerine, SuperFreezZ dezavantajları hakkında dürüsttür: Günlük kullanılan uygulamaların dondurulması muhtemelen pilinizi biraz daha hızlı tüketir. Ayrıca, bir dahaki sefere kullandığınızda bu uygulamaların başlaması daha uzun sürecektir: SuperFreezZ, uygulamalarınızı süper olarak donduracak, onları çözmek yaklaşık 1-3 saniye sürecektir. Greenify aynı dezavantajlara sahiptir, ancak Greenify'ın yazarı sizi bu konuda uyarmaz. Yani: Sadece aşırıya kaçmayın ve SuperFreezZ süper faydalı olacaktır.</p>
+<p>Dondurulmayı hak eden uygulamalara örnekler:</p>
+<ul>
+<li>(Arka planda çalıştırmak istemediğiniz) güvenilmeyen uygulamalar</li>
+<li>Nadiren kullandığınız uygulamalar</li>
+<li>Sinir bozucu uygulamalar</li>
+</ul>
+<h2 id="features">Özellikler</h2>
+<ul>
+<li>İsteğe bağlı olarak, cihazı yavaşlattığından dolayı erişilebilirlik hizmeti olmadan çalışır</li>
+<li>Sadece bir hafta boyunca kullanılmayan uygulamaları dondurabilir (yapılandırılabilir)</li>
+<li>Beyaz bir liste (hepsini standart olarak dondur) veya kara bir liste (standart olarak hiçbir şeyi dondurma) seçin</li>
+<li>Ekran kapandığında uygulamaları dondurabilir</li>
+<li>Sistem uygulamalarını ve hatta SuperFreezZ'in kendisini dondurma seçenekleri</li>
+<li>Tamamen açık kaynaklı ve özgür yazılım</li>
+</ul>
+<h2 id="contributing-to-superfreezz">SuperFreezZ'e Katkıda Bulunma</h2>
+<h3 id="development">Geliştirme</h3>
+<p>Bir sorununuz, sorunuz veya fikriniz varsa, sadece bir sorun açın!</p>
+<p>Geliştirmeye yardımcı olmak istiyorsanız, sorunlara bir göz atın veya iyileştirilebilecek bir şey düşünün ve bunun için bir sorun açın.</p>
+<p>Aynı şeyi aynı anda uygulamaktan kaçınmak için lütfen bana ne yapacağınızı söyleyin :-)</p>
+<h3 id="translate">Çeviri</h3>
+<p><a href="https://hosted.weblate.org/engage/superfreezz/">SuperFreezZ'i Weblate'de çevirebilirsiniz</a>.</p>
+<h2 id="credits">Emeği Geçenler</h2>
+<p>Uygulama listesini göstermek için kullanılan kod <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>'dan.</p>
+<p>Robin Naumann güzel bir giriş yaptı. Giriş, AppIntro kütüphanesi kullanılarak oluşturuldu.</p>
+<p>Özellik grafik arka planı şuradan: https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, metin https://www.norio.be/android-feature-graphic-generator/ ile eklendi.</p>
+<h2 id="qa">Soru/Cevap</h2>
+<p>S/C:</p>
+<p>S: Hazırda bekletme ve dondurma arasındaki fark nedir? C: Hiçbir fark yok. Bir uygulamayı Greenify ile hazırda bekletirseniz, SuperFreezZ'de donmuş olarak gösterilecektir, aynı şekilde tersi de geçerlidir.</p>
+<p>S: Ama doğru yazım şekli “SuperFreeze”! C: Biliyorum.</p>
+<p>S: Dondurucu satmak gibi bir niyetiniz var mı? C: Hayır.</p>

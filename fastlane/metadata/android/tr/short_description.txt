@@ -1,0 +1,1 @@
+Uygulamaların tüm arka plan etkinliklerini tamamen dondurun.

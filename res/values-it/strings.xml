@@ -66,7 +66,7 @@
 \n• Nessuna interazione con l\'utente. Veloce, senza bisogno di sapere come si fa. 
 \n• Utenti con disabilità possono utilizzare le scorciatoie (es. riconoscimento vocale), bloccando automaticamente tutte le applicazioni. 
 \n 
-\nSuperFreezZ utilizza il servizio di accessibilità per premere i pulsanti \"Termina\", \"OK\" e \"Indietro\". Il recupero del contenuto della finestra trova questi pulsanti, l\'osservazione delle azioni è necessaria per sapere quando appaiono. 
+\nSuperFreezZ utilizza il servizio di accessibilità quando vengono premuti i pulsanti \"Termina\", \"OK\" e \"Indietro\". Il recupero del contenuto della finestra trova questi pulsanti, l\'osservazione delle azioni è necessaria per sapere quando appaiono. 
 \n 
 \nIl servizio di accessibilità può essere usato anche per bloccare lo schermo dopo il congelamento, nelle versioni di Android più recenti.</string>
     <string name="enable">Attiva</string>
@@ -85,7 +85,7 @@
     <string name="all_apps">TUTTE LE APP</string>
     <string name="logs_copied">Log copiati negli appunti.</string>
     <string name="freeze_manually_no">Non voglio doverlo fare</string>
-    <string name="fdroid_app_not_pending_freeze">App F-Droid</string>
+    <string name="fdroid_app_not_pending_freeze">App Installata da F-Droid</string>
     <string name="used_recently_and_frozen">Usata di recente e congelata</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">Intelligente: Congela App di F-Droid</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Solitamente le app di F-Droid non vengono eseguite in background così spesso.</string>
@@ -106,13 +106,13 @@
     <string name="warning_long_1">Fermare/congelare app di frequente probabilmente consumerà la batteria DI PIÙ, perchè lo \"scongelamento\" richiede energia.
 \n
 \nIl problema esiste anche per le altre app simili come Greenify e i \"risparmiatori di batteria\" (solo che non ti avvisano).</string>
-    <string name="warning_long_2">Esempi di app che meritano di essere congelate: 
-\n 
-\n • App non fidate (che vuoi che non funzionino in secondo piano) 
-\n • App che usi raramente 
-\n • App fastidiose</string>
+    <string name="warning_long_2">Esempi di app che meritano di essere congelate:
+\n
+\n• App non fidate (che vuoi che non funzionino in secondo piano)
+\n• App che usi raramente
+\n• App fastidiose</string>
     <string name="sort_last_time_used_explanation">Prima le app usate meno recentemente</string>
-    <string name="currently_inactive_in_brackets">(ora inattivo)</string>
+    <string name="currently_inactive_in_brackets">(inattivo)</string>
     <string name="freeze_shortcut_label_screen_off">Schermo off</string>
     <string name="accessibility_service">Servizio di accessibilità</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ richiede il servizio di accessibilità per poter automatizzare il congelamento.
