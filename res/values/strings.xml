@@ -153,7 +153,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="system_apps">System apps</string>
     <string name="user_apps">User apps</string>
     <string name="if_you_like_this_app">If you like this app…</string>
-    <string name="plz_help_translating">…Please help translating it.</string>
+    <string name="plz_help_translating">…please help translating it.</string>
     <string name="plz_donate">…please be a hero and donate.</string>
     <string name="changed_freeze_mode">Changed freeze mode</string>
     <string name="version_abbrev">v</string>

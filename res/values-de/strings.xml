@@ -48,16 +48,15 @@
     <string name="enable">Einschalten</string>
     <string name="usagestats_not_enabled">Sie haben keinen Zugriff auf die Nutzungsdaten gewährt.</string>
     <string name="automate_the_freezing_of_apps">Apps einfrieren automatisieren?</string>
-    <string name="accessibility_arguments_yes">Für Benutzer die: 
-\n• es so einfach wie möglich haben wollen 
-\n• viele Apps einfrieren wollen</string>
+    <string name="accessibility_arguments_yes">• Einfacher und schneller
+\n• Um viele Apps einzufrieren</string>
     <string name="accessibility_arguments_no">Sie müssen manuell „Beenden erzwingen“, „OK“ und „Zurück“ drücken, um eine App einzufrieren. 
 \n• Für langsame Geräte
-\n• bei Sicherheitsbedenken
+\n• Bei Sicherheitsbedenken
 \n• Um SuperFreezZ nicht als Bedienungshilfe einrichten zu müssen</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
-    <string name="intro_always_freeze_title">Einfriermodus: IMMER EINFRIEREN</string>
+    <string name="intro_always_freeze_title">Einfrier-Modus: IMMER EINFRIEREN</string>
     <string name="intro_always_freeze_explanation">Es gibt 3 Einfrier-Modi. Sie können diese für jede App einzeln auswählen. IMMER EINFRIEREN friert eine App in jedem Fall ein.</string>
     <string name="intro_never_freeze_title">Einfriermodus: NIE EINFRIEREN</string>
     <string name="intro_never_freeze_explanation">NIE EINFRIEREN - stellt das Einfrieren ab und friert eine App nie ein.</string>
@@ -118,10 +117,10 @@
     </string-array>
     <string name="intro_header_welcome">willkommen bei</string>
     <string name="intro_header_modes">Modi</string>
-    <string name="intro_header_automaticfreezing">automatisches Einfrieren</string>
+    <string name="intro_header_automaticfreezing">Automatisches Einfrieren</string>
     <string name="warning_long_1">Apps oft einzufrieren, führt wahrscheinlich zu HÖHEREM Stromverbrauch, weil das „Auftauen“ Strom verbraucht.
 \n
-\nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und die „Batteriesparer“ (nur dass diese dich nicht davor warnen).</string>
+\nDas ist auch ein Problem mit anderen ähnlichen Apps wie Greenify und „Batteriesparer-Apps“ (nur dass diese dich nicht davor warnen).</string>
     <string name="currently_inactive_in_brackets">(inaktiv)</string>
     <string name="freeze_shortcut_label_screen_off">Bildschirm aus</string>
     <string name="warning_long_2">Beispiele für Apps, die es verdienen, eingefroren zu werden:
@@ -143,7 +142,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standard-Einfrier-Modus (System-Apps)</string>
     <string name="freeze_question">Diese App einfrieren\?</string>
     <string name="other_apps">Andere Apps</string>
-    <string name="sort_last_time_used_explanation">"Vielleicht können Sie einige der Apps am oben in dieser Liste löschen\? "</string>
+    <string name="sort_last_time_used_explanation">"Vielleicht können Sie einige der Apps oben in dieser Liste deinstallieren, weil Sie diese nicht mehr benutzen\? "</string>
     <string name="system_apps">System-Apps</string>
     <string name="fdroid_app_not_pending_freeze">F-Droid App</string>
     <string name="version_abbrev">v</string>

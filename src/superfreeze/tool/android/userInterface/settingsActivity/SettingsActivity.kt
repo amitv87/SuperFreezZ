@@ -322,29 +322,6 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 							null
 					)
 
-				} else if (preference is RingtonePreference) {
-					// For ringtone preferences, look up the correct display value
-					// using RingtoneManager.
-					if (TextUtils.isEmpty(stringValue)) {
-						// Empty values correspond to 'silent' (no ringtone).
-						preference.setSummary(R.string.pref_ringtone_silent)
-
-					} else {
-						val ringtone = RingtoneManager.getRingtone(
-							preference.getContext(), Uri.parse(stringValue)
-						)
-
-						if (ringtone == null) {
-							// Clear the summary if there was a lookup error.
-							preference.setSummary(null)
-						} else {
-							// Set the summary to reflect the new ringtone display
-							// name.
-							val name = ringtone.getTitle(preference.getContext())
-							preference.setSummary(name)
-						}
-					}
-
 				} else {
 					// For all other preferences, set the summary to the value's
 					// simple string representation.
