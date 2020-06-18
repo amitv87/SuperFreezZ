@@ -4,13 +4,13 @@
     <string name="msg_search_help">Hledat…</string>
     <string name="share_exception">Neočekávaná chyba. Nahlásit pomocí…</string>
     <string name="accessibility_service_description">Zapnutím se nechají applikace automaticky zamrazit. 
-\n
+\n 
 \nVýhody: 
 \n• Žádná interakce uživatele: Rychlejší. Není třeba vědět, jak to udělat. 
 \n• Handikapovaní uživatelé mohou použít zamrazovací zkratku (například skrze rozpoznání řeči), applikace tak zamrazí automaticky. 
-\n
-\nSuperFreezZ používá jen službu usnadnění za účelem \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a \"Zpět\". Přečtení obsahu okna je nutné pro nalezení těchto tlačítek a sledování Vašich akcí je zapotřebí k zjištění jejich pozice. 
-\n
+\n 
+\nSuperFreezZ používá službu usnadnění v případě klepnutí na \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a \"Zpět\". Přečtení obsahu okna je nutné pro nalezení těchto tlačítek a sledování Vašich akcí je zapotřebí k zjištění jejich pozice. 
+\n 
 \nSlužbu usnadnění lze také použít k zamknutí obrazovky po zamrazení v novějších verzích Androidu.</string>
     <string name="freeze_shortcut_label">Zamrazit</string>
     <string name="NothingToFreeze">Není co zamrazit</string>
@@ -108,11 +108,11 @@
 \n
 \nJe to problém i s jinými podobnými aplikacemi např. Greenify a \"šetřiči baterie\" (kromě toho, že Vás před tím nevarují).</string>
     <string name="warning_long_2">Příklady aplikací zasluhující zamrznutí:
-\n 
-\n• Nedůvěryhodné aplikace (které nechcete nechat v chodu na pozadí) 
-\n• Aplikace zřídka používané 
+\n
+\n• Nedůvěryhodné aplikace (které nechcete nechat v chodu na pozadí)
+\n• Aplikace zřídka používané
 \n• Otravné aplikace</string>
-    <string name="currently_inactive_in_brackets">(nyní neaktivní)</string>
+    <string name="currently_inactive_in_brackets">(neaktivní)</string>
     <string name="sort_last_time_used_explanation">Nejméně použité applikace první</string>
     <string name="freeze_shortcut_label_screen_off">Vypnout obrazovku</string>
     <string name="accessibility_service">Služby usnadnění přístupu</string>

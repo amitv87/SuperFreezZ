@@ -1,0 +1,3 @@
+"Erişilebilirlik hizmetini etkinleştir" iletişim kutusuna "İptal" düğmesi eklendi
+kod stili, #87 "App list doesn't refresh when you tap on an app to stop it with root" düzeltildi
+Çeviriler güncellendi

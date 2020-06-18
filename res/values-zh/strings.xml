@@ -20,18 +20,16 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 --><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="msg_search">搜索</string>
     <string name="msg_search_help">搜索…</string>
-    <string name="share_exception">意料之外的错误 报告使用…</string>
-    <string name="accessibility_service_description">启用此选项让您自动冻结app 
+    <string name="share_exception">意料之外的错误。报告使用…</string>
+    <string name="accessibility_service_description">启用此选项让您自动冻结app。
 \n 
 \n优势： 
-\n•无用户交互：更快。无需知道如何操作 
-\n•残障人士可用冻结快捷方式(例如，借助语音识别)，自动冻结所有app.
+\n• 无用户交互：更快。无需知道如何操作。
+\n• 残障人士可用冻结快捷方式（例如，借助语音识别），自动冻结所有app。
 \n 
-\nSuperFreezZ使用辅助服务来点按强制停止，确定和返回。获取窗口内容来发现这些按钮，需要观察操作来知道它们何时出现.
-\n 
-\nSuperFreezZ仅使用辅助服务来点按强制停止，确定和返回。应用需要获取窗口内容来发现这些按钮，为了知道它们何时出现，需要观察您的动作.
-\n 
-\n在较新的安卓系统版本上，辅助服务也可用于在冻结操作后锁定屏幕.</string>
+\nSuperFreezZ使用辅助服务来点按“强制停止”，“确定”和“返回”。获取窗口内容来发现这些按钮，需要观察操作来知道它们何时出现。
+\n
+\n 在较新的安卓系统版本上，无障碍服务也可用于在冻结操作后锁定屏幕。</string>
     <string name="freeze_shortcut_label">冻结</string>
     <string name="NothingToFreeze">没有可冻结的APP</string>
     <string name="undo">撤销操作</string>
@@ -46,17 +44,18 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="no_apps_pending_freeze">[没有待冻结APP]</string>
     <string name="all_apps">全部APP</string>
     <string name="usagestats_access">授予SuperFreezZ使用情况访问权限</string>
-    <string name="usatestats_explanation">不授予使用情况访问权限，SurperFreezZ的智能冻结无法正常运作。</string>
+    <string name="usatestats_explanation">使用情况访问权限使SuperFreezZ能仅在你一段时间内没用使用app时冻结它们（智能冻结）。</string>
     <string name="enable">启用</string>
     <string name="usagestats_not_enabled">您未授予SuperFreezZ使用情况访问权限。</string>
     <string name="automate_the_freezing_of_apps">自动化APP冻结吗？</string>
-    <string name="accessibility_arguments_yes">好处
-\n• 易于使用 
-\n• 冻结大量App</string>
-    <string name="accessibility_arguments_no">要冻结一个App, 您必须按下强制停止，点击确定并手动返回 
-\n• 低端设备 
-\n• 安全担忧 
-\n• 未将SuperFreezZ注册为辅助服务</string>
+    <string name="accessibility_arguments_yes">优点：
+\n• 易于使用
+\n• 冻结大量app</string>
+    <string name="accessibility_arguments_no">你需要手动点击“强制停止”、“确定”和“返回”以冻结一个app。
+\n出于以下原因：
+\n• 运行缓慢的设备
+\n• 安全担忧
+\n• 不将SuperFreezZ注册为无障碍服务</string>
     <string name="yes">好的</string>
     <string name="no">不</string>
     <string name="intro_always_freeze_title">冻结模式：始终冻结</string>
@@ -129,7 +128,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid 应用通常不会频繁地在后台运行.</string>
     <string name="if_you_like_this_app">如果您喜欢这个app…</string>
     <string name="plz_help_translating">…请帮忙翻译它.</string>
-    <string name="plz_donate">…请做一名英雄并捐赠款.</string>
+    <string name="plz_donate">…请做一名英雄并捐款.</string>
     <string name="changed_freeze_mode">冻结模式已更改</string>
     <string name="other_apps">其他app</string>
     <string name="pref_title_standard_freeze_mode_system">标准冻结模式(系统app）</string>
@@ -146,10 +145,15 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n这个问题同样存在于其他类似应用程序（例如Greenify和“省电工具”）（但他们不会警告你这个问题）.</string>
     <string name="warning_long_2">值得被冻结的应用示例：
 \n
-\n•不受信任的应用程序（您不想在后台运行）
+\n•不受信任的应用程序（您不想让它们始终在后台运行）
 \n•您很少使用的应用
 \n•烦人的应用</string>
-    <string name="currently_inactive_in_brackets">(当前不活跃）</string>
+    <string name="currently_inactive_in_brackets">(不活跃）</string>
     <string name="sort_last_time_used_explanation">最近用过的app列表</string>
     <string name="freeze_shortcut_label_screen_off">熄灭屏幕</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ需要无障碍服务来自动化冻结操作。
+\n
+\n请选择SuperFreezZ，然后启用访问权限。</string>
+    <string name="accessibility_service">无障碍服务</string>
+    <string name="select_enable_toast">请选择SuperFreezZ，然后启用访问权限</string>
 </resources>
