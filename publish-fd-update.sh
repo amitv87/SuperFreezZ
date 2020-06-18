@@ -30,7 +30,9 @@ git add AndroidManifest.xml || git add app/AndroidManifest.xml
 
 # Generate release notes, let the user edit them and move them to the fastlane changelogs directory
 git log $(git describe --tags --abbrev=0)..HEAD --oneline --no-decorate --no-color | cut -d' ' -f2- > F-Droid-new-version-RELEASE-NOTES.txt
-nano F-Droid-new-version-RELEASE-NOTES.txt 
+echo "Update translations" >> F-Droid-new-version-RELEASE-NOTES.txt
+echo "Bug fixes" >> F-Droid-new-version-RELEASE-NOTES.txt
+$EDITOR F-Droid-new-version-RELEASE-NOTES.txt 
 echo "cp F-Droid-new-version-RELEASE-NOTES.txt ./fastlane/metadata/android/en-US/changelogs/${vCode}.txt"
 cp F-Droid-new-version-RELEASE-NOTES.txt "./fastlane/metadata/android/en-US/changelogs/${vCode}.txt"
 
