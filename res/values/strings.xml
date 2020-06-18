@@ -135,7 +135,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string-array name="sortmodes">
         <item>Name</item>
         <item>Freeze state</item>
-        <item>Last time used</item>
+        <item>Unused apps first</item>
         <item>User/system</item>
     </string-array>
     <string name="intro_header_welcome">welcome to</string>
@@ -147,7 +147,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="used_recently_and_frozen">Used recently <![CDATA[&]]> frozen</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: Freeze F-Droid apps</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid apps usually do not run in the background that much.</string>
-    <string name="sort_last_time_used_explanation">"Maybe you can uninstall some of the apps at the top of this list\? "</string>
+    <string name="sort_last_time_used_explanation">"Maybe you can uninstall some of the apps at the top of this list (because you did not use them for a long time)\?"</string>
     <string name="other_apps">Other apps</string>
     <string name="system_apps">System apps</string>
     <string name="user_apps">User apps</string>
@@ -169,4 +169,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="select_enable_toast">Please select SuperFreezZ, then enable access</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ needs the accessibility service in order to automate freezing.\n\nPlease select SuperFreezZ, then enable access.</string>
     <string name="accessibility_service">Accessibility Service</string>
+    <string name="plz_decide">Please select \'Yes\' or \'No\'</string>
 </resources>

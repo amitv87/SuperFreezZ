@@ -109,9 +109,11 @@ class MainActivity : AppCompatActivity() {
 			return
 		}
 
-		// TODO delete from here on:
+		@Suppress("ControlFlowWithEmptyBody")
 		if (neverCalled("website", this)) {
-			val a = AlertDialog.Builder(this, R.style.myAlertDialog)
+			// Announcements can be posted from here
+			// TODO (because it's always todo)
+			/*val a = AlertDialog.Builder(this, R.style.myAlertDialog)
 				.setTitle("New website")
 				.setMessage("""SuperFreezZ now has a website. Check it out: https://superfreezz.gitlab.io/.""")
 				.setPositiveButton("Ok") { _, _ -> }
@@ -124,10 +126,9 @@ class MainActivity : AppCompatActivity() {
 				)
 			} catch (e: NullPointerException) {
 				e.printStackTrace()
-			}
+			}*/
 
 		}
-		// TODO delete up to here
 
 		Companion.onResume(this)
 

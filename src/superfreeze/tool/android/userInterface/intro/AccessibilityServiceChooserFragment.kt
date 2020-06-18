@@ -68,7 +68,7 @@ class AccessibilityServiceChooserFragment : Fragment(), ISlidePolicy {
     }
 
     override fun onUserIllegallyRequestedNextPage() {
-        Toast.makeText(context ?: activity, "Please select 'Yes' or 'No'", Toast.LENGTH_LONG).show()
+        Toast.makeText(context ?: activity, getString(R.string.plz_decide), Toast.LENGTH_LONG).show()
     }
 }
 

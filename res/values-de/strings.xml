@@ -111,7 +111,7 @@
     <string-array name="sortmodes">
         <item>Name</item>
         <item>Einfriermodus</item>
-        <item>Letzte Benutzung</item>
+        <item>Lange nicht benutzte Apps zuerst</item>
         <item>Nutzer/System</item>
     </string-array>
     <string name="intro_header_welcome">willkommen bei</string>
@@ -128,7 +128,7 @@
 \n• Apps, die Sie selten verwenden
 \n• Nervende Apps</string>
     <string name="power_button_hint">Tipp: Drücken Sie die Power-Taste, um den Einfriervorgang abzubrechen</string>
-    <string name="plz_help_translating">…Bitte helfen Sie, sie zu übersetzen.</string>
+    <string name="plz_help_translating">…bitte helfen Sie, sie zu übersetzen.</string>
     <string name="if_you_like_this_app">Wenn Sie diese App mögen…</string>
     <string name="user_apps">Benutzer-Apps</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid-Apps laufen normalerweise nicht so oft im Hintergrund.</string>
@@ -139,7 +139,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standard-Einfrier-Modus (System-Apps)</string>
     <string name="freeze_question">Diese App einfrieren\?</string>
     <string name="other_apps">Andere Apps</string>
-    <string name="sort_last_time_used_explanation">"Vielleicht können Sie einige der Apps oben in dieser Liste deinstallieren, weil Sie diese nicht mehr benutzen\? "</string>
+    <string name="sort_last_time_used_explanation">"Vielleicht können Sie einige der Apps oben in dieser Liste deinstallieren (weil Sie diese nicht mehr benutzen)\? "</string>
     <string name="system_apps">System-Apps</string>
     <string name="fdroid_app_not_pending_freeze">F-Droid App</string>
     <string name="version_abbrev">v</string>
