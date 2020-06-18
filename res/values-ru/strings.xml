@@ -56,8 +56,7 @@
     <string name="pref_title_standard_freeze_mode">Обычный режим остановки (пользовательские приложения)</string>
     <string name="pref_header_about">О нас</string>
     <string name="pref_header_freezing">Останавливаемые приложения</string>
-    <string name="pref_ringtone_silent">Тихо</string>
-    <string name="appslist_show_special">Показать специальные приложения в списке</string>
+	<string name="appslist_show_special">Показать специальные приложения в списке</string>
     <string name="pref_intelligentfreeze_delay">ИНТЕЛЛЕКТУАЛЬНОЕ: остановка после... (дни)</string>
     <string name="pref_summary_appslist_show_special">По умолчанию лаунчер, SuperFreezz и системные приложения скрыты.</string>
     <string name="create_freeze_shortcut">Создать ярлык остановки</string>
@@ -101,9 +100,7 @@
     <string name="user_apps">Пользовательские приложения</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Остановить приложение\?</string>
-    <string name="descending">По убыванию ▼</string>
-    <string name="ascending">По возрастанию ▲</string>
-    <string name="power_button_hint">Подсказка: Нажмите на кнопку Выключения для прерывания остановки</string>
+	<string name="power_button_hint">Подсказка: Нажмите на кнопку Выключения для прерывания остановки</string>
     <string name="warning">Внимание</string>
     <string name="warning_long_1">Слишком частая остановка/заморозка приложений может опустошить вашу батарею БЫСТРЕЕ, из-за того что разморозка весьма энергозатратна.
 \n

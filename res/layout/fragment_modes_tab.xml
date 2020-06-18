@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--No idea why Android Studio sometimes thinks that this file is unused but it is definitely used.-->
+
 <!--
   ~ Copyright (c) 2019 Hocuri
   ~ Copyright (c) 2019 Robin Naumann

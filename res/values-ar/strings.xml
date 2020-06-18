@@ -97,8 +97,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_header_about">حول</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_freezing">تجميد التطبيقات</string>
-    <string name="pref_ringtone_silent">صامت</string>
-    <string name="appslist_show_special">عرض تطبيقات خاصة في القائمة</string>
+	<string name="appslist_show_special">عرض تطبيقات خاصة في القائمة</string>
     <string name="pref_intelligentfreeze_delay">تجميد ذكي: تجميد بعد … (أيام)</string>
     <string name="pref_summary_appslist_show_special">لقد تم إخفاء المشغل و SuperFreezZ وتطبيقات النظام افتراضيًا.</string>
     <string name="create_freeze_shortcut">إنشاء اختصار تجميد</string>
@@ -158,9 +157,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n
 \nهذه أيضًا مشكلة في التطبيقات المشابهة الأخرى مثل Greenify و \"Battery Savers\" (باستثناء أنها لا تحذرك من هذا).</string>
     <string name="warning">تحذير</string>
-    <string name="ascending">تصاعدي ▲</string>
-    <string name="descending">تنازلي ▼</string>
-    <string name="power_button_hint">تلميح: اضغط على زر الطاقة لإحباط عملية التجميد</string>
+	<string name="power_button_hint">تلميح: اضغط على زر الطاقة لإحباط عملية التجميد</string>
     <string name="freeze_question">هل تريد تجميد هذا التطبيق؟</string>
     <string name="version_abbrev">ف</string>
     <string name="user_apps">تطبيقات المستخدم</string>

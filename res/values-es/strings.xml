@@ -62,8 +62,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_header_about">Acerca de</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_freezing">Apps congeladas</string>
-    <string name="pref_ringtone_silent">Silencio</string>
-    <string name="appslist_show_special">Mostrar las aplicaciones especiales en la lista</string>
+	<string name="appslist_show_special">Mostrar las aplicaciones especiales en la lista</string>
     <string name="pref_intelligentfreeze_delay">INTELIGENTE: Congelar después de ... (días)</string>
     <string name="pref_summary_appslist_show_special">El Launcher, SuperFreezZ y las aplicaciones del sistema estan ocultas por defecto.</string>
     <string name="create_freeze_shortcut">Crear un acceso directo de congelación</string>
@@ -148,9 +147,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n
 \nEsto es también un problema con otras aplicaciones, tales como Greenify u otras \"ahorradoras de energía\" (pero ellas no le advierten).</string>
     <string name="warning">Advertencia</string>
-    <string name="ascending">Ascendente ▲</string>
-    <string name="descending">Decreciente ▼</string>
-    <string name="freeze_question">¿Congelar esta aplicación\?</string>
+	<string name="freeze_question">¿Congelar esta aplicación\?</string>
     <string name="version_abbrev">v</string>
     <string name="changed_freeze_mode">Modo de congelación modificado</string>
     <string name="plz_help_translating">... Por favor ayude a traducirla.</string>

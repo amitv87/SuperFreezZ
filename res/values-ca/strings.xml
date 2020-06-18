@@ -64,8 +64,7 @@
     <string name="plz_donate">...Sigues un heroi i dona.</string>
     <string name="intro_never_freeze_title">Mode de congelació: MAI CONGELAR</string>
     <string name="links">Enllaços</string>
-    <string name="pref_ringtone_silent">Silenciós</string>
-    <string name="title_activity_settings">Ajustaments</string>
+	<string name="title_activity_settings">Ajustaments</string>
     <string name="accessibility_service_description">Si activeu aquesta opció, podeu congelar automàticament les aplicacions. 
 \n 
 \nAvantatges: 

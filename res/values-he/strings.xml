@@ -8,8 +8,7 @@
     <string name="msg_search">חיפוש</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT: הקפיא אחרי ... (ימים)</string>
     <string name="appslist_show_special">הצג אפליקציות מיוחדות ברשימה</string>
-    <string name="pref_ringtone_silent">שקט</string>
-    <string name="pref_header_freezing">הקפאת אפליקציות</string>
+	<string name="pref_header_freezing">הקפאת אפליקציות</string>
     <string name="pref_header_about">אודות</string>
     <string name="pref_title_standard_freeze_mode_system">מצב הקפאה רגיל (אפליקציות מערכת)</string>
     <string name="pref_title_standard_freeze_mode">מצב הקפאה רגיל (אפליקציות רגילות)</string>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="usatestats_explanation">Acessar estatísticas de uso permite ao SuperFreezZ congelar apenas apps que não usa há muito tempo (CONGELAMENTO INTELIGENTE).</string>
-    <string name="ascending">Crescente ▲</string>
-    <string name="usagestats_not_enabled">Não concedeu acesso às estatísticas de uso.</string>
+	<string name="usagestats_not_enabled">Não concedeu acesso às estatísticas de uso.</string>
     <string name="pref_header_about_summary">Links úteis, enviar logs</string>
     <string name="if_you_like_this_app">Se você gosta deste app…</string>
     <string name="freeze_shortcut_label">Congelar</string>
@@ -25,8 +24,7 @@
     <string name="automate_the_freezing_of_apps">Automatizar congelamento de apps\?</string>
     <string name="credits_and_licenses">Créditos e licenças de terceiros</string>
     <string name="user_apps">Apps de usuário</string>
-    <string name="descending">Decrescente ▼</string>
-    <string name="freeze_off">Congelamento desligado</string>
+	<string name="freeze_off">Congelamento desligado</string>
     <string name="no_apps_pending_freeze">[SEM APPS PARA CONGELAR]</string>
     <string name="no">Não</string>
     <string name="info">Informação</string>
@@ -71,8 +69,7 @@
     <string name="intro_never_freeze_title">Modo de congelamento: NUNCA CONGELAR</string>
     <string name="other_apps">Outros apps</string>
     <string name="links">Links</string>
-    <string name="pref_ringtone_silent">Silencioso</string>
-    <string name="title_activity_settings">Configurações</string>
+	<string name="title_activity_settings">Configurações</string>
     <string name="accessibility_service_description">Ligá-lo permite congelar aplicativos automaticamente. 
 \n 
 \nVantagens: 

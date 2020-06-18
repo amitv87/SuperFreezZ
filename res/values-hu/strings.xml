@@ -63,8 +63,7 @@
     <string name="plz_donate">...Kérlek, adományozz!</string>
     <string name="intro_never_freeze_title">Fagyasztási mód: SOHA NE FAGYASSZON</string>
     <string name="links">Linkek</string>
-    <string name="pref_ringtone_silent">Csendes</string>
-    <string name="title_activity_settings">Beállítások</string>
+	<string name="title_activity_settings">Beállítások</string>
     <string name="accessibility_service_description">Ezt bekapcsolva automatikusan leállíthatók az alkalmazások.
 \n 
 \nElőnyök: 

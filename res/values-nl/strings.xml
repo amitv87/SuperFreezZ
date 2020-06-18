@@ -57,8 +57,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standaard bevriesmodus (systeemapps)</string>
     <string name="pref_header_about">Over</string>
     <string name="pref_header_freezing">Apps bevriezen</string>
-    <string name="pref_ringtone_silent">Stil</string>
-    <string name="appslist_show_special">Speciale apps tonen op de lijst</string>
+	<string name="appslist_show_special">Speciale apps tonen op de lijst</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT: bevriezen na ... (dagen)</string>
     <string name="pref_summary_appslist_show_special">Het startscherm, SuperFreezZ zelf en systeemapps zijn standaard verborgen.</string>
     <string name="create_freeze_shortcut">Bevriessnelkoppeling maken</string>
@@ -101,9 +100,7 @@
     <string name="changed_freeze_mode">Bevriesmodus gewijzigd</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Wil je deze app bevriezen\?</string>
-    <string name="descending">Aflopend ▼</string>
-    <string name="ascending">Oplopend ▲</string>
-    <string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
+	<string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
     <string name="warning">Waarschuwing</string>
     <string name="warning_long_1">Het stoppen/bevriezen van apps kan leiden tot een HOGER accuverbruik, omdat het \'ontdooien\' van apps energie kost.
 \n

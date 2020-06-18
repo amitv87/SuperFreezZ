@@ -58,8 +58,7 @@
     <string name="create_freeze_shortcut">Crea Scorciatoia Congelamento</string>
     <string name="intro_never_freeze_title">Modalità: Non Congelare Mai</string>
     <string name="links">Collegamenti</string>
-    <string name="pref_ringtone_silent">Silenzioso</string>
-    <string name="title_activity_settings">Impostazioni</string>
+	<string name="title_activity_settings">Impostazioni</string>
     <string name="accessibility_service_description">Attivando questa opzione è possibile congelare automaticamente le applicazioni. 
 \n 
 \nVantaggi: 
@@ -99,9 +98,7 @@
     <string name="user_apps">App Utente</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Congelare questa app\?</string>
-    <string name="descending">Discendente ▼</string>
-    <string name="ascending">Ascendente ▲</string>
-    <string name="power_button_hint">Suggerimento: Premere il Pulsante di Accensione per interrompere il processo di congelamento</string>
+	<string name="power_button_hint">Suggerimento: Premere il Pulsante di Accensione per interrompere il processo di congelamento</string>
     <string name="warning">Attenzione</string>
     <string name="warning_long_1">Fermare/congelare app di frequente probabilmente consumerà la batteria DI PIÙ, perchè lo \"scongelamento\" richiede energia.
 \n

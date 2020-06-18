@@ -83,7 +83,6 @@
     <string name="pref_header_about">Über</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_freezing">Apps einfrieren</string>
-    <string name="pref_ringtone_silent">Still</string>
     <string name="appslist_show_special">Zusätzliche Apps in der Liste anzeigen</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT: Einfrieren nach… (in Tagen)</string>
     <string name="pref_summary_appslist_show_special">Die Start-App, SuperFreezZ selbst und Systemapps werden standardmäßig versteckt.</string>
@@ -128,8 +127,6 @@
 \n• Nicht vertrauenswürdige Apps (die nicht im Hintergrund laufen sollen)
 \n• Apps, die Sie selten verwenden
 \n• Nervende Apps</string>
-    <string name="ascending">Aufsteigend ▲</string>
-    <string name="descending">Absteigend ▼</string>
     <string name="power_button_hint">Tipp: Drücken Sie die Power-Taste, um den Einfriervorgang abzubrechen</string>
     <string name="plz_help_translating">…Bitte helfen Sie, sie zu übersetzen.</string>
     <string name="if_you_like_this_app">Wenn Sie diese App mögen…</string>

@@ -56,8 +56,7 @@
     <string name="pref_title_standard_freeze_mode">Mode Geler standard (applications utilisateur)</string>
     <string name="pref_header_about">À propos</string>
     <string name="pref_header_freezing">Applications gelées</string>
-    <string name="pref_ringtone_silent">Silencieux</string>
-    <string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
+	<string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT : Geler après… (jours)</string>
     <string name="pref_summary_appslist_show_special">Le Launcher, SuperFreezZ et les applications système sont masqués par défaut.</string>
     <string name="create_freeze_shortcut">Créer un raccourci Gel rapide</string>
@@ -101,9 +100,7 @@
     <string name="user_apps">applications utilisateur</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Geler cette application \?</string>
-    <string name="descending">Descendant ▼</string>
-    <string name="ascending">Ascendant ▲</string>
-    <string name="currently_inactive_in_brackets">(inactif)</string>
+	<string name="currently_inactive_in_brackets">(inactif)</string>
     <string name="warning_long_2">Exemples d\'applis qui méritent d\'être gelées :
 \n
 \n• les applis auxquelles vous ne faites pas confiance (que vous ne voulez pas utiliser en arrière-plan) ; 

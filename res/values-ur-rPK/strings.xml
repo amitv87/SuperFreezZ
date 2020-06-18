@@ -64,8 +64,7 @@
     <string name="plz_donate">…براہ مہربانی ایک بہادر اور سورما بنیں اور چندہ دیں۔</string>
     <string name="intro_never_freeze_title">طرظِ انجماد: کبھی منجمد نہیں</string>
     <string name="links">دیگر ذرائع</string>
-    <string name="pref_ringtone_silent">خاموش</string>
-    <string name="title_activity_settings">ترتیبات</string>
+	<string name="title_activity_settings">ترتیبات</string>
     <string name="accessibility_service_description">اس کو چالو کرنے سے آپ ایپ کو خودکار طریقہ سے منجمد کر پائیں گے۔
 \n
 \nفوائد:
@@ -99,7 +98,5 @@
     <string name="user_apps">استعمال کنندہ کے ایپس</string>
     <string name="version_abbrev">و</string>
     <string name="freeze_question">اس ایپ کو منجمد کیا جائے؟</string>
-    <string name="descending">ترتیبِ نزولی▼</string>
-    <string name="ascending">ترتیبِ سعودی ▲</string>
-    <string name="power_button_hint">اشارہ: منجمد کرنے کے عمل کو روکنے کے لیے پاور بٹن کو دبائیں</string>
+	<string name="power_button_hint">اشارہ: منجمد کرنے کے عمل کو روکنے کے لیے پاور بٹن کو دبائیں</string>
 </resources>

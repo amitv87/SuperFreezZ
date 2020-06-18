@@ -56,8 +56,7 @@
     <string name="create_freeze_shortcut">Opprett frysesnarvei</string>
     <string name="intro_never_freeze_title">Frysemodus: ALDRI FRYS</string>
     <string name="links">Lenker</string>
-    <string name="pref_ringtone_silent">Stille</string>
-    <string name="title_activity_settings">Innstillinger</string>
+	<string name="title_activity_settings">Innstillinger</string>
     <string name="accessibility_service_description">Å skru dette på lar deg automatisk fryse programmer.
 \n
 \nFordeler:
@@ -99,9 +98,7 @@
     <string name="user_apps">Brukerprogrammer</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Frys dette programmet\?</string>
-    <string name="descending">Synkende</string>
-    <string name="ascending">Stigende</string>
-    <string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
+	<string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
     <string name="warning">Advarsel</string>
     <string name="freeze_shortcut_label_screen_off">Skjerm av</string>
     <string name="currently_inactive_in_brackets">(nå inaktiv)</string>

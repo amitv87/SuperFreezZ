@@ -38,8 +38,7 @@
     <string name="pref_title_standard_freeze_mode">Standart dondurma modu (kullanıcı uygulamaları)</string>
     <string name="pref_header_about">Hakkında</string>
     <string name="pref_header_freezing">Uygulamaları dondurma</string>
-    <string name="pref_ringtone_silent">Sessiz</string>
-    <string name="appslist_show_special">Listedeki özel uygulamaları göster</string>
+	<string name="appslist_show_special">Listedeki özel uygulamaları göster</string>
     <string name="pref_intelligentfreeze_delay">AKILLI: ... (gün) Sonra durdurun</string>
     <string name="pref_summary_appslist_show_special">Başlatıcı, SuperFreezZ ve sistem uygulamaları varsayılan olarak gizlidir.</string>
     <string name="create_freeze_shortcut">Dondurma kısayolu oluştur</string>
@@ -82,9 +81,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standart dondurma modu (sistem uygulamaları)</string>
     <string name="system_apps">Sistem uygulamaları</string>
     <string name="user_apps">Kullanıcı uygulamaları</string>
-    <string name="descending">Azalan</string>
-    <string name="ascending">Artan</string>
-    <string name="accessibility_arguments_no">Bir uygulamayı dondurmak için manuel olarak \"Durdurmaya zorla\", \"Tamam\" ve \"Geri\" tuşlarına basmanız gerekecektir.
+	<string name="accessibility_arguments_no">Bir uygulamayı dondurmak için manuel olarak \"Durdurmaya zorla\", \"Tamam\" ve \"Geri\" tuşlarına basmanız gerekecektir.
 \nİçin:
 \n• Yavaş cihazlar
 \n• Güvenlik endişeleri
