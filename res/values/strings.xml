@@ -148,13 +148,13 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="used_recently_and_frozen">Used recently <![CDATA[&]]> frozen</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT: Freeze F-Droid apps</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid apps usually do not run in the background that much.</string>
-    <string name="sort_last_time_used_explanation">Least recently used apps first</string>
+    <string name="sort_last_time_used_explanation">"Maybe you can uninstall some of the apps at the top of this list\? "</string>
     <string name="other_apps">Other apps</string>
     <string name="system_apps">System apps</string>
     <string name="user_apps">User apps</string>
     <string name="if_you_like_this_app">If you like this app…</string>
     <string name="plz_help_translating">…Please help translating it.</string>
-    <string name="plz_donate">…Please be a hero and donate.</string>
+    <string name="plz_donate">…please be a hero and donate.</string>
     <string name="changed_freeze_mode">Changed freeze mode</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Freeze this app?</string>
