@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="text_color_primary">#ffffff</color>
+
+	<color name="always_freeeze">#FF4747</color>
+	<color name="never_freeeze">#36C24D</color>
+	<color name="inactive_freeeze">#4fc3f7</color>
+	<color name="ic_shortcut_background">#3B51D1</color>
+</resources>
