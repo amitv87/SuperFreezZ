@@ -21,33 +21,30 @@
     <string name="msg_search">Suche</string>
     <string name="msg_search_help">Suchen…</string>
     <string name="share_exception">Unerwarteter Fehler. Bericht über..…</string>
-    <string name="accessibility_service_description">Die Bedienungshilfe ermöglicht es SuperFreezZ, das Einfrieren zu automatisieren.
-\n
-\nDies hat die folgenden Vorteile:
-\n - Der Benutzer muss es nicht selbst machen: Es ist deutlich schneller und der Benutzer muss sich nicht darum kümmern, wie das geht.
-\n - Benutzer mit Einschränkungen müssen nur den \"Einfrieren\"-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können sie alle Apps automatisch einfrieren. 
-\n
+    <string name="accessibility_service_description">Dies ermöglicht es SuperFreezZ, automatisch Apps einzufrieren.
+\n 
+\nVorteile: 
+\n • Der Benutzer muss es nicht selbst machen: Es ist deutlich schneller und der Benutzer muss sich nicht darum kümmern, wie das geht. 
+\n • Benutzer mit Einschränkungen müssen nur den \"Einfrieren\"-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können Sie alle Apps automatisch einfrieren. 
+\n 
 \nSuperFreezZ benutzt die Bedienungshilfe nur, um „Beenden erzwingen“, „OK“ und „Zurück“ zu drücken. „Fensterinhalte abrufen“ ist nötig, um diese zu finden und „Ihre Aktionen beobachten“ ist nötig, um mitzubekommen, wann diese erscheinen. 
-\n
+\n 
 \nAußerdem kann SuperFreezZ die Bedienungshilfe benutzen, um auf neueren Android-Versionen den Bildschirm nach dem Einfrieren zu sperren, falls Sie das wollen.</string>
     <string name="freeze_shortcut_label">Einfrieren</string>
     <string name="NothingToFreeze">Nichts einzufrieren</string>
     <string name="undo">Rückgängig</string>
     <string name="icon">Icon</string>
-    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">"Diese App einfrieren, wenn sie länger nicht
-		benutzt wurde.
-	"</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Diese App einfrieren, falls sie länger nicht benutzt wurde.</string>
     <string name="always_freeze_this_app">Diese App immer einfrieren</string>
     <string name="do_never_freeze_this_app">Diese App nie einfrieren</string>
     <string name="pending_freeze">Einfrieren ausstehend</string>
     <string name="frozen">Eingefroren</string>
     <string name="freeze_off">Einfrieren aus</string>
     <string name="used_recently">Kürzlich benutzt</string>
-    <string name="no_apps_pending_freeze">[KEINE APPS MIT EINFRIEREN AUSSTEHEND]</string>
+    <string name="no_apps_pending_freeze">[KEINE EINZUFRIERENDEN APPS]</string>
     <string name="all_apps">ALLE APPS</string>
     <string name="usagestats_access">Zugriff auf Nutzungsdaten</string>
-    <string name="usatestats_explanation">Der Zugriff auf Nutzungsdaten ermöglicht es SuperFreezZ, nur die Anwendungen einzufrieren, die Sie länger nicht benutzt haben (Intelligenter Einfrier-Modus).
-\n\t</string>
+    <string name="usatestats_explanation">Der Zugriff auf Nutzungsdaten ermöglicht es SuperFreezZ, nur die Anwendungen einzufrieren, die Sie länger nicht benutzt haben (Einfrier-Modus INTELLIGENT).</string>
     <string name="enable">Einschalten</string>
     <string name="usagestats_not_enabled">Sie haben keinen Zugriff auf die Nutzungsdaten gewährt.</string>
     <string name="automate_the_freezing_of_apps">Apps einfrieren automatisieren?</string>
@@ -55,24 +52,17 @@
 \n• es so einfach wie möglich haben wollen 
 \n• viele Apps einfrieren wollen</string>
     <string name="accessibility_arguments_no">Sie müssen manuell „Beenden erzwingen“, „OK“ und „Zurück“ drücken, um eine App einzufrieren. 
-\nFür Benutzer die: 
-\n• ein langsames Gerät haben 
-\n• sicherheitsbedenken haben 
-\n• SuperFreezZ nicht als Bedienungshilfe einrichten wollen</string>
+\n• Für langsame Geräte
+\n• bei Sicherheitsbedenken
+\n• Um SuperFreezZ nicht als Bedienungshilfe einrichten zu müssen</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="intro_always_freeze_title">Einfriermodus: IMMER EINFRIEREN</string>
-    <string name="intro_always_freeze_explanation">"Es gibt 3 Einfriermodi. Sie können diese für jede App einzeln
-		einstellen. IMMER EINFRIEREN friert eine App in jedem Fall ein.
-	"</string>
+    <string name="intro_always_freeze_explanation">Es gibt 3 Einfrier-Modi. Sie können diese für jede App einzeln auswählen. IMMER EINFRIEREN friert eine App in jedem Fall ein.</string>
     <string name="intro_never_freeze_title">Einfriermodus: NIE EINFRIEREN</string>
-    <string name="intro_never_freeze_explanation">"Nie einfrieren - stellt das Einfrieren aus und friert eine App nie
-		ein.
-	"</string>
+    <string name="intro_never_freeze_explanation">NIE EINFRIEREN - stellt das Einfrieren ab und friert eine App nie ein.</string>
     <string name="intro_auto_freeze_title">Einfriermodus: INTELLIGENT</string>
-    <string name="intro_auto_freeze_explanation">INTELLIGENT friert eine App nur dann ein, wenn sie länger nicht benutzt wurde (standardmäßig 7 Tage).
-\nF-Droid apps werden nicht eingefroren.
-\n\t</string>
+    <string name="intro_auto_freeze_explanation">"INTELLIGENTES EINFRIEREN friert eine App nur dann ein, wenn sie längere Zeit nicht benutzt wurde (standardmäßig 7 Tage).  Außerdem werden F-Droid Apps nicht eingefroren."</string>
     <string name="freeze_manually">Manuelles Einfrieren</string>
     <string name="Press_forcestop_ok_back">Um eine App einzufrieren, drücken Sie „BEENDEN ERZWINGEN“, dann „OK“ und dann „Zurück“.</string>
     <string name="freeze_manually_no">Ich möchte das nicht machen müssen</string>
