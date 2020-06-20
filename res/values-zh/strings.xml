@@ -85,7 +85,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_header_about">关于</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_freezing">正冻结APP</string>
-	<string name="appslist_show_special">在列表中显示特殊APP</string>
+    <string name="appslist_show_special">在列表中显示特殊APP</string>
     <string name="pref_intelligentfreeze_delay">冻结模式 智能：Apps将在 后被冻结（单位：天）</string>
     <string name="pref_summary_appslist_show_special">默认隐藏启动器，SuperFreezZ和系统app.</string>
     <string name="create_freeze_shortcut">创建冻结快捷方式</string>
@@ -135,7 +135,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="user_apps">用户app</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">冻结该app\?</string>
-	<string name="power_button_hint">提示：按电源按钮可中止冻结过程</string>
+    <string name="power_button_hint">提示：按电源按钮可中止冻结过程</string>
     <string name="warning">警告</string>
     <string name="warning_long_1">经常停止/冻结应用程序可能会更快耗尽电池电量，因为“解冻”消耗电量
 \n
@@ -146,11 +146,12 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n•您很少使用的应用
 \n•烦人的应用</string>
     <string name="currently_inactive_in_brackets">(不活跃）</string>
-    <string name="sort_last_time_used_explanation">最近用过的app列表</string>
+    <string name="sort_last_time_used_explanation">也许你可以卸载列表上的一些在这个列表顶部的一些应用程序(因为你已经很长时间没有使用它们了)\?</string>
     <string name="freeze_shortcut_label_screen_off">熄灭屏幕</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ需要无障碍服务来自动化冻结操作。
 \n
 \n请选择SuperFreezZ，然后启用访问权限。</string>
     <string name="accessibility_service">无障碍服务</string>
     <string name="select_enable_toast">请选择SuperFreezZ，然后启用访问权限</string>
+    <string name="plz_decide">请选择‘是’或\'否\'</string>
 </resources>
