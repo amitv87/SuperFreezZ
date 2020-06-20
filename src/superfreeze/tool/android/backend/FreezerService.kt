@@ -116,7 +116,7 @@ class FreezerService : AccessibilityService() {
 	@RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
 	private fun pressForceStopButton(event: AccessibilityEvent) {
 		val node = event.source.expectNonNull(TAG) ?: return
-
+		
 		var nodesToClick = node.findAccessibilityNodeInfosByText("FORCE STOP")
 
 		if (nodesToClick.isEmpty())
@@ -125,10 +125,26 @@ class FreezerService : AccessibilityService() {
 		if (nodesToClick.isEmpty())
 			nodesToClick = node.findAccessibilityNodeInfosByText(forceStopButtonName)
 
-		if (nodesToClick.isEmpty())
-			nodesToClick = node.findAccessibilityNodeInfosByViewId("com.android.settings:id/right_button")
+		if (nodesToClick.isEmpty()) {
+			val buttons = ArrayList<AccessibilityNodeInfo>()
+			getButtons(node, buttons)
+			if (buttons.size == 2) {
+				val rightNode = buttons[1]
+				val leftNode = buttons[0]
+				Log.w(TAG, "right: $rightNode, left: $leftNode")
 
-		val success = clickAll(nodesToClick, "force stop")
+				// "force stop" contains a space, "uninstall" does not. So, try to find out which button is which by counting the spaces.
+				val spacesRight = rightNode.text?.trim()?.count { it == ' ' }
+				val spacesLeft = leftNode.text?.trim()?.count { it == ' ' }
+
+				if (spacesLeft == 1 && spacesRight == 0)
+					nodesToClick = listOf(leftNode)
+				else if (spacesLeft == 0 && spacesRight == 1)
+					nodesToClick = listOf(rightNode)
+			}
+		}
+
+		val success = clickAll(nodesToClick, "force stop", node)
 		if (success) nextAction = NextAction.PRESS_OK
 
 		node.recycle()
@@ -145,7 +161,7 @@ class FreezerService : AccessibilityService() {
 			nodesToClick = node.findAccessibilityNodeInfosByText(forceStopButtonName)
 			// Apparently necessary sometimes, see https://gitlab.com/SuperFreezZ/SuperFreezZ/issues/43
 
-		val success = clickAll(nodesToClick, "OK")
+		val success = clickAll(nodesToClick, "OK", node)
 		if (success) nextAction = NextAction.PRESS_BACK
 
 		node.recycle()
@@ -166,10 +182,12 @@ class FreezerService : AccessibilityService() {
 	 * itself, sets the nextAction to what makes sense and returns true.
 	 */
 	@RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
-	private fun clickAll(nodes: List<AccessibilityNodeInfo>, buttonName: String): Boolean {
+	private fun clickAll(nodes: List<AccessibilityNodeInfo>, buttonName: String, parentNode: AccessibilityNodeInfo): Boolean {
 
 		if (nodes.isEmpty()) {
 			Log.e(TAG, "Could not find the $buttonName button.")
+			Log.e(TAG, "Buttons:")
+			printNodes(parentNode)
 			stopAnyCurrentFreezing()
 			doOnAppCouldNotBeFrozen?.invoke(this)
 			return false
@@ -194,6 +212,26 @@ class FreezerService : AccessibilityService() {
 		notifyThereIsStillMovement(this)
 
 		return true
+	}
+
+	private fun printNodes(parentNode: AccessibilityNodeInfo) {
+		if (parentNode.isClickable) {
+			Log.e(TAG, "    $parentNode")
+		}
+		for (i in 0 until parentNode.childCount) {
+			printNodes(parentNode.getChild(i))
+		}
+	}
+
+	private fun getButtons(
+		parentNode: AccessibilityNodeInfo,
+		l: ArrayList<AccessibilityNodeInfo>) {
+		if (parentNode.isClickable && parentNode.className.split(".").last() == "Button") {
+			l.add(parentNode)
+		}
+		for (i in 0 until parentNode.childCount) {
+			getButtons(parentNode.getChild(i), l)
+		}
 	}
 
 	private var screenReceiver: BroadcastReceiver? = null
