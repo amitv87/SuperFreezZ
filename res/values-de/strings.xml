@@ -139,7 +139,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standard-Einfrier-Modus (System-Apps)</string>
     <string name="freeze_question">Diese App einfrieren\?</string>
     <string name="other_apps">Andere Apps</string>
-    <string name="sort_last_time_used_explanation">"Vielleicht können Sie einige der Apps oben in dieser Liste deinstallieren (weil Sie diese nicht mehr benutzen)\? "</string>
+    <string name="sort_last_time_used_explanation">Vielleicht können Sie einige der Apps oben in dieser Liste deinstallieren (weil Sie diese nicht mehr benutzen)\?</string>
     <string name="system_apps">System-Apps</string>
     <string name="fdroid_app_not_pending_freeze">F-Droid App</string>
     <string name="version_abbrev">v</string>
@@ -151,4 +151,5 @@
 \nBitte SuperFreezZ auswählen, dann Zugriff gewähren.</string>
     <string name="warning">Warnung</string>
     <string name="select_enable_toast">Bitte SuperFreezZ auswählen, dann Zugriff gewähren</string>
+    <string name="plz_decide">Bitte wählen Sie \'ja\' oder \'nein\' aus</string>
 </resources>

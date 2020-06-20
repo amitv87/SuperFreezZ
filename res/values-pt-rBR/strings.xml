@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="usatestats_explanation">Acessar estatísticas de uso permite ao SuperFreezZ congelar apenas apps que não usa há muito tempo (CONGELAMENTO INTELIGENTE).</string>
-	<string name="usagestats_not_enabled">Não concedeu acesso às estatísticas de uso.</string>
+    <string name="usagestats_not_enabled">Não concedeu acesso às estatísticas de uso.</string>
     <string name="pref_header_about_summary">Links úteis, enviar logs</string>
     <string name="if_you_like_this_app">Se você gosta deste app…</string>
     <string name="freeze_shortcut_label">Congelar</string>
@@ -24,7 +24,7 @@
     <string name="automate_the_freezing_of_apps">Automatizar congelamento de apps\?</string>
     <string name="credits_and_licenses">Créditos e licenças de terceiros</string>
     <string name="user_apps">Apps de usuário</string>
-	<string name="freeze_off">Congelamento desligado</string>
+    <string name="freeze_off">Congelamento desligado</string>
     <string name="no_apps_pending_freeze">[SEM APPS PARA CONGELAR]</string>
     <string name="no">Não</string>
     <string name="info">Informação</string>
@@ -65,11 +65,11 @@
     <string name="system_apps">Apps do sistema</string>
     <string name="report">Relatar um problema, propor um recurso,…</string>
     <string name="create_freeze_shortcut">Criar atalho congelar</string>
-    <string name="plz_donate">… Por favor, seja um herói e faça uma doação.</string>
+    <string name="plz_donate">… por favor, seja um herói e faça uma doação.</string>
     <string name="intro_never_freeze_title">Modo de congelamento: NUNCA CONGELAR</string>
     <string name="other_apps">Outros apps</string>
     <string name="links">Links</string>
-	<string name="title_activity_settings">Configurações</string>
+    <string name="title_activity_settings">Configurações</string>
     <string name="accessibility_service_description">Ligá-lo permite congelar aplicativos automaticamente. 
 \n 
 \nVantagens: 
@@ -97,7 +97,7 @@
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELIGENTE: Congelar apps F-Droid</string>
     <string name="logs_copied">Logs copiados para a área de transferência.</string>
     <string name="freeze_manually_no">Eu não quero ter que fazer isso</string>
-    <string name="plz_help_translating">… Por favor, ajude a traduzi-lo.</string>
+    <string name="plz_help_translating">… por favor, ajude a traduzi-lo.</string>
     <string name="power_button_hint">Dica: Pressione o botão Liga/Desliga para interromper o congelamento</string>
     <string name="accessibility_service">Serviço de Acessibilidade</string>
     <string name="accessibility_service_dialog_message">O SuperFreezZ precisa do serviço de acessibilidade para automatizar o congelamento.
@@ -114,6 +114,7 @@
 \n
 \nTambém é um problema com outros apps similares, como Greenify e \"economizadores de bateria\" (exceto que eles não avisam sobre isto).</string>
     <string name="warning">Aviso</string>
-    <string name="sort_last_time_used_explanation">Apps menos usados recentemente primeiro</string>
+    <string name="sort_last_time_used_explanation">Talvez você possa desinstalar alguns dos apps no topo desta lista (porque não os usou por um longo tempo)\?</string>
     <string name="freeze_shortcut_label_screen_off">Tela desligada</string>
+    <string name="plz_decide">Por favor selecione \'Sim\' ou \'Não\'</string>
 </resources>

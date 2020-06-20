@@ -93,8 +93,8 @@
     <string name="system_apps">Systémové aplikace</string>
     <string name="user_apps">Uživatelské aplikace</string>
     <string name="if_you_like_this_app">Pokud se Vám tato aplikace líbí…</string>
-    <string name="plz_help_translating">...Prosím, pomozte s překladem.</string>
-    <string name="plz_donate">...Prosím, staňte se hrdin(k)ou a darujte.</string>
+    <string name="plz_help_translating">...prosím, pomozte s překladem.</string>
+    <string name="plz_donate">...prosím, staňte se hrdin(k)ou a darujte.</string>
     <string name="changed_freeze_mode">Zamrazovací režim změněn</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Zamrazit tuto aplikaci\?</string>
@@ -109,11 +109,12 @@
 \n• Aplikace zřídka používané
 \n• Otravné aplikace</string>
     <string name="currently_inactive_in_brackets">(neaktivní)</string>
-    <string name="sort_last_time_used_explanation">Nejméně použité applikace první</string>
+    <string name="sort_last_time_used_explanation">Možná můžete odinstalovat některé z aplikací ze začátku seznamu (protože jste je dlouho nepoužili)\?</string>
     <string name="freeze_shortcut_label_screen_off">Vypnout obrazovku</string>
     <string name="accessibility_service">Služby usnadnění přístupu</string>
     <string name="select_enable_toast">Prosím, vyberte SuperFreezZ, a pak povolte přístup</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ potřebuje služby usnadnění přístupu k automatizaci zamrznutí.
 \n
 \nProsím, vyberte SuperFreezZ, a pak povolte přístup.</string>
+    <string name="plz_decide">Prosím, vyberte \'Ano\' nebo \'Ne\'</string>
 </resources>

@@ -38,7 +38,7 @@
     <string name="pref_title_standard_freeze_mode">Standart dondurma modu (kullanıcı uygulamaları)</string>
     <string name="pref_header_about">Hakkında</string>
     <string name="pref_header_freezing">Uygulamaları dondurma</string>
-	<string name="appslist_show_special">Listedeki özel uygulamaları göster</string>
+    <string name="appslist_show_special">Listedeki özel uygulamaları göster</string>
     <string name="pref_intelligentfreeze_delay">AKILLI: ... (gün) Sonra durdurun</string>
     <string name="pref_summary_appslist_show_special">Başlatıcı, SuperFreezZ ve sistem uygulamaları varsayılan olarak gizlidir.</string>
     <string name="create_freeze_shortcut">Dondurma kısayolu oluştur</string>
@@ -71,8 +71,8 @@
     <string name="pref_intelligentfreeze_freeze_fdroid">AKILLI: F-Droid uygulamalarını dondurun</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid uygulamaları genellikle arka planda çok fazla çalışmaz.</string>
     <string name="if_you_like_this_app">Bu uygulamayı beğendiysen…</string>
-    <string name="plz_help_translating">Lütfen çevirmeye yardım edin...</string>
-    <string name="plz_donate">Lütfen kahraman ol ve bağış yap...</string>
+    <string name="plz_help_translating">…lütfen çevirmeye yardım edin.</string>
+    <string name="plz_donate">…lütfen kahraman olun ve bağış yapın.</string>
     <string name="changed_freeze_mode">Dondurma modu değişti</string>
     <string name="no_apps_pending_freeze">[DONDURULMAYI BEKLEYEN UYGULAMA YOK]</string>
     <string name="pref_header_appslist_summary">Özel uygulamaları göster, standart dondurma modu</string>
@@ -81,7 +81,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standart dondurma modu (sistem uygulamaları)</string>
     <string name="system_apps">Sistem uygulamaları</string>
     <string name="user_apps">Kullanıcı uygulamaları</string>
-	<string name="accessibility_arguments_no">Bir uygulamayı dondurmak için manuel olarak \"Durdurmaya zorla\", \"Tamam\" ve \"Geri\" tuşlarına basmanız gerekecektir.
+    <string name="accessibility_arguments_no">Bir uygulamayı dondurmak için manuel olarak \"Durdurmaya zorla\", \"Tamam\" ve \"Geri\" tuşlarına basmanız gerekecektir.
 \nİçin:
 \n• Yavaş cihazlar
 \n• Güvenlik endişeleri
@@ -97,7 +97,7 @@
 \n• Güvenilmeyen uygulamalar (arka planda çalıştırmak istemediğiniz)
 \n• Nadiren kullandığınız uygulamalar
 \n• Rahatsız edici uygulamalar</string>
-    <string name="sort_last_time_used_explanation">Önce en az kullanılan uygulamalar</string>
+    <string name="sort_last_time_used_explanation">Belki bu listenin en üstündeki bazı uygulamaları kaldırabilirsiniz (çünkü onları uzun bir süredir kullanmıyorsunuz)\?</string>
     <string name="accessibility_service">Erişebilirlik Hizmeti</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ, dondurmayı otomatikleştirmek için erişilebilirlik hizmetine ihtiyaç duyar.
 \n
@@ -116,4 +116,5 @@
     <string name="version_abbrev">v</string>
     <string name="freeze_off">Dondurma kapalı</string>
     <string name="freeze_shortcut_label_screen_off">Ekran kapalı</string>
+    <string name="plz_decide">Lütfen \'Evet\' veya \'Hayır\' seçin</string>
 </resources>
