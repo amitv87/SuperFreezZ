@@ -1,0 +1,7 @@
+Aggiunto supporto a modalità scura su Android 10 e quando si attiva il risparmio energetico
+Tell the user more intensively to disable Power button instantly locks
+Corretto (inattivo) che viene mostrato troppo spesso
+(inattivo) invece di (ora inattivo); nessuno capirà cosa significa questo "ora"
+Correzione errori
+Nuova icona, più simmetrica
+Traduzioni aggiornate

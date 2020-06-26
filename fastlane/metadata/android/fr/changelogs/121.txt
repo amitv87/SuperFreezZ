@@ -1,0 +1,3 @@
+Ajout d'information sur https://superfreezz.gitlab.io/
+Correction de l'envoi des logs
+Mise à jours des traductions

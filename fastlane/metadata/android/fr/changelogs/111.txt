@@ -1,0 +1,6 @@
+Ajout du support root EXPERIMENTAL
+Mise à jours des traductions
+
+Inversion du tri sur le statut de gel, voir #83
+Retour arrière sur le "correctif #67 Tri ascendant/descendant" ; corrige #83
+Corrige les raccourcis pour la version debug

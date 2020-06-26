@@ -77,7 +77,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 	</string>
     <string name="freeze_manually">Freeze manually</string>
     <string name="Press_forcestop_ok_back">Freeze an app by pressing \"FORCE STOP\", \"OK\", and then \"Back\".</string>
-    <string name="freeze_manually_no">I do not want to have to do this</string>
+    <string name="freeze_manually_no">I do not want to do this</string>
     <string name="title_activity_settings">Settings</string>
     <!-- Strings related to Settings -->
     <string name="pref_header_appslist">Apps list</string>

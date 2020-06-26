@@ -4,15 +4,13 @@
     <string name="msg_search_help">Zoeken…</string>
     <string name="share_exception">Onverwachte fout. Meld deze met…</string>
     <string name="accessibility_service_description">Schakel dit in om apps automatisch te bevriezen. 
-\n
-\nVoordelen: 
-\n
+\n 
+\nVoordelen:
 \n• Snel, geen handelingen benodigd, geen kennis vereist. 
-\n
 \n• Mensen met een beperking kunnen de app bedienen via spraakherkenning. 
-\n
+\n 
 \nSuperFreezZ gebruikt de toegankelijkheidsdienst om \'GEFORCEERD AFSLUITEN\', \'OKÉ\' en de terugknop aan te roepen. De vensterinhoud werkt met deze knoppen en observeert acties om te weten wanneer ze nodig zijn. 
-\n
+\n 
 \nDe toegankelijkheidsdienst kan tevens worden gebruikt om het scherm te vergrendelen na het bevriezen.</string>
     <string name="freeze_shortcut_label">Bevriezen</string>
     <string name="NothingToFreeze">Er valt niks te bevriezen</string>
@@ -57,7 +55,7 @@
     <string name="pref_title_standard_freeze_mode_system">Standaard bevriesmodus (systeemapps)</string>
     <string name="pref_header_about">Over</string>
     <string name="pref_header_freezing">Apps bevriezen</string>
-	<string name="appslist_show_special">Speciale apps tonen op de lijst</string>
+    <string name="appslist_show_special">Speciale apps tonen op de lijst</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT: bevriezen na ... (dagen)</string>
     <string name="pref_summary_appslist_show_special">Het startscherm, SuperFreezZ zelf en systeemapps zijn standaard verborgen.</string>
     <string name="create_freeze_shortcut">Bevriessnelkoppeling maken</string>
@@ -100,7 +98,7 @@
     <string name="changed_freeze_mode">Bevriesmodus gewijzigd</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Wil je deze app bevriezen\?</string>
-	<string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
+    <string name="power_button_hint">Tip: druk op de aan-/uitknop om de bevriezing af te breken</string>
     <string name="warning">Waarschuwing</string>
     <string name="warning_long_1">Het stoppen/bevriezen van apps kan leiden tot een HOGER accuverbruik, omdat het \'ontdooien\' van apps energie kost.
 \n
@@ -110,7 +108,7 @@
 \n• Apps die je niet vertrouwt (en dus niet op de achtergrond mogen draaien)
 \n• Apps die je bijna nooit gebruikt
 \n• Vervelende apps</string>
-    <string name="sort_last_time_used_explanation">Recentst gebruikte apps eerst</string>
+    <string name="sort_last_time_used_explanation">Wellicht kun je enkele apps bovenaan de lijst deïnstalleren (omdat je ze lange tijd niet hebt gebruikt)\?</string>
     <string name="currently_inactive_in_brackets">(inactief)</string>
     <string name="freeze_shortcut_label_screen_off">Scherm uit</string>
     <string name="accessibility_service">Toegankelijkheidsdienst</string>
@@ -118,4 +116,5 @@
 \n
 \nSelecteer SuperFreezZ en verleen toegang.</string>
     <string name="select_enable_toast">Selecteer SuperFreezZ en verleen toegang</string>
+    <string name="plz_decide">Kies \'Ja\' of \'Nee\'</string>
 </resources>

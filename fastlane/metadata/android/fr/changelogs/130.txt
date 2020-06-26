@@ -1,0 +1,7 @@
+Ajout du support basique du mode sombre pour Android 10 et quand vous activez le mode "Économie d'énergie"
+Demander plus clairement à l'utilisateur de désactiver le verrouillage instantané par le bouton power
+Corrige (inactif) affiché trop souvent
+(inactif) à la place de (actuellement inactif) ; personne ne va comprendre le sens d'"actuellement"
+Correction de bug
+Nouvelle icônes plus symétriques
+Mise à jours des traductions

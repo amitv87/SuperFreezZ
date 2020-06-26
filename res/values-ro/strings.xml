@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="warning">Avertizare</string>
+    <string name="freeze_question">Înghețați această aplicație\?</string>
+    <string name="currently_inactive_in_brackets">(inactiv)</string>
+    <string name="no_apps_pending_freeze">[NICIO APLICAȚIE ÎN AȘTEPTAREA ÎNGHEȚĂRII]</string>
+    <string name="freeze_manually_no">Nu vreau să fac asta</string>
+    <string name="intro_auto_freeze_title">Mod înghețare: INTELIGENTĂ</string>
+    <string name="intro_never_freeze_title">Mod înghețare: NICIODATĂ</string>
+    <string name="intro_always_freeze_title">Mod înghețare: ÎNTOTDEAUNA</string>
+    <string name="automate_the_freezing_of_apps">Automatizați înghețarea aplicațiilor\?</string>
+    <string name="freeze_off">Înghețare oprită</string>
+    <string name="pending_freeze">Înghețare in așteptare</string>
+    <string name="always_freeze_this_app">Îngheață întotdeauna această aplicație</string>
+    <string name="freeze_shortcut_label_screen_off">Închide ecranul</string>
+    <string name="plz_decide">Vă rugăm selectați \"Da\" sau \"Nu\"</string>
+    <string name="info">Info</string>
+    <string name="links">Link-uri</string>
+    <string name="problems">Probleme</string>
+    <string name="freeze_apps_now">Îngheață aplicațiile acum</string>
+    <string name="settings">Setări</string>
+    <string name="sort">Sortează</string>
+    <string name="appslist_show_special">Afișează aplicațiile speciale în listă</string>
+    <string name="pref_header_about">Despre</string>
+    <string name="pref_title_standard_freeze_mode_system">Mod înghețare standard (aplicații sistem)</string>
+    <string name="pref_title_standard_freeze_mode">Mod înghețare standard (aplicații utilizator)</string>
+    <string name="pref_header_appslist">Listă aplicații</string>
+    <string name="title_activity_settings">Setări</string>
+    <string name="freeze_manually">Înghețare manuală</string>
+    <string name="no">Nu</string>
+    <string name="yes">Da</string>
+    <string name="enable">Activează</string>
+    <string name="all_apps">TOATE APLICAȚIILE</string>
+    <string name="used_recently">Utilizat recent</string>
+    <string name="frozen">Înghețată</string>
+    <string name="do_never_freeze_this_app">Nu îngheța niciodată această aplicație</string>
+    <string name="icon">Pictogramă</string>
+    <string name="NothingToFreeze">Nimic de înghețat</string>
+    <string name="freeze_shortcut_label">Îngheață</string>
+    <string name="msg_search">Caută</string>
+    <string name="msg_search_help">Caută…</string>
+</resources>
