@@ -116,7 +116,7 @@ class FreezerService : AccessibilityService() {
 	@RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
 	private fun pressForceStopButton(event: AccessibilityEvent) {
 		val node = event.source.expectNonNull(TAG) ?: return
-		
+
 		var nodesToClick = node.findAccessibilityNodeInfosByText("FORCE STOP")
 
 		if (nodesToClick.isEmpty())

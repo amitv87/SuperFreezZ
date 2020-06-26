@@ -162,7 +162,8 @@ class FreezeShortcutActivity : Activity() {
 
 		if (appsToBeFrozenIter != null) {
 			if (appsToBeFrozenIter!!.hasNext()) {
-				freezeApp(appsToBeFrozenIter!!.next(), this)
+				val settingsScreenLaunched = freezeApp(appsToBeFrozenIter!!.next(), this)
+				if (!settingsScreenLaunched) doNextFreezingStep() // Freezing already failed or succeeded, just go on in either case
 			} else {
 				onFreezeFinishedListener?.invoke(this)
 				onFreezeFinishedListener = null
@@ -269,12 +270,13 @@ class FreezeShortcutActivity : Activity() {
 		/**
 		 * Freeze a package.
 		 * @param packageName The name of the package to freeze
+		 * @return true if the settings intent ths been launched and you have to wait with freezing the next app.
 		 */
 		@Contract(pure = true)
-		fun freezeApp(packageName: String, context: Context) {
+		fun freezeApp(packageName: String, context: Context): Boolean {
 			if (isRootAvailable) {
 				freezeAppsUsingRoot(listOf(packageName), context)
-				return
+				return false
 			}
 
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN && FreezerService.isEnabled) {
@@ -284,14 +286,20 @@ class FreezeShortcutActivity : Activity() {
 				} catch (e: IllegalStateException) {
 					Log.e(TAG, e.toString())
 					e.printStackTrace()
-					return
+					return false
 				}
 			}
 
 			val intent = Intent()
 			intent.action = "android.settings.APPLICATION_DETAILS_SETTINGS"
 			intent.data = Uri.fromParts("package", packageName, null)
-			context.startActivity(intent)
+			return try {
+				context.startActivity(intent)
+				true
+			} catch (e: SecurityException) {
+				context.toast(context.getString(R.string.cant_freeze), Toast.LENGTH_SHORT)
+				false
+			}
 		}
 
 

@@ -170,4 +170,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="accessibility_service_dialog_message">SuperFreezZ needs the accessibility service in order to automate freezing.\n\nPlease select SuperFreezZ, then enable access.</string>
     <string name="accessibility_service">Accessibility Service</string>
     <string name="plz_decide">Please select \'Yes\' or \'No\'</string>
+	<string name="cant_freeze">Seems like this app can\'t be frozen.</string>
 </resources>
