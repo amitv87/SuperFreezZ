@@ -64,7 +64,7 @@
     <string name="intro_auto_freeze_explanation">INTELLIGENTES EINFRIEREN friert eine App nur dann ein, wenn sie längere Zeit nicht benutzt wurde (standardmäßig 7 Tage). Außerdem werden F-Droid Apps nicht eingefroren."</string>
     <string name="freeze_manually">Manuelles Einfrieren</string>
     <string name="Press_forcestop_ok_back">Um eine App einzufrieren, drücken Sie „BEENDEN ERZWINGEN“, dann „OK“ und dann „Zurück“.</string>
-    <string name="freeze_manually_no">Ich möchte das nicht tun müssen</string>
+    <string name="freeze_manually_no">Ich möchte das nicht tun</string>
     <string name="title_activity_settings">Einstellungen</string>
     <!-- Strings related to Settings -->
     <string name="pref_header_appslist">Apps-Liste</string>

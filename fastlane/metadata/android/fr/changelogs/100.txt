@@ -1,0 +1,4 @@
+Ajout d'un avertissement si SF est utilisé excessivement.
+Nouvelles traductions.
+Corrections mineures et optimisations.
+

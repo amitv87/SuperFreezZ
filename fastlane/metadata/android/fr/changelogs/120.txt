@@ -1,0 +1,3 @@
+Ajout du bouton "Annuler" pour la pop-up "Activation du service d'accessibilité"
+Mise en forme du code, corrige #87 "La liste des applications ne se rafraichit pas quand in appui pour arrêter une application en root"
+Mise à jours des traductions

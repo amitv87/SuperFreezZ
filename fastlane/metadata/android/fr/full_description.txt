@@ -1,0 +1,40 @@
+<p>Application Android (beta) qui permet de geler complétement toutes les activités en tâche de fond de n'importe quelle application.</p>
+<ul>
+<li>Reprenez le contrôle de tout ce qui fonctionne sur votre téléphone<li>
+<li>Améliorez l'autonomie et réduisez l'usage des données mobile en gelant les applications rarement utilisées</li>
+<li>Particulièrement utile lors d'un déplacement où vous avez besoin de seulement quelques applications mais une bonne autonomie</li>
+</ul>
+<p>Greenify peut également le faire mais il n'est pas Open Source.</p>
+<p>SuperFreezZ n'est pas encore un gestionnaire de tâches qui promet de supprimer 10 Go de données par mois ou de rendre votre appareil 2x plus rapide. C'est impossible.</p>
+<p>A là place, SuperFreezZ est honnête sur ses désavantages : Geler vos applications quotidiennes va certainement réduire légèrement votre autonomie. Ces applications vont également mettre plus de temps à démarrer la prochaine fois que vous la lancerez : SuperFreezZ va "surgeler" vos applications, il faut environs 1-3 secondes pour les dégeler. Greenify a les même désavantages, cependant l'auteur de Greenify ne vous en prévient pas. Ainsi : Ne cherchez pas à en faire trop, et SuperFreezZ sera super utile.</p>
+<p>Exemples d'applications qui méritent d'être geler :</p>
+<ul>
+<li>Les applications pour lesquelles vous n'avez pas confiance (que vous ne voulez pas laisser fonctionner en arrière plan)</li>
+<li>Les applications que vous n'utilisez pas souvent</li>
+<li>Les applications irritantes</li>
+</ul>
+<h2 id="features">Fonctionnalités</h2>
+<ul>
+<li>Peut fonctionner optionnellement sans service d'accessibilité ce qui ralenti l'appareil</li>
+<li>Peut geler uniquement les applications inutilisées depuis une semaine (peut être configuré)</li>
+<li>Choix par liste blanche (gel tout par défaut) ou par liste noire (Aucun gel par défaut)</li>
+<li>Peut geler les applications lors de l'extinction de l'écran</li>
+<li>Options pour geler les applications systèmes et même SuperFreezZ lui même</li>
+<li>Logiciel libre complétement open source</li>
+</ul>
+<h2 id="contributing-to-superfreezz">Participer à SuperFreezZ</h2>
+<h3 id="development">Développement</h3>
+<p>Si vous avez un problème, une question ou une idée, ouvrez simplement un ticket !</p>
+<p>Si vous souhaitez aider avec le développement, jeter un œil aux tickets, ou tout ce qui peut être amélioré, et ouvrez un ticket pour cela.</p>
+<p>S'il vous plaît dites-moi ce que vous aller faire pour éviter d'implémenter la même chose en même temps :-)</p>
+<h3 id="translate">Traduction</h3>
+<p>Vous pouvez <a href="https ://hosted.weblate.org/engage/superfreezz/">traduire SuperFreezZ sur Weblate</a>.</p>
+<h2 id="credits">Crédits</h2>
+<p>Le code pour afficher la liste des applications provient de <a href="https ://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
+<p>Robin Naumann qui à fait une page d’accueil sympa. Elle a été créée avec la librairie AppIntro.</p>
+<p>Les images du design proviennent de : https ://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, le texte a été ajouté avec https ://www.norio.be/android-feature-graphic-generator/.</p>
+<h2 id="qa">Questions/Réponses</h2>
+<p>Q/R :</p>
+<p>Q : Quelle est la différence entre l'hibernation est le gel d'une application ? R : Il n'y en a aucune. Si vous hibernez une application dans Greenify elle sera montrée comme gelé dans SuperFreezZ et par les autres méthodes.</p>
+<p>Q : Mais l'orthographe correcte serait “SuperFreeze” ! R : Je sais.</p>
+<p>Q : Y-a-t-il un projet de rendre SuperFreezZ payant ? R : Non.</p>

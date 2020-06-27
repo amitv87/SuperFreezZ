@@ -96,7 +96,7 @@
     <string name="all_apps">TODOS OS APPS</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELIGENTE: Congelar apps F-Droid</string>
     <string name="logs_copied">Logs copiados para a área de transferência.</string>
-    <string name="freeze_manually_no">Eu não quero ter que fazer isso</string>
+    <string name="freeze_manually_no">Eu não quero fazer isso</string>
     <string name="plz_help_translating">… por favor, ajude a traduzi-lo.</string>
     <string name="power_button_hint">Dica: Pressione o botão Liga/Desliga para interromper o congelamento</string>
     <string name="accessibility_service">Serviço de Acessibilidade</string>

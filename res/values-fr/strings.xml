@@ -9,9 +9,7 @@
 \n• Aucune interaction de l\'utilisateur : plus rapide. Pas besoin de savoir comment le faire. 
 \n• Les utilisateurs à mobilité réduite peuvent utiliser le raccourci gel (par exemple, via la reconnaissance vocale) pour geler automatiquement toutes les applications. 
 \n 
-\nSuperFreezZ utilise le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces bouton, et l\'observation des actions est nécessaire pour savoir quand elles apparaissent.
-\n 
-\nSuperFreezZ utilise simplement le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces boutons et observer que vos actions sont nécessaires pour savoir quand elles apparaissent. 
+\nSuperFreezZ utilise le service d\'accessibilité pour sélectionner « FORCER L\'ARRÊT », « OK » et « Retour ». Récupérer le contenu de la fenêtre est nécessaire pour trouver ces bouton, et l\'observation des actions est nécessaire pour savoir quand elles apparaissent. 
 \n 
 \nLe service d\'accessibilité peut également être utilisé pour verrouiller l\'écran après avoir bloqué les nouvelles versions d\'Android.</string>
     <string name="freeze_shortcut_label">Gel rapide</string>
@@ -50,13 +48,13 @@
     <string name="intro_auto_freeze_explanation">GEL INTELLIGENT ne gèlera une application que si elle n\'a pas été utilisée pendant un certain temps (7 jours par défaut). Les applications de F-Droid ne seront pas gelées.</string>
     <string name="freeze_manually">Geler manuellement</string>
     <string name="Press_forcestop_ok_back">Geler une application en appuyant sur « FORCER L\'ARRÊT », « OK », puis sur « Retour ».</string>
-    <string name="freeze_manually_no">Je ne veux pas devoir faire ça</string>
+    <string name="freeze_manually_no">Je ne veux pas faire ça</string>
     <string name="title_activity_settings">Paramètres</string>
     <string name="pref_header_appslist">Liste des applications</string>
     <string name="pref_title_standard_freeze_mode">Mode Geler standard (applications utilisateur)</string>
     <string name="pref_header_about">À propos</string>
     <string name="pref_header_freezing">Applications gelées</string>
-	<string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
+    <string name="appslist_show_special">Afficher dans la liste les applications spéciales</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENT : Geler après… (jours)</string>
     <string name="pref_summary_appslist_show_special">Le Launcher, SuperFreezZ et les applications système sont masqués par défaut.</string>
     <string name="create_freeze_shortcut">Créer un raccourci Gel rapide</string>
@@ -91,7 +89,7 @@
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENT : Freeze F-Droid application</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Habituellement, les applis F-Droid ne fonctionnent pas beaucoup en arrière-plan.</string>
     <string name="if_you_like_this_app">Si vous aimez cette application…</string>
-    <string name="plz_help_translating">… S\'il vous plaît aider à le traduire.</string>
+    <string name="plz_help_translating">… s\'il vous plaît aidez à le traduire.</string>
     <string name="plz_donate">… SVP, devenez un héros en faisant un don.</string>
     <string name="changed_freeze_mode">Changer de mode Gel</string>
     <string name="other_apps">Autres applications</string>
@@ -100,7 +98,7 @@
     <string name="user_apps">applications utilisateur</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Geler cette application \?</string>
-	<string name="currently_inactive_in_brackets">(inactif)</string>
+    <string name="currently_inactive_in_brackets">(inactif)</string>
     <string name="warning_long_2">Exemples d\'applis qui méritent d\'être gelées :
 \n
 \n• les applis auxquelles vous ne faites pas confiance (que vous ne voulez pas utiliser en arrière-plan) ; 
@@ -111,10 +109,11 @@
 \nCeci est aussi un problème avec d\'autres applis similaires comme Greenify et les « économiseurs de batterie » (sauf qu\'ils ne vous avertissent pas).</string>
     <string name="warning">Avertissement</string>
     <string name="power_button_hint">Astuce : appuyer sur le bouton d\'alimentation pour annuler le processus de gel</string>
-    <string name="sort_last_time_used_explanation">D\'abord les applis les moins utilisés récemment</string>
+    <string name="sort_last_time_used_explanation">Vous pouvez peut-être désinstaller des applications du haut de cette liste (car vous ne les avez pas utilisées depuis longtemps) \?</string>
     <string name="freeze_shortcut_label_screen_off">Écran éteint</string>
     <string name="select_enable_toast">Veuillez sélectionner SuperFreezZ, puis activez l\'accès</string>
     <string name="accessibility_service">Service d\'accessibilité</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ a besoin du service d\'accessibilité afin d\'automatiser le gel d\'applications.
 \nVeuillez sélectionner SuperFreezZ, puis activer l\'accès.</string>
+    <string name="plz_decide">Merci de sélectionner \'Oui\' ou \'Non\'</string>
 </resources>
