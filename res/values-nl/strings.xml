@@ -117,4 +117,5 @@
 \nSelecteer SuperFreezZ en verleen toegang.</string>
     <string name="select_enable_toast">Selecteer SuperFreezZ en verleen toegang</string>
     <string name="plz_decide">Kies \'Ja\' of \'Nee\'</string>
+    <string name="cant_freeze">Het lijkt er op dat deze app niet bevroren kan worden.</string>
 </resources>

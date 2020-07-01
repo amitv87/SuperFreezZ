@@ -117,4 +117,5 @@
     <string name="freeze_off">Dondurma kapalı</string>
     <string name="freeze_shortcut_label_screen_off">Ekran kapalı</string>
     <string name="plz_decide">Lütfen \'Evet\' veya \'Hayır\' seçin</string>
+    <string name="cant_freeze">Bu uygulama dondurulamaz gibi görünüyor.</string>
 </resources>

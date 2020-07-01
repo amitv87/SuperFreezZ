@@ -154,4 +154,5 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="accessibility_service">无障碍服务</string>
     <string name="select_enable_toast">请选择SuperFreezZ，然后启用访问权限</string>
     <string name="plz_decide">请选择‘是’或\'否\'</string>
+    <string name="cant_freeze">似乎这个应用程序不能被冻结。</string>
 </resources>
