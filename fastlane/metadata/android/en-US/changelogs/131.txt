@@ -1,8 +1,8 @@
+Fix crash, Bug fixes
 Improve finding the force stop button, might fix #96
 Add basic dark mode support for Android 10 and when you enable "battery saving" mode
 Tell the user more intensively to disable Power button instantly locks
 Fix "(inactive)" showing too often
 "(inactive)" instead of "(now inactive)"; nobody will understand what this "now" means
-Bug fix
 New, more symmetric icon
 Update translations
