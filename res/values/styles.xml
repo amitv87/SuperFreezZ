@@ -59,7 +59,7 @@ SOFTWARE.
 		<item name="android:textColor">@android:color/black</item>
 	</style>
 
-	<style name="Theme.Invisible" parent="android:Theme">
+	<style name="Theme.Invisible" parent="Theme.AppCompat.DayNight">
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:backgroundDimEnabled">false</item>
 		<item name="android:windowIsFloating">true</item>
@@ -67,6 +67,7 @@ SOFTWARE.
 		<item name="android:windowBackground">@color/transparent</item>
 	</style>
 
+	<!--Currently unused-->
 	<style name="myAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
 	</style>
 </resources>

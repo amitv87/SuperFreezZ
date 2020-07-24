@@ -199,14 +199,14 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 				findPreference("freeze_on_screen_off").setOnPreferenceChangeListener { _, newValue ->
 					if (newValue == true)
-						AlertDialog.Builder(context, R.style.myAlertDialog)
+						AlertDialog.Builder(context)
 							.setTitle(R.string.warning)
 							.setMessage(getString(R.string.warning_long_1) + "\n\n" + getString(R.string.warning_long_2))
 							.setCancelable(false)
 							.setPositiveButton(android.R.string.ok) { _, _ ->
 
 								if (!Settings.System.canWrite(context)) {
-									AlertDialog.Builder(context, R.style.myAlertDialog)
+									AlertDialog.Builder(context)
 										.setTitle("Modify settings")
 										.setMessage("SuperFreezZ needs to modify the settings in order to turn off the screen after freezing.")
 										.setCancelable(false)

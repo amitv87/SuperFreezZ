@@ -142,7 +142,7 @@ class FreezeShortcutActivity : Activity() {
 			}
 
 			if (prefShowExplainingDialog) {
-				AlertDialog.Builder(this, R.style.myAlertDialog)
+				AlertDialog.Builder(this)
 					.setTitle(R.string.freeze_manually)
 					.setMessage(R.string.Press_forcestop_ok_back)
 					.setCancelable(false)
@@ -192,7 +192,7 @@ class FreezeShortcutActivity : Activity() {
 	}
 
 	private fun freezeOnScreenOffFailedDialog() {
-		AlertDialog.Builder(this, R.style.myAlertDialog)
+		AlertDialog.Builder(this)
 			.setTitle("'Freeze when the screen turns off' failed")
 			.setMessage("You have to disable 'Power button instantly locks' in the system settings for this to work.")
 			.setPositiveButton("Settings") { _, _ ->

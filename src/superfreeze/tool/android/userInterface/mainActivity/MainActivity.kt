@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
 		if (neverCalled("website", this)) {
 			// Announcements can be posted from here
 			// TODO (because it's always todo)
-			/*val a = AlertDialog.Builder(this, R.style.myAlertDialog)
+			/*val a = AlertDialog.Builder(this)
 				.setTitle("New website")
 				.setMessage("""SuperFreezZ now has a website. Check it out: https://superfreezz.gitlab.io/.""")
 				.setPositiveButton("Ok") { _, _ -> }

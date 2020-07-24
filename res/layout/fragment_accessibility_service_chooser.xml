@@ -110,7 +110,7 @@
 							android:layout_height="wrap_content"
 							android:gravity="left"
 							android:text="@string/yes"
-							android:textColor="@color/text_color_primary"
+							android:textColor="#000"
 							android:textSize="25sp" />
 
 						<TextView
@@ -118,7 +118,7 @@
 							android:layout_height="wrap_content"
 							android:gravity="left"
 							android:text="@string/accessibility_arguments_yes"
-							android:textColor="@color/text_color_primary"
+							android:textColor="#000"
 							android:textSize="16sp" />
 					</LinearLayout>
 
@@ -140,7 +140,7 @@
 							android:layout_height="wrap_content"
 							android:gravity="left"
 							android:text="@string/no"
-							android:textColor="@color/text_color_primary"
+							android:textColor="#000"
 							android:textSize="25sp" />
 
 						<TextView
@@ -148,7 +148,7 @@
 							android:layout_height="wrap_content"
 							android:gravity="left"
 							android:text="@string/accessibility_arguments_no"
-							android:textColor="@color/text_color_primary"
+							android:textColor="#000"
 							android:textSize="16sp" />
 					</LinearLayout>
 				</LinearLayout>

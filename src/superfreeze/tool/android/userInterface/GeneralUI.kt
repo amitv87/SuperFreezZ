@@ -48,7 +48,7 @@ internal fun requestUsageStatsPermission(
 		&& neverCalled("requestUsageStatsPermission", activity)
 	) {
 
-		AlertDialog.Builder(activity, R.style.myAlertDialog)
+		AlertDialog.Builder(activity)
 			.setTitle(activity.getString(R.string.usagestats_access))
 			.setMessage(activity.getString(R.string.usatestats_explanation))
 			.setPositiveButton(activity.getString(R.string.enable)) { _, _ ->
@@ -91,7 +91,7 @@ private fun showUsageStatsSettings(context: Context) {
  * If doAfterwards is given (not null), activityCompanion must be given, too.
  */
 internal fun showAccessibilityDialog(context: Context, activityCompanion: MyActivityCompanion? = null, doAfterwards: Context.() -> Unit = {}) {
-	AlertDialog.Builder(context, R.style.myAlertDialog)
+	AlertDialog.Builder(context)
 		.setTitle(context.getString(R.string.accessibility_service))
 		.setMessage(context.getString(R.string.accessibility_service_dialog_message))
 		.setPositiveButton(context.getString(R.string.enable)) { _, _ ->

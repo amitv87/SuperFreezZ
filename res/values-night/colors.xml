@@ -5,5 +5,7 @@
 	<color name="always_freeeze">#FF4747</color>
 	<color name="never_freeeze">#36C24D</color>
 	<color name="inactive_freeeze">#4fc3f7</color>
-	<color name="ic_shortcut_background">#3B51D1</color>
+	<color name="ic_shortcut_background">#4B5FCC</color>
+
+	<color name="text_color_blue">#4fc3f7</color>
 </resources>
