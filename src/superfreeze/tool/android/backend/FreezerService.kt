@@ -219,7 +219,9 @@ class FreezerService : AccessibilityService() {
 			Log.e(TAG, "    $parentNode")
 		}
 		for (i in 0 until parentNode.childCount) {
-			printNodes(parentNode.getChild(i))
+			val child = parentNode.getChild(i) ?: continue
+			printNodes(child)
+			child.recycle()
 		}
 	}
 
