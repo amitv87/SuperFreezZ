@@ -1,0 +1,2 @@
+Naprawa skrótów, dzięki Dmitriy!
+(Mam nadzieję, że) Naprawiono awarię podczas zamrażania za pomocą roota

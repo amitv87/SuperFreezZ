@@ -1,0 +1,8 @@
+Naprawa awarii, poprawki błędów
+Poprawa znajdowania przycisku zatrzymania siły, może naprawić # 96
+Dodaj podstawową obsługę trybu ciemnego dla Androida 10 i po włączeniu trybu „oszczędzania baterii”
+Poinformuj użytkownika bardziej intensywnie, aby natychmiast wyłączył blokadę przycisku zasilania
+Napraw zbyt częste wyświetlanie „(nieaktywne)”
+„(nieaktywne)” zamiast „(teraz nieaktywne)”; nikt nie zrozumie, co to znaczy „teraz”
+Nowa, bardziej symetryczna ikona
+Zaktualizuj tłumaczenia

@@ -11,16 +11,16 @@
     <string name="NothingToFreeze">Niente da congelare</string>
     <string name="usagestats_access">Accesso UsageStats</string>
     <string name="used_recently">Usata di Recente</string>
-    <string name="Press_forcestop_ok_back">Congela un\'app premendo \"Termina\", \"OK\" e poi \"Indietro\".</string>
-    <string name="accessibility_arguments_no">Dovrai premere manualmente \"Termina\", \"OK\" e \"Indietro\" per congelare un\'app. 
-\nper:
+    <string name="Press_forcestop_ok_back">Congela un\'app premendo «Termina», «OK» e poi «Indietro».</string>
+    <string name="accessibility_arguments_no">Dovrai premere manualmente «Termina», «OK» e «Indietro» per congelare un\'app. 
+\nper: 
 \n• Dispositivi lenti 
 \n• Chi è interessato alla sicurezza 
 \n• Non dover registrare SuperFreezZ come servizio di accessibilità</string>
     <string name="pref_header_freezing">Congelamento Applicazioni</string>
     <string name="view_intro_again">Guarda Introduzione</string>
     <string name="automate_the_freezing_of_apps">Congelamento Automatico\?</string>
-    <string name="credits_and_licenses">Crediti e Licenze di Terze Parti</string>
+    <string name="credits_and_licenses">Crediti e licenze di terze parti</string>
     <string name="freeze_off">Congelamento Disattivato</string>
     <string name="no_apps_pending_freeze">[NESSUNA APP IN ATTESA DI CONGELAMENTO]</string>
     <string name="no">No</string>
@@ -32,14 +32,14 @@
     <string name="freeze_apps_now">Congela le applicazioni ora</string>
     <string name="intro_header_welcome">benvenuto in</string>
     <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Congela quest\'app se non è stata usata per un lungo periodo di tempo.</string>
-    <string name="intro_always_freeze_explanation">Ci sono 3 modalità di congelamento. Puoi sceglierne una per ogni applicazione. \"Congela Sempre\" congela l\'app in ogni caso.</string>
+    <string name="intro_always_freeze_explanation">Ci sono 3 modalità di congelamento. Puoi sceglierne una per ogni applicazione. «Congela sempre» congela l\'app in ogni caso.</string>
     <string name="frozen">Congelata</string>
     <string name="freeze_on_screen_off_title">Congela allo Spegnimento dello Schermo</string>
     <string name="problems">Problemi</string>
     <string name="yes">Sì</string>
-    <string name="source_code">Codice Sorgente</string>
+    <string name="source_code">Codice sorgente</string>
     <string name="pending_freeze">In Attesa di Congelamento</string>
-    <string name="send_logs">Invia Log</string>
+    <string name="send_logs">Invia log</string>
     <string name="intro_auto_freeze_title">Modalità: Congelamento Intelligente</string>
     <string name="intro_always_freeze_title">Modalità: Congela Sempre</string>
     <string name="sort_by">Ordina per</string>
@@ -54,7 +54,7 @@
     <string name="intro_header_modes">modalità</string>
     <string name="msg_search_help">Cerca…</string>
     <string name="undo">Annulla</string>
-    <string name="report">Segnala Problemi, Proponi Funzioni, …</string>
+    <string name="report">Segnala problemi, proponi funzioni…</string>
     <string name="create_freeze_shortcut">Crea Scorciatoia Congelamento</string>
     <string name="intro_never_freeze_title">Modalità: Non Congelare Mai</string>
     <string name="links">Collegamenti</string>
@@ -65,7 +65,7 @@
 \n• Nessuna interazione con l\'utente. Veloce, senza bisogno di sapere come si fa. 
 \n• Utenti con disabilità possono utilizzare le scorciatoie (es. riconoscimento vocale), bloccando automaticamente tutte le applicazioni. 
 \n 
-\nSuperFreezZ utilizza il servizio di accessibilità quando vengono premuti i pulsanti \"Termina\", \"OK\" e \"Indietro\". Il recupero del contenuto della finestra trova questi pulsanti, l\'osservazione delle azioni è necessaria per sapere quando appaiono. 
+\nSuperFreezZ utilizza il servizio di accessibilità quando vengono premuti i pulsanti «Termina», «OK» e «Indietro». Il recupero del contenuto della finestra trova questi pulsanti, l\'osservazione delle azioni è necessaria per sapere quando appaiono. 
 \n 
 \nIl servizio di accessibilità può essere usato anche per bloccare lo schermo dopo il congelamento, nelle versioni di Android più recenti.</string>
     <string name="enable">Attiva</string>
@@ -73,7 +73,7 @@
     <string name="pref_header_freezing_summary">Personalizza come e quali app congelare</string>
     <string name="sort">Ordina</string>
     <string name="settings">Impostazioni</string>
-    <string name="freeze_on_screen_off_sum">È necessario disattivare \"Pulsante di Alimentazione Blocca Istantaneamente\" nelle impostazioni del dispositivo</string>
+    <string name="freeze_on_screen_off_sum">È necessario disattivare «Pulsante di alimentazione blocca istantaneamente» nelle impostazioni del dispositivo</string>
     <string name="sf_crashed">SuperFreezZ si è arrestato. Si prega di segnalare il problema, in caso non sia già stato fatto.</string>
     <string name="always_freeze_this_app">Congela sempre quest\'app</string>
     <string name="pref_header_about">Informazioni</string>
@@ -100,9 +100,9 @@
     <string name="freeze_question">Congelare questa app\?</string>
     <string name="power_button_hint">Suggerimento: Premere il Pulsante di Accensione per interrompere il processo di congelamento</string>
     <string name="warning">Attenzione</string>
-    <string name="warning_long_1">Fermare/congelare app di frequente probabilmente consumerà la batteria DI PIÙ, perchè lo \"scongelamento\" richiede energia.
-\n
-\nIl problema esiste anche per le altre app simili come Greenify e i \"risparmiatori di batteria\" (solo che non ti avvisano).</string>
+    <string name="warning_long_1">Fermare/congelare app di frequente probabilmente consumerà la batteria DI PIÙ, perchè lo «scongelamento» richiede energia. 
+\n 
+\nIl problema esiste anche per le altre app simili come Greenify e i «risparmiatori di batteria» (solo che non ti avvisano).</string>
     <string name="warning_long_2">Esempi di app che meritano di essere congelate:
 \n
 \n• App non fidate (che vuoi che non funzionino in secondo piano)
@@ -117,4 +117,5 @@
 \nSeleziona SuperFreezZ, poi abilita l\'accesso.</string>
     <string name="select_enable_toast">Seleziona SuperFreezZ, poi abilita l\'accesso</string>
     <string name="plz_decide">Seleziona \'Sì\' o \'No\'</string>
+    <string name="cant_freeze">Sembra che questa app non possa essere congelata.</string>
 </resources>

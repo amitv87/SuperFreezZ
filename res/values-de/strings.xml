@@ -152,4 +152,5 @@
     <string name="warning">Warnung</string>
     <string name="select_enable_toast">Bitte SuperFreezZ auswählen, dann Zugriff gewähren</string>
     <string name="plz_decide">Bitte wählen Sie \'ja\' oder \'nein\' aus</string>
+    <string name="cant_freeze">Diese App kann anscheinend nicht eingefroren werden.</string>
 </resources>

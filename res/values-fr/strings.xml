@@ -2,7 +2,7 @@
 <resources>
     <string name="msg_search">Rechercher</string>
     <string name="msg_search_help">Rechercher…</string>
-    <string name="share_exception">"Erreur inattendue.  Signaler en utilisant…"</string>
+    <string name="share_exception">Erreur inattendue. Signaler en utilisant…</string>
     <string name="accessibility_service_description">Activer cette option vous permet de geler automatiquement les applications. 
 \n 
 \nAvantages : 
@@ -65,7 +65,7 @@
     <string name="pref_header_appslist_summary">Afficher les applis spéciales, mode gel standard</string>
     <string name="freeze_apps_now">Geler les applications maintenant</string>
     <string name="freeze_on_screen_off_title">Geler quand l\'écran est éteint</string>
-    <string name="freeze_on_screen_off_sum">Vous devrez désactiver \'verrouiller avec touche marche\' dans les paramètres de l\'appareil</string>
+    <string name="freeze_on_screen_off_sum">Vous devrez désactiver « verrouiller avec touche marche » dans les paramètres de l\'appareil</string>
     <string name="problems">Problèmes</string>
     <string name="links">Liens</string>
     <string name="info">Informations</string>
@@ -73,7 +73,7 @@
     <string name="logs_copied">Journaux copiés dans le presse-papier.</string>
     <string name="share_logs">Partager les journaux avec…</string>
     <string name="sf_crashed">SuperFreezZ a planté. Si ce n\'est déjà fait, veuillez SVP envoyer un rapport de bogue.</string>
-    <string name="report">Signaler un problème, proposer une fonctionnalité,…</string>
+    <string name="report">Signaler un problème, proposer une fonctionnalité…</string>
     <string name="send_logs">Envoyer les journaux</string>
     <string name="source_code">Code source</string>
     <string name="license">Licence</string>
@@ -114,6 +114,8 @@
     <string name="select_enable_toast">Veuillez sélectionner SuperFreezZ, puis activez l\'accès</string>
     <string name="accessibility_service">Service d\'accessibilité</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ a besoin du service d\'accessibilité afin d\'automatiser le gel d\'applications.
+\n
 \nVeuillez sélectionner SuperFreezZ, puis activer l\'accès.</string>
     <string name="plz_decide">Merci de sélectionner \'Oui\' ou \'Non\'</string>
+    <string name="cant_freeze">On dirait que cette application ne peut pas être gelée.</string>
 </resources>

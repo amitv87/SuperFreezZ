@@ -117,4 +117,5 @@
     <string name="sort_last_time_used_explanation">Talvez você possa desinstalar alguns dos apps no topo desta lista (porque não os usou por um longo tempo)\?</string>
     <string name="freeze_shortcut_label_screen_off">Tela desligada</string>
     <string name="plz_decide">Por favor selecione \'Sim\' ou \'Não\'</string>
+    <string name="cant_freeze">Parece que este app não pode ser congelado.</string>
 </resources>

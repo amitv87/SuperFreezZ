@@ -1,0 +1,3 @@
+Dodanie przycisku „Anuluj” do okna dialogowego „Włącz usługę ułatwień dostępu”
+styl kodu, poprawka #87 „Lista aplikacji nie odświeża się po dotknięciu aplikacji, aby zatrzymać ją za pomocą roota”
+Aktualizacja tłumaczeń

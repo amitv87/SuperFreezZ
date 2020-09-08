@@ -56,7 +56,7 @@
     <string name="create_freeze_shortcut">Opprett frysesnarvei</string>
     <string name="intro_never_freeze_title">Frysemodus: ALDRI FRYS</string>
     <string name="links">Lenker</string>
-	<string name="title_activity_settings">Innstillinger</string>
+    <string name="title_activity_settings">Innstillinger</string>
     <string name="accessibility_service_description">Å skru dette på lar deg automatisk fryse programmer.
 \n
 \nFordeler:
@@ -98,7 +98,7 @@
     <string name="user_apps">Brukerprogrammer</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Frys dette programmet\?</string>
-	<string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
+    <string name="power_button_hint">Hint: Trykk på av/på-knappen for å avbryte frysningsprosessen</string>
     <string name="warning">Advarsel</string>
     <string name="freeze_shortcut_label_screen_off">Skjerm av</string>
     <string name="currently_inactive_in_brackets">(nå inaktiv)</string>
@@ -113,4 +113,9 @@
     <string name="sort_last_time_used_explanation">Minst nylig brukte programmer først</string>
     <string name="select_enable_toast">Velg SuperFrezZ for så å innvilge tilgang</string>
     <string name="accessibility_service">Tilgjengelighetstjeneste</string>
+    <string name="cant_freeze">Det later til at dette programmet ikke kan fryses</string>
+    <string name="plz_decide">Velg «Ja» eller «Nei»</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ trenger tilgjengelighetstjeneste for å automatisere nedfrysing.
+\n
+\nVelg SuperFreezZ, og innvilg tilgang.</string>
 </resources>

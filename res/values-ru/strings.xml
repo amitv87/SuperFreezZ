@@ -2,17 +2,15 @@
 <resources>
     <string name="msg_search">Поиск</string>
     <string name="msg_search_help">Искать…</string>
-    <string name="share_exception">"Неожиданная ошибка.  Отчет об использовании…"</string>
+    <string name="share_exception">Неожиданная ошибка. Отправить отчёт об использовании…</string>
     <string name="accessibility_service_description">Включение этого переключателя позволит автоматически останавливать приложения. 
 \n 
-\nПреимущества:
-\n• Автоматические клики по кнопкам быстрее, чем клики вручную. Не нужно знать, как это делать.
+\nПреимущества: 
+\n• Автоматические клики по кнопкам быстрее, чем клики вручную. Не нужно знать, как это делать. 
 \n• Пользователи с ограниченными возможностями могут использовать ярлык «Остановить» с главного экрана (например, с помощью распознавателя речи). 
 \n 
 \nSuperFreezZ использует сервис специальных возможностей, чтобы нажимать «Остановить», «OK» и «Назад». Поиск по содержимому окон находит эти кнопки, а слежение за действиями необходимо, чтобы знать, когда они появляются. 
 \n 
-\n
-\n
 \nНа свежих версиях Android сервис может использоваться для блокировки экрана после остановки.</string>
     <string name="freeze_shortcut_label">Остановить</string>
     <string name="NothingToFreeze">Останавливать нечего</string>
@@ -56,7 +54,7 @@
     <string name="pref_title_standard_freeze_mode">Обычный режим остановки (пользовательские приложения)</string>
     <string name="pref_header_about">О нас</string>
     <string name="pref_header_freezing">Останавливаемые приложения</string>
-	<string name="appslist_show_special">Показать специальные приложения в списке</string>
+    <string name="appslist_show_special">Показать специальные приложения в списке</string>
     <string name="pref_intelligentfreeze_delay">ИНТЕЛЛЕКТУАЛЬНОЕ: остановка после... (дни)</string>
     <string name="pref_summary_appslist_show_special">По умолчанию лаунчер, SuperFreezz и системные приложения скрыты.</string>
     <string name="create_freeze_shortcut">Создать ярлык остановки</string>
@@ -74,7 +72,7 @@
     <string name="view_intro_again">Посмотреть введение ещё раз</string>
     <string name="logs_copied">Логи скопированы в буфер обмена.</string>
     <string name="share_logs">Поделиться логами через…</string>
-    <string name="sf_crashed">"SuperFreezZ неожиданно закрылся.  Пожалуйста, отправьте отчет, если Вы этого еще не сделали."</string>
+    <string name="sf_crashed">SuperFreezZ неожиданно закрылся. Пожалуйста, отправьте отчет, если Вы этого ещё не сделали.</string>
     <string name="report">Сообщить о проблеме, предложить идею, …</string>
     <string name="send_logs">Отправить логи</string>
     <string name="source_code">Исходный код</string>
@@ -91,8 +89,8 @@
     <string name="pref_intelligentfreeze_freeze_fdroid">ИНТЕЛЛЕКТУАЛЬНО: остановить приложения из F-Droid</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Приложения из F-Droid обычно не запускаются в фоновом режиме.</string>
     <string name="if_you_like_this_app">Если вам нравится это приложение…</string>
-    <string name="plz_help_translating">...Пожалуйста, помогите с переводом.</string>
-    <string name="plz_donate">...Пожалуйста, пожертвуйте и станьте героем.</string>
+    <string name="plz_help_translating">...пожалуйста, помогите с переводом.</string>
+    <string name="plz_donate">...пожалуйста, пожертвуйте и станьте героем.</string>
     <string name="changed_freeze_mode">Режим остановки изменён</string>
     <string name="other_apps">Другие приложения</string>
     <string name="pref_title_standard_freeze_mode_system">Обычный режим остановки (системные приложения)</string>
@@ -100,7 +98,7 @@
     <string name="user_apps">Пользовательские приложения</string>
     <string name="version_abbrev">v</string>
     <string name="freeze_question">Остановить приложение\?</string>
-	<string name="power_button_hint">Подсказка: Нажмите на кнопку Выключения для прерывания остановки</string>
+    <string name="power_button_hint">Подсказка: Нажмите на кнопку Выключения для прерывания остановки</string>
     <string name="warning">Внимание</string>
     <string name="warning_long_1">Слишком частая остановка/заморозка приложений может опустошить вашу батарею БЫСТРЕЕ, из-за того что разморозка весьма энергозатратна.
 \n
@@ -110,4 +108,14 @@
 \n• Недоверенные приложения (которые вы не хотите видеть запущеными в фоне)
 \n• Редко используемые приложения
 \n• Раздражающие приложения</string>
+    <string name="cant_freeze">Похоже, что это приложение не может быть остановлено.</string>
+    <string name="plz_decide">Пожалуйста, выберите «Да» или «Нет»</string>
+    <string name="accessibility_service">Служба специальных возможностей</string>
+    <string name="accessibility_service_dialog_message">Для автоматизации остановки приложений SuperFreezZ требуется служба специальных возможностей.
+\n
+\nПожалуйста, выберите SuperFreezZ и включите доступ.</string>
+    <string name="select_enable_toast">Пожалуйста, выберите SuperFreezZ и включите доступ</string>
+    <string name="currently_inactive_in_brackets">(неактивно)</string>
+    <string name="sort_last_time_used_explanation">Наверное вы можете удалить некоторые приложения из начала списка, поскольку давно их не использовали\?</string>
+    <string name="freeze_shortcut_label_screen_off">Выключить экран</string>
 </resources>

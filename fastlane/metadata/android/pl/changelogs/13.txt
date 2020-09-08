@@ -1,0 +1,5 @@
+Nowe tłumaczenia
+Opisy edycji
+Dodana grafikę funkcji
+Drobne poprawki
+Poprawka #29: Utrzymanie trybu sortowania na liście przy ponownym uruchomieniu

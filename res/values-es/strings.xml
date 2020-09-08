@@ -43,7 +43,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="intro_auto_freeze_explanation">AUTO CONGELACIÓN Se congelará una app solo si no se ha usado por algún tiempo (por defecto son 7 días). Además, las aplicaciones de F-Droid no se congelarán.</string>
     <string name="freeze_manually">Congelación manual</string>
     <string name="Press_forcestop_ok_back">Para congelar una app presiona \"FORZAR DETENCIÓN\", luego \"OK\" y después \"Atrás\".</string>
-    <string name="freeze_manually_no">No quiero tener que hacer esto</string>
+    <string name="freeze_manually_no">"No quiero  hacer esto"</string>
     <string name="title_activity_settings">Ajustes</string>
     <!-- Strings related to Settings -->
     <string name="pref_header_appslist">Lista de Apps</string>
@@ -62,7 +62,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_header_about">Acerca de</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_freezing">Apps congeladas</string>
-	<string name="appslist_show_special">Mostrar las aplicaciones especiales en la lista</string>
+    <string name="appslist_show_special">Mostrar las aplicaciones especiales en la lista</string>
     <string name="pref_intelligentfreeze_delay">INTELIGENTE: Congelar después de ... (días)</string>
     <string name="pref_summary_appslist_show_special">El Launcher, SuperFreezZ y las aplicaciones del sistema estan ocultas por defecto.</string>
     <string name="create_freeze_shortcut">Crear un acceso directo de congelación</string>
@@ -127,7 +127,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="used_recently_and_frozen">Usado recientemente y congelado</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELIGENTE: Congelar aplicaciones de F-Droid</string>
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Las aplicaciones de F-Droid no suelen ejecutarse en segundo plano.</string>
-    <string name="sort_last_time_used_explanation">Primero las aplicaciones menos usadas recientemente</string>
+    <string name="sort_last_time_used_explanation">¿Quizás deberías desinstalar algunas de las aplicaciones en la parte superior de esta lista (porque no las utilizaste durante mucho tiempo)\?</string>
     <string name="pref_title_standard_freeze_mode_system">Modo de congelación estándar (aplicaciones del sistema)</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ necesita el servicio de accesibilidad para automatizar el congelamiento. 
 \n
@@ -147,7 +147,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 \n
 \nEsto es también un problema con otras aplicaciones, tales como Greenify u otras \"ahorradoras de energía\" (pero ellas no le advierten).</string>
     <string name="warning">Advertencia</string>
-	<string name="freeze_question">¿Congelar esta aplicación\?</string>
+    <string name="freeze_question">¿Congelar esta aplicación\?</string>
     <string name="version_abbrev">v</string>
     <string name="changed_freeze_mode">Modo de congelación modificado</string>
     <string name="plz_help_translating">... Por favor ayude a traducirla.</string>

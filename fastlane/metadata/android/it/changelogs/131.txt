@@ -1,0 +1,8 @@
+Correzione bug e crash
+Migliorata la ricerca del pulsante di arresto forzato, potrebbe correggere #96
+Supportato il tema scuro per Android 10 e quando è attivo il risparmio energetico
+Comunicare insistentemente all'utente di disabilitare il blocco istantaneo tramite pulsante d'Accensione
+Corretto "(inattivo)" mostrato troppo spesso
+"(inacttivo)" invece di "(ora inattivo)"; nessuno capirebbe cosa significa
+Nuova icona, più simmetrica
+Traduzioni aggiornate

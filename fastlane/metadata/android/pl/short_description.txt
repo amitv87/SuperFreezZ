@@ -1,0 +1,1 @@
+Całkowicie wstrzymaj wszystkie działania aplikacji w tle.

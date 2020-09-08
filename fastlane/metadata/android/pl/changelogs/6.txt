@@ -1,0 +1,6 @@
+Dodano ustawienia
+Dodano gest odświeżania machnięcie
+Dodano pasek narzędzi sortowania
+Naprawiono błędy
+Okno dialogowe RequestUsageStatsPermission wyświetlane raz, decyzję można zmienić w ustawieniach
+Naprawiono stan wyścigu

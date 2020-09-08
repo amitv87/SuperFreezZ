@@ -48,7 +48,7 @@
     <string name="intro_auto_freeze_explanation">CHYTRÉ ZAMRAZENÍ zamrazí aplikaci jen tehdy, nebyla-li v chodu nějakou dobu (výchozí 7 dnů). Aplikace z F-Droidu nebudou zamrazeny.</string>
     <string name="freeze_manually">Zamrazit manuálně</string>
     <string name="Press_forcestop_ok_back">Zamrazit aplikaci ťuknutím na \"VYNUCENÉ ZASTAVENÍ\", \"OK\" a pak \"Zpět\".</string>
-    <string name="freeze_manually_no">Já tohle vůbec nechci dělat</string>
+    <string name="freeze_manually_no">Tohle vůbec nechci dělat</string>
     <string name="title_activity_settings">Nastavení</string>
     <string name="pref_header_appslist">Seznam aplikací</string>
     <string name="pref_title_standard_freeze_mode">Výchozí režim zamrazení (uživatelské aplikace)</string>
@@ -117,4 +117,5 @@
 \n
 \nProsím, vyberte SuperFreezZ, a pak povolte přístup.</string>
     <string name="plz_decide">Prosím, vyberte \'Ano\' nebo \'Ne\'</string>
+    <string name="cant_freeze">Vypadá to, že tuto aplikace nelze zamrazit.</string>
 </resources>

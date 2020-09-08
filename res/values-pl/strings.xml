@@ -3,15 +3,13 @@
     <string name="msg_search">Szukaj</string>
     <string name="msg_search_help">Szukaj…</string>
     <string name="share_exception">Niespodziewany błąd. Zgłoś za pomocą…</string>
-    <string name="accessibility_service_description">Włączenie tej funkcji pozwala automatycznie zamrozić aplikacje.
+    <string name="accessibility_service_description">Włączenie tej funkcji pozwala automatycznie zamrozić aplikacje. 
 \n 
-\nZalety:
-\n- Brak interakcji z użytkownikiem: Szybciej. Nie musisz wiedzieć, jak to zrobić.
-\n- Użytkownicy niepełnosprawni mogą korzystać ze skrótu do zamrażania (np. poprzez rozpoznawanie mowy), automatycznie zamrażając wszystkie aplikacje.
+\nZalety: 
+\n- Brak interakcji z użytkownikiem: Szybciej. Nie musisz wiedzieć, jak to zrobić. 
+\n- Użytkownicy niepełnosprawni mogą korzystać ze skrótu do zamrażania (np. poprzez rozpoznawanie mowy), automatycznie zamrażając wszystkie aplikacje. 
 \n 
-\nSuperFreezZ korzysta z usługi dostępności, aby dotknąć opcji \"FORCE STOP\", \"OK\" i \"Back\". Odzyskiwanie zawartości okna znajduje te przyciski, a obserwacja działań jest konieczna, aby wiedzieć, kiedy się pojawią.
-\n 
-\nSuperFreezZ po prostu korzysta z usługi dostępności, aby dotknąć opcji \"FORCE STOP\", \"OK\" i \"Back\". Odzyskiwanie zawartości okna jest konieczne, aby znaleźć te przyciski i obserwować swoje działania, aby wiedzieć, kiedy się pojawią.
+\nSuperFreezZ korzysta z usługi dostępności podczas tapnięcia opcji \"FORCE STOP\", \"OK\" i \"Back\". Odzyskiwanie zawartości okna znajduje te przyciski, a obserwacja działań jest konieczna, aby wiedzieć, kiedy się pojawią.
 \n 
 \nUsługa dostępności może być również wykorzystywana do blokowania ekranu po zamrożeniu na nowszych wersjach Androida.</string>
     <string name="freeze_shortcut_label">Zamróź</string>
@@ -32,14 +30,14 @@
     <string name="enable">Włącz</string>
     <string name="usagestats_not_enabled">Nie przyznałeś dostępu do UsageStats.</string>
     <string name="automate_the_freezing_of_apps">Zautomatyzować zamrażanie aplikacji\?</string>
-    <string name="accessibility_arguments_yes">Aby:
-\n- Ułatwić użytkowanie
+    <string name="accessibility_arguments_yes">Aby: 
+\n- Ułatwić użytkowanie 
 \n- Zamrażać wiele aplikacji na raz</string>
-    <string name="accessibility_arguments_no">Będziesz musiał nacisnąć \"FORCE STOP\", \"OK\" i \"Back\" ręcznie, aby zamrozić aplikację.
-\nZe względu na:
-\n- Mało wydajne urządzenie
-\n- Kwestie bezpieczeństwa
-\n- Brak rejestracji SuperFreezZ jako usługi dostępności.</string>
+    <string name="accessibility_arguments_no">Będziesz musiał nacisnąć \"WYMUŚ ZATRZYMANIE\", \"OK\" i \"WSTECZ\" ręcznie, aby zamrozić aplikację. 
+\nZe względu na: 
+\n- Mało wydajne urządzenie 
+\n- Kwestie bezpieczeństwa 
+\n- Brak rejestracji SuperFreezZ jako usługi dostępności</string>
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="intro_always_freeze_title">Tryb zamrażania: ZAWSZE ZAMRAŻAJ</string>
@@ -49,4 +47,75 @@
     <string name="intro_auto_freeze_title">Tryb zamrażania: INTELIGENTNY</string>
     <string name="intro_auto_freeze_explanation">INTELIGENTNE ZAMRAŻANIE zamrozi aplikację tylko wtedy, gdy nie była używana przez jakiś czas (domyślnie 7 dni). Również aplikacje z F-Droid nie będą zamrażane.</string>
     <string name="freeze_manually">Ręczne zamrażanie</string>
+    <string name="freeze_shortcut_label_screen_off">Wyłączony ekran</string>
+    <string name="report">Raportuj problem, zaproponuj zmiany, …</string>
+    <string name="cant_freeze">Wygląda na to, że tej aplikacji nie można zamrozić.</string>
+    <string name="plz_decide">Wybierz „Tak” lub „Nie”</string>
+    <string name="accessibility_service">Usługa ułatwień dostępu</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ potrzebuje usługi ułatwień dostępu, aby zautomatyzować zamrażanie.
+\n
+\nWybierz SuperFreezZ, a następnie włącz dostęp.</string>
+    <string name="select_enable_toast">Wybierz SuperFreezZ, a następnie włącz dostęp</string>
+    <string name="currently_inactive_in_brackets">(nieaktywny)</string>
+    <string name="warning_long_2">Przykłady aplikacji, które zasługują na zamrożenie:
+\n 
+\n• Niezaufane aplikacje (których nie chcesz, aby działały w tle)
+\n• Rzadko używane aplikacje
+\n• Irytujące aplikacje</string>
+    <string name="warning_long_1">Częste zatrzymywanie/zamrażanie aplikacji prawdopodobnie spowoduje SZYBSZE wyczerpywanie baterii, ponieważ „odmrożenie” zużywa energię.
+\n
+\nJest to również problem z innymi podobnymi aplikacjami, takimi jak Greenify i „Oszczędzanie baterii” (z wyjątkiem tego, że nie ostrzegają Cię o tym).</string>
+    <string name="warning">Ostrzeżenie</string>
+    <string name="sort_last_time_used_explanation">Może uda Ci się odinstalować niektóre z aplikacji znajdujących się na górze tej listy (ponieważ nie korzystałeś z nich przez długi czas)\?</string>
+    <string name="credits_and_licenses">Kredyty i licencje innych firm</string>
+    <string name="Press_forcestop_ok_back">By zamrozić aplikacje naciśnij \"WYMUSIĆ ZATRZYMANIE\", \'\'TAK\'\', a potem \"WSTECZ\".</string>
+    <string name="power_button_hint">Wskazówka: Naciśnij przycisk zasilania aby zatrzymać proces zamrażania</string>
+    <string name="freeze_question">Zamrozić tę aplikację\?</string>
+    <string name="version_abbrev">v</string>
+    <string name="changed_freeze_mode">Zmieniony tryb zamrażania</string>
+    <string name="plz_donate">...zostań bohaterem i wspomóż nas.</string>
+    <string name="plz_help_translating">...proszę pomóż w tłumaczeniu.</string>
+    <string name="if_you_like_this_app">Jeśli lubisz tą aplikację…</string>
+    <string name="user_apps">Aplikacje użytkownika</string>
+    <string name="system_apps">Aplikacje systemowe</string>
+    <string name="other_apps">Inne aplikacje</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">Aplikacje F-Droid zwykle nie pracują w tle tak dużo.</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">INTELIGENTNY: Zamroź aplikacje F-Droid</string>
+    <string name="used_recently_and_frozen">Używane często &amp; zamrożone</string>
+    <string name="fdroid_app_not_pending_freeze">Aplikacja F-Droid</string>
+    <string name="not_available">Nie dostępne</string>
+    <string name="sort_by">Sortuj po</string>
+    <string name="intro_header_automaticfreezing">automatyczne zamrażanie</string>
+    <string name="intro_header_modes">tryby</string>
+    <string name="intro_header_welcome">witaj w</string>
+    <string name="already_frozen">Już zamrożone</string>
+    <string name="license">Licencja</string>
+    <string name="source_code">Kod źródłowy</string>
+    <string name="send_logs">Wyślij logi</string>
+    <string name="sf_crashed">SuperFreezZ przestał działać. Proszę wyślij raport, jeśli jeszcze tego nie zrobiłeś.</string>
+    <string name="share_logs">Udostępnij logi używając…</string>
+    <string name="logs_copied">Logi zostały skopiowane do schowka.</string>
+    <string name="view_intro_again">Pokaż wprowadzenie ponownie</string>
+    <string name="info">Informacje</string>
+    <string name="links">Linki</string>
+    <string name="problems">Problemy</string>
+    <string name="freeze_on_screen_off_sum">W ustawieniach urządzenia konieczne będzie wyłączenie opcji \"Przycisk zasilania natychmiast blokuje\"</string>
+    <string name="freeze_on_screen_off_title">Zamrażaj aplikacje po wyłączeniu ekranu</string>
+    <string name="freeze_apps_now">Zamróź aplikacje teraz</string>
+    <string name="pref_header_appslist_summary">Pokaż aplikacje specjalne, domyślny tryb zamrażania</string>
+    <string name="pref_header_about_summary">Użyteczne linki, wyślij logi</string>
+    <string name="pref_header_freezing_summary">Dostosuj jak i które aplikacje mają być zamrażane</string>
+    <string name="sort">Sortuj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="create_freeze_shortcut">Utwórz skrót Zamrażania</string>
+    <string name="pref_summary_appslist_show_special">Launcher, aplikacja SuperFreezZ i aplikacje systemowe domyślnie są ukryte.</string>
+    <string name="pref_intelligentfreeze_delay">INTELIGENTNE: Zamroź po... (dniach)</string>
+    <string name="appslist_show_special">Pokaż specjalne aplikacje na liście</string>
+    <string name="pref_header_freezing">Zamrażanie aplikacji</string>
+    <string name="pref_header_about">Opis</string>
+    <string name="pref_title_standard_freeze_mode_system">Domyślny tryb zamrażania (aplikacje systemowe)</string>
+    <string name="pref_title_standard_freeze_mode">Domyślny tryb zamrażania (aplikacje użytkownika)</string>
+    <string name="pref_header_appslist">Lista Aplikacji</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="freeze_manually_no">Nie chcę tego robić</string>
 </resources>
