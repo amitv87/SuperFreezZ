@@ -24,6 +24,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.ShortcutInfo
 import android.content.pm.ShortcutManager
+import android.graphics.drawable.Icon
 import android.os.Build
 import android.util.Log
 import eu.chainfire.libsuperuser.Shell
@@ -57,14 +58,14 @@ fun freezeAppsUsingRoot(
 				.setShortLabel(context.resources.getString(R.string.freeze_shortcut_label_screen_off))
 				.setLongLabel(context.resources.getString(R.string.freeze_shortcut_label_screen_off))
 				.setIntent(intent)
-				//.setIcon(context.getResources().getDrawable(R.))
+				.setIcon(Icon.createWithResource(context, R.drawable.ic_freeze))// context.getResources().getDrawable(R.))
 				.build()
 		shortcutManager!!.dynamicShortcuts = listOf(shortcut)
 	}
 
 
 	try {
-		val shell = Shell.Pool.SU.get();
+		val shell = Shell.Pool.SU.get()
 		//if (Build.VERSION.SDK_INT >= 23) shell.run("dumpsys battery unplug")
 		packages.forEach {
 			if (Build.VERSION.SDK_INT >= 23) {
