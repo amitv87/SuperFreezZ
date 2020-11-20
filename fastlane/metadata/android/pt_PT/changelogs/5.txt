@@ -1,0 +1,3 @@
+Tornar a localização do botão Force Stop mais estável, corrige # 20?
+A tentar tornar o congelamento mais estável novamente. Removido doOnFinished() não utilizado do FreezerService.
+Correção de regressão: não usar o tempo limite quando o freezerservice não estiver em execução

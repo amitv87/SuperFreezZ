@@ -72,7 +72,7 @@
     <string name="sort">Sortering</string>
     <string name="settings">Innstillinger</string>
     <string name="freeze_on_screen_off_sum">Du må skru av \\\"På-knapp låser umiddelbart\\\" i enhetsinnstillingene.</string>
-    <string name="sf_crashed">SuperFreezZ kræsjet. Send inn en rapport, hvis du ikke har gjort det allerede.</string>
+    <string name="sf_crashed">SuperFreezZ krasjet. Send inn en rapport, hvis du ikke har gjort det allerede.</string>
     <string name="always_freeze_this_app">Alltid frys dette programmet</string>
     <string name="pref_header_about">Om</string>
     <string name="pref_header_appslist">Programliste</string>

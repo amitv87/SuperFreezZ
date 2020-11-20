@@ -1,0 +1,1 @@
+Congelar completamente todas as actividades em segundo plano das apps.

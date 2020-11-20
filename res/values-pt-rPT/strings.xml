@@ -12,7 +12,7 @@
     <string name="NothingToFreeze">Nada para congelar</string>
     <string name="usagestats_access">Aceder às Estatísticas de Utilização</string>
     <string name="used_recently">Usada recentemente</string>
-    <string name="Press_forcestop_ok_back">Congelar uma app pressionando \"FORÇAR PARAR\", \"OK\", e depois \"Voltar\".</string>
+    <string name="Press_forcestop_ok_back">Congelar uma app a pressionar \"FORÇAR PARAR\", \"OK\" e depois \"Voltar\".</string>
     <string name="used_recently_and_frozen">Usada recentemente &amp; congelada</string>
     <string name="accessibility_arguments_no">Premir \"FORÇAR PARAGEM\", \"OK\" and \"VOLTAR\" manualmente para congelar uma app. 
 \nPara: 
@@ -56,7 +56,7 @@
     <string name="not_available">Não disponível</string>
     <string name="pref_intelligentfreeze_delay">INTELLIGENTE: Congelar após… (dias)</string>
     <string name="do_never_freeze_this_app">Nunca congelar esta app</string>
-    <string name="share_exception">Erro desconhecido. Relatar utilizando…</string>
+    <string name="share_exception">Erro desconhecido. Relate a utilizar…</string>
     <string name="license">Licença</string>
     <string name="intro_never_freeze_explanation">NUNCA CONGELAR irá desligar o congelamento e nunca irá congelar uma app.</string>
     <string name="intro_header_modes">modos</string>
@@ -93,7 +93,7 @@
     <string name="pref_header_appslist">Lista de aplicações</string>
     <string name="already_frozen">Já congelada</string>
     <string name="msg_search">Procurar</string>
-    <string name="share_logs">Partilhar registos usando…</string>
+    <string name="share_logs">Partilhar registos a usar…</string>
     <string name="pref_title_standard_freeze_mode_system">Modo de congelamento predefinido (apps do sistema)</string>
     <string name="all_apps">TODAS AS APLICAÇÕES</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENTE: Congelar aplicações F-Droid</string>
@@ -101,10 +101,10 @@
     <string name="freeze_manually_no">Não quero ter de fazer isto</string>
     <string name="plz_help_translating">…Por favor ajude a traduzi-la.</string>
     <string name="currently_inactive_in_brackets">(agora inativo)</string>
-    <string name="warning_long_2">Exemplos de apps que merecem ser congeladas:
-\n
-\n• Apps não confiáveis (que não queira executar em segundo plano)
-\n• Apps que você raramente usa
+    <string name="warning_long_2">Exemplos de apps que merecem ser congeladas: 
+\n 
+\n• Apps não confiáveis (que não queira executar em segundo plano) 
+\n• Apps que raramente usa 
 \n• Apps incómodas</string>
     <string name="warning_long_1">Parar/congelar apps frequentemente irá provavelmente drenar a sua bateria mais rapidamente, porque o \"descongelamento\" consome energia.
 \n
@@ -113,4 +113,11 @@
     <string name="power_button_hint">Dica: pressione o botão Ligar para cancelar o processo de congelamento</string>
     <string name="sort_last_time_used_explanation">Apps menos utilizados primeiro</string>
     <string name="freeze_shortcut_label_screen_off">Ecrã desligado</string>
+    <string name="cant_freeze">Parece que esta app não pode ser congelada.</string>
+    <string name="plz_decide">Por favor selecione \'Sim\' ou \'Não\'</string>
+    <string name="accessibility_service">Serviço de Acessibilidade</string>
+    <string name="accessibility_service_dialog_message">O SuperFreezZ precisa do serviço de acessibilidade para automatizar o congelamento. 
+\n 
+\nSelecione SuperFreezZ e ative o acesso.</string>
+    <string name="select_enable_toast">Selecione SuperFreezZ e permita o acesso</string>
 </resources>

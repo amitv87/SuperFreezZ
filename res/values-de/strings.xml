@@ -33,7 +33,7 @@
     <string name="freeze_shortcut_label">Einfrieren</string>
     <string name="NothingToFreeze">Nichts einzufrieren</string>
     <string name="undo">Rückgängig</string>
-    <string name="icon">Icon</string>
+    <string name="icon">Symbol</string>
     <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Diese App einfrieren, falls sie länger nicht benutzt wurde.</string>
     <string name="always_freeze_this_app">Diese App immer einfrieren</string>
     <string name="do_never_freeze_this_app">Diese App nie einfrieren</string>

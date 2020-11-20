@@ -1,0 +1,4 @@
+Correction d'un plantage (« parentNode.getChild (i) ne doit pas être nul »)
+Correction de la traduction (certaines chaînes supposément en anglais étaient en espagnol)
+Améliore le mode nuit
+Met à jour les traductions

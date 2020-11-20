@@ -1,0 +1,44 @@
+<p> Aplikacja na Androida (beta) umożliwiająca całkowite wstrzymanie wszystkich działań dowolnej aplikacji w tle. </p>
+<ul>
+<li> Odzyskaj kontrolę nad tym, co działa na Twoim telefonie </li>
+<li> Wydłuż czas pracy baterii i zmniejsz wykorzystanie danych mobilnych, zamrażając rzadko używane aplikacje </li>
+<li> Jest to szczególnie przydatne podczas wycieczki, podczas której potrzebujesz tylko niektórych aplikacji, ale o dużej żywotności baterii </li>
+</ul>
+<p> Greenify też może to zrobić, ale nie jest to Open Source. </p>
+<p> SuperFreezZ nie jest kolejnym menedżerem zadań, który obiecuje usuwanie 10 GB danych miesięcznie lub sprawi, że Twoje urządzenie będzie dwukrotnie szybsze. To niemożliwe. </p>
+<p> Zamiast tego SuperFreezZ szczerze mówi o swoich wadach: zamrażanie codziennie używanych aplikacji prawdopodobnie powoduje szybsze wyczerpywanie baterii. Ponadto, uruchomienie tych aplikacji zajmie więcej czasu, gdy użyjesz ich następnym razem: SuperFreezZ super zamraża twoje aplikacje, odblokowanie ich zajmuje około 1-3 sekund. Greenify ma te same wady, z tym że autor Greenify nie ostrzega Cię o tym. Więc: po prostu nie przesadzaj, a SuperFreezZ będzie super przydatny. </p>
+<p> Przykłady aplikacji, które zasługują na zamrożenie: </p>
+<ul>
+<li> Niezaufane aplikacje (których nie chcesz uruchamiać w tle) </li>
+<li> rzadko używane aplikacje </li>
+<li> Irytujące aplikacje </li>
+</ul>
+<h2 id = "features"> Funkcje </h2>
+<ul>
+<li> Opcjonalnie działa bez usługi ułatwień dostępu, ponieważ spowalnia to urządzenie </li>
+<li> Może zamrażać tylko aplikacje nieużywane przez tydzień (można skonfigurować) </li>
+<li> Wybierz białą listę (standardowo zamroź wszystko) lub czarną listę (standardowo niczego nie zamrażaj) </li>
+<li> Może zamrażać aplikacje, gdy ekran się wyłącza </li>
+<li> Opcje zamrażania aplikacji systemowych, a nawet samego SuperFreezZ </li>
+<li> Całkowicie otwarte i bezpłatne oprogramowanie </li>
+</ul>
+<h2 id = "contributing-to-superfreezz"> Przyczynianie się do SuperFreezZ </h2>
+<h3 id = "development"> Rozwój </h3>
+<p> Jeśli masz problem, pytanie lub pomysł, po prostu otwórz problem! </p>
+<p> Jeśli chcesz pomóc w programowaniu, przyjrzyj się problemom lub wymyśl coś, co można by poprawić, i zgłoś problem. </p>
+<p> Powiedz mi, co zamierzasz zrobić, aby uniknąć jednoczesnego wdrażania tego samego :-) </p>
+<h3 id = "translate"> Przetłumacz </h3>
+<p> Możesz <a href="https://hosted.weblate.org/engage/superfreezz/"> przetłumaczyć SuperFreezZ na Weblate </a>. </p>
+<h2 id = "kredytów"> Kredyty </h2>
+<p> Kod służący do wyświetlania listy aplikacji pochodzi z <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor"> ApkExtractor </a>. </p>
+<p> Robin Naumann zrobił niezłe intro. Intro zostało utworzone przy użyciu biblioteki AppIntro. </p>
+<p> Tło graficzne funkcji pochodzi stąd: https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, tekst został dodany z https://www.norio.be/android-feature -graphic-generator /. </p>
+<h2 id = "qa"> Pytania / Odpowiedzi </h2>
+<p> P / O: </p>
+<p> P: Jaka jest różnica między hibernacją a zamrażaniem? O: W ogóle nie ma. Jeśli hibernujesz aplikację z Greenify, będzie ona nawet wyświetlana jako zamrożona w SuperFreezZ i na odwrót. </p>
+<p> P: Ale poprawna pisownia to „SuperFreeze”! O: Wiem. </p>
+<p> P: Czy masz zamiar sprzedawać zamrażarki? O: Nie. </p>
+Prześlij opinię
+Historia
+Zapisane
+Społeczność

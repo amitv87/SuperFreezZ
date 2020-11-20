@@ -1,0 +1,4 @@
+Correzione arresto anomalo ("parentNode.getChild(i) non deve essere null")
+Correzione traduzione inglese (alcune stringhe erano in spagnolo)
+Mogliorata modalità scura
+Aggiornate traduzioni

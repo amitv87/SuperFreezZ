@@ -1,0 +1,7 @@
+Agrega compatibilidad básica con el modo oscuro para Android 10 y cuando habilitas el modo "ahorro de batería"
+Dígale al usuario más intensamente que desactive el botón de encendido que se bloquea instantáneamente
+Corregir (inactivo) que se muestre con demasiada frecuencia
+(inactivo) en lugar de (ahora inactivo); nadie entenderá lo que significa este "ahora"
+Arreglo del fallo
+Nuevo icono más simétrico
+Actualizar traducciones

@@ -1,0 +1,2 @@
+Arregle atajos, gracias Dmitriy!
+(Con suerte) Solucionar el bloqueo al congelar con root

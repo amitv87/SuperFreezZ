@@ -1,0 +1,6 @@
+Agregar soporte EXPERIMENTAL para root
+Actualizar traducciones
+
+Orden de clasificación de estado de congelación inversa, consulte el n. ° 83
+Revertir "Arreglo nº 67 Orden ascendente / descendente"; corregir nº 83
+Corregir atajos para versiones de depuración

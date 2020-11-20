@@ -1,0 +1,6 @@
+DENEYSEL kök desteği eklendi
+Çeviriler güncellendi
+
+Dondurma durumunu sıralama düzeni tersine çevrildi, #83'e bakın
+"#67 düzelt, artan/azalan sıralama" geri döndürüldü; #83 düzeltildi
+Hata ayıklama sürümleri için kısayollar düzeltildi

@@ -43,7 +43,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="intro_auto_freeze_explanation">AUTO CONGELACIÓN Se congelará una app solo si no se ha usado por algún tiempo (por defecto son 7 días). Además, las aplicaciones de F-Droid no se congelarán.</string>
     <string name="freeze_manually">Congelación manual</string>
     <string name="Press_forcestop_ok_back">Para congelar una app presiona \"FORZAR DETENCIÓN\", luego \"OK\" y después \"Atrás\".</string>
-    <string name="freeze_manually_no">"No quiero  hacer esto"</string>
+    <string name="freeze_manually_no">No quiero hacer esto</string>
     <string name="title_activity_settings">Ajustes</string>
     <!-- Strings related to Settings -->
     <string name="pref_header_appslist">Lista de Apps</string>
@@ -130,10 +130,10 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="sort_last_time_used_explanation">¿Quizás deberías desinstalar algunas de las aplicaciones en la parte superior de esta lista (porque no las utilizaste durante mucho tiempo)\?</string>
     <string name="pref_title_standard_freeze_mode_system">Modo de congelación estándar (aplicaciones del sistema)</string>
     <string name="accessibility_service_dialog_message">SuperFreezZ necesita el servicio de accesibilidad para automatizar el congelamiento. 
-\n
-\nPor favor seleccione SuperFreezZ, luego abilite el acceso.</string>
+\n 
+\nPor favor seleccione SuperFreezZ, luego habilite el acceso.</string>
     <string name="power_button_hint">Sugerencia: pulsa el botón de encendido para abortar el proceso de congelación</string>
-    <string name="plz_donate">... Por favor sea un héroe haciendo una donación.</string>
+    <string name="plz_donate">... por favor sea un héroe y haga una donación.</string>
     <string name="if_you_like_this_app">Si le gusta esta aplicación…</string>
     <string name="accessibility_service">Servicio de accesibilidad</string>
     <string name="select_enable_toast">Por favor seleccione SuperFreezZ, luego abilite el acceso</string>
@@ -150,9 +150,11 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="freeze_question">¿Congelar esta aplicación\?</string>
     <string name="version_abbrev">v</string>
     <string name="changed_freeze_mode">Modo de congelación modificado</string>
-    <string name="plz_help_translating">... Por favor ayude a traducirla.</string>
+    <string name="plz_help_translating">... por favor ayude a traducirla.</string>
     <string name="user_apps">Aplicaciones del usuario</string>
     <string name="system_apps">Aplicaciones del sistema</string>
     <string name="other_apps">Otras aplicaciones</string>
     <string name="freeze_shortcut_label_screen_off">Pantalla apagada</string>
+    <string name="cant_freeze">Parece que esta aplicación no se puede congelar.</string>
+    <string name="plz_decide">Por favor seleccione \"Sí\" o \"No\"</string>
 </resources>

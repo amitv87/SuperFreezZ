@@ -3,13 +3,13 @@
     <string name="NothingToFreeze">אין מה להקפיא</string>
     <string name="freeze_shortcut_label_screen_off">מסך מכובה</string>
     <string name="freeze_shortcut_label">הקפאה</string>
-    <string name="share_exception">ארעה שגיאה. דווח על שימוש…</string>
-    <string name="msg_search_help">חפש…</string>
+    <string name="share_exception">אירעה שגיאה בלתי צפויה. דיווח באמצעות…</string>
+    <string name="msg_search_help">חיפוש…</string>
     <string name="msg_search">חיפוש</string>
-    <string name="pref_intelligentfreeze_delay">INTELLIGENT: הקפיא אחרי ... (ימים)</string>
-    <string name="appslist_show_special">הצג אפליקציות מיוחדות ברשימה</string>
-	<string name="pref_header_freezing">הקפאת אפליקציות</string>
-    <string name="pref_header_about">אודות</string>
+    <string name="pref_intelligentfreeze_delay">חכם: להקפיא לאחר … (ימים)</string>
+    <string name="appslist_show_special">להציג יישומונים מיוחדים ברשימה</string>
+    <string name="pref_header_freezing">הקפאת יישומונים</string>
+    <string name="pref_header_about">על אודות</string>
     <string name="pref_title_standard_freeze_mode_system">מצב הקפאה רגיל (אפליקציות מערכת)</string>
     <string name="pref_title_standard_freeze_mode">מצב הקפאה רגיל (אפליקציות רגילות)</string>
     <string name="pref_header_appslist">רשימת אפליקציות</string>
@@ -22,31 +22,47 @@
     <string name="intro_never_freeze_explanation">NEVER FREEZE - לעולם לא יקפיא אפליקציה.</string>
     <string name="intro_never_freeze_title">מצב הקפאה: לעולם אל תקפיא</string>
     <string name="intro_always_freeze_explanation">ישנם 3 מצבי הקפאה. אתה יכול לבחור אחת לכל אפליקציה. ALWAYS FREEZE תקפיא אפליקציה בכל מקרה.</string>
-    <string name="intro_always_freeze_title">מצב הקפאה: הקפאה תמיד</string>
+    <string name="intro_always_freeze_title">מצב הקפאה: להקפיא תמיד</string>
     <string name="no">לא</string>
     <string name="yes">כן</string>
-    <string name="accessibility_arguments_no">תצטרך ללחוץ ידנית על \"FORCE STOP\", \"OK\" ו- \"Back\" ידנית כדי להקפיא אפליקציה.
-\nהגיוני עבור:
-\n• מכשירים איטיים
-\n• חששות ביטחוניים
-\n• אין רישום של SuperFreezZ כשירות נגישות</string>
+    <string name="accessibility_arguments_no">יהיה עליך ללחוץ ידנית על „אילוץ עצירה”, „אישור” ו„חזרה” ידנית כדי להקפיא יישומון. 
+\nעבור: 
+\n• מכשירים אטיים 
+\n• חששות אבטחה 
+\n• SuperFreezZ אינו רשום כשירות נגישות</string>
     <string name="accessibility_arguments_yes">עבור: 
 \n• קלות שימוש 
-\n• הקפאת הרבה אפליקציות</string>
-    <string name="automate_the_freezing_of_apps">הדלק אוטומציה להקפאת אפליקציות\?</string>
-    <string name="usagestats_not_enabled">לא נתת גישה ל- UsageStats.</string>
-    <string name="enable">אפשר</string>
-    <string name="usatestats_explanation">גישת UsageStats מאפשרת ל- SuperFreezZ להקפיא אפליקציות רק אם לא השתמשתם בהן זמן מה (הקפאה חכמה).</string>
-    <string name="usagestats_access">גישה לסטטיסטיקות שימוש</string>
-    <string name="all_apps">כל האפליקציות</string>
-    <string name="no_apps_pending_freeze">[אין אפליקציות הממתינות להקפאה]</string>
-    <string name="used_recently">שומש לאחרונה</string>
-    <string name="freeze_off">אל תקפיא לעולם</string>
+\n• הקפאת יישומונים רבים</string>
+    <string name="automate_the_freezing_of_apps">להקפיא יישומונים אוטומטית\?</string>
+    <string name="usagestats_not_enabled">לא הענקת גישה לסטטיסטיקת שימוש.</string>
+    <string name="enable">הפעלה</string>
+    <string name="usatestats_explanation">גישה לסטטיסטיקת שימוש מאפשרת ל־SuperFreezZ להקפיא יישומונים שלא עשית בהם שימוש זמן מה (הקפאה חכמה).</string>
+    <string name="usagestats_access">גישה לסטטיסטיקת שימוש</string>
+    <string name="all_apps">כל היישומונים</string>
+    <string name="no_apps_pending_freeze">[אין יישומונים הממתינים להקפאה]</string>
+    <string name="used_recently">היו בשימוש לאחרונה</string>
+    <string name="freeze_off">השבתת הקפאה</string>
     <string name="frozen">מוקפא</string>
-    <string name="pending_freeze">ממתין להקפאה</string>
-    <string name="do_never_freeze_this_app">אל תקפיא יישום זה לעולם</string>
-    <string name="always_freeze_this_app">תמיד הקפא יישום הזה</string>
-    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">הקפא יישום זה אם לא נעשה בו שימוש במשך זמן רב יותר.</string>
-    <string name="icon">אייקון</string>
+    <string name="pending_freeze">בהמתנה להקפאה</string>
+    <string name="do_never_freeze_this_app">לא להקפיא יישומון זה לעולם</string>
+    <string name="always_freeze_this_app">תמיד להקפיא את היישומון הזה</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">להקפיא יישומון זה אם לא נעשה בו שימוש במשך זמן רב יותר.</string>
+    <string name="icon">סמל</string>
     <string name="undo">ביטול</string>
+    <string name="share_logs">שיתוף יומנים דרך…</string>
+    <string name="logs_copied">היומנים הועתקו ללוח הגזירים.</string>
+    <string name="view_intro_again">הצגת ההקדמה שוב</string>
+    <string name="info">מידע</string>
+    <string name="links">קישורים</string>
+    <string name="problems">בעיות</string>
+    <string name="freeze_on_screen_off_sum">יהיה עליך להשבית את ‚כפתור הכיבוי נועל אוטומטית’ בהגדרות המכשיר</string>
+    <string name="freeze_on_screen_off_title">להקפיא כאשר המסך נכבה</string>
+    <string name="freeze_apps_now">להקפיא יישומונים כעת</string>
+    <string name="pref_header_appslist_summary">הצגת יישומונים מיוחדים, מצב הקפאה רגיל</string>
+    <string name="pref_header_about_summary">קישורים שימושיים, שליחת יומנים</string>
+    <string name="pref_header_freezing_summary">לבחור איך ואילו יישומונים להקפיא</string>
+    <string name="sort">מיון</string>
+    <string name="settings">הגדרות</string>
+    <string name="create_freeze_shortcut">יצירת קיצור דרך להקפאה</string>
+    <string name="cant_freeze">נראה כי לא ניתן להקפיא את היישומון הזה.</string>
 </resources>

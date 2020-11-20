@@ -1,1 +1,1 @@
-Gel complétement toute l'activité des applications.
+Gèle complètement les activités en arrière-plan des applications.

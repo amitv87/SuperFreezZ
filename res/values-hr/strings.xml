@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_summary_appslist_show_special">Pokretač, SuperFreezZ i programi sustava standardno se skrivaju.</string>
+    <string name="intro_header_automaticfreezing">automatsko zamrzavanje</string>
+    <string name="all_apps">SVI PROGRAMI</string>
+    <string name="system_apps">Programi sustava</string>
+    <string name="intro_always_freeze_explanation">Postoje tri vrste zamrzavanja. Možeš odabrati jednu za svaki program. ZAMRZNI UVIJEK zamrznut će program u svakom slučaju.</string>
+    <string name="do_never_freeze_this_app">Nikada nemoj zamrznuti ovaj program</string>
+    <string name="accessibility_arguments_yes">Za:
+\n• Jednostavno korištenje
+\n• Zamrzavanje većeg broja programa</string>
+    <string name="fdroid_app_not_pending_freeze">F-Droid program</string>
+    <string name="msg_search_help">Traži …</string>
+    <string name="usagestats_not_enabled">Pristup statistici korištenja nije odobren.</string>
+    <string name="pref_title_standard_freeze_mode">Standardna vrsta zamrzavanja (programi korisnika)</string>
+    <string name="sort_by">Razvrstaj po</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">PAMETNO: Zamrzni F-Droid programe</string>
+    <string name="if_you_like_this_app">Ako ti se ovaj program sviđa …</string>
+    <string name="NothingToFreeze">Nema se što zamrznuti</string>
+    <string name="warning_long_2">Primjeri programa koji zaslužuju zamrzavanje:
+\n
+\n• Nepouzdani programi (koje ne želiš pokretati u pozadini)
+\n• Rijetko korišteni programi
+\n• Ometajući programi</string>
+    <string name="info">Info</string>
+    <string name="freeze_manually">Zamrzni ručno</string>
+    <string name="create_freeze_shortcut">Stvori prečac za zamrzavanje</string>
+    <string name="intro_header_modes">vrste</string>
+    <string name="pref_header_about_summary">Korisne poveznice, šalji log-zapise</string>
+    <string name="icon">Ikona</string>
+    <string name="used_recently_and_frozen">Nedavno korišteni i zamrznuti</string>
+    <string name="report">Prijavi problem, predloži funkciju, …</string>
+    <string name="always_freeze_this_app">Uvijek zamrzni ovaj program</string>
+    <string name="freeze_question">Zamrznuti ovaj program\?</string>
+    <string name="accessibility_service_dialog_message">Za automatiziranje zamrzavanja SuperFreezZ treba uslugu pristupačnosti.
+\n
+\nOdaberi SuperFreezZ, a zatim aktiviraj pristup.</string>
+    <string name="msg_search">Traži</string>
+    <string name="plz_donate">… budi heroj i doniraj.</string>
+    <string name="intro_header_welcome">pozdrav u</string>
+    <string name="sf_crashed">SuperFreezZ se srušio. Molimo te da prijaviš grešku.</string>
+    <string name="appslist_show_special">Pokaži posebne programe u popisu</string>
+    <string name="problems">Problemi</string>
+    <string name="share_logs">Dijeli log-zapise pomoću …</string>
+    <string name="intro_always_freeze_title">Vrsta zamrzavanja: ZAMRZNI UVIJEK</string>
+    <string name="undo">Poništi</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Zamrzni ovaj program, ako se duže vrijeme nije koristio.</string>
+    <string name="credits_and_licenses">Zasluge i licence</string>
+    <string name="automate_the_freezing_of_apps">Automatizirati zamrzavanje programa\?</string>
+    <string name="freeze_manually_no">Ovo ne želim uraditi</string>
+    <string name="pref_intelligentfreeze_delay">PAMETNO: Zamrzni nakon … (dana)</string>
+    <string name="changed_freeze_mode">Vrsta zamrzavanja promijenjena</string>
+    <string name="freeze_off">Zamrzavanje isključeno</string>
+    <string name="no">Ne</string>
+    <string name="used_recently">Nedavno korišteni</string>
+    <string name="select_enable_toast">Odaberi SuperFreezZ, zatim aktiviraj pristup</string>
+    <string name="source_code">Izvorni kod</string>
+    <string name="send_logs">Šalji log-zapise</string>
+    <string name="frozen">Zamrznuto</string>
+    <string name="pref_header_freezing">Zamrzavanje programa</string>
+    <string name="logs_copied">Log-zapisi kopirani u međuspremnik.</string>
+    <string name="intro_auto_freeze_title">Vrsta zamrzavanja: PAMETNO</string>
+    <string name="intro_never_freeze_title">Vrsta zamrzavanja: ZAMRZNI NIKADA</string>
+    <string name="user_apps">Programi korisnika</string>
+    <string name="cant_freeze">Čini se da se ovaj program ne može zamrznuti.</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droid programi se uglavnom ne pokreću baš često u pozadini.</string>
+    <string name="intro_auto_freeze_explanation">ZAMRZNI PAMETNO zamrznut će program samo ako se duže vrijeme nije koristio (standardno 7 dana). Programi koji u preuzeti s F-Droida neće se zamrzavati.</string>
+    <string name="not_available">Nije dostupno</string>
+    <string name="pref_header_freezing_summary">Prilagodi kako i koje programe zamrzavati</string>
+    <string name="sort_last_time_used_explanation">Možda možeš deinstalirati neke programe na vrhu ovog popisa (jer se dugo nisu koristili)\?</string>
+    <string name="freeze_on_screen_off_title">Zamrzni kad se ekran isključi</string>
+    <string name="freeze_apps_now">Zamrzni programe sada</string>
+    <string name="freeze_shortcut_label">Zamrzni</string>
+    <string name="enable">Aktiviraj</string>
+    <string name="pref_header_about">Informacije</string>
+    <string name="license">Licenca</string>
+    <string name="title_activity_settings">Postavke</string>
+    <string name="freeze_on_screen_off_sum">Morat ćeš deaktivirati „Gumb za uključivanje/isključivanje trenutno zaključava” u postavkama uređaja</string>
+    <string name="plz_decide">Odaberi „Da” ili „Ne”</string>
+    <string name="accessibility_arguments_no">Za ručno zamrzavanje programa, moraš pritisnuti „PRISILNO ZAUSTAVI”, „U redu”, a zatim „Natrag”.
+\nZa:
+\n• Spore uređaje
+\n• Sigurnost
+\n• Bez registracije SuperFreezZa kao usluge pristupačnosti</string>
+    <string name="accessibility_service">Usluga pristupačnosti</string>
+    <string name="no_apps_pending_freeze">[NEMA PROGRAMA U REDU ZMRZAVANJA]</string>
+    <string name="Press_forcestop_ok_back">Zamrzni program pritiskom na „PRISILNO ZAUSTAVI”, „U redu”, a zatim „Natrag”.</string>
+    <string name="plz_help_translating">… pomogni prevesti.</string>
+    <string name="warning_long_1">Često zaustavljanje/zamrzavanje programa vjerojatno će BRŽE isprazniti bateriju, jer „odmrzavanje” troši energiju.
+\n
+\nTaj problem imaju i drugi slični programi poput Greenify, kao i programi za „štednju baterije” (samo što oni na to ne upozoravaju).</string>
+    <string name="currently_inactive_in_brackets">(neaktivno)</string>
+    <string name="settings">Postavke</string>
+    <string name="other_apps">Ostali programi</string>
+    <string name="links">Poveznice</string>
+    <string name="sort">Razvrstaj</string>
+    <string name="yes">Da</string>
+    <string name="pref_header_appslist">Popis programa</string>
+    <string name="usagestats_access">Pristup statistici korištenja</string>
+    <string name="pending_freeze">Red zamrzavanja</string>
+    <string name="version_abbrev">v</string>
+    <string name="accessibility_service_description">Kad ovo uključiš, programe možeš automatski zamrznuti.
+\n
+\nPrednosti:
+\n• Nema interakcije s korisnikom: Brže. Ne mora se znati kako se to radi.
+\n• Korisnici s invaliditetom mogu koristiti prečac za zamrzavanje (na primjer putem prepoznavanja govora), automatski zamrzavajući sve programe.
+\n
+\nSuperFreezZ koristi uslugu pristupačnosti kad ses dodirne „PRISILNO ZAUSTAVI”, „U redu” i „Natrag”. Dohvaćanje sadržaja prozora pronalazi ove gumbe i potrebno je promatranje radnji kako bi se znalo kad se pojave.
+\n
+\nU novijim verzijama Androida, usluga pristupačnosti također se može koristiti za zaključavanje ekrana nakon zamrzavanja.</string>
+    <string name="share_exception">Neočekivana greška. Prijavi pomoću …</string>
+    <string name="pref_header_appslist_summary">Pokaži posebne programe, standardna vrsta zamrzavanja</string>
+    <string name="already_frozen">Već zamrznuti</string>
+    <string name="intro_never_freeze_explanation">ZAMRZNI NIKADA isključit će zamrzavanje i nikada neće zamrzavati programe.</string>
+    <string name="view_intro_again">Ponovo pogledaj uvod</string>
+    <string name="usatestats_explanation">Pristup statistici korištenja omogućuje SuperFreezZu zamrznuti programe koji se duže vrijeme nisu koristili (PAMETNO ZAMRZAVANJE).</string>
+    <string name="freeze_shortcut_label_screen_off">Ekran isključen</string>
+    <string name="pref_title_standard_freeze_mode_system">Standardna vrsta zamrzavanja (programi sustava)</string>
+    <string name="warning">Upozorenje</string>
+    <string name="power_button_hint">Savjet: Za prekidanje postupka zamrzavanja pritisni gumb za uključivanje/isključivanje uređaja</string>
+</resources>

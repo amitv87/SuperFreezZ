@@ -1,0 +1,11 @@
+Dodano podstawową obsługę trybu ciemnego dla Androida 10 i po włączeniu trybu „oszczędzania baterii”
+Poinformuj użytkownika bardziej intensywnie, aby natychmiast wyłączył blokadę przycisku zasilania
+Napraw (nieaktywne) wyświetlanie zbyt często
+(nieaktywne) zamiast (teraz nieaktywne); nikt nie zrozumie, co to znaczy „teraz”
+Naprawa błędów
+Nowa, bardziej symetryczna ikona
+Zaktualizuj tłumaczenia
+Prześlij opinię
+Historia
+Zapisane
+Społeczność

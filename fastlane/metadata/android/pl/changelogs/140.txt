@@ -1,0 +1,8 @@
+Napraw awarię („parentNode.getChild (i) nie może mieć wartości NULL”)
+Napraw tłumaczenie (niektóre rzekomo angielskie strony były w języku hiszpańskim)
+Popraw tryb nocny
+Zaktualizuj tłumaczenia
+Prześlij opinię
+Historia
+Zapisane
+Społeczność

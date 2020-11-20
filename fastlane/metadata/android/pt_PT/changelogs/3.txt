@@ -1,0 +1,3 @@
+Corrigido o erro: Às vezes, as configurações da app eram mostradas, mas a app não estava congelada
+Comentários
+Congelar um pouco mais estável, mas mais lento: aguarde o chamado FreezeShortcutActivity.onResume antes de congelar a próxima app; endereço 17?

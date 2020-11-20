@@ -1,0 +1,5 @@
+Yeni çeviriler
+Açıklamaları düzenlendi
+Özellik grafiği eklendi
+Küçük değişiklikler
+#29 düzeltildi: Yeniden başlatıldığında listenin sıralama modunu koru

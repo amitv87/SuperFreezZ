@@ -4,8 +4,8 @@
 <li>Améliorez l'autonomie et réduisez l'usage des données mobile en gelant les applications rarement utilisées</li>
 <li>Particulièrement utile lors d'un déplacement où vous avez besoin de seulement quelques applications mais une bonne autonomie</li>
 </ul>
-<p>Greenify peut également le faire mais il n'est pas Open Source.</p>
-<p>SuperFreezZ n'est pas encore un gestionnaire de tâches qui promet de supprimer 10 Go de données par mois ou de rendre votre appareil 2× plus rapide. C'est impossible.</p>
+<p>Greenify peut également le faire mais son code n'est pas ouvert.</p>
+<p>SuperFreezZ n'est pas encore un gestionnaire de tâches qui promet de supprimer 10 Go de données par mois ou de rendre votre appareil 2× plus rapide. C'est impossible.</p>
 <p>À la place, SuperFreezZ est honnête sur ses désavantages : Geler vos applications quotidiennes va certainement réduire légèrement votre autonomie. Ces applications vont également mettre plus de temps à démarrer la prochaine fois que vous la lancerez : SuperFreezZ va « surgeler » vos applications, il faut environs 1-3 secondes pour les dégeler. Greenify a les même désavantages, cependant l'auteur de Greenify ne vous en prévient pas. Ainsi : Ne cherchez pas à en faire trop, et SuperFreezZ sera super utile.</p>
 <p>Exemples d'applications qui méritent d'être geler :</p>
 <ul>

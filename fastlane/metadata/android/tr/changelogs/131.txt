@@ -1,0 +1,8 @@
+Çökme ve hata düzeltmeleri
+Zorla durdurma düğmesini bulma iyileştirildi, #96'yı düzeltebilir
+Android 10 için ve "pil tasarrufu" modunu etkinleştirdiğinizde temel karanlık mod desteği eklendi
+"Güç düğmesi ile anında kilitleyin" özelliğini devre dışı bırakmasını kullanıcıya daha sık söyle
+Çok sık gösterilen "(etkin değil)" ifadesi düzeltildi
+"(artık etkin değil)" yerine "(etkin değil)"; burada "artık" ifadesinin ne anlama geldiğini kimse anlamıyor
+Yeni, daha simetrik simge
+Çeviriler güncellendi

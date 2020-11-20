@@ -1,0 +1,10 @@
+AVISO: Fiz muita refatoração, portanto pode haver problemas! Se o SuperFreezZ for muito importante para você, aguarde a versão 0.5.
+
+Relate todos problemas em https://gitlab.com/SuperFreezZ/SuperFreezZ/issues
+
+Traduções atualizadas
+Melhorias de desempenho
+Crashfix: Na inicialização: android.view.WindowManager $ BadTokenException
+Atividade principal não exibida após o congelamento
+Correção de bug: Às vezes, o tempo limite do ecrã permanecia em 15 s após o congelamento no ecrã: correção # 32
+P

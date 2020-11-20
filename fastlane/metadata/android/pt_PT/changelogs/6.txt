@@ -1,0 +1,6 @@
+Configurações adicionadas
+Gesto de deslizar para atualizar adicionado 
+Barra de ferramentas ordenar adicionada
+Bugs corrigidos
+Caixa de diálogo RequestUsageStatsPermission mostrada uma vez, a decisão pode ser alterada nas configurações
+Condição de corrida corrigida

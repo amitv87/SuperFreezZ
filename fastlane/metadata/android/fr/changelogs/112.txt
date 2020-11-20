@@ -1,2 +1,2 @@
-Correction des raccourcis, merci Dmitriy !
-(Heureusement) Corrige un plantage quand on gèle une application en root
+Correction des raccourcis, merci Dmitriy !
+(Bien heureusement) Correction du plantage quand le gel est lancé en tant que root

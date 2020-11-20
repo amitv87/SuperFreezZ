@@ -1,6 +1,6 @@
-Experimenteller root support hinzugefügt
-Übersetzung verbessert
+Fügt EXPERIMENTELLE Root-Unterstützung hinzu
+Aktualisierung der Übersetzungen
 
-Einfrierstatus Liste ist nun umkehrbar, siehe #83
-Revert "Fix #67 Sort ascending/descending"; fix #83
-Fix shortcuts for debug versions
+Sortierreihenfolge des Einfrierzustands umkehren, siehe Nr. 83
+Zurücksetzt „Fix #67 Sort ascending/descending“; fix #83
+Korrigiert Verknüpfungen für Debug-Versionen

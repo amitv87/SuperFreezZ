@@ -1,0 +1,5 @@
+Novas traduções
+Descrições editadas
+Elemento gráfico adicionado
+Pequenos ajustes
+Correção 29: manter o modo de classificação na lista na reinicialização

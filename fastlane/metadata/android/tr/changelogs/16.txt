@@ -1,0 +1,6 @@
+Bağış yapma hakkında bilgi göster
+"Dondur" düğmesi artık daha görünür durumda
+Açıklama düzenlendi
+Küçük ayarlamalar ve çökme düzeltmesi
+RAM kullanımı iyileştirildi
+Çeviriler güncellendi

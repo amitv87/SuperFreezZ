@@ -1,0 +1,4 @@
+("parentNode.getChild(i) must not be null") çökmesi düzeltildi
+Çeviriler düzeltildi (ingilizce olması gereken bazı dizgeler ispanyolcaydı)
+Gece modu iyileştirildi
+Çeviriler güncellendi

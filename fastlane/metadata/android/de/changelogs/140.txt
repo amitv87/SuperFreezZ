@@ -1,0 +1,4 @@
+Absturz beheben ("parentNode.getChild(i) darf nicht null sein))
+Fix Übersetzung (einige angeblich-englische Saiten waren auf Spanisch)
+Verbesserung des Nachtmodus
+Aktualisieren von Übersetzungen

@@ -1,0 +1,3 @@
+O congelamento no ecrã desligado agora pode ser basicamente usado (experimental) quando ativado nas configurações. Relate erros a usar o rastreador de problemas.
+Dicas de ferramentas
+Licenciamento

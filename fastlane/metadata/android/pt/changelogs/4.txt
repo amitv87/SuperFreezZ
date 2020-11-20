@@ -1,0 +1,2 @@
+A tentar tornar o congelamento mais estável novamente. Removido doOnFinished() não utilizado do FreezerService.
+Correção de regressão: tempo limite não usado quando o freezerservice não está em execução

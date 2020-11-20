@@ -1,0 +1,3 @@
+Agregue una pista a https://superfreezz.gitlab.io/
+Reparar registros compartidos
+Actualizar traducciones

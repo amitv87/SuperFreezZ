@@ -1,0 +1,6 @@
+Çeviriler güncellendi
+Açıklama düzenlendi
+Küçük düzeltmeler ve iyileştirmeler
+Genelde arka planda aşırı çalışmadıklarından, öntanımlı olarak F-Droid'den gelen uygulamalar için "akıllı" dondurma yok
+Son giriş sayfası kaydırılabilir hale getirildi
+Güç düğmesine basıldığında donmayı iptal et

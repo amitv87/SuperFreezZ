@@ -1,0 +1,11 @@
+ÓTIMA nova introdução, obrigado Robin !!
+
+Primeira versão beta
+
+Outras modificações:
+Traduções atualizadas
+O modo de congelamento "Automático" renomeado para "Inteligente" (# 16)
+Tocar numa app na lista o congelará. Não tente fazer isso se já estiver congelado.
+Possibilidade de visualizar a introdução novamente nas configurações
+Relatórios de falhas decentes adiionado
+Outras pequenas melhorias e correções

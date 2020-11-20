@@ -1,0 +1,39 @@
+<p>Android program (beta) koji omogućuje potpuno zamrzavanje svih pozadinskih aktivnosti bilo kojeg programa.</p>
+<ul>
+<li>Vrati kontrolu nad onim što radi na tvom mobitelu</li>
+<li>Produži životni vijek baterije i smanji upotrebu mobilnih podataka, zamrzavanjem rijetko korištenih programa</li>
+<li>Posebno korisno dok si na putu, kad ti treba samo mali broj programa, ali dug životni vijek baterije</li>
+</ul>
+<p>Greenify to također može učiniti, ali on nije otvorenog koda.</p>
+<p>SuperFreezZ nije još jedan upravljač zadataka koji obećava brisanje 10 GB podataka mjesečno ili dvostruko ubrzanje tvog uređaja. To je nemoguće.</p>
+<p>Umjesto toga, SuperFreezZ iskreno priznaje svoje nedostatke: Zamrzavanje svakodnevno korištenih programa vjerojatno malo brže troši bateriju. Također, ti će programi trebati više vremena tijekom sljedećeg korištenja: SuperFreezZ će zamrznuti tvoje programe, a odmrzavanje traje 1-3 sekunde. Greenify ima iste nedostatke, osim što autor Greenifya na to ne upozorava. Dakle: Samo nemoj pretjerivati i SuperFreezZ će biti super koristan.</p>
+<p>Primjeri programa koji zaslužuju zamrzavanje:</p>
+<ul>
+<li>Nepouzdani programi (koje ne želiš pokretati u pozadini)</li>
+<li>Rijetko korišteni programi</li>
+<li>Ometajući programi</li>
+</ul>
+<h2 id="features">Karakteristike</h2>
+<ul>
+<li>Po želji radi bez usluge pristupačnosti jer to usporava uređaj</li>
+<li>Može zamrznuti programe koji se ne koriste tjedan dana (može se konfigurirati)</li>
+<li>Odaberi popis poželjnih (standardno zamrzni sve) ili crni popis (standardno nemoj ništa zamrznuti)</li>
+<li>Može zamrznuti programe kad se ekran ugasi</li>
+<li>Opcije za zamrzavanje programa sustava, pa čak i samog SuperFreezZ-a</li>
+<li>Potpuno otvoreni kod i besplatni softver</li>
+</ul>
+<h2 id="contributing-to-superfreezz">Kako doprinijeti SuperFreezZ-u</h2>
+<h3 id="development">Razvoj</h3>
+<p>Ako naiđeš na problem, imaš pitanje ili ideju, jednostavno otvori problem!</p>
+<p>Ako želi pomoći u razvoju, pogledaj probleme ili smisli nešto što bi se moglo poboljšati i otvorite problem za to.</p>
+<p>Javi što želiš uraditi, kako bi se izbjeglo istodobno provođenje iste stvari :-)</p>
+<h3 id="translate">Prevedi</h3>
+<p>Možeš <a href="https://hosted.weblate.org/engage/superfreezz/">prevesti SuperFreezZ na Weblate</a>.</p>
+<h2 id="credits">Zasluge</h2>
+<p>Za prikaz popisa programa koristi se kod od <a href="https://f-droid.org/wiki/page/axp.tool.apkextractor">ApkExtractor</a>.</p>
+<p>Robin Naumann je izradio lije uvod. Uvod je izrađen pomoću biblioteke AppIntro.</p>
+<p>Slika pozadine je odavde: https://pixabay.com/photos/thunder-lighting-lightning-cloud-1368797/, tekst je dodan sa stranice https://www.norio.be/android-feature-graphic-generator/. </p>
+<h2 id="qa"> Pitanja i odgovori </h2>
+<p>P: Koja je razlika između pripravnog stanja i zamrzavanja? O: Nema razlike. Ako program staviš u pripravno stanje s Greenify, on će čak biti prikazan kao zamrznuti u SuperFreezZ i obrnuto.</p>
+<p>P: Ali točan bi se pisalo „SuperFreeze”! O: Znam.</p>
+<p>P: Imaš li namjeru prodavati zamrzivače? O: Ne.</p>

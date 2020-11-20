@@ -1,3 +1,3 @@
 Skru av tildekking av kode for å gjøre det enklere å fikse innrapporterte feil. Vil bli skrudd på senere.
-KRÆSJFIKS SF kræsjet når tilgjengelighetstjenesten ble skrudd av
-KRÆSJFIKS SF kræsjet på eldre enheter ved visning av intro
+KRASJFIKS SF krasjet når tilgjengelighetstjenesten ble skrudd av
+KRASJFIKS SF krasjet på eldre enheter ved visning av intro
