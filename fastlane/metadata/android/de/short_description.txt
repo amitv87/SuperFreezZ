@@ -1,1 +1,1 @@
-Vollständiges Einfrieren aller Hintergrundaktivitäten von Anwendungen.
+Vollständiges Einfrieren aller Hintergrundaktivitäten von Apps.
