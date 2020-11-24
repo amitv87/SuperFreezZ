@@ -1,0 +1,4 @@
+Fix for confirmation dialog not being clicked sometimes, thanks Anshuman (eskhool)!
+Generate icon for "Screen off" shortcut, thanks Dav357!
+Update translations
+
