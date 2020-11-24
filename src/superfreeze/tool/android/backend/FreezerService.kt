@@ -84,7 +84,7 @@ class FreezerService : AccessibilityService() {
 			}
 
 			NextAction.PRESS_OK -> {
-				if (event.className == "android.app.AlertDialog" || event.className == "androidx.appcompat.app.AlertDialog") {
+				if (event.className.endsWith(".app.AlertDialog")) {
 					pressOkButton(event)
 				} else {
 					Log.w(TAG, "awaited AlertDialog to be the next screen but it was ${event.className}")
