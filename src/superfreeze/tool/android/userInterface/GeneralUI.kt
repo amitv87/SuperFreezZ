@@ -26,6 +26,7 @@ package superfreeze.tool.android.userInterface
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Handler
 import android.provider.Settings
@@ -83,7 +84,7 @@ internal fun requestUsageStatsPermission(
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 private fun showUsageStatsSettings(context: Context) {
 	val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
-	context.startActivity(intent)
+	context.startActivity(intent.setData(Uri.parse("package:"+ context.packageName)))
 	context.toast(context.getString(R.string.select_enable_toast), Toast.LENGTH_LONG)
 }
 

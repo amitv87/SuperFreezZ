@@ -189,7 +189,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 				useUsagestatsPreference.setOnPreferenceClickListener {
 					val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
-					startActivity(intent)
+					startActivity(intent.setData(Uri.parse("package:${BuildConfig.APPLICATION_ID}")))
 					false
 				}
 			} else {
