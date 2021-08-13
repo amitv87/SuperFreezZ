@@ -1,0 +1,3 @@
+Onay iletişim kutusunun bazen tıklanmaması düzeltildi, teşekkürler Anshuman (eskhool)!
+"Ekran kapalı" kısayolu için simge oluşturuldu, teşekkürler Dav357!
+Çeviriler güncellendi

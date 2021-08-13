@@ -1,0 +1,8 @@
+Reparação de falhas, reparação de bugs
+Melhorar encontrar o botão de parada de força, pode corrigir #96
+Adicionar suporte básico ao modo escuro para o Android 10 e quando ativa o modo "economia de bateria
+Dizer ao utilizador para desativar mais intensamente o botão de alimentação de energia
+Corrigir "(inativo)" mostrando com demasiada frequência
+"(inativo)" em vez de "(agora inativo)"; ninguém vai entender o que significa este "agora".
+Ícone novo, mais simétrico
+Atualizar traduções

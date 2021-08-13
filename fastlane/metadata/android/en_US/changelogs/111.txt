@@ -1,0 +1,6 @@
+Add EXPERIMENTAL root support
+Update translations
+
+Reverse freeze state sort order, see #83
+Revert "Fix #67 Sort ascending/descending"; fix #83
+Fix shortcuts for debug versions

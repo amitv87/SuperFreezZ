@@ -1,0 +1,3 @@
+Fiks for bekreftelsesdoalog som noen ganger ikke registrerer klikk, takk til Anshuman (eskhool)!
+Generer ikon for «Skjerm av»-snarvei, takk til Dav357!
+Oppdaterte oversettelser

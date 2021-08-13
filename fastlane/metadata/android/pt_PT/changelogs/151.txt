@@ -1,0 +1,3 @@
+Correção para a caixa de diálogo de confirmação que às vezes não é clicada, obrigado Anshuman (eskhool)!
+Gerar ícone para o atalho "Ecrã desligado", obrigado Dav357!
+Atualizar traduções

@@ -1,0 +1,4 @@
+Corrigida falha ("parentNode.getChild(i) não deve ser nulo")
+Corrigida tradução (algumas cordas supostamente em espanhol)
+Melhorada o modo noturno
+Traduções atualizadas

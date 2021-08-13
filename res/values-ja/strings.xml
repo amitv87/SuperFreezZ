@@ -2,16 +2,16 @@
 <resources>
     <string name="cant_freeze">このアプリは凍結できないようです。</string>
     <string name="plz_decide">「はい」か「いいえ」を選択してください</string>
-    <string name="currently_inactive_in_brackets">(無効)</string>
+    <string name="currently_inactive_in_brackets">(非アクティブ)</string>
     <string name="warning">警告</string>
     <string name="power_button_hint">ヒント: 電源ボタンを押して凍結実行を中止できます</string>
-    <string name="version_abbrev">v</string>
-    <string name="changed_freeze_mode">フリーズモードが変更されました。</string>
-    <string name="user_apps">ユーザーアプリ</string>
+    <string name="version_abbrev">バージョン</string>
+    <string name="changed_freeze_mode">フリーズモードが変更されました</string>
+    <string name="user_apps">インストール済みアプリ</string>
     <string name="system_apps">システムアプリ</string>
     <string name="other_apps">その他のアプリ</string>
-    <string name="pref_intelligentfreeze_freeze_fdroid_sum">F-Droidアプリはバックグラウンドで動くことは稀です。</string>
-    <string name="pref_intelligentfreeze_freeze_fdroid">「インテリジェント」: F-Droidアプリを凍結する</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid_sum">バックグラウンドで動くF-Droidアプリは少ないです。</string>
+    <string name="pref_intelligentfreeze_freeze_fdroid">F-Droidアプリを凍結する</string>
     <string name="used_recently_and_frozen">最近使用したアプリと凍結済アプリ</string>
     <string name="fdroid_app_not_pending_freeze">F-Droidアプリ</string>
     <string name="sort_by">ソート</string>
@@ -37,8 +37,8 @@
     <string name="title_activity_settings">設定</string>
     <string name="Press_forcestop_ok_back">「強制終了」「OK」「戻る」を押すことで凍結します。</string>
     <string name="freeze_manually">手動で凍結する</string>
-    <string name="intro_auto_freeze_explanation">「インテリジェント」は長時間使用されていない場合のみ凍結します(デフォルトでは7日間)。また、F-Droidのアプリも凍結されません。</string>
-    <string name="intro_auto_freeze_title">凍結モード: 「インテリジェント」</string>
+    <string name="intro_auto_freeze_explanation">インテリジェントフリーズは、アプリが長時間使用されていない場合のみ凍結します(デフォルトでは7日間)。また、F-Droidのアプリも凍結されません。</string>
+    <string name="intro_auto_freeze_title">凍結モード: インテリジェント</string>
     <string name="intro_never_freeze_explanation">「凍結しない」モードは、凍結化を解除して、二度と凍結しません。</string>
     <string name="intro_never_freeze_title">凍結モード: 凍結しない</string>
     <string name="intro_always_freeze_explanation">3つの凍結モードがあります。アプリごとにモードを設定できます。「常に凍結する」モードは、どんな場合でも凍結します。</string>
@@ -54,7 +54,7 @@
     <string name="no_apps_pending_freeze">[未凍結のアプリはありません]</string>
     <string name="used_recently">最近使用</string>
     <string name="msg_search_help">検索…</string>
-    <string name="freeze_off">凍結解除</string>
+    <string name="freeze_off">凍結されていない</string>
     <string name="frozen">凍結済</string>
     <string name="pending_freeze">未凍結</string>
     <string name="do_never_freeze_this_app">凍結しない</string>
@@ -67,4 +67,55 @@
     <string name="freeze_shortcut_label">凍結</string>
     <string name="share_exception">予期しないエラーです。レポート中…</string>
     <string name="msg_search">検索</string>
+    <string name="pref_header_about_summary">役立つリンク、ログの提出</string>
+    <string name="accessibility_service">ユーザー補助</string>
+    <string name="accessibility_service_dialog_message">SuperFreezZ で自動的に凍結するためにはユーザー補助機能が必要です。
+\n
+\nSuperFreezZ を選択してアクセスを許可してください。</string>
+    <string name="select_enable_toast">SuperFreezZ を選択してアクセスを許可してください</string>
+    <string name="warning_long_2">凍結すべきアプリの例は次のとおりです:
+\n
+\n・信頼できないアプリ(バックグラウンドで実行したくないのもの)
+\n・ほとんど使用しないアプリ
+\n・煩わしいアプリ</string>
+    <string name="warning_long_1">「凍結の解除」には電力を消費するため、アプリの停止/凍結は、バッテリーをより速く消費することがあります。
+\n
+\nこれは、Greenifyやバッテリーセーバーのような他の同種のアプリでも生じる問題です。</string>
+    <string name="if_you_like_this_app">このアプリを気に入った方は…</string>
+    <string name="not_available">使用できません</string>
+    <string name="freeze_manually_no">必要ありません</string>
+    <string name="accessibility_arguments_yes">このような場合に:
+\n・簡単に
+\n・より多くのアプリを凍結する</string>
+    <string name="accessibility_arguments_no">アプリを凍結するためには手動で「強制終了」「OK」「戻る」をタップする必要があります。
+\nこのような場合に:
+\n・低速なデバイス
+\n・セキュリティ上の懸念
+\n・SuperFreezZ をユーザー補助機能に登録する必要がない</string>
+    <string name="accessibility_service_description">これをオンにすると、自動的にアプリを凍結します。
+\n
+\nメリット:
+\n・操作不要: より速く。どう操作するべきか知る必要もありません。
+\n・障害がある方は、ショートカットを使って(例えば音声認識で)、全てのアプリを自動的に凍結できます。
+\n
+\nSuperFreezZ はユーザー補助機能を使って「強制終了」「OK」「戻る」をタップします。これらのボタンの表示状態を知るために、ウィンドウを取得してアクションを観察する必要があります。
+\n
+\nユーザー補助機能は、凍結後にスクリーンをロックするためにも利用されます。</string>
+    <string name="plz_donate">…寄付をしてヒーローになりましょう。</string>
+    <string name="plz_help_translating">…翻訳にご協力ください。</string>
+    <string name="sort_last_time_used_explanation">長期間使用していないアプリをリストからアンインストールできます。</string>
+    <string name="freeze_question">このアプリを凍結しますか？</string>
+    <string name="report">問題の報告、機能の提案、など</string>
+    <string name="sf_crashed">SuperFreezZ がクラッシュしました。よろしければ問題を報告してください。</string>
+    <string name="view_intro_again">チュートリアルをもう一度見る</string>
+    <string name="info">情報</string>
+    <string name="links">リンク</string>
+    <string name="problems">問題の報告</string>
+    <string name="pref_header_appslist_summary">特別なアプリの表示、デフォルトの凍結モード</string>
+    <string name="pref_header_freezing_summary">アプリの凍結方法の設定</string>
+    <string name="pref_intelligentfreeze_delay">インテリジェントフリーズで凍結するまでの期間(日数)</string>
+    <string name="pref_header_freezing">アプリの凍結方法</string>
+    <string name="pref_header_about">このアプリについて</string>
+    <string name="pref_title_standard_freeze_mode_system">デフォルトの凍結モード(システムアプリ)</string>
+    <string name="pref_title_standard_freeze_mode">デフォルトの凍結モード(インストール済みのアプリ)</string>
 </resources>

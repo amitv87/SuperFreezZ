@@ -1,0 +1,6 @@
+Added settings
+Added swipe refresh gesture
+Added Sort toolbar
+Fixed bugs
+RequestUsageStatsPermission dialog shown once, decision can be changed in the settings
+Fixed race condition

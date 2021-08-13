@@ -10,7 +10,7 @@
 \n• Congelare molte app</string>
     <string name="NothingToFreeze">Niente da congelare</string>
     <string name="usagestats_access">Accesso UsageStats</string>
-    <string name="used_recently">Usata di Recente</string>
+    <string name="used_recently">Usata di recente</string>
     <string name="Press_forcestop_ok_back">Congela un\'app premendo «Termina», «OK» e poi «Indietro».</string>
     <string name="accessibility_arguments_no">Dovrai premere manualmente «Termina», «OK» e «Indietro» per congelare un\'app. 
 \nper: 

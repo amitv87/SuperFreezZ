@@ -1,0 +1,7 @@
+Lots of new translations
+Small fixes
+Fix #52 "View intro again" in settings closes at first page turn
+"Make screen dim" now works with automatic brightness
+Reworked freezing control to fix some issues, but new ones might have been introduced. If freezing fails, no further attempts will be made, and the next app will be frozen.
+Improved crash messages
+Fix #48 (better Freeze state sort order), show short "Last time used" hint

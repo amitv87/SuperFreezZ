@@ -1,0 +1,9 @@
+Added group by user/system apps, added configurable standard freeze behaviour for system apps. Thanks, Darkimmortal!
+Fixed auto freeze on Android 10. Thanks again, Darkimmortal!
+Fixed #67 Sort ascending/descending
+Ignore dumb java.lang.IndexOutOfBoundsException
+Fixed #61 tapping on "never freeze" items should prompt
+Fixed #63 version info in "settings > about"
+Bugfixed #62 tapping an app should only freeze that app
+Basic Fire TV/keybord support
+Updated translations

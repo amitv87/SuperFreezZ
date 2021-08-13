@@ -129,7 +129,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_intelligentfreeze_freeze_fdroid_sum">Las aplicaciones de F-Droid no suelen ejecutarse en segundo plano.</string>
     <string name="sort_last_time_used_explanation">¿Quizás deberías desinstalar algunas de las aplicaciones en la parte superior de esta lista (porque no las utilizaste durante mucho tiempo)\?</string>
     <string name="pref_title_standard_freeze_mode_system">Modo de congelación estándar (aplicaciones del sistema)</string>
-    <string name="accessibility_service_dialog_message">SuperFreezZ necesita el servicio de accesibilidad para automatizar el congelamiento. 
+    <string name="accessibility_service_dialog_message">SuperFreezZ necesita el servicio de accesibilidad para automatizar la congelación. 
 \n 
 \nPor favor seleccione SuperFreezZ, luego habilite el acceso.</string>
     <string name="power_button_hint">Sugerencia: pulsa el botón de encendido para abortar el proceso de congelación</string>

@@ -1,0 +1,4 @@
+Fix crash ("parentNode.getChild(i) must not be null")
+Fix translation (some supposedly-english strings were in spanish)
+Improve night mode
+Update translations

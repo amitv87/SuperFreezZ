@@ -1,0 +1,3 @@
+Risolto problema in cui occasionalmente le conferme nelle finestre di dialogo non venivano premute, grazie Anshuman (eskhool)!
+Creazione icona per scorciatoia "Schermo Spento", grazie Dav357!
+Traduzioni aggiornate

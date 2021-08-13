@@ -67,7 +67,7 @@
 \nJest to również problem z innymi podobnymi aplikacjami, takimi jak Greenify i „Oszczędzanie baterii” (z wyjątkiem tego, że nie ostrzegają Cię o tym).</string>
     <string name="warning">Ostrzeżenie</string>
     <string name="sort_last_time_used_explanation">Może uda Ci się odinstalować niektóre z aplikacji znajdujących się na górze tej listy (ponieważ nie korzystałeś z nich przez długi czas)\?</string>
-    <string name="credits_and_licenses">Kredyty i licencje innych firm</string>
+    <string name="credits_and_licenses">Zasługi i licencje innych firm</string>
     <string name="Press_forcestop_ok_back">By zamrozić aplikacje naciśnij \"WYMUSIĆ ZATRZYMANIE\", \'\'TAK\'\', a potem \"WSTECZ\".</string>
     <string name="power_button_hint">Wskazówka: Naciśnij przycisk zasilania aby zatrzymać proces zamrażania</string>
     <string name="freeze_question">Zamrozić tę aplikację\?</string>
@@ -115,7 +115,7 @@
     <string name="pref_header_about">Opis</string>
     <string name="pref_title_standard_freeze_mode_system">Domyślny tryb zamrażania (aplikacje systemowe)</string>
     <string name="pref_title_standard_freeze_mode">Domyślny tryb zamrażania (aplikacje użytkownika)</string>
-    <string name="pref_header_appslist">Lista Aplikacji</string>
+    <string name="pref_header_appslist">Lista aplikacji</string>
     <string name="title_activity_settings">Ustawienia</string>
     <string name="freeze_manually_no">Nie chcę tego robić</string>
 </resources>

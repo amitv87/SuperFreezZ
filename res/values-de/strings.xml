@@ -19,13 +19,13 @@
   ~
   --><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="msg_search">Suche</string>
-    <string name="msg_search_help">Suchen…</string>
-    <string name="share_exception">Unerwarteter Fehler. Bericht über..…</string>
-    <string name="accessibility_service_description">Dies ermöglicht es SuperFreezZ, automatisch Apps einzufrieren.
+    <string name="msg_search_help">Suchen …</string>
+    <string name="share_exception">Unerwarteter Fehler. Bericht über …</string>
+    <string name="accessibility_service_description">Dies ermöglicht es SuperFreezZ, automatisch Apps einzufrieren. 
 \n 
 \nVorteile: 
 \n • Der Benutzer muss es nicht selbst machen: Es ist deutlich schneller und der Benutzer muss sich nicht darum kümmern, wie das geht. 
-\n • Benutzer mit Einschränkungen müssen nur den \"Einfrieren\"-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können Sie alle Apps automatisch einfrieren. 
+\n • Benutzer mit Einschränkungen müssen nur den Einfrieren-Schnellzugriff starten (zum Beispiel mittels Spracherkennung). So können Sie alle Apps automatisch einfrieren. 
 \n 
 \nSuperFreezZ benutzt die Bedienungshilfe nur, um „Beenden erzwingen“, „OK“ und „Zurück“ zu drücken. „Fensterinhalte abrufen“ ist nötig, um diese zu finden und „Ihre Aktionen beobachten“ ist nötig, um mitzubekommen, wann diese erscheinen. 
 \n 
@@ -34,7 +34,7 @@
     <string name="NothingToFreeze">Nichts einzufrieren</string>
     <string name="undo">Rückgängig</string>
     <string name="icon">Symbol</string>
-    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Diese App einfrieren, falls sie länger nicht benutzt wurde.</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Diese Anwendung einfrieren, falls sie länger nicht benutzt wurde.</string>
     <string name="always_freeze_this_app">Diese App immer einfrieren</string>
     <string name="do_never_freeze_this_app">Diese App nie einfrieren</string>
     <string name="pending_freeze">Einfrieren ausstehend</string>

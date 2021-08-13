@@ -1,0 +1,6 @@
+Updated translations
+Edited description
+Small fixes and improvements
+No "intelligent" freezing of apps from F-Droid by default, as they usually do not run overly in the background
+Last intro page made scrollable
+Abort freezing when the power button is pressed

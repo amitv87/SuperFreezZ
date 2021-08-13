@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable">Ενεργοποίηση</string>
+    <string name="usatestats_explanation">Η πρόσβαση στα στοιχεία χρήσης επιτρέπει στο SuperFreezZ να παγώσει τις εφαρμογές μόνο αν δεν τις χρησιμοποιούσατε για κάποιο χρονικό διάστημα (ΕΞΥΠΝΟ FREEZE).</string>
+    <string name="usagestats_access">Πρόσβαση σε στοιχεία χρήσης</string>
+    <string name="all_apps">ΕΦΑΡΜΟΦΕΣ</string>
+    <string name="no_apps_pending_freeze">[ΔΕΝ ΑΠΑΙΤΟΥΝ ΨΥΞΗ]</string>
+    <string name="used_recently">Χρησιμοποιήθηκε πρόσφατα</string>
+    <string name="freeze_off">Η κατάψυξη αυτής της εφαρμογής διακόπτεται (δεν θα παγώσει ποτέ)</string>
+    <string name="frozen">Παγωμένο</string>
+    <string name="pending_freeze">Εκκρεμεί πάγωμα</string>
+    <string name="do_never_freeze_this_app">Μην παγώνετε ποτέ αυτήν την εφαρμογή</string>
+    <string name="always_freeze_this_app">Πάντα παγώστε αυτήν την εφαρμογή</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Παγώστε αυτήν την εφαρμογή εάν δεν έχει χρησιμοποιηθεί για μεγαλύτερο χρονικό διάστημα.</string>
+    <string name="icon">Εικονίδιο</string>
+    <string name="undo">Αναίρεση</string>
+    <string name="NothingToFreeze">Τίποτα για να παγώσει</string>
+    <string name="freeze_shortcut_label_screen_off">Απενεργοποίηση οθόνης</string>
+    <string name="freeze_shortcut_label">Πάγωμα</string>
+    <string name="accessibility_service_description">Η ενεργοποίηση σάς επιτρέπει να παγώνετε αυτόματα εφαρμογές.
+\n
+\nΠλεονεκτήματα:
+\n• Χωρίς αλληλεπίδραση χρήστη: Ταχύτερη. Δεν χρειάζεται να ξέρετε πώς να το κάνετε.
+\n• Οι χρήστες με ειδικές ανάγκες μπορούν να χρησιμοποιήσουν τη συντόμευση παγώματος (για παράδειγμα μέσω αναγνώρισης ομιλίας), παγώνοντας αυτόματα όλες τις εφαρμογές.
+\n
+\nΤο SuperFreezZ χρησιμοποιεί την υπηρεσία προσβασιμότητας όταν πατάει \"FORCE STOP\", \"OK\" και \"Back\". Η ανάκτηση περιεχομένου παραθύρου βρίσκει αυτά τα κουμπιά και απαιτείται παρατήρηση των ενεργειών για να γνωρίζετε πότε εμφανίζονται.
+\n
+\nΗ υπηρεσία προσβασιμότητας μπορεί επίσης να χρησιμοποιηθεί για να κλειδώσει την οθόνη μετά το πάγωμα σε νεότερες εκδόσεις Android.</string>
+    <string name="share_exception">Απρόσμενο σφάλμα. Αναφορά με χρήση…</string>
+    <string name="msg_search_help">Αναζήτηση…</string>
+    <string name="msg_search">Αναζήτηση</string>
+</resources>

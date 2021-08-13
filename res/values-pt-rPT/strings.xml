@@ -65,22 +65,20 @@
     <string name="system_apps">Aplicações do sistema</string>
     <string name="report">Relatar um problema, propor uma funcionalidade, …</string>
     <string name="create_freeze_shortcut">Criar atalho de Congelamento</string>
-    <string name="plz_donate">…Por favor seja um herói e faça uma doação.</string>
+    <string name="plz_donate">… por favor, seja um herói e faça uma doação.</string>
     <string name="intro_never_freeze_title">Modo de congelamento: NUNCA CONGELAR</string>
     <string name="other_apps">Outras aplicações</string>
     <string name="links">Ligações</string>
     <string name="title_activity_settings">Definições</string>
-    <string name="accessibility_service_description">Ligar isto permita-lhe congelar aplicações automaticamente.
+    <string name="accessibility_service_description">Ligá-lo permite congelar apps automaticamente. 
 \n 
-\nVantagens:
-\n- Sem interação do utilizador: mais rápido. Não há necessidade de saber como fazê-lo.
-\n- Utilizadores deficientes podem usar o atalho de congelamento (via reconhecimento de voz, por exemplo), congelando todos os apps automaticamente.
+\nVantagens: 
+\n• Sem interação do utilizador: mais veloz. Não é necessário saber o que fazer.
+\n• Utilizadores incapazes podem usar o atalho de congelamento (via recognição de voz, por exemplo), a congelar as apps automaticamente.
 \n 
-\nSuperFreezZ usa o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\", e \"Back\". A recuperação do conteúdo da janela encontra estes botões e é necessário observar as ações, para saber quando elas aparecem.
+\nSuperFreezZ usa o serviço de acessibilidade ao tocar em \"FORÇAR PARADA\", \"OK\" e \"Voltar\". A obtenção do conteúdo da janela localiza esses botões e é necessário observar ações para saber quando elas aparecem. 
 \n 
-\nSuperFreezZ só utiliza o serviço de acessibilidade para tocar em \"FORCE STOP\", \"OK\" e \"Back\". Para encontrar estes botões, é necessário recuperar o conteúdo da janela e observar as suas ações, para saber quando elas aparecem.
-\n 
-\nO serviço de acessibilidade também pode ser usado para bloquear o ecrã após o congelamento nas versões mais recentes do Android.</string>
+\nNovas versões do Android também podem usar o serviço de acessibilidade para bloquear o ecrã após o congelamento.</string>
     <string name="enable">Ativar</string>
     <string name="intro_header_automaticfreezing">congelamento automático</string>
     <string name="pref_header_freezing_summary">Personalizar como e quais aplicações serão congeladas</string>
@@ -98,9 +96,9 @@
     <string name="all_apps">TODAS AS APLICAÇÕES</string>
     <string name="pref_intelligentfreeze_freeze_fdroid">INTELLIGENTE: Congelar aplicações F-Droid</string>
     <string name="logs_copied">Registos copiados para a área de transferência.</string>
-    <string name="freeze_manually_no">Não quero ter de fazer isto</string>
-    <string name="plz_help_translating">…Por favor ajude a traduzi-la.</string>
-    <string name="currently_inactive_in_brackets">(agora inativo)</string>
+    <string name="freeze_manually_no">Não quero fazer isto</string>
+    <string name="plz_help_translating">… por favor, ajude a traduzi-la.</string>
+    <string name="currently_inactive_in_brackets">(inativo)</string>
     <string name="warning_long_2">Exemplos de apps que merecem ser congeladas: 
 \n 
 \n• Apps não confiáveis (que não queira executar em segundo plano) 
@@ -111,7 +109,7 @@
 \nIsto também é um problema com outras aplicações semelhantes, tais como Greenify e \"economizadores de bateria\" (exceto que eles não o avisam).</string>
     <string name="warning">Aviso</string>
     <string name="power_button_hint">Dica: pressione o botão Ligar para cancelar o processo de congelamento</string>
-    <string name="sort_last_time_used_explanation">Apps menos utilizados primeiro</string>
+    <string name="sort_last_time_used_explanation">Talvez possa desinstalar algumas das apps no topo desta lista (porque não os usou por um longo tempo)\?</string>
     <string name="freeze_shortcut_label_screen_off">Ecrã desligado</string>
     <string name="cant_freeze">Parece que esta app não pode ser congelada.</string>
     <string name="plz_decide">Por favor selecione \'Sim\' ou \'Não\'</string>

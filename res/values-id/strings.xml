@@ -11,7 +11,28 @@
 \n 
 \nSuperfreezer menggunakan layanan Aksesibilitas untuk menekan \"PAKSA BERHENTI\", \"OK\", dan \"kembali\". Pengambilan konten jendela menemukan tombol ini, dan pengamatan tindakan diperlukan untuk mengetahui kapan mereka muncul. 
 \n 
-\nSuperfreezer hanya menggunakan layanan Aksesibilitas untuk Tekan pada tombol PAKSA BERHENTI, OK, kembali. Mengambil konten jendela diperlukan untuk menemukan tombol ini dan amati tindakan Anda diperlukan untuk mengetahui kapan mereka muncul. 
-\n 
 \nLayanan aksesibilitas juga dapat digunakan untuk mengunci layar setelah pembekuan pada versi Android yang lebih baru.</string>
+    <string name="warning">Peringatan</string>
+    <string name="power_button_hint">Saran : Pencet tombol Power untuk membatalkan proses pembekuan</string>
+    <string name="freeze_question">Bekukan aplikasi ini\?</string>
+    <string name="version_abbrev">v</string>
+    <string name="changed_freeze_mode">Mode pembekuan diubah</string>
+    <string name="plz_donate">...mohon untuk memberi donasi.</string>
+    <string name="plz_help_translating">...mohon untuk membantu menerjemahkannya.</string>
+    <string name="if_you_like_this_app">Jika anda menyukai aplikasi ini…</string>
+    <string name="cant_freeze">Nampaknya aplikasi ini tidak bisa dibekukan.</string>
+    <string name="always_freeze_this_app">Selalu bekukan aplikasi ini</string>
+    <string name="usagestats_access">Akses UsageStats</string>
+    <string name="all_apps">SEMUA APLIKASI</string>
+    <string name="no_apps_pending_freeze">[TIDAK ADA APLIKASI MENUNGGU DIBEKUKAN]</string>
+    <string name="used_recently">Dipakai baru saja</string>
+    <string name="frozen">Dibekukan</string>
+    <string name="pending_freeze">Menunggu dibekukan</string>
+    <string name="do_never_freeze_this_app">Jangan pernah bekukan Aplikasi ini</string>
+    <string name="freeze_this_app_if_it_has_not_been_used_for_a_longer_time">Bekukan aplikasi ini apabila sudah lama tidak digunakan.</string>
+    <string name="icon">Ikon</string>
+    <string name="undo">Batalkan</string>
+    <string name="NothingToFreeze">Tidak ada yang dapat dibekukan</string>
+    <string name="freeze_shortcut_label_screen_off">Layar mati</string>
+    <string name="freeze_shortcut_label">Bekukan</string>
 </resources>

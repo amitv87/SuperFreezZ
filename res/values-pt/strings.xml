@@ -91,4 +91,31 @@
     <string name="share_exception">Erro desconhecido. Relate a utilizar…</string>
     <string name="msg_search_help">Procurar…</string>
     <string name="msg_search">Procurar</string>
+    <string name="accessibility_service_description">Ligá-lo permite congelar apps automaticamente. 
+\n 
+\nVantagens: 
+\n• Sem interação do utilizador: mais veloz. Não é necessário saber o que fazer.
+\n• Utilizadores incapazes podem usar o atalho de congelamento (via recognição de voz, por exemplo), a congelar as apps automaticamente.
+\n 
+\nSuperFreezZ usa o serviço de acessibilidade ao tocar em \"FORÇAR PARADA\", \"OK\" e \"Voltar\". A obtenção do conteúdo da janela localiza esses botões e é necessário observar ações para saber quando elas aparecem. 
+\n 
+\nNovas versões do Android também podem usar o serviço de acessibilidade para bloquear o ecrã após o congelamento.</string>
+    <string name="currently_inactive_in_brackets">(inativo)</string>
+    <string name="warning_long_2">Exemplos de apps que merecem ser congeladas: 
+\n 
+\n• Apps não confiáveis (que não queira executar em segundo plano) 
+\n• Apps que raramente usa 
+\n• Apps incómodas</string>
+    <string name="plz_donate">… por favor, seja um herói e faça uma doação.</string>
+    <string name="plz_help_translating">… por favor, ajude a traduzi-la.</string>
+    <string name="sort_last_time_used_explanation">Talvez possa desinstalar algumas das apps no topo desta lista (porque não os usou por um longo tempo)\?</string>
+    <string name="freeze_manually_no">Não quero fazer isto</string>
+    <string name="accessibility_arguments_no">Premir \"FORÇAR PARAGEM\", \"OK\" and \"VOLTAR\" manualmente para congelar uma app. 
+\nPara: 
+\n• Aparelhos lentos 
+\n• Por questões de segurança 
+\n• O SuperFreezZ não está registado com um serviço de acessibilidade</string>
+    <string name="accessibility_arguments_yes">Para: 
+\n• Facilidade de utilização 
+\n• Congelar muitas apps</string>
 </resources>

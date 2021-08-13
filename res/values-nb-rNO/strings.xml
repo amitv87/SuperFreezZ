@@ -110,7 +110,7 @@
     <string name="warning_long_1">Stopping/frysing av programmer vil ofte antagelig tømme batteriet ditt RASKERE, fordi \"oppfrysing\" bruker batteri.
 \n
 \nDette er også et problem med lignende programmer som Greenify og \"batterisparere\", (bortsett fra at de ikke advarer om dette).</string>
-    <string name="sort_last_time_used_explanation">Minst nylig brukte programmer først</string>
+    <string name="sort_last_time_used_explanation">Kanskje du kan avinstallere noen av programmene øverst på denne listen (siden du ikke har brukt dem på lenge)\?</string>
     <string name="select_enable_toast">Velg SuperFrezZ for så å innvilge tilgang</string>
     <string name="accessibility_service">Tilgjengelighetstjeneste</string>
     <string name="cant_freeze">Det later til at dette programmet ikke kan fryses</string>
