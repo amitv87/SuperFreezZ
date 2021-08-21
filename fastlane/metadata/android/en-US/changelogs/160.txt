@@ -1,0 +1,3 @@
+Change the order of am kill and force-stop, fix #135
+straight reach to Settings.ACTION_USAGE_ACCESS_SETTINGS, thanks @oF2pks!
+Update translations
