@@ -74,8 +74,8 @@ fun freezeAppsUsingRoot(
 			if (it == context.packageName) {
 				if (putScreenOffAfterFreezing) shell.run("input keyevent 26")
 			}
-			shell.run("am kill $it")
 			shell.run("am force-stop $it")
+			shell.run("am kill $it")
 		}
 		if (putScreenOffAfterFreezing) shell.run("input keyevent 26")
 	} catch (e: Shell.ShellDiedException) {
