@@ -1,7 +1,7 @@
 Muitas traduções novas
-Pequenas correcções
-Fix #52 Ver intro novamente nas definições fecha ao virar primeira página
-Fazer escurecimento do écrã funcionar com brilho automático
-Melhorar o controlo de congelamento. Espero assim corrigir alguns problemas, mas poderei ter introduzido novos. Além disso, se não puder congelar uma aplicação, vai continuar com a próximo e não tentar novamente.
+Pequenas correções
+Correção #52 Ver introdução novamente nas definições fecha ao virar primeira página
+Fazer escurecimento do ecrã funcionar com brilho automático
+Melhorar o controlo de congelamento.
 Mensagens de erro melhoradas
-Fix #48 (ordenação do estado de congelamento), mostra a dica curta "última utilização"
+Correção #48 (ordenação do estado de congelamento), mostra a dica curta "última utilização"

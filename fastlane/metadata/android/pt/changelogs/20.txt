@@ -1,0 +1,9 @@
+Adicionado grupo por utilizador / aplicações do sistema, adicionado congelamento padrão configurável para aplicações do sistema.
+Congelar automático corrigido no Android 10.
+Corrigida ordenação crescente / decrescente
+Ignorar java.lang.IndexOutOfBoundsException
+Correção: tocar em "nunca congelar" deve confirmar
+Informações da versão # 63 corrigidas em "configurações>sobre"
+Correção: tocar numa aplicação deve congelar apenas essa aplicação
+Suporte básico de Fire TV / teclado
+Traduções atualizadas

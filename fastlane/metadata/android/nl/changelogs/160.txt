@@ -1,0 +1,3 @@
+De volgorde van ‘am kill’ en ‘force-stop’ is aangepast, waarmee #135 is opgelost
+Directe benadering van Settings.ACTION_USAGE_ACCESS_SETTINGS, met dank aan @oF2pks!
+Vertalingen bijgewerkt

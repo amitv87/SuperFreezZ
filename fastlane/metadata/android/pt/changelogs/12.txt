@@ -1,3 +1,3 @@
-A ofuscação para facilitar a correção de erros relatados desativado. Vou reativá-lo mais tarde.
-CRASHFIX SF travou quando o serviço de acessibilidade foi desativado
-O CRASHFIX SF travou em aparelhos mais antigos ao mostrar a introdução
+Desativada a ofuscação para facilitar a correção de erros relatados. Vou reativá-lo mais tarde.
+CRASHFIX SF bloqueou quando o serviço de acessibilidade foi desativado
+O CRASHFIX SF bloqueou em aparelhos mais antigos ao mostrar a introdução

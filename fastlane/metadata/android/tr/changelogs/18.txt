@@ -1,0 +1,7 @@
+Birçok yeni çeviri.
+Küçük düzeltmeler.
+Düzeltme #52 Ayarlarda "Girişi tekrar gör" ilk sayfadan sonra kapanıyordu.
+"Ekranı karart" artık otomatik parlaklık ayarıyla da çalışıyor.
+Bazı sorunları çözmek için dondurma denetimi yenilendi, ama yeni sorunlar çıkmış olabilir. Dondurma başarısız olursa, daha fazla deneme yapılmayacak ve sonraki uygulama dondurulacak.
+Çökme mesajları iyileştirildi.
+Düzeltme #48 (Daha iyi dondurma durumu sıralama), kısa bir "En son kullanılma tarihi" ipucu göster.

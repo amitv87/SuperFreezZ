@@ -1,7 +1,7 @@
-Adicionar suporte básico ao modo escuro para o Android 10 e quando ativa o modo "economia de bateria
-Dizer ao utilizador para desativar mais intensamente o botão de alimentação de energia
-Correção (inativo) mostrando com muita frequência
-(inativo) em vez de (agora inativo); ninguém vai entender o que significa este "agora".
+Adicionado suporte básico ao modo escuro para Android 10 e quando ativa o modo "economia de bateria"
+Dizer ao utilizador que desativar o botão liga / desliga bloqueia instantaneamente
+Correção (inativa) mostrando com muita frequência
+(inativa) em vez de (agora inativa); ninguém vai entender o que significa o "agora".
 Correção de erros
 Ícone novo, mais simétrico
-Atualizar traduções
+Traduções atualizadas

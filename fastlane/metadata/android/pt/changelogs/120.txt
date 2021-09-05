@@ -1,3 +1,3 @@
 Adicionar botão "Cancelar" à caixa de diálogo "Ativar serviço de acessibilidade"
-estilo de código, correção #87 "A lista de apps não é atualizada quando toca numa app para pará-la com root"“
-Atualizar traduções
+estilo de código, correção #87 "A lista de aplicações não é atualizada quando toca numa aplicação para a parar com root"“
+Traduções atualizadas

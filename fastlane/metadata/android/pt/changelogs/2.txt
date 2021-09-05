@@ -1,0 +1,10 @@
+Correção: SF funciona em Android antigos
+Congelar manual: pressionar "Forçar paragem", "OK" e "Voltar"
+Adicionar capturas de ecrã
+Traduções
+Não auto-congelar o SuperFreezZ
+Considera uma aplicação como "usada" se tiver sido usada pelo menos 2 seg.
+Reparação se uma aplicação foi "usada recentemente"
+Não mostrar o botão AutoFreeze / Freeze-when-inactive quando a permissão usagestats não é concedida
+Atualizações
+Melhorar serviços de acessibilidade ("Automatizar o congelamento de aplicações?")

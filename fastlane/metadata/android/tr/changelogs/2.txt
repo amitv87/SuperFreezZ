@@ -1,0 +1,9 @@
+Hata düzeltmesi: SF'nin eski Android sürümleriyle çalışmasını sağla.
+Elle dondurma: Kullanıcıya "Durmaya zorla", "Tamam" ve "Geri" tuşlarına basmasını söyle, düzeltme #14
+Ekran görüntüleri eklendi.
+Çeviriler.
+Otomatik olarak SuperFreezZ'in kendisini de dondurma.
+Yalnızca en az 2 sn kullanılmışsa bir uygulamaya "kullanıldı" de.
+Uygulamayı "Yakın zamanda kullanıldı" durumuna alma düzeltildi.
+Kullanım istatistikleri izni yokken Otomatik Dondur/Etkin Değilken Dondur düğmesini gösterme.
+Güncellemeler

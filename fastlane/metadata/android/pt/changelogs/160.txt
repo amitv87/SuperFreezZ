@@ -1,0 +1,3 @@
+Mudada a ordem de am kill e force-stop, corrigir # 135
+alcance direto para Settings.ACTION_USAGE_ACCESS_SETTINGS, obrigado @ oF2pks!
+Traduções atualizadas

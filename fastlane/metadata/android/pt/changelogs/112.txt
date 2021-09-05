@@ -1,2 +1,2 @@
-Arranja atalhos, obrigado Dmitriy!
-(Esperançosamente) Conserte o travamento quando congelar com root
+Atalhos corrigidos, obrigado Dmitriy!
+(Esperançosamente) correção do bloqueio ao congelar com root

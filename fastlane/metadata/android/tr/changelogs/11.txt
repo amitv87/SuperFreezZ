@@ -1,0 +1,11 @@
+HARİKA yeni giriş, teşekkürler Robin!!
+
+İlk beta sürümü
+
+Diğer değişiklikler:
+Çeviriler güncellendi.
+"Otomatik" Dondurma modunun adı "Akıllı" olarak değiştirildi. (#16)
+Listedeki bir uygulamaya dokunmak onu dondurur. Eğer zaten donuksa bunu denemeyin.
+Ayarlardan girişi tekrar görme seçeneği.
+Kaliteli hata bildirimi eklendi.
+Diğer küçük iyileştirmeler ve hata düzeltmeleri.

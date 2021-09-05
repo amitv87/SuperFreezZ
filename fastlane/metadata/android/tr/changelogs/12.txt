@@ -1,0 +1,3 @@
+Bildirilen hataları düzeltmeyi kolaylaştırmak için karartma özelliğini devre dışı bıraktım. Daha sonra yeniden etkinleştireceğim.
+ÇÖKME DÜZELTMESİ SF erişilebilirlik hizmeti devre dışı olduğunda çöküyordu.
+ÇÖKME DÜZELTMESİ SF eski aygıtlarda girişi gösterirken çöküyordu.
