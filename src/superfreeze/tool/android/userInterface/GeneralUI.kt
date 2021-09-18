@@ -24,6 +24,7 @@ along with SuperFreezZ.  If not, see <http://www.gnu.org/licenses/>.
 package superfreeze.tool.android.userInterface
 
 import android.app.Activity
+import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -33,6 +34,7 @@ import android.provider.Settings
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
+import superfreeze.tool.android.BuildConfig
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.usageStatsPermissionGranted
 import superfreeze.tool.android.database.neverCalled
@@ -82,10 +84,22 @@ internal fun requestUsageStatsPermission(
 }
 
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-private fun showUsageStatsSettings(context: Context) {
-	val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
-	context.startActivity(intent.setData(Uri.parse("package:"+ context.packageName)))
-	context.toast(context.getString(R.string.select_enable_toast), Toast.LENGTH_LONG)
+fun showUsageStatsSettings(context: Context, show_toast: Boolean = true) {
+	val direct_intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
+	direct_intent.setData(Uri.parse("package:${BuildConfig.APPLICATION_ID}"))
+
+	// Finding out whether starting an activity is hard (see links below) so just try it
+	// https://stackoverflow.com/questions/22479211/intent-resolveactivity-null-but-launching-the-intent-throws-an-activitynotfou
+	// https://stackoverflow.com/questions/62535856/intent-resolveactivity-returns-null-in-api-30
+	try {
+		context.startActivity(direct_intent)
+	} catch (_: ActivityNotFoundException) {
+		context.startActivity(Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS))
+
+		if (show_toast) {
+			context.toast(context.getString(R.string.select_enable_toast), Toast.LENGTH_LONG)
+		}
+	}
 }
 
 /**

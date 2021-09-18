@@ -43,6 +43,7 @@ import superfreeze.tool.android.backend.FreezerService
 import superfreeze.tool.android.backend.usageStatsPermissionGranted
 import superfreeze.tool.android.userInterface.intro.INTRO_SHOW_ACCESSIBILITY_SERVICE_CHOOSER
 import superfreeze.tool.android.userInterface.intro.IntroActivity
+import superfreeze.tool.android.userInterface.showUsageStatsSettings
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
@@ -188,8 +189,8 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 			useUsagestatsPreference = findPreference("use_usagestats") as SwitchPreference
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 				useUsagestatsPreference.setOnPreferenceClickListener {
-					val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
-					startActivity(intent.setData(Uri.parse("package:${BuildConfig.APPLICATION_ID}")))
+					showUsageStatsSettings(it.context, show_toast = useUsagestatsPreference.isChecked)
+
 					false
 				}
 			} else {
