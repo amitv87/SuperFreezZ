@@ -1,0 +1,2 @@
+Fix crash on some devices when trying to enable UsageStats access
+Update translations
