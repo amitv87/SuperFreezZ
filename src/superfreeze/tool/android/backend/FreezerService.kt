@@ -232,7 +232,7 @@ class FreezerService : AccessibilityService() {
 			l.add(parentNode)
 		}
 		for (i in 0 until parentNode.childCount) {
-			getButtons(parentNode.getChild(i), l)
+			getButtons(parentNode.getChild(i) ?: continue, l)
 		}
 	}
 
