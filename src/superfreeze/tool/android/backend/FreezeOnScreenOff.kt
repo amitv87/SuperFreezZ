@@ -95,6 +95,11 @@ private val screenReceiver by lazy {
 						return
 					}
 
+					if (isRootAvailable) {
+						freezeAppsUsingRoot(getAppsPendingFreeze(context), context)
+						return
+					}
+
 					// Throttle to once a minute:
 					if (lastTime + 60 * 1000 > System.currentTimeMillis()) {
 						lastTime = min(System.currentTimeMillis(), lastTime)
