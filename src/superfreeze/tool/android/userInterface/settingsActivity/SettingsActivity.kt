@@ -40,6 +40,7 @@ import android.widget.Toast
 import superfreeze.tool.android.BuildConfig
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
+import superfreeze.tool.android.backend.isRootAvailable
 import superfreeze.tool.android.backend.usageStatsPermissionGranted
 import superfreeze.tool.android.userInterface.intro.INTRO_SHOW_ACCESSIBILITY_SERVICE_CHOOSER
 import superfreeze.tool.android.userInterface.intro.IntroActivity
@@ -178,12 +179,17 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 					).show()
 					val intent = Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)
 					startActivity(intent)
+					false // Do not change the preference yet
+
+				} else if (isRootAvailable) {
+					true // The user may just toggle this setting
+
 				} else {
 					val intent = Intent(INTRO_SHOW_ACCESSIBILITY_SERVICE_CHOOSER)
 					intent.setClass(activity, IntroActivity::class.java)
 					startActivity(intent)
+					false // Do not change the preference yet
 				}
-				false // Do not change the preference yet
 			}
 
 			useUsagestatsPreference = findPreference("use_usagestats") as SwitchPreference
@@ -206,7 +212,7 @@ class SettingsActivity : AppCompatPreferenceActivity() {
 							.setCancelable(false)
 							.setPositiveButton(android.R.string.ok) { _, _ ->
 
-								if (!Settings.System.canWrite(context)) {
+								if (!Settings.System.canWrite(context) && !isRootAvailable) {
 									AlertDialog.Builder(context)
 										.setTitle("Modify settings")
 										.setMessage("SuperFreezZ needs to modify the settings in order to turn off the screen after freezing.")

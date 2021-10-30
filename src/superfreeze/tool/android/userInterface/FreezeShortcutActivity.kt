@@ -133,6 +133,8 @@ class FreezeShortcutActivity : Activity() {
 	}
 
 	private fun doNextFreezingStep() {
+		if (appsToBeFrozenIter == null) return
+
 		if (!FreezerService.isEnabled) {
 			// Sometimes the accessibility service is disabled for some reason.
 			// In this case, tell the user to re-enable it:
@@ -160,16 +162,14 @@ class FreezeShortcutActivity : Activity() {
 			}
 		}
 
-		if (appsToBeFrozenIter != null) {
-			if (appsToBeFrozenIter!!.hasNext()) {
-				val settingsScreenLaunched = freezeApp(appsToBeFrozenIter!!.next(), this)
-				if (!settingsScreenLaunched) doNextFreezingStep() // Freezing already failed or succeeded, just go on in either case
-			} else {
-				onFreezeFinishedListener?.invoke(this)
-				onFreezeFinishedListener = null
-				finish()
-				Log.i(TAG, "Finished freezing")
-			}
+		if (appsToBeFrozenIter!!.hasNext()) {
+			val settingsScreenLaunched = freezeApp(appsToBeFrozenIter!!.next(), this)
+			if (!settingsScreenLaunched) doNextFreezingStep() // Freezing already failed or succeeded, just go on in either case
+		} else {
+			onFreezeFinishedListener?.invoke(this)
+			onFreezeFinishedListener = null
+			finish()
+			Log.i(TAG, "Finished freezing")
 		}
 	}
 

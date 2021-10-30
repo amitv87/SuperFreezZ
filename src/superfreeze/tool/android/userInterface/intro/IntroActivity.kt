@@ -31,6 +31,7 @@ import com.github.paolorotolo.appintro.model.SliderPagerBuilder
 import superfreeze.tool.android.BuildConfig
 import superfreeze.tool.android.R
 import superfreeze.tool.android.backend.FreezerService
+import superfreeze.tool.android.backend.isRootAvailable
 import superfreeze.tool.android.database.prefIntroAlreadyShown
 
 /**
@@ -99,7 +100,7 @@ class IntroActivity : AppIntro() {
 		super.onSlideChanged(oldFragment, newFragment)
 		if (newFragment is AccessibilityServiceChooserFragment) {
 			lastSlide = true
-			if (FreezerService.isEnabled) {
+			if (FreezerService.isEnabled || isRootAvailable) {
 				Log.i(TAG, "Done on slide changed")
 				done()
 			}

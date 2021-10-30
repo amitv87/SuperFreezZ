@@ -71,6 +71,11 @@ class FreezerService : AccessibilityService() {
 			return
 		}
 
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N && isRootAvailable) {
+			disableSelf()
+			return
+		}
+
 		when (nextAction) {
 			NextAction.DO_NOTHING -> { }
 
