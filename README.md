@@ -62,7 +62,7 @@ You can always add other lanuages.
 
 Developing SuperFreezZ is and was a lot of effort, which I did in my free time. Please donate to show me your support and to boost development.
 
-Also, I will upload it to the Play Store when I earned €25 through donations (because uploading to the Play Store costs that much)
+At some point I promised here to upload it to the Play Store as soon as I earned 25€ through donations, but now I noticed that they probably won't let me upload it anymore because I am using some outdated APIs. But if you donated believing that I'll upload SF to the Play Store, tell me (just create an issue) and I'll try and replace them. Sorry for that!
 
 [<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">](https://liberapay.com/Hocuri/)
 
